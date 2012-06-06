@@ -1,6 +1,6 @@
 # 我的一个GitHub_blog 
 
-这是项目 [xavierskip](https://github.com/xavierskip/xavierskip) ，
+这是项目 [xavierskip](https://xavierskip.github.com) ，
 欢迎访问。
 
 这个项目的版本库是 **Git格式** ，在 Windows、Linux、Mac OS X
@@ -20,3 +20,5 @@
 操作示例：
 
     $ git clone git://github.com/xavierskip/xavierskip.git
+
+TEST
