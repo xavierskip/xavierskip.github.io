@@ -4,21 +4,21 @@
 <title>Xavier skip</title>
 <meta charset="utf-8">
 <style type="text/css">
-
+body{margin:  0px auto;padding: 0px;}
 div{display: inline-block;}
-p{line-height: 150px;}
+p{line-height: 300px;}
 
 .center{
 	position: absolute;
 	top:40%;
 	width:100%;
-	margin-top: -75px; 
+	margin-top: -120px; 
 }
 
 .left{
 	float:left;
 	width:50%;
-	border-right: 1px #333 dashed;
+	border-right: 2px #333 dashed;
 }
 .right{
 
@@ -31,6 +31,121 @@ p{line-height: 150px;}
 .right p{
 	padding-left: 100px;
 }
+
+
+/* Breathing effect */
+#breath {
+	-webkit-animation: breathing 3s  infinite;
+	-moz-animation: breathing 3s  infinite;
+	animation: breathing 3s  infinite;
+	color: #333;
+}
+
+@-webkit-keyframes breathing{
+	from { 
+		text-shadow: 3px 3px 3px #FF9600;
+	    opacity: .3;
+	    color:636363;
+	}
+	20% { 
+		text-shadow: 3px 3px 13px #FF9600;
+	    opacity: 1;
+	}
+	60%{
+		text-shadow: 3px 3px 3px #FF9600;
+	    opacity: .3;
+	    color:636363;
+	}
+	70%{
+		text-shadow: 3px 3px 13px #FF9600;
+	    opacity: 1;
+	}
+	80%{
+		text-shadow: 3px 3px 3px #FF9600;
+	    opacity: .3;
+	    color:636363;
+	}
+	90%{
+		text-shadow: 3px 3px 13px #FF9600;
+	    opacity: 1;
+	}
+	to { 
+	    text-shadow: 3px 3px 3px #FF9600;
+	    opacity: .3;
+	    color:636363;
+    }
+}
+
+@-moz-keyframes breathing{
+	from { 
+		text-shadow: 3px 3px 3px #FF9600;
+	    opacity: .3;
+	    color:636363;
+	}
+	20% { 
+		text-shadow: 3px 3px 13px #FF9600;
+	    opacity: 1;
+	}
+	60%{
+		text-shadow: 3px 3px 3px #FF9600;
+	    opacity: .3;
+	    color:636363;
+	}
+	70%{
+		text-shadow: 3px 3px 13px #FF9600;
+	    opacity: 1;
+	}
+	80%{
+		text-shadow: 3px 3px 3px #FF9600;
+	    opacity: .3;
+	    color:636363;
+	}
+	90%{
+		text-shadow: 3px 3px 13px #FF9600;
+	    opacity: 1;
+	}
+	to { 
+	    text-shadow: 3px 3px 3px #FF9600;
+	    opacity: .3;
+	    color:636363;
+    }
+}
+
+@keyframes breathing{
+	from { 
+		text-shadow: 3px 3px 3px #FF9600;
+	    opacity: .3;
+	    color:636363;
+	}
+	20% { 
+		text-shadow: 3px 3px 13px #FF9600;
+	    opacity: 1;
+	}
+	60%{
+		text-shadow: 3px 3px 3px #FF9600;
+	    opacity: .3;
+	    color:636363;
+	}
+	70%{
+		text-shadow: 3px 3px 13px #FF9600;
+	    opacity: 1;
+	}
+	80%{
+		text-shadow: 3px 3px 3px #FF9600;
+	    opacity: .3;
+	    color:636363;
+	}
+	90%{
+		text-shadow: 3px 3px 13px #FF9600;
+	    opacity: 1;
+	}
+	to { 
+	    text-shadow: 3px 3px 3px #FF9600;
+	    opacity: .3;
+	    color:636363;
+    }
+}
+
 </style>
 </head>
 
@@ -38,7 +153,7 @@ p{line-height: 150px;}
 
 <div class='center'>
 	<div class='left'>
-		<p>施工中~</p>
+		<p id='breath'>施工中~</p>
 	</div>
 
 	<div class='right'>
