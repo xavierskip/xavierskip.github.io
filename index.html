@@ -4,21 +4,51 @@
 <title>Xavier skip</title>
 <meta charset="utf-8">
 <style type="text/css">
-#center{
-	position:absolute;
-	top:50%;left:50%;
-    margin-top: -10.5px;
-    margin-left: -85.5px;
-    text-align: center;
+
+div{display: inline-block;}
+p{line-height: 150px;}
+
+.center{
+	position: absolute;
+	top:40%;
+	width:100%;
+	margin-top: -75px; 
+}
+
+.left{
+	float:left;
+	width:50%;
+	border-right: 1px #333 dashed;
+}
+.right{
+
+}
+
+.left p{
+	text-align: right;
+	padding-right: 200px;
+}
+.right p{
+	padding-left: 100px;
 }
 </style>
 </head>
 
 <body>
-<div id='center'>
-	<span>施工中~</span>
-	<a href="/resume.html">黑白版</a>
-	<a href="/resume">彩色版</a>
+
+<div class='center'>
+	<div class='left'>
+		<p>施工中~</p>
+	</div>
+
+	<div class='right'>
+		<p>
+			在线简历
+			<a href="/resume.html">黑白版</a>
+			<a href="/resumr">彩色版</a>
+		</p>
+	</div>
 </div>
+
 </body>
 </html>
