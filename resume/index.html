@@ -62,7 +62,66 @@
 			text-indent:480px;
 			margin:0px;
 		}
-		
+		/* animation */
+		.move:hover {
+			-webkit-animation: move 0.2s 10;
+			-moz-animation: move 0.2s 10;
+			animation: move 0.2s 10;
+		}
+
+		@-webkit-keyframes move{
+			0%{
+				-webkit-transform:translate(0);
+			}
+			25%{
+				-webkit-transform:translate(-10px) rotate( -1deg);
+			}
+			50%{
+				-webkit-transform:translate(10px) rotate( 1deg);
+			}
+			75%{
+				-webkit-transform:translate(-10px) rotate( -1deg);
+			}
+			100%{
+				-webkit-transform:translate(0px);
+			}			
+		}
+		@-moz-keyframes move{
+			0%{
+				-moz-transform:translate(0);
+			}
+			25%{
+				-moz-transform:translate(-10px) rotate( -1deg);
+			}
+			50%{
+				-moz-transform:translate(10px) rotate( 1deg);
+			}
+			75%{
+				-moz-transform:translate(-10px) rotate( -1deg);
+			}
+			100%{
+				-moz-transform:translate(0px);
+			}			
+		}
+		@keyframes move{
+			0%{
+				transform:translate(0);
+			}
+			25%{
+				transform:translate(-10px) rotate( -1deg);
+			}
+			50%{
+				transform:translate(10px) rotate( 1deg);
+			}
+			75%{
+				transform:translate(-10px) rotate( -1deg);
+			}
+			100%{
+				transform:translate(0px);
+			}			
+		}
+
+
 	</style>
 </head>
 
@@ -84,7 +143,7 @@
 		    <li><a href="http://userscripts.org/scripts/show/137123">虾米自动签到-油猴脚本</a></li>
 		    <li><a href="https://github.com/xavierskip/delete-weibo">自动批量删除新浪微博</a></li>
 		</ul>
-	<img src="proxi.png">	
+	<img class="move" src="proxi.png"  title="Rock it">	
 </div>	
 
 <div id='content'>
