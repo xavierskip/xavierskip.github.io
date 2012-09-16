@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <style type="text/css">
 body{margin:  0px auto;padding: 0px;}
-div{display: inline-block;}
+
 p{line-height: 300px;}
 
 .center{
@@ -14,6 +14,7 @@ p{line-height: 300px;}
 	width:100%;
 	margin-top: -120px; 
 }
+.center div{display: inline-block;}
 
 .left{
 	float:left;
@@ -145,11 +146,46 @@ p{line-height: 300px;}
 	    color:636363;
     }
 }
+		#sliding{
+			font-size: 23px;
+			line-height: 25px;
+		}
+		#sliding span {
+			display: inline-block;
+		}
+		.first{
+			-webkit-animation: move 2s cubic-bezier(0.000, 0.970, 1.000, 0.030) infinite;
+		}
+		.second{
+			-webkit-animation: move 2s cubic-bezier(0.000, 0.970, 1.000, 0.030) .1s infinite ;
+		}
+		.thrird{
+			-webkit-animation: move 2s cubic-bezier(0.000, 0.970, 1.000, 0.030) .2s infinite;
+		}
+		.fourth{
+			-webkit-animation: move 2s cubic-bezier(0.000, 0.970, 1.000, 0.030) .3s infinite;
+		}
+
+		@-webkit-keyframes move{
+			0%{
+				-webkit-transform:translate(0);	
+			}
+			100%{
+				-webkit-transform:translate(1200px);
+			}
+		}
 
 </style>
 </head>
 
 <body>
+
+<div id='sliding'>
+	<span class='fourth'>.</span>
+	<span class='thrird'>.</span>
+	<span class='second'>.</span>
+	<span class='first'>.</span>
+</div>
 
 <div class='center'>
 	<div class='left'>
