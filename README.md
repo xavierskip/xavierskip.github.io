@@ -1,3 +1,3 @@
-# 我的一个GitHub_blog 
+# 我的 GitHub_blog 
 
-暂做在线简历。
+domain:[xavierskip.info](http://xavierskip.info)
