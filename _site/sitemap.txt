@@ -1,0 +1,8 @@
+
+http://xavierskip.github.com/atom.xml
+http://xavierskip.github.com/archive.html
+http://xavierskip.github.com/index.html
+http://xavierskip.github.com/pages.html
+http://xavierskip.github.com/categories.html
+http://xavierskip.github.com/sitemap.txt
+http://xavierskip.github.com/tags.html
