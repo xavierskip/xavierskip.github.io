@@ -1,11 +1,9 @@
-# another Jekyll blog 
-=====
-use: Jekyll-Bootstrap <http://jekyllbootstrap.com>
+# Another Jekyll blog 
 
-admin:   xavierskip
-domain: <xavierskip.info>
+* use: Jekyll-Bootstrap <http://jekyllbootstrap.com/>
+* admin:   xavierskip
+* domain: <http://xavierskip.info>
 
-
-## License
+## Licensed
 
 [Creative Commons](http://creativecommons.org/licenses/by-nc-sa/3.0/)
