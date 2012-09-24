@@ -1,4 +1,3 @@
-permalink: /:year/:month/:day/:title
 auto: true
 markdown: rdiscount
 pygments:    true
