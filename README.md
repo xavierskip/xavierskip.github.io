@@ -1,6 +1,6 @@
-# Another Jekyll blog 
+# xavierskip's  blog 
 
-* use: Jekyll-Bootstrap <http://jekyllbootstrap.com/>
+* Another Jekyll blog  <http://jekyllrb.com/>
 * admin:   xavierskip
 * domain: <http://xavierskip.info>
 
