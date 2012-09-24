@@ -1,4 +1,5 @@
-safe: true
-destination: .
-lsi: false
+permalink: /:year/:month/:title/
+url: http://xavierskip.info
+author: xavierskip
 pygments: true
+paginate: 16
