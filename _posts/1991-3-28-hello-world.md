@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hello word
+title: Hello world
 ---
 乱写一气，看看是什么效果？
 <a href="//xavierskip.com">主页</a>
