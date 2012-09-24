@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Xavier skip</title>
+<meta charset="utf-8">
+<style type="text/css">
+	body{margin:  0px auto;padding: 0px;}
+
+	p{line-height: 300px;}
+
+	a,a:link,a:visited {
+		text-decoration:none;
+		border-bottom: 1px dashed #E7350F;
+		margin-right: 5px;
+	}
+
+	.center{
+		position: absolute;
+		top:40%;
+		width:100%;
+		margin-top: -120px; 
+	}
+	.center div{display: inline-block;}
+
+	.left{
+		float:left;
+		width:50%;
+		box-shadow: 1px 0px 0px  #646464;
+	}
+	.right{
+
+	}
+
+	.left p{
+		text-align: right;
+		padding-right: 200px;
+	}
+	.right p{
+		padding-left: 100px;
+	}
+
+
+	#sliding{
+	}
+	#sliding span {
+		display: inline-block;
+	}
+	.first{
+		-webkit-animation: move 2s cubic-bezier(0.000, 0.970, 1.000, 0.030) infinite;
+		-moz-animation:    move 2s cubic-bezier(0.000, 0.970, 1.000, 0.030) infinite;
+		-ms-animation:     move 2s cubic-bezier(0.000, 0.970, 1.000, 0.030) infinite;
+		animation:         move 2s cubic-bezier(0.000, 0.970, 1.000, 0.030) infinite;
+	}
+	.second{
+		-webkit-animation: move 2s cubic-bezier(0.000, 0.970, 1.000, 0.030) .1s infinite;
+		-moz-animation:    move 2s cubic-bezier(0.000, 0.970, 1.000, 0.030) .1s infinite;
+		-ms-animation:     move 2s cubic-bezier(0.000, 0.970, 1.000, 0.030) .1s infinite;
+		animation:         move 2s cubic-bezier(0.000, 0.970, 1.000, 0.030) .1s infinite;
+	}
+	.thrird{
+		-webkit-animation: move 2s cubic-bezier(0.000, 0.970, 1.000, 0.030) .2s infinite;
+		-moz-animation:    move 2s cubic-bezier(0.000, 0.970, 1.000, 0.030) .2s infinite;
+		-ms-animation:     move 2s cubic-bezier(0.000, 0.970, 1.000, 0.030) .2s infinite;
+		animation:         move 2s cubic-bezier(0.000, 0.970, 1.000, 0.030) .2s infinite;
+	}
+	.fourth{
+		-webkit-animation: move 2s cubic-bezier(0.000, 0.970, 1.000, 0.030) .3s infinite;
+		-moz-animation:    move 2s cubic-bezier(0.000, 0.970, 1.000, 0.030) .3s infinite;
+		-ms-animation:     move 2s cubic-bezier(0.000, 0.970, 1.000, 0.030) .3s infinite;
+		animation:         move 2s cubic-bezier(0.000, 0.970, 1.000, 0.030) .3s infinite;
+	}
+	@-webkit-keyframes move{
+		0%{
+			-webkit-transform:translate(0);	
+		}
+		100%{
+			-webkit-transform:translate(960px);
+		}
+	}
+	@-moz-keyframes move{
+		0%{
+			-webkit-transform:translate(0);	
+		}
+		100%{
+			-webkit-transform:translate(960px);
+		}
+	}
+	@-ms-keyframes move{
+		0%{
+			-webkit-transform:translate(0);	
+		}
+		100%{
+			-webkit-transform:translate(960px);
+		}
+	}
+	@keyframes move{
+		0%{
+			-webkit-transform:translate(0);	
+		}
+		100%{
+			-webkit-transform:translate(960px);
+		}
+	}
+</style>
+</head>
+
+<body>
+
+
+<div class='center'>
+	<div class='left'>
+		<p>施工中</p>	
+	</div>
+
+	<div class='right'>
+		<p>
+			在线简历
+			<a href="resume.html" style="color:#444">黑白版</a>
+			<a href="color.html"  style="color:#235796">彩色版</a>
+		</p>
+	</div>
+</div>
+<span id='sliding'>
+	<span class='fourth'>.</span>
+	<span class='thrird'>.</span>
+	<span class='second'>.</span>
+    <span class='first'>.</span>
+</span>
+</body>
+</html>
