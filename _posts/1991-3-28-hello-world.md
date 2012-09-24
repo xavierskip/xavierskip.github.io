@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hello world
+tags: del~
 ---
 乱写一气，看看是什么效果？
 <a href="//xavierskip.com">主页</a>
