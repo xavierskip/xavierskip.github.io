@@ -1,5 +1,4 @@
-permalink: /:year/:month/:title/
-url: http://xavierskip.info
-author: xavierskip
-pygments: true
-paginate: 16
+permalink: /:year/:month/:day/:title
+auto: true
+markdown: rdiscount
+pygments:    true
