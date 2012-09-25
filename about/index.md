@@ -17,5 +17,5 @@ comments: yes
  >他是个不可理喻的人
 
 个人邮箱:xavierskip@gmail.com      
-推特/微博: [@xavierskip](http://weibo.com/kejinlu)/ @talkceap     
+推特/微博: [@xavierskip](http://weibo.com/kejinlu)/ @talkcheap     
 github : [https://github.com/kejinlu](https://github.com/kejinlu)      
