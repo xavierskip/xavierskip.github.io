@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Hello world
+excerpt: 乱七八糟+自爆
 tags: del~
+comments: yes
 ---
 乱写一气，看看是什么效果？
 <a href="//xavierskip.com">主页</a>
