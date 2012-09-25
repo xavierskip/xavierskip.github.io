@@ -142,3 +142,11 @@ background: #4D9CD4;
 border: 0;
 }
 
+
+/* add */
+.excerpt{
+	display: block;
+	margin-left: 74px;
+	padding: .2em 1em;
+}
+
