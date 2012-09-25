@@ -1,5 +1,18 @@
 <section class="comment">
-<div id="disqus_thread"></div>
-<script type="text/javascript" src="http://xavierskip.disqus.com/combination_widget.js?num_items=5&hide_mods=0&color=blue&default_tab=people&excerpt_length=200"></script><a href="http://disqus.com/">Powered by Disqus</a>
+<!-- Duoshuo Comment BEGIN -->
+	<div class="ds-thread" data-thread-key="" 
+	data-title="" data-author-key="" data-url=""></div>
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"jekyll"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = 'http://static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		|| document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+<!-- Duoshuo Comment END -->
 </section>
 
