@@ -17,4 +17,4 @@ layout: page
 
 个人邮箱:xavierskip@gmail.com      
 推特/微博: [@xavierskip](http://weibo.com/kejinlu)/ @talkcheap     
-github : [https://github.com/kejinlu](https://github.com/kejinlu)      
+github : [https://github.com/xavierskip](https://github.com/xavierskip)      
