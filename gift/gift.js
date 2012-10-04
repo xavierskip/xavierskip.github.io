@@ -12,67 +12,89 @@
  	var b = $('body'),
 		w = $(window),
 		add = $('<a id="add" href="javascript:;">↑↑↓↓←→←→ABAB</a>');
-		b.append(add);
-		add.hide();
-		// useragent
-		var browserName = navigator.userAgent.toLowerCase();
-		Browser = {
-			version: (browserName.match(/.+(?:rv|it|ra|ie)[\/: ]([\d.]+)/) || [0, '0'])[1],
-			safari: /webkit/i.test(browserName) && !this.chrome,
-			opera: /opera/i.test(browserName),
-		    firefox:/firefox/i.test(browserName),
-			msie: /msie/i.test(browserName) && !/opera/.test(browserName),
-			mozilla: /mozilla/i.test(browserName) && !/(compatible|webkit)/.test(browserName) && !this.chrome,
-		    chrome: /chrome/i.test(browserName) && /webkit/i.test(browserName) && /mozilla/i.test(browserName)
-		}
-		if (Browser.msie && Browser.version <= 9 || Browser.firefox ) {
-			var useragent = document.createElement('p');
-			useragent.setAttribute('id','ua');
-			useragent.innerHTML='<p>还在使用IE浏览器么？为了获得更好的浏览效果和体验，<a href="http://abetterbrowser.org/">给自己选个更好更先进的浏览器吧！</a>\
-								    用不同浏览器的人怎么能在一起？ <strong>:)</strong> </span><br>个人推荐追求速度、简约和安全的网络浏览器\
- 								<a href="http://www.google.cn/intl/zh-CN/chrome/browser/eula.html??hl=zh-CN&standalone=1">chrome</a>\
+	b.append(add);
+	add.hide();
+	// useragent
+	var browserName = navigator.userAgent.toLowerCase();
+	Browser = {
+		version: (browserName.match(/.+(?:rv|it|ra|ie)[\/: ]([\d.]+)/) || [0, '0'])[1],
+		safari: /webkit/i.test(browserName) && !this.chrome,
+		opera: /opera/i.test(browserName),
+		firefox:/firefox/i.test(browserName),
+		msie: /msie/i.test(browserName) && !/opera/.test(browserName),
+		mozilla: /mozilla/i.test(browserName) && !/(compatible|webkit)/.test(browserName) && !this.chrome,
+		chrome: /chrome/i.test(browserName) && /webkit/i.test(browserName) && /mozilla/i.test(browserName)
+	}
+	if (Browser.msie && Browser.version <= 9 || Browser.firefox ) {
+		var useragent = document.createElement('p');
+		useragent.setAttribute('id','ua');
+		useragent.innerHTML='<p>还在使用IE浏览器么？为了获得更好的浏览效果和体验，<a href="http://abetterbrowser.org/">给自己选个更好更先进的浏览器吧！</a>\
+								用不同浏览器的人怎么能在一起？ <strong>:)</strong> </span><br>个人推荐追求速度、简约和安全的网络浏览器\
+ 						    	<a href="http://www.google.cn/intl/zh-CN/chrome/browser/eula.html??hl=zh-CN&standalone=1">chrome</a>\
  								<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAABj0lEQVQokYWSTUhUYRSGD+KiOwyEIdKihnTwNjjhuFB0bKHOTe+n30XENrpoV7toGeRicKfgQl1IIi6MKHAWEZJzKzezKBIUwtkoQtw7g2M/FhExYig8LqYUYaQXzup9Dodz3iNSXpUiUnGOd6ovThd7Q318v9PP3rDma3+CQkcbZeF8U4ydeDOFzji71k0KnXF22lvIN8XwzcjZJp1WeLUmvhnBb4iSi94gF43iX4/ghevxwvVshq79OGlwXMWrVhOv1mRt+xsPnm1x/+kWxeI+R1njpP7xAe0qtGvz/vIV1Pgqt6fWGZxcp2fsA0dZg8OsweGGgYgERESCelmh04qBlEVsZIWWZIbmZIbGR29LcPYCfz4GEZGgiIioFzbaVThpG8/zuXrvCaG7C3zKe6UJGwa/31WfLp6Ys+h9aaPTNo6rcFxF92L3XzhAcbWKNxOXps9cqmvWwk710Ldko5cVj183cLB2kV+ZGnKpuvJZxEbbf3bMJLDmb/F5KYS/GOb5w5qZ/yYupdeoLGccA0ps2V86vloGAAAAAElFTkSuQmCC">\
- 								</p>';		
-			b.append(useragent);
-		};
-		//scroll
-		var tmp = w.scrollTop(),
-			scrolls = 0;
-		w.scroll(function(){
-			 var current = w.scrollTop();
-			 if (current>tmp){
-			 	scrolls++
-			 }else if (current<tmp){
-			 	scrolls--
-			 }else{
+ 							</p>';		
+		b.append(useragent);
+	};
+	//scroll
+	var tmp = w.scrollTop(),
+		scrolls = 0;
+	w.scroll(function(){
+		var current = w.scrollTop();
+		if (current>tmp){
+			scrolls++
+		}else if (current<tmp){
+			scrolls--
+		}else{ return true}
+		tmp = current;console.log(scrolls)
 
-			 }
-			 tmp = current;console.log(scrolls)
+		if (scrolls == 1) {
+			$('#arg1').animate({'top':'toggle',"opacity": "toggle"},700)
+			$('#arg2').fadeIn(200).animate({'top':'+=100px'},700)
+		}
+		if (scrolls == 13) {
+			$('#arg4').fadeIn(1000)
+		}
+		if (scrolls == 19) {
+			$('#arg5').fadeIn(1000)
+		} 
+		if (scrolls >= 7) {
+			add.fadeIn('slow')
+		} else{
+			add.fadeOut('slow')
+		}
 
-			if (scrolls == 1) {
-				$('#arg1').animate({'top':'toggle',"opacity": "toggle"},700)
-				$('#arg2').fadeIn(200).animate({'top':'+=100px'},700)
-			}
-			if (scrolls == 13) {
-				$('#arg4').fadeIn(1000)
-			}
-			if (scrolls == 19) {
-				$('#arg5').fadeIn(1000)
-			} 
-			if (scrolls >= 7) {
-				add.fadeIn('slow')
-			} else{
-				add.fadeOut('slow')
-			}
-
-			if ( w.scrollTop() > 2300 && task == 0){
-				display()
-			}
+		if ( w.scrollTop() > 2300 && task == 0){
+			display()
+		}
+	});
+	add.click(function(){
+		return add.hide(),w.scrollTop(0);
+	});
+	// 彩蛋
+	var k = [];
+	document.onkeydown = function(e) {
+		e = e || window.event;
+    	k.push(e.keyCode);console.log(e.keyCode)
+    	if (k.toString().indexOf("38,38,40,40,37,39,37,39,66,65") >= 0 || k.toString().indexOf("49,48,55") >= 0 ) {
+        	eggs();
+        	k = [];
+    	}
+    };
+    function eggs(){
+    	var src = parseInt(Math.random()*7)+'.gif';
+    	var eggs= document.createElement('div');
+    	var img = document.createElement('img');
+    	eggs.setAttribute('id','eggs');
+    	img.setAttribute('src',src);
+		b.append(eggs);
+		$('#eggs').append(img);
+		$('#eggs img').css( {'margin-left': -img.width/2,'margin-top': -img.height/2});
+		$('#eggs').click(function(){
+			$(this).remove();
 		});
-		add.click(function(){
-			return add.hide(),w.scrollTop(0);
-		})
- });
+    }
+
+});
 
 // print 
 function display(){
@@ -180,6 +202,8 @@ function display(){
 	time.innerHTML = content; 
 	$("#footer").append(time);
 })();
+
+
 
 /*  scroll
 window.onload = function(){
