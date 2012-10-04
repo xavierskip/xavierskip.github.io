@@ -36,23 +36,35 @@
 			b.append(useragent);
 		};
 		//scroll
+		var tmp = w.scrollTop(),
+			scrolls = 0;
 		w.scroll(function(){
-			
-			if (w.scrollTop() == 100) {
-				$('#arg1').animate({'top':'toggle',"opacity": "toggle"},1000)
-				$('#arg2').fadeIn(1000).animate({'top':'+=100px'},1000)
+			 var current = w.scrollTop();
+			 if (current>tmp){
+			 	scrolls++
+			 }else if (current<tmp){
+			 	scrolls--
+			 }else{
+
+			 }
+			 tmp = current;console.log(scrolls)
+
+			if (scrolls == 1) {
+				$('#arg1').animate({'top':'toggle',"opacity": "toggle"},700)
+				$('#arg2').fadeIn(200).animate({'top':'+=100px'},700)
 			}
-			if (w.scrollTop() == 1300) {
-				$('#arg4').fadeIn(1300)
+			if (scrolls == 13) {
+				$('#arg4').fadeIn(1000)
 			}
-			if (w.scrollTop() == 1900) {
+			if (scrolls == 19) {
 				$('#arg5').fadeIn(1000)
 			} 
-			if (w.scrollTop() >= 700) {
+			if (scrolls >= 7) {
 				add.fadeIn('slow')
 			} else{
 				add.fadeOut('slow')
 			}
+
 			if ( w.scrollTop() > 2300 && task == 0){
 				display()
 			}
