@@ -217,6 +217,7 @@ small a:hover {
 	top: 50%;
 	left: 7px; 
 	display: none;
+	cursor:pointer;
 }
 #ua {
 	z-index: 100;

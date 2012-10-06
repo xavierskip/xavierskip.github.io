@@ -10,7 +10,7 @@
  	task=0;
  	var b = $('body'),
 		w = $(window),
-		add = $('<img id="add" src="add.png" href="javascript:;">');
+		add = $('<img id="add" src="add.png" alt="滚轮滚" title="刷新">');
 	b.append(add);
 	add.show();
 	// useragent
@@ -28,7 +28,7 @@
 		var useragent = document.createElement('p');
 		useragent.setAttribute('id','ua');
 		useragent.innerHTML='<p>还在使用IE浏览器么？为了获得更好的浏览效果和体验，<a href="http://abetterbrowser.org/">给自己选个更好更先进的浏览器吧！</a>\
-								 <strong>:)</strong> </span><br>个人推荐追求速度、简约和安全的网络浏览器\
+								”用不同浏览器的人，怎么可以在一起？╮(╯▽╰)╭“<strong>:)</strong> </span><br>个人推荐追求速度、简约和安全的网络浏览器\
  						    	<a href="http://www.google.cn/intl/zh-CN/chrome/browser/eula.html??hl=zh-CN&standalone=1">chrome</a>\
  								<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAABj0lEQVQokYWSTUhUYRSGD+KiOwyEIdKihnTwNjjhuFB0bKHOTe+n30XENrpoV7toGeRicKfgQl1IIi6MKHAWEZJzKzezKBIUwtkoQtw7g2M/FhExYig8LqYUYaQXzup9Dodz3iNSXpUiUnGOd6ovThd7Q318v9PP3rDma3+CQkcbZeF8U4ydeDOFzji71k0KnXF22lvIN8XwzcjZJp1WeLUmvhnBb4iSi94gF43iX4/ghevxwvVshq79OGlwXMWrVhOv1mRt+xsPnm1x/+kWxeI+R1njpP7xAe0qtGvz/vIV1Pgqt6fWGZxcp2fsA0dZg8OsweGGgYgERESCelmh04qBlEVsZIWWZIbmZIbGR29LcPYCfz4GEZGgiIioFzbaVThpG8/zuXrvCaG7C3zKe6UJGwa/31WfLp6Ys+h9aaPTNo6rcFxF92L3XzhAcbWKNxOXps9cqmvWwk710Ldko5cVj183cLB2kV+ZGnKpuvJZxEbbf3bMJLDmb/F5KYS/GOb5w5qZ/yYupdeoLGccA0ps2V86vloGAAAAAElFTkSuQmCC">\
  							</p>';		
@@ -64,7 +64,7 @@
 		}
 	});
 	add.click(function(){
-		return add.hide(),w.scrollTop(0);
+		window.location.reload()
 	});
 	// 彩蛋
 	var k = [];
@@ -200,7 +200,7 @@ function display(){
 			         + missYear +'年'+ missMonth +'月'+ missDay +'天'+
 			         '</b>从的你生命中流逝</p><p style="margin-bottom:10px;">下一颗巧克力是什么味？</P>\
 			          <p>本来可以时钟分钟跳动的，不过挺无趣的。</p><p>技术有限，粗制滥造。</p>有什么问题？猛击<a href="mailto:xavierskip@gmail.com">这里</a>\
-			          <span>应该没有BUG了吧</span><img src="cake.png" class="cake">',
+			          <span>应该没有BUG了吧<br>↑↑↓↓←→←→BA</span><img src="cake.png" class="cake">',
 		time       = document.createElement("div");	         
 	time.setAttribute('id','time');
 	time.setAttribute('class','box');
