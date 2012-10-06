@@ -1,6 +1,7 @@
 ---
-title: About me
 layout: page
+title: About me
+comments: yes
 ---
   
  >我知道痛苦在前面等着我，我不介意，对我来说，快乐永远是一个不可能的词语，除了梦想，我拥有的只有忠诚的孤独
