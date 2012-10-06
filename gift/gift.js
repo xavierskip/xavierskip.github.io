@@ -63,7 +63,7 @@
 			add.fadeOut('slow')
 		}
 
-		if ( w.scrollTop() > 2300 && task == 0){
+		if ( w.scrollTop() > 2000 && task == 0){
 			display()
 		}
 	});
@@ -202,10 +202,12 @@ function display(){
 	// output
 	var content    = '<p style="margin-bottom:10px;">已经有<b style="font-size:16px;">'
 			         + missYear +'年'+ missMonth +'月'+ missDay +'天'+
-			         '</b>从的我生命中流逝</p><p style="margin-bottom:10px;">下一颗巧克力是什么味？</P>',
+			         '</b>从的我生命中流逝</p><p style="margin-bottom:10px;">下一颗巧克力是什么味？</P>\
+			          <p></p><p>技术有限，粗制滥造。</p>有什么问题？猛击<a href="mailto:xavierskip@gmail.com">这里</a>\
+			          <img src="cake.png" class="cake">',
 		time       = document.createElement("div");	         
 	time.setAttribute('id','time');
 	time.setAttribute('class','box');
-	time.innerHTML = content; 
+	time.innerHTML = content;
 	$("#footer").append(time);
 })();
