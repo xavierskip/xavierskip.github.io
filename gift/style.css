@@ -102,6 +102,10 @@ small a:hover {
 	background:  url(l.png) repeat-x #fff;
 	font-size: 17px;
 }
+.box span{
+	font-size: 7px;
+	color: #EEE;
+}
 .cake {
 	position: absolute;
 	bottom: 17px;
@@ -210,10 +214,9 @@ small a:hover {
 
 #add {
 	position: fixed;
-	right: 13px;
-	bottom: 7px; 
+	top: 50%;
+	left: 7px; 
 	display: none;
-
 }
 #ua {
 	z-index: 100;
