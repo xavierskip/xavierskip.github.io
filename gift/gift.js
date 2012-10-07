@@ -77,7 +77,7 @@
     	}
     };
     function eggs(){
-    	var src = parseInt(Math.random()*7)+'.gif';
+    	var src = parseInt(Math.random()*8)+'.gif';
     	var eggs= document.createElement('div');
     	var img = document.createElement('img');
     	eggs.setAttribute('id','eggs');
