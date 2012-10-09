@@ -30,8 +30,8 @@ ol,ul{list-style-position:inside;}
 ol ul, ul ol, ul ul, ol ol {margin-left:1em;}
 pre code{margin:1em 0;font-size:13px;line-height:1.6;display:block;overflow:auto;}
 blockquote{display:block;text-align:justify;box-shadow: 2px 0 0 #111 inset;}
-blockquote{margin:1em ;padding:1em 0;}
-blockquote p{margin:0;padding:0;}
+blockquote{margin:1em 0em;padding:1em;}
+blockquote p{margin:0;padding:.5em 0;}
 #container{width:600px;margin:2em auto;display:block;padding:0 2em;}
 .content{font-size:16px;line-height:24px;}
 .content h1{padding:.5em 0;}
