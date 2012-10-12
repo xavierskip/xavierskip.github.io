@@ -47,9 +47,9 @@ tags: python，正则表达式
 多 () ,或者 () 的嵌套的作用。还需要继续了解。。。
 
 
-备注：
-* [http://regexpal.com](http://regexpal.com) 可以方便的对 正则表达式 进行调试
-* [http://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html](http://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html)python 正则表达式基础应用
+备注：  
+  *  [http://regexpal.com](http://regexpal.com) 可以方便的对 正则表达式 进行调试
+  *  [http://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html](http://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html)python 正则表达式基础应用
 
 这个图比较好
 <img src="http://images.cnblogs.com/cnblogs_com/huxi/Windows-Live-Writer/Python_10A67/pyre_ebb9ce1c-e5e8-4219-a8ae-7ee620d5f9f1.png">
