@@ -24,11 +24,10 @@ tags: python，正则表达式
 就用了这样的表达式  
 `[\w]+\.(jpg|gif|png)`
 
-输出是 
+输出是  
 `[' jpg ',' gif ',' png ']` 
 
-()的作用就把我搞糊涂了。直观的来说。 
-正解是使用 （?:）这个无捕获组 
+()的作用就把我搞糊涂了。直观的来说。正解是使用 （?:）这个无捕获组  
 `[\w]+\.(?:jpg|gif|png)`
 
 可以看看这里：[http://blog.csdn.net/whycadi/article/details/2011046](http://blog.csdn.net/whycadi/article/details/2011046)
@@ -37,10 +36,11 @@ tags: python，正则表达式
 
 我的理解 
 首先对整个表达式匹配。而符合 () 中规则的则是匹配输出的内容 
-
+```python
 	s = '<html><div><p>ppp<img>img</img></p><a>a</a></div></html>' 
 	re.findall('<(\w+)>',s) 
-	['html', 'div', 'p', 'img', 'a'] 
+	['html', 'div', 'p', 'img', 'a']
+```
 
 对于抓取某些有特征的字符串，而只需要字符串其中某些内容，()就提供了这样功能，相当于二次抓取吧。 
 
@@ -48,8 +48,8 @@ tags: python，正则表达式
 
 
 备注:
-*[http://regexpal.com](http://regexpal.com) 可以方便的对 正则表达式 进行调试
-*[http://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html](http://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html)python 正则表达式基础应用
+*[在线 正则](http://regexpal.com) 可以方便的对 正则表达式 进行调试
+*[python 正则表达式基础应用](http://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html)
 
 这个图比较好
 <img src="http://images.cnblogs.com/cnblogs_com/huxi/Windows-Live-Writer/Python_10A67/pyre_ebb9ce1c-e5e8-4219-a8ae-7ee620d5f9f1.png">
