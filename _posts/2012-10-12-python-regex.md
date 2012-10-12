@@ -48,8 +48,8 @@ tags: python，正则表达式
 
 
 备注:
- + [在线 正则](http://regexpal.com) 可以方便的对 正则表达式 进行调试
- + [python 正则表达式基础应用](http://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html)
+ * [在线 正则](http://regexpal.com) 可以方便的对 正则表达式 进行调试  
+ * [python 正则表达式基础应用](http://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html)
 
 这个图比较好
 <img src="http://images.cnblogs.com/cnblogs_com/huxi/Windows-Live-Writer/Python_10A67/pyre_ebb9ce1c-e5e8-4219-a8ae-7ee620d5f9f1.png">
