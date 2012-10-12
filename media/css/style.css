@@ -19,7 +19,7 @@ modify by xavirskip
 @import url(http://fonts.googleapis.com/css?family=Cuprum);
 body{font-size:14px;word-spacing:1px;margin-left:auto;margin-right:auto;
 	font-family:"Galdeano","Hiragino Sans GB","Microsoft YaHei",Trebuchet,"Trebuchet MS",Tahoma,"Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
-	color:#000000;background-color:#FFF;}
+	color:#000000;background-color:#F1F1F1;}
 *{padding:0;margin: 0;border:none;outline:none;}
 a{color:#E7350F;text-decoration:none;}
 a:hover{color:#333333;border-bottom: 1px dashed #E7350F;}
@@ -57,7 +57,7 @@ h2{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-siz
 h3{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.2em;color:#222;}
 h4{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1em;color:#333;}
 pre,code{font-family:Menlo,"Andale Mono",Consolas,"Courier New",Monaco,monospace;font-size:13px;}
-code{background-color: #FEE9CC;}
+code{padding: 3px 4px;background-color: #F7F7F9;border: 1px solid #E1E1E8;}
 embed,object,iframe{display:block;margin:4px auto;}
 .gist{font-size: 12px;line-height:1.6;}
 
