@@ -22,14 +22,14 @@ tags: python，正则表达式
 比如我在一个字符串中匹配 xxxx.jpg or xxxxx.gif or xxxx.png 
 
 就用了这样的表达式  
-	'[\w]+\.(jpg|gif|png)' 
+`[\w]+\.(jpg|gif|png)`
 
 输出是 
-	[' jpg ',' gif ',' png '] 
+`[' jpg ',' gif ',' png ']` 
 
 ()的作用就把我搞糊涂了。直观的来说。 
 正解是使用 （?:）这个无捕获组 
-	'[\w]+\.(?:jpg|gif|png)' 
+`[\w]+\.(?:jpg|gif|png)`
 
 可以看看这里：[http://blog.csdn.net/whycadi/article/details/2011046](http://blog.csdn.net/whycadi/article/details/2011046)
 
@@ -47,9 +47,9 @@ tags: python，正则表达式
 多 () ,或者 () 的嵌套的作用。还需要继续了解。。。
 
 
-备注：  
-  *  [http://regexpal.com](http://regexpal.com) 可以方便的对 正则表达式 进行调试
-  *  [http://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html](http://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html)python 正则表达式基础应用
+备注:
+*[http://regexpal.com](http://regexpal.com) 可以方便的对 正则表达式 进行调试
+*[http://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html](http://www.cnblogs.com/huxi/archive/2010/07/04/1771073.html)python 正则表达式基础应用
 
 这个图比较好
 <img src="http://images.cnblogs.com/cnblogs_com/huxi/Windows-Live-Writer/Python_10A67/pyre_ebb9ce1c-e5e8-4219-a8ae-7ee620d5f9f1.png">
