@@ -22,25 +22,25 @@ tags: python，正则表达式
 比如我在一个字符串中匹配 xxxx.jpg or xxxxx.gif or xxxx.png 
 
 就用了这样的表达式  
->>'[\w]+\.(jpg|gif|png)' 
+	'[\w]+\.(jpg|gif|png)' 
 
 输出是 
->>[' jpg ',' gif ',' png '] 
+	[' jpg ',' gif ',' png '] 
 
 ()的作用就把我搞糊涂了。直观的来说。 
 正解是使用 （?:）这个无捕获组 
->>'[\w]+\.(?:jpg|gif|png)' 
+	'[\w]+\.(?:jpg|gif|png)' 
 
-可以看看这里：[](http://blog.csdn.net/whycadi/article/details/2011046)
+可以看看这里：[http://blog.csdn.net/whycadi/article/details/2011046](http://blog.csdn.net/whycadi/article/details/2011046)
 
 最后终于搞清楚了()是什么意思了。
 
 我的理解 
 首先对整个表达式匹配。而符合 () 中规则的则是匹配输出的内容 
 
->> s = '<html><div><p>ppp<img>img</img></p><a>a</a></div></html>' 
->> re.findall('<(\w+)>',s) 
-['html', 'div', 'p', 'img', 'a'] 
+	s = '<html><div><p>ppp<img>img</img></p><a>a</a></div></html>' 
+	re.findall('<(\w+)>',s) 
+	['html', 'div', 'p', 'img', 'a'] 
 
 对于抓取某些有特征的字符串，而只需要字符串其中某些内容，()就提供了这样功能，相当于二次抓取吧。 
 
