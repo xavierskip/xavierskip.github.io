@@ -38,8 +38,8 @@ tags: python，正则表达式
 我的理解 
 首先对整个表达式匹配。而符合 () 中规则的则是匹配输出的内容 
 
->>> s = '<html><div><p>ppp<img>img</img></p><a>a</a></div></html>' 
->>> re.findall('<(\w+)>',s) 
+>> s = '<html><div><p>ppp<img>img</img></p><a>a</a></div></html>' 
+>> re.findall('<(\w+)>',s) 
 ['html', 'div', 'p', 'img', 'a'] 
 
 对于抓取某些有特征的字符串，而只需要字符串其中某些内容，()就提供了这样功能，相当于二次抓取吧。 
