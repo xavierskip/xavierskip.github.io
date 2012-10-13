@@ -2,7 +2,7 @@
 layout: post
 title: 一些关于python正则表达式
 excerpt: 在python中遇到的关于正则表达式的问题及更多
-tags: -python -正则表达式
+tags: python  正则表达式
 published: false
 ---
 
