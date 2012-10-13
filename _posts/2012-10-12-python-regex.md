@@ -2,12 +2,13 @@
 layout: post
 title: 一些关于python正则表达式
 excerpt: 在python中遇到的关于正则表达式的问题及更多
-tags: python，正则表达式
+tags: -python -正则表达式
 published: false
 ---
 
 "准备写一个批量下载虎扑相册的脚本。全当学习python练手。给自己规定时间限制。月底前放出可用版本。"
 ---
+
 via My 虎扑碎碎念
 
 是的，正在着手写一个批量抓取虎扑相册图片的脚本。   
