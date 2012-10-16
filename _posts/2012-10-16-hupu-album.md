@@ -22,8 +22,8 @@ like this:
  * http://my.hupu.com/ariesbuji/photo/a195704.html
  * http://my.hupu.com/ariesbuji/photo/a195704.html
 
-把要下载的相册页面url作为本脚本的参数运行。
-`>: python hupu_Album.py http://my.hupu.com/jzgk/photo/a75782-1.html`  
+把要下载的相册页面url作为本脚本的参数运行。  
+`>: python hupu_Album.py http://my.hupu.com/jzgk/photo/a75782-1.html`   
 （也可直接修改脚本内的url为要下载的相册url，直接运行）
 
 ####windows用户配置python环境  
