@@ -24,20 +24,20 @@ tags: python  script
   * [python-2.7.3.msi](http://www.python.org/ftp/python/2.7.3/python-2.7.3.msi) windows 32位系统  
   * [python-2.7.3.amd64.msi](http://www.python.org/ftp/python/2.7.3/python-2.7.3.amd64.msi) windows 64位系统
 
-默认安装即可（python会安装到系统盘 `C:\python27` ）  
-接下来配置一下环境变量就ok了；   
-右键-`我的电脑`>>>`属性`>>>`高级`>>>`环境变量`  
-在`系统变量`中找到`path`变量；双击添加`变量值`，添加进你的python安装路径，默认是`C:\python27`,并以`;`结尾。搞定！  
+默认安装即可（python会安装到系统盘 `C:\python27` ）
+接下来配置一下环境变量就ok了；  
+右键-`我的电脑`>>>`属性`>>>`高级`>>>`环境变量`
+在`系统变量`中找到`path`变量；双击添加`变量值`，添加进你的python安装路径，默认是`C:\python27`,并以`;`结尾。搞定！
 
 验证配置是否成功：
  * 运行cmd： `win + R`输入cmd 运行
  * 输入`python`回车 能够进入python解释器界面就算成功
 
 ####windows用户安装wget
-此页面下载(WGET for Windows)[http://users.ugent.be/~bpuype/wget/]  
-(wget.exe)[http://users.ugent.be/~bpuype/cgi-bin/fetch.pl?dl=wget/wget.exe]  
-将下载下来的wget.exe放到目录`c:\windows\sytem32`下  
-进入命令行：  
+此页面下载(WGET for Windows)[http://users.ugent.be/~bpuype/wget/]
+(wget.exe)[http://users.ugent.be/~bpuype/cgi-bin/fetch.pl?dl=wget/wget.exe]
+将下载下来的wget.exe放到目录`c:\windows\sytem32`下
+进入命令行：
 运行>cmd>`wget -h` 验证是否安装成功
 
 
