@@ -145,4 +145,7 @@ border: 0;
 	margin-left: 74px;
 	padding: .2em 1em;
 }
-
+::selection {
+  background: rgba(0, 0, 0, 1);
+  color: rgba(255, 255, 255, 1);
+}
