@@ -2,7 +2,7 @@
 
 * Another Jekyll blog  <http://jekyllrb.com/>
 * admin:   xavierskip
-* domain: <http://xavierskip.info>
+* domain: <http://xavierskip.com>
 
 ## Licensed
 
