@@ -58,5 +58,5 @@ Look, if you have one short, one opportunity, to seize everything you ever wante
 github : [https://github.com/xavierskip](https://github.com/xavierskip)  
 你还可以在这里找到我：     
 [虎扑](http://my.hupu.com/jzgk)  
-[豆瓣](http://www.douban.com/people/xavierskip/) 
+[豆瓣](http://www.douban.com/people/xavierskip/)  
 [v2ex](http://www.v2ex.com/?r=xavierskip)  
