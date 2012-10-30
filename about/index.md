@@ -5,10 +5,10 @@ comments: yes
 ---
 
 我是一个偏理想主义者，唯心主义者，说好听点是 feel your heart.  
-`
+```
  你相信世界上宇宙中有外星人么？
+```
 
-`
 性格上既矛盾又极端，还有些分裂，你可以认为有些内向或者孤僻，可我自认为只是有点 quiet。I'm quiet  
 
 热爱运动，不仅仅是爱好，更是我的一种生活方式  
@@ -47,7 +47,7 @@ Look, if you have one short, one opportunity, to seize everything you ever wante
 个人邮箱:xavierskip@gmail.com        
 推特/微博: [@xavierskip](http://weibo.com/kejinlu)/ （微博不再使用了～）     
 github : [https://github.com/xavierskip](https://github.com/xavierskip)  
-你还可以在这里找到我： 
+你还可以在这里找到我：     
 [虎扑](http://my.hupu.com/jzgk)  
 [豆瓣](http://www.douban.com/people/xavierskip/) 
 [v2ex](http://www.v2ex.com/?r=xavierskip)  
