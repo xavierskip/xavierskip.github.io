@@ -6,28 +6,17 @@ comments: yes
 
 我是一个偏理想主义者，唯心主义者，说好听点是 feel your heart.  
 
-你相信世界上宇宙中有外星人么？
-
+>你相信世界上宇宙中有外星人么？
 反正我是认为没有的。
-
 你会认为宇宙这么大，太阳系仅仅位于银河系的边缘，银河系第三旋臂——猎户旋臂上。
-
 光银河系就有1,000至4,000多亿颗恒星还有各种的星团星云。而宇宙中又有多少”银河系“呢？
-
 太阳系的环境能孕育出智慧生命，各种环境参数的要求确实很苛刻，可是整个宇宙的基数实在是太大了。
-
 就从概率的角度来讲，在宇宙这么大的基数下，有多个星系的环境参数符合诞生智慧生命的概率要远大于有且只有太阳系符合要求的概率。而且，我们不能否认外星生命的存在形式是我们无法感受或者理解或者接触到的，甚至不是一个维度上的。
-
 我认为，即使有外星智慧生命的存在，而我们无法观察探测感知交流乃至受其影响，这样外星人的存在是没有意义的。
-
 存在和不存在又有什么区别呢？
-
 好比我银行里有很多钱，而钱因某种原因无法交易使用取出，那我还是穷光蛋一个。
-
 你也许会问：“怎么没有受外星人影响呢？世界上这么多科学家观测宇宙，这么多工程师去探索宇宙生命？这不是外星人在影响我们么？”按你的逻辑，这就是外星人的存在？ 
-
 那我们寻找的是你心中的外星人还是实实在在物质的外星人呢？？是个问题？ 
-
 
 
 
@@ -69,6 +58,6 @@ Look, if you have one short, one opportunity, to seize everything you ever wante
 推特/微博: [@xavierskip](http://weibo.com/kejinlu)/ （微博不再使用了～）     
 github : [https://github.com/xavierskip](https://github.com/xavierskip)  
 你还可以在这里找到我：     
- * [虎扑](http://my.hupu.com/jzgk)  
- * [豆瓣](http://www.douban.com/people/xavierskip/)  
- * [v2ex](http://www.v2ex.com/?r=xavierskip)  
+* [虎扑](http://my.hupu.com/jzgk)
+* [豆瓣](http://www.douban.com/people/xavierskip/)
+* [v2ex](http://www.v2ex.com/?r=xavierskip)
