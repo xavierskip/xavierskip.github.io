@@ -60,7 +60,9 @@ embed,object,iframe{display:block;margin:4px auto;}
 footer{
 display:block;
 }
-
+footer p{
+	text-align:right;
+}
 footer small {
 font-size: 13px;
 color: #999;
