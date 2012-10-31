@@ -28,7 +28,7 @@ comments: yes
 我希望我对得起我说的这句话，我努力去做。  
 “ basketball isn't part of my life, it's all my life!”  
 
-喜欢听音乐，喜欢的风格是rap或者rock。像eminem，2pac，Guns N' Roses， Green day 等～～～   
+喜欢音乐，喜欢的风格是rap或者rock。像eminem，2pac，Guns N' Roses， Green day 等～～～   
 爱玩电子游戏， 不玩网游，只玩单机（当然联机对战也不错，可是没有这个氛围）  
 
 关于 computer，关于 Internet 我就不多说了。  
