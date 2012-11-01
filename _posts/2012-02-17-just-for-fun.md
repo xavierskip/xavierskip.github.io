@@ -17,19 +17,8 @@ tags:
 让我们开始
 
 只要把下面这个保存为书签
-```
-javascript:
- (function () { 
-	if (window.goggles && window.goggles.active) { 
-		window.goggles.stop();
-	 } else {
-	 window.GOGGLE_SERVER='http://goggles.sneakygcr.net/page';
-	 var scr = document.createElement('script');
-	 scr.type = 'text/javascript';
-	 scr.src = 'http://goggles.sneakygcr.net/bookmarklet.js?rand='+Math.random();
-	 document.documentElement.appendChild(scr); }
- })();
-```
+
+<a href="javascript: (function () { if (window.goggles && window.goggles.active) { window.goggles.stop(); } else { window.GOGGLE_SERVER='http://goggles.sneakygcr.net/page'; var scr = document.createElement('script'); scr.type = 'text/javascript'; scr.src = 'http://goggles.sneakygcr.net/bookmarklet.js?rand='+Math.random(); document.documentElement.appendChild(scr); } })();">just for fun</a>
 
 然后在任意网站上点这书签就行了
 
