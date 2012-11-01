@@ -13,12 +13,12 @@ layout: default
 
 <section class="meta">
   {% if page.tags %}
-  <p class="tag">
+  <span class="tag">
     Tag:
     {% for tag in page.tags %}
     <a href="/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>&nbsp;
     {% endfor %}
-  </p>
+  </span>
   {% endif %}
   <span class="license">
     Published under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.zh_TW">(CC) BY-NC-SA</a>
