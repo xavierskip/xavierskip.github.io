@@ -29,15 +29,14 @@ li{padding:.2em 0;}
 ol,ul{list-style-position:inside;}
 ol ul, ul ol, ul ul, ol ol {margin-left:1em;}
 pre code{margin:1em 0;font-size:13px;line-height:1.6;display:block;overflow:auto;}
-blockquote{
-	margin:1em 0em;padding:0;text-align:justify;
-	background-color: #FFF;
-}
+blockquote{text-align:justify;}
 blockquote::before{
 	content: "“";
 	font-size: 42px;
 	font-family: georgia,serif;
 	color: #ccc;
+	position: relative;
+	top: 0.7em;
 }
 blockquote p{margin:0.5em;padding:0 0 0 0.7em;}
 #container{width:600px;margin:2em auto;display:block;padding:0 2em;}
