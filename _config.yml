@@ -1,10 +1,10 @@
 permalink: /:year/:month/:title/
-url: http://xavierskip.info
+url: http://xavierskip.com
+markdown: rdiscount
 author: xavierskip
 pygments: true
 paginate: 16
 auto: true
-markdown: rdiscount
 
 
 # Settings for analytics helper

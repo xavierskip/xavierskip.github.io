@@ -13,11 +13,12 @@ tags: wordpress jekyll
 我通过搜索就找到了[exitwp](https://github.com/thomasf/exitwp)这个工具。   
 可以將wp的备份文件转换成 jekyll blog 文章支持的格式。我用了下，很有效很方便。   
 具体用法看README就可以了，我只介绍一下。   
-工具需要的环境：
-* Python
-* html2text
-* PyYAML
-* Beautiful soup
+工具需要的环境:
+
+- Python
+- html2text
+- PyYAML
+- Beautiful soup
 
 以上库或则环境缺少的话，可以通过这个命令安装
 `sudo apt-get install python-yaml python-beautifulsoup python-html2text`   
