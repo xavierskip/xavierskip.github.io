@@ -30,13 +30,12 @@ ol,ul{list-style-position:inside;}
 ol ul, ul ol, ul ul, ol ol {margin-left:1em;}
 pre code{margin:1em 0;font-size:13px;line-height:1.6;display:block;overflow:auto;}
 blockquote{
-	display:block;margin:1em 0em;padding:0;text-align:justify;
-	background-color: #EEE;
+	margin:1em 0em;padding:0;text-align:justify;
+	background-color: #FFF;
 }
 blockquote::before{
 	content: "“";
-	font-size: 23px;
-	margin-left: -10px;
+	font-size: 42px;
 	font-family: georgia,serif;
 	color: #ccc;
 }
