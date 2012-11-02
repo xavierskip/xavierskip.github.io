@@ -1,7 +1,17 @@
-permalink: /:year/:month/:title/
-url: http://xavierskip.com
+permalink: /:year/:month/:day/:title 
+
+title : Xavierskip
+tagline: computer,internet,sport,music
+author :
+  name : xavier skip
+  email : xavierskip@gmail.com
+  github : xavier skip
+  twitter : xavier skip
+
+
+production_url : http://xavierskip.com
+
 markdown: rdiscount
-author: xavierskip
 pygments: true
 paginate: 16
 auto: true
@@ -16,4 +26,4 @@ analytics :
   google : 
   tracking_id : 'UA-35426524-1'
   getclicky :
-    site_id :
+  site_id : 
