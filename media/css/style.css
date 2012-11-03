@@ -53,7 +53,7 @@ blockquote p{margin:0.5em;padding:0 0 0 0.7em;}
 .tag {float: left;}
 .tag a{background-color: #0087F7;color: #FFF;padding: 3px;border-radius: 3px;}
 .tag a:hover{border-bottom: 0;}
-header{padding:0.5em 0 0.7em 0;border-bottom: 4px solid #E0E0E0;}
+header{padding:0.5em 0 0.7em 0;border-bottom: 2px solid #E0E0E0;}
 header h1{color: #F95B1F;}
 nav{font-family:"Electrolize",sans-serif;font-size:1.1em;text-transform:uppercase;float:left;margin-left:-12em;width:9em;text-align:right;}
 nav a{display:block;padding:.7em 1em;color:#000000;}
@@ -74,7 +74,7 @@ display:block;
 footer p{
 	text-align:right;
 }
-footer small {
+small {
 font-size: 13px;
 color: #999;
 }
@@ -168,6 +168,7 @@ border: 0;
 .page{
 	margin: 10px 0;
 	border: 1px 0 solid #ccc;
+	list-style: none;
 }
 .page li{
 	display: inline;
