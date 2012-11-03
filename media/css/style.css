@@ -53,7 +53,8 @@ blockquote p{margin:0.5em;padding:0 0 0 0.7em;}
 .tag {float: left;}
 .tag a{background-color: #0087F7;color: #FFF;padding: 3px;border-radius: 3px;}
 .tag a:hover{border-bottom: 0;}
-header{padding:0.5em 0 0.7em 0;border-bottom: 4px solid #E0E0E0;color: #F95B1F;}
+header{padding:0.5em 0 0.7em 0;border-bottom: 4px solid #E0E0E0;}
+header h1{color: #F95B1F;}
 nav{font-family:"Electrolize",sans-serif;font-size:1.1em;text-transform:uppercase;float:left;margin-left:-12em;width:9em;text-align:right;}
 nav a{display:block;padding:.7em 1em;color:#000000;}
 nav a:hover{background-color: #E7350F;text-decoration:none;color:#f9f9f9;border: 0;-webkit-transition:color .2s linear;}
@@ -163,4 +164,17 @@ border: 0;
 #quote{
 	border-top: 1px dashed #CCC;
 	text-align:center;
+}
+.page{
+	margin: 10px 0;
+	border: 1px 0 solid #ccc;
+}
+.page li{
+	display: inline;
+}
+.pager .previous a {
+	float: left;
+}
+.pager .next a {
+	float: right;
 }
