@@ -169,6 +169,8 @@ border: 0;
 	margin: 10px 0;
 	border: 1px 0 solid #ccc;
 	list-style: none;
+	text-align: center;
+	border-top: 1px solid #CCC;
 }
 .pager li{
 	display: inline;
