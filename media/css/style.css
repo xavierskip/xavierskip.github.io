@@ -175,8 +175,8 @@ border: 0;
 	display: inline;
 }
 .pager .previous a {
-	float: left;
+	float: right;
 }
 .pager .next a {
-	float: right;
+	float: left;
 }
