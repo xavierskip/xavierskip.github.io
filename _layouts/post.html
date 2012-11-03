@@ -36,15 +36,15 @@ layout: default
 </section>
 
 <ul class="pager">
-  {% if page.previous %}
-  <li class="previous">
-    <a href="{{ page.previous.url }}"><< {{ page.previous.title }}</a>
-  </li>
-  {% endif %}
-  <small>j 上一篇   下一篇 k</small>
   {% if page.next %}
   <li class="next">
-    <a href="{{ page.next.url }}">{{ page.next.title }} >></a>
+    <a href="{{ page.next.url }}"><<{{ page.next.title }}</a>
+  </li>
+  {% endif %}
+  <small>&larr;k 上一篇   下一篇 j&rarr;</small>
+  {% if page.previous %}
+  <li class="previous">
+    <a href="{{ page.previous.url }}">{{ page.previous.title }}>></a>
   </li>
   {% endif %}
 </ul>
