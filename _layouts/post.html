@@ -38,13 +38,13 @@ layout: default
 <ul class="pager">
   {% if page.next %}
   <li class="next">
-    <a href="{{ page.next.url }}">&#60;&#60;{{ page.next.title }}</a>
+    &#60;&#60; <a href="{{ page.next.url }}">{{ page.next.title }}</a>
   </li>
   {% endif %}
   <small>&larr; k 上一篇   下一篇 j &rarr;</small>
   {% if page.previous %}
   <li class="previous">
-    <a href="{{ page.previous.url }}">{{ page.previous.title }}&#62;&#62;</a>
+    &#62;&#62; <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
   </li>
   {% endif %}
 </ul>
