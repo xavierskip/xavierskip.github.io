@@ -165,12 +165,12 @@ border: 0;
 	border-top: 1px dashed #CCC;
 	text-align:center;
 }
-.page{
+.pager {
 	margin: 10px 0;
 	border: 1px 0 solid #ccc;
 	list-style: none;
 }
-.page li{
+.pager li{
 	display: inline;
 }
 .pager .previous a {
