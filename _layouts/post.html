@@ -36,15 +36,20 @@ layout: default
 </section>
 
 <ul class="pager">
-  {% if page.next %}
   <li class="next">
-    &#60;&#60; <a href="{{ page.next.url }}">{{ page.next.title }}</a>
+    {% if page.next %}
+    <span>&#60;&#60; <a href="{{ page.next.url }}">{{ page.next.title }}</a></span>
+    {% else %}
+    <span>&#124;&#124;&#60;</span>
+    {% endif %}
   </li>
-  {% endif %}
   <small>&larr; k 上一篇   下一篇 j &rarr;</small>
-  {% if page.previous %}
   <li class="previous">
-    &#62;&#62; <a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+    {% if page.previous %}
+    <span>&#62;&#62; <a href="{{ page.previous.url }}">{{ page.previous.title }}</a></span>
+    {% else %}
+    <span>&#124;&#124;&#62;</span>
+    
   </li>
   {% endif %}
 </ul>
@@ -56,13 +61,13 @@ $(function(){
     var url = false;
         if (e.which == 37 || e.which == 74) {  // Left arrow and J
             {% if page.previous %}
-        url = '{{ site.url }}{{ page.previous.url }}';
-        {% endif %}
+            url = '{{ site.url }}{{ page.previous.url }}';
+            {% endif %}
         }
         else if (e.which == 39 || e.which == 75) {  // Right arrow and K
             {% if page.next %}
-        url = '{{ site.url }}{{ page.next.url }}';
-        {% endif %}
+            url = '{{ site.url }}{{ page.next.url }}';
+            {% endif %}
         }
         if (url) {
             window.location = url;
