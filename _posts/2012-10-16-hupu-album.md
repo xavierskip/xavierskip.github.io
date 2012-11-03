@@ -43,8 +43,8 @@ like this:
  * 输入`python`回车 能够进入python解释器界面就算成功
 
 ####windows用户安装wget
-此页面下载(WGET for Windows)[http://users.ugent.be/~bpuype/wget/]
-(wget.exe)[http://users.ugent.be/~bpuype/cgi-bin/fetch.pl?dl=wget/wget.exe]
+[WGET for Windows](http://users.ugent.be/~bpuype/wget/)到此页面下载
+[wget.exe](http://users.ugent.be/~bpuype/cgi-bin/fetch.pl?dl=wget/wget.exe)
 将下载下来的wget.exe放到目录`c:\windows\sytem32`下
 进入命令行：
 运行>cmd>`wget -h` 验证是否安装成功
