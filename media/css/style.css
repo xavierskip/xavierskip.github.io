@@ -169,7 +169,7 @@ border: 0;
 	margin: 10px 0;
 	list-style: none;
 	text-align: center;
-	border-top: 1px solid #CCC;
+	padding: 7px;
 }
 .pager li{
 	display: inline;
