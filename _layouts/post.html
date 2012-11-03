@@ -40,7 +40,7 @@ layout: default
     {% if page.next %}
     <span>&#60;&#60; <a href="{{ page.next.url }}">{{ page.next.title }}</a></span>
     {% else %}
-    <span>&#62;&#62;&#62;</span>
+    <span>&#62;&#62;</span>
     {% endif %}
   </li>
   <small>&larr; k 上一篇   下一篇 j &rarr;</small>
@@ -48,7 +48,7 @@ layout: default
     {% if page.previous %}
     <span><a href="{{ page.previous.url }}">{{ page.previous.title }}</a> &#62;&#62;</span>
     {% else %}
-    <span>&#60;&#60;&#60;</span>
+    <span>&#60;&#60;</span>
     
   </li>
   {% endif %}
@@ -59,12 +59,12 @@ layout: default
 $(function(){
   $(document).keydown(function(e) {
     var url = false;
-        if (e.which == 37 || e.which == 74) {  // Left arrow and J
+        if (e.which == 39 || e.which == 75) {  // right arrow and k  to previous
             {% if page.previous %}
             url = '{{ site.url }}{{ page.previous.url }}';
             {% endif %}
         }
-        else if (e.which == 39 || e.which == 75) {  // Right arrow and K
+        else if (e.which == 37 || e.which == 74) {  // left arrow and j to next
             {% if page.next %}
             url = '{{ site.url }}{{ page.next.url }}';
             {% endif %}
