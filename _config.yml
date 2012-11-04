@@ -1,13 +1,12 @@
 permalink: /:year/:month/:day/:title 
 
 title : Xavierskip
-
 tagline: computer,internet,sport,music
-
 author :
   name : xavier skip
   email : xavierskip@gmail.com
-  twitter : @xavierskip
+  github : xavier skip
+  twitter : xavier skip
 
 
 production_url : http://xavierskip.com
