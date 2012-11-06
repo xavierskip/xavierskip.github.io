@@ -1,5 +1,5 @@
 ---
-title: Always like this
+title: Always
 layout: post
 comments: true
 date: 2012-08-05 14:37:38
