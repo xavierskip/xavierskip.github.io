@@ -8,8 +8,10 @@ wordpress_id: 144
 categories:
 - 杂
 - 音乐
+tags: music
 ---
 
+<iframe src="http://player.vimeo.com/video/6216273?byline=0&amp;portrait=0&amp;badge=0&amp;color=ffffff" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/6216273">Nickelback "If Everyone Cared"</a> from <a href="http://vimeo.com/justincronkite">Justin Cronkite</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
 永远不要怀疑一小群信心坚定的人改变世界的能力
 事实上，世界正是被这些人所改变～～
 

@@ -8,10 +8,7 @@ wordpress_id: 437
 categories:
 - game
 tags:
-- hobby
-- 单机
 - 游戏
-- 爱好
 ---
 
 半年前写的没有发的

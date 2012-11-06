@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 入冬了，很冷
-tag: 乱七八糟
+tags: 乱七八糟
 ---
 
 入冬了，天气很冷。  

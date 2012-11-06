@@ -9,12 +9,13 @@ categories:
 - 音乐
 tags:
 - eminem
+- music
 ---
 
 
 
 Lose Urself-Eminem
-
+<embed src="http://www.xiami.com/widget/0_1770361404/singlePlayer.swf" type="application/x-shockwave-flash" width="257" height="33" wmode="transparent"></embed>
 
 Look ! 
 听着！！

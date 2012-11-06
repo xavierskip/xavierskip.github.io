@@ -5,8 +5,7 @@ layout: post
 slug: hate-wuhan
 title: hate wuhan
 wordpress_id: 581
-categories:
-- 未分类
+tags: 胡思乱想
 ---
 
 今天去打球，火大了，真TMD的极品，遇见一个就罢了，遇见了三个。
