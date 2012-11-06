@@ -1,14 +1,11 @@
 ---
+title: Always like this
+layout: post
 comments: true
 date: 2012-08-05 14:37:38
-layout: post
-title: Always like this
 wordpress_id: 593
 tags： 胡思乱想
 ---
-
-
-
 
 Is life always this hard, or is it just when you're a kid? Always like this.
 
