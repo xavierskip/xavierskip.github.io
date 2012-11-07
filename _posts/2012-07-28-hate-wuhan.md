@@ -2,7 +2,6 @@
 comments: true
 date: 2012-07-28 16:19:17
 layout: post
-slug: hate-wuhan
 title: hate wuhan
 wordpress_id: 581
 tags: 胡思乱想

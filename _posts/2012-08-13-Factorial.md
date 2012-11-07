@@ -12,40 +12,38 @@ tags:
 求阶乘 递归的方式，但是貌似不能求大于999的数，999可以，1000就不行了。
 
     
-    
-    from sys import argv
-    
-    len = int(argv[1])
-    
-    def fact(num):
-    	if num>1:
-    	 	return num*fact(num-1)
-    	else:
-    		return 1
-    
-    
-    print '%d!: %d' %(len,fact(len)) 
-    
+{% highlight python %}
+from sys import argv
+
+len = int(argv[1])
+def fact(num):
+    if num>1:
+    	return num*fact(num-1)
+    else:
+    	return 1
+
+print '%d!: %d' %(len,fact(len)) 
+{% endhighlight %}    
 
 
 
 迭代的方式，那种更好咧？
 
     
+{% highlight python %}    
+from sys import argv
     
-    from sys import argv
+len = int(argv[1])
     
-    len = int(argv[1])
+def fact(num):
+    r = 1
+    while num>1:
+    	r *=num
+    	num=num-1
+    return r
     
-    def fact(num):
-    	r = 1
-    	while num>1:
-    		r *=num
-    		num=num-1
-    	return r
-    
-    print '%d!: %d' %(len,fact(len))
-    
+print '%d!: %d' %(len,fact(len))
+{% endhighlight %}     
 
 
 
@@ -56,17 +54,17 @@ tags:
 
 
     
+{% highlight python %}     
+from sys import argv
     
-    from sys import argv
+num   = int(argv[1])
+def main(num):
+    count = num/5
+    if num/5 != 0:
+    	count += main(num/5)
+    	return count
+    else:
+    	return 0
     
-    num   = int(argv[1])
-    def main(num):
-    	count = num/5
-    	if num/5 != 0:
-    		count += main(num/5)
-    		return count
-    	else:
-    		return 0
-    
-    print main(num)
-    
+print main(num)
+{% endhighlight %}     

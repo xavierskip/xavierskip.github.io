@@ -2,7 +2,7 @@
 comments: true
 date: 2012-02-17 14:33:29
 layout: post
-slug: just-for-fun
+excerpt: 一个在页面上画画的东西
 title: Just for fun
 wordpress_id: 387
 categories:

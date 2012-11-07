@@ -2,11 +2,8 @@
 comments: true
 date: 2012-08-29 05:04:23
 layout: post
-slug: white-chocolate
 title: White Chocolate
 wordpress_id: 622
-categories:
-- 未分类
 tags:
 - 篮球
 ---

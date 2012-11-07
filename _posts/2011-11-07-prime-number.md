@@ -2,7 +2,6 @@
 comments: true
 date: 2011-11-07 12:50:08
 layout: post
-slug: '%e6%b1%82%e7%b4%a0%e6%95%b0'
 title: 求素数
 wordpress_id: 163
 categories:

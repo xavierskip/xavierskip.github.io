@@ -2,7 +2,7 @@
 comments: true
 date: 2012-04-18 11:38:54
 layout: post
-slug: while-not-gameover-pythonchallenge
+excerpt: pythonchallenge 游戏
 title: 'while not GameOver:    pythonchallenge()'
 wordpress_id: 508
 categories:

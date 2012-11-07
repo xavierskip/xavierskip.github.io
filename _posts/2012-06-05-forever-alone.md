@@ -4,8 +4,6 @@ date: 2012-06-05 13:23:14
 layout: post
 title: 「一個人」的狀態，總是最糟的。
 wordpress_id: 544
-categories:
-- 未分类
 tags:
 - note
 ---

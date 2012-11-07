@@ -2,7 +2,6 @@
 comments: true
 date: 2011-11-04 18:01:20
 layout: post
-slug: '%e6%96%90%e6%b3%a2%e9%82%a3%e5%a5%91%e6%95%b0%e5%88%97%ef%bc%88fibonacci%ef%bc%89'
 title: 斐波那契数列（Fibonacci）
 wordpress_id: 137
 categories:

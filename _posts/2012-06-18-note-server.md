@@ -4,8 +4,6 @@ date: 2012-06-18 12:16:10
 layout: post
 title: 使用node.js实现一个简单的静态文件服务器
 wordpress_id: 549
-categories:
-- 未分类
 tags:
 - nodejs
 - server

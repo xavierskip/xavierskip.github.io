@@ -2,7 +2,6 @@
 comments: true
 date: 2012-01-04 16:29:10
 layout: post
-slug: '%e4%bb%8e%e6%9c%ba%e5%8a%a8%e8%bd%a6%e9%a9%be%e9%a9%b6%e8%af%81%e8%af%b4%e5%bc%80%e5%8e%bb'
 title: 从机动车驾驶证说开去
 wordpress_id: 221
 categories:

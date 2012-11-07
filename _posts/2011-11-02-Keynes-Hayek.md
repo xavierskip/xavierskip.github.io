@@ -2,7 +2,6 @@
 comments: true
 date: 2011-11-02 03:02:53
 layout: post
-slug: '%e5%87%af%e6%81%a9%e6%96%af%e5%a4%a7%e6%88%98%e5%93%88%e8%80%b6%e5%85%8b'
 title: 凯恩斯大战哈耶克
 wordpress_id: 59
 tags: video

@@ -2,7 +2,6 @@
 comments: true
 date: 2011-11-15 09:18:41
 layout: post
-slug: cracking-siri-%e5%bd%93%e7%84%b6%e4%b8%8d%e6%98%af%e6%88%91%e4%ba%86
 title: Cracking Siri 当然不是我了
 wordpress_id: 170
 categories:

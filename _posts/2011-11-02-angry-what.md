@@ -2,7 +2,7 @@
 comments: true
 date: 2011-11-02 10:06:49
 layout: post
-slug: '%e4%bd%a0%e5%88%b0%e5%ba%95%e5%9c%a8%e6%84%a4%e6%80%92%e4%ba%9b%e4%bb%80%e4%b9%88%ef%bc%9f'
+excerpt: 
 title: '你到底在愤怒些什么？  '
 wordpress_id: 111
 tags: 胡思乱想

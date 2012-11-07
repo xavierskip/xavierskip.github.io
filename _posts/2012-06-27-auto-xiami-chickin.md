@@ -2,7 +2,6 @@
 comments: true
 date: 2012-06-27 15:07:18
 layout: post
-slug: '%e8%99%be%e7%b1%b3%e7%bd%91%e8%87%aa%e5%8a%a8%e7%ad%be%e5%88%b0_%e6%b2%b9%e7%8c%b4%e8%84%9a%e6%9c%ac'
 title: 虾米网自动签到_油猴脚本
 wordpress_id: 556
 tags:

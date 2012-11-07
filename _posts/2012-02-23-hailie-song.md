@@ -2,7 +2,6 @@
 comments: true
 date: 2012-02-23 06:28:27
 layout: post
-slug: '%e7%8c%ae%e7%bb%99%e6%b5%b7%e8%8e%89%e7%9a%84%e6%ad%8c'
 title: 献给海莉的歌
 wordpress_id: 415
 categories:

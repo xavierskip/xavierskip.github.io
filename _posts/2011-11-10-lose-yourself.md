@@ -2,11 +2,8 @@
 comments: true
 date: 2011-11-10 13:04:01
 layout: post
-slug: lose-yourself
 title: lose  yourself
 wordpress_id: 168
-categories:
-- 音乐
 tags:
 - eminem
 - music

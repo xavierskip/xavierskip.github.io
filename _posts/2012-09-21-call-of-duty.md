@@ -2,7 +2,6 @@
 comments: true
 date: 2012-09-21 01:44:38
 layout: post
-slug: call-of-duty
 title: Call of Duty
 wordpress_id: 437
 categories:

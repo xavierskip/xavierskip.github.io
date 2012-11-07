@@ -2,7 +2,6 @@
 comments: true
 date: 2012-02-02 07:39:15
 layout: post
-slug: '%e5%b0%86%e4%bd%a0%e7%9a%84%e9%9d%99%e6%80%81%e7%bd%91%e9%a1%b5%e5%ad%98%e6%94%be%e5%9c%a8googlecode%e4%b8%ad%e5%b9%b6%e5%8f%af%e4%bb%a5%e7%9b%b4%e6%8e%a5%e7%94%a8%e6%b5%8f%e8%a7%88%e5%99%a8%e6%b5%8f'
 title: 将你的静态网页存放在Googlecode中并可以直接用浏览器浏览
 wordpress_id: 358
 categories:

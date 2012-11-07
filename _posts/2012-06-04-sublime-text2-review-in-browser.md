@@ -2,7 +2,6 @@
 comments: true
 date: 2012-06-04 07:19:57
 layout: post
-slug: sublime-text2-%e4%b8%ad%e5%bf%ab%e6%8d%b7%e9%94%ae%e7%9b%b4%e6%8e%a5%e5%9c%a8%e6%b5%8f%e8%a7%88%e5%99%a8%e4%b8%ad%e9%a2%84%e8%a7%88
 title: Sublime Text2 中快捷键直接在浏览器中预览
 wordpress_id: 539
 categories:
