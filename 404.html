@@ -3,18 +3,27 @@
 <meta charset="utf-8">
 	<title>404 page</title>
 	<style type="text/css">
-		body{
-			text-align: center;
+		body {
+			padding: 0;
+			margin: 0;
 		}
-		#title{
-			font-size: 4.04em;
+		#content {
+			text-align: center;
+			height: 480px;
+			width: 480px;
+			position: relative;
+			top: 50%;left: 50%;
+			margin: -240px 0 0 -240px;
+		}
+		#content h1{
+			font-size: 5em;
 		}
 		#content span{
 			font-size: 7px;
 		}
 		#sliding {
 			position: absolute;
-			bottom: 10px;
+			top: 10px;
 		}
 		#sliding span {
 			display: inline-block;
@@ -79,20 +88,20 @@
 	</style>
 </head>
 <body>
-<p id="title">Sorry!  :(</p>
-<p>施工中</p>
-
-<div id="content">
-	<p><a href="/">get out of there!</a></p>
-	<span> Talk is cheap. show me the money</span>
-</div>
-
-<span id='sliding'>
-	<span class='fourth'>.</span>
-	<span class='thrird'>.</span>
-	<span class='second'>.</span>
-    <span class='first'>.</span>
-</span>
+	<span id='sliding'>
+		<span class='fourth'>.</span>
+		<span class='thrird'>.</span>
+		<span class='second'>.</span>
+	    <span class='first'>.</span>
+	</span>
+	
+	<div id="content">
+		<h1>Sorry!</h1>
+		<p> :( </p>
+		<p>施工中</p>
+		<p><a href="/">get out of there!</a></p>
+		<span> Talk is cheap. show me the money</span>
+	</div>
 
 </body>
 </html>
