@@ -29,3 +29,6 @@ tags: 胡思乱想
 
 看着这么多，一点实际内容都没有。作为补偿，献上视频一枚：
 <embed src="http://player.youku.com/player.php/sid/XMzI0MTI0Nzc2/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+
+我讨厌武汉，但是觉得江滩还是不错的，很安静。
+我不喜欢塑胶球场，打滑。
