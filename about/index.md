@@ -48,7 +48,7 @@ comments: yes
  >他有很强的责任感，却也因此害怕做出承诺。  
  >他批判世上的所有东西，包括他自己。  
  >当别人指出他的自相矛盾后，他无法自圆其说，于是只好沉默。  
- >他是个不可理喻的人  
+ >他是个不可理喻的人  ---[via](http://blog.chengyichao.info/onesuper)
 
 Look, if you have one short, one opportunity, to seize everything you ever wanted, one moment. Would you capture it or just let it slip?   
 
