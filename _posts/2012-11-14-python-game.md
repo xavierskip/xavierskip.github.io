@@ -1,13 +1,7 @@
 ---
-comments: true
-date: 2012-04-18 11:38:54
 layout: post
 excerpt: pythonchallenge 游戏
-title: 'python challenge'
-wordpress_id: 508
-categories:
-- Geek
-- python
+title: python challenge
 tags:
 - game
 - python
