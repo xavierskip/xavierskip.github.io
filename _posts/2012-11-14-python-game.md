@@ -58,7 +58,7 @@ tags:
 
     
     >>> print pow(2,38)
-    >>> print 2**39
+    >>> print 2**38
     274877906944
 
 
@@ -123,8 +123,22 @@ Go！！！
 
 于是我们先将页面下下来，然后正则找出这堆乱码，然后再在乱码中找出字符串，试一下
 
+{% highlight python %}
+import urllib2,re
+
+html = urllib2.urlopen("http://www.pythonchallenge.com/pc/def/ocr.html").read()
+txt = re.compile(r'<!--([^\B]+?)-->').findall(html)[-1]  
+print ''.join(re.findall('[A-Za-z]',txt))
+{% endhighlight %}
+
+#也没搞清楚正则中\B的意思。瞎猫碰死老鼠搞出来的
+`\B` = `[^\b]` 而 `\b` 匹配 `\w` 和 `\W` 之间，把我搞糊涂了。。
+
+算了不纠结正则表达式了，进入下一关。
 
 
+## 第三关
+[http://www.pythonchallenge.com/pc/def/equality.html](http://www.pythonchallenge.com/pc/def/equality.html)
 
 
 
