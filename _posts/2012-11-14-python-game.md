@@ -7,7 +7,6 @@ tags:
 - python
 ---
 
-不出意料的话，应该是是个长文
 
 
 
@@ -80,7 +79,7 @@ tags:
     >>> from string maketrans
     >>> table = maketrans('abc','123')
     >>> 'abc123'.translate(table)
-    '123123
+    123123
 
 
 当然我们可以把这样替换maketrans('abcdef……xyz','cdefgh……zab'),不过是不是太傻了？？
@@ -125,7 +124,7 @@ txt = re.compile(r'<!--([^\B]+?)-->').findall(html)[-1]
 print ''.join(re.findall('[A-Za-z]',txt))
 {% endhighlight %}
 
-也没搞清楚正则中`\B`的意思。瞎猫碰死老鼠搞出来的
+也没搞清楚正则中`\B`的意思。瞎猫碰死老鼠搞出来的  
 `\B` = `[^\b]` 而 `\b` 匹配 `\w` 和 `\W` 之间，把我搞糊涂了。。
 
 算了不纠结正则表达式了，进入下一关。
@@ -133,6 +132,59 @@ print ''.join(re.findall('[A-Za-z]',txt))
 
 ## 第三关
 [http://www.pythonchallenge.com/pc/def/equality.html](http://www.pythonchallenge.com/pc/def/equality.html)
+
+第三关还是一样的。依旧是根据提醒从网页源码中的一堆乱码中找出内容。
+
+>hints：“One small letter, surrounded by EXACTLY three big bodyguards on each of its sides.”
+
+就是要找出那些小写字母，这个小写字母的左右都有三个大写字母。
+
+`re.findall('[^A-Z][A-Z]{3}?([a-z])[A-Z]{3}[^A-Z]', text)`
+
+这个正则就可以了
+
+## 第4关
+[http://www.pythonchallenge.com/pc/def/linkedlist.php](http://www.pythonchallenge.com/pc/def/linkedlist.php)
+
+一样的在源代码中找到提示，似乎页面上有个链接，点点看！返回`and the next nothing is 44827`   
+看来就是不停的将返回的 nothing 参数提交，看看最后返回的是什么？？
+因该会是答案。
+{% highlight python %}
+import urllib2
+
+def catch(url,nothing):
+	response = urllib2.urlopen(url+nothing).read()
+	print response
+	return response.split()[-1]
+
+url = 'http://www.pythonchallenge.com/pc/def/linkedlist.php?nothing='
+nothing = '12345'
+for x in xrange(1,400):
+	print x,'!'
+	nothing = catch(url,nothing)
+{% endhighlight %}
+
+他说不会超过400次，我相信他。来试一下。
+
+我盯着终端看，在277次的时候，返回了`peak.html`。可是还会继续返回 nothing。管他的呢，通关。
+
+## 第五关
+[http://www.pythonchallenge.com/pc/def/peak.html](http://www.pythonchallenge.com/pc/def/peak.html)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
