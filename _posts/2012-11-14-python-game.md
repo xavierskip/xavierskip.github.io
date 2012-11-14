@@ -3,7 +3,7 @@ comments: true
 date: 2012-04-18 11:38:54
 layout: post
 excerpt: pythonchallenge 游戏
-title: 'while not GameOver:    pythonchallenge()'
+title: 'python challenge'
 wordpress_id: 508
 categories:
 - Geek
@@ -113,10 +113,18 @@ Go！！！
 
 ## 第二关
 
-
-
-
 [http://www.pythonchallenge.com/pc/def/ocr.html](http://www.pythonchallenge.com/pc/def/ocr.html)
+
+根据提示在源代码中找
+
+就找到了`<!--find rare characters in the mess below:-->`
+
+要我们在下面的乱码中找到少见的字符。（我使劲看都没有在下面的乱码中看见字符。。）
+
+于是我们先将页面下下来，然后正则找出这堆乱码，然后再在乱码中找出字符串，试一下
+
+
+
 
 
 
