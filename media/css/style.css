@@ -39,7 +39,7 @@ blockquote::before{
 	top: 0.7em;
 }
 blockquote p{margin:0.5em;padding:0 0 0 0.7em;}
-#container{width:720px;margin:2em auto;display:block;padding:0 2em;}
+#container{width:640px;margin:2em auto;display:block;padding:0 2em;}
 .content{font-size:15px;line-height:25px;}
 .content h1{padding:.5em 0;}
 .content img{max-width:600px;display:block;margin:4px auto;-webkit-box-shadow:#999 1px 1px 4px;-moz-box-shadow:#999 1px 1px 4px;box-shadow:#999 1px 1px 4px;}
