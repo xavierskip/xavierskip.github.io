@@ -39,14 +39,14 @@ blockquote::before{
 	top: 0.7em;
 }
 blockquote p{margin:0.5em;padding:0 0 0 0.7em;}
-#container{width:600px;margin:2em auto;display:block;padding:0 2em;}
+#container{width:720px;margin:2em auto;display:block;padding:0 2em;}
 .content{font-size:15px;line-height:25px;}
 .content h1{padding:.5em 0;}
 .content img{max-width:600px;display:block;margin:4px auto;-webkit-box-shadow:#999 1px 1px 4px;-moz-box-shadow:#999 1px 1px 4px;box-shadow:#999 1px 1px 4px;}
 #tag_cloud{margin-bottom: 1em;}
 #tag_cloud a:hover{color:#333333 !important;text-decoration:none;}
 .listing-item,.listing-seperator{list-style-type:none;}
-.listing-item a{margin:.2em 1em;font-size: 23px;}
+.listing-item a{margin:.2em 1em;font-size: 21px;}
 .listing-item time{color:#999999;}
 .listing-seperator{font-weight:bold;}
 .meta{text-align:right;font-size:13px;}
