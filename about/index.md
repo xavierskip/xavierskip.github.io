@@ -31,8 +31,12 @@ comments: yes
 喜欢音乐，喜欢的风格是rap或者rock。像eminem，2pac，Guns N' Roses， Green day 等～～～   
 爱玩电子游戏， 不玩网游，只玩单机（当然联机对战也不错，可是没有这个氛围）  
 
-关于 computer，关于 Internet 我就不多说了。  
-很早就接触到了电脑，可是直到大一快结束拥有了一台属于自己的电脑后，一切才不同了。 
+关于、对于 computer，我想说的是：  
+如果没有 Internet ，电脑对于普通人来说，不过是一台高级玩具而已。  
+而有了 Internet 后，一切不一样了，电脑不再是电脑，对于大多数人来说，电脑就是一台可以接入因特网的设备。看看在公交汽车上的不停的拨弄自己iphone的姑娘们，小饭馆里吃饭也盯着方寸大小显示屏的男青年们。很多人再也离不开网络了。  
+可是别 lost in Internet。
+
+可以说早就接触到了电脑，那时候电脑上还有软盘，可是直到大一快结束拥有了一台属于自己的电脑后，一切才不同了。 
 以前只知道电脑可以玩游戏，现在我依旧玩它，control it！ 
 
 以上就是我的自我剖析  
@@ -50,12 +54,12 @@ comments: yes
  >当别人指出他的自相矛盾后，他无法自圆其说，于是只好沉默。  
  >他是个不可理喻的人  ---[via](http://blog.chengyichao.info/onesuper)
 
-Look, if you have one short, one opportunity, to seize everything you ever wanted, one moment. Would you capture it or just let it slip?   
+It's only after you've lost everything that you're free to do anything......??  
 
+我为什么喜欢晒太阳。也许我是个冷血动物吧。？
 
-
-个人邮箱:xavierskip#gmail.com        
-推特/微博: [@xavierskip](https://twitter.com/xavierskip)/ （微博不再使用了～）     
+邮箱:<a href="mailto:xavierskip@gmail.com">xavierskip[AT]gmail.com</a>  
+推特/<del>微博</del>: [@xavierskip](https://twitter.com/xavierskip)/  
 github : [https://github.com/xavierskip](https://github.com/xavierskip)  
 你还可以在这里找到我：
 
