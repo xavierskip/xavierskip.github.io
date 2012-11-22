@@ -16,8 +16,6 @@ tags:
 
 其实攻略我也找到了：
 
-
-
 	
   * [http://garethrees.org/2007/05/07/python-challenge/](http://garethrees.org/2007/05/07/python-challenge/) （英文的）
 
@@ -31,17 +29,9 @@ tags:
 以我的能力这33关，估计得～～～～～～
 
 废话不多说，记录下来，同时督促自己吧。
-0;1;
 
 
-
-
-
-## 第0关
-
-
-
-
+## 第零关
 [http://www.pythonchallenge.com/pc/def/0.html](http://www.pythonchallenge.com/pc/def/0.html)
 
 
@@ -55,14 +45,7 @@ tags:
     274877906944
 
 
-
-
-
 ## 第一关
-
-
-
-
 [http://www.pythonchallenge.com/pc/def/map.html](http://www.pythonchallenge.com/pc/def/map.html)
 
 
@@ -105,7 +88,6 @@ Go！！！
 
 
 ## 第二关
-
 [http://www.pythonchallenge.com/pc/def/ocr.html](http://www.pythonchallenge.com/pc/def/ocr.html)
 
 根据提示在源代码中找
@@ -143,7 +125,7 @@ print ''.join(re.findall('[A-Za-z]',txt))
 
 这个正则就可以了
 
-## 第4关
+## 第四关
 [http://www.pythonchallenge.com/pc/def/linkedlist.php](http://www.pythonchallenge.com/pc/def/linkedlist.php)
 
 一样的在源代码中找到提示，似乎页面上有个链接，点点看！返回`and the next nothing is 44827`   
@@ -172,23 +154,43 @@ for x in xrange(1,400):
 [http://www.pythonchallenge.com/pc/def/peak.html](http://www.pythonchallenge.com/pc/def/peak.html)
 
 
+什么玩意？“pronounce it” 发音？ “peak hell sounds familiar ??”，然后就发现有个 `baner.p`文件，里面是一些〜 实在搞不懂于是就翻攻略了。
 
+需要用到 `pickle`模块，pickle的发音是不是像peak hell? 查了点资料，这个模块的作用就是将 python 中的对象序列化以及反过来，`baner.p`中的内容就是序列化的对象，我们将它转化为对象就会看见
 
+	[[(' ', 95)], [(' ', 14), ('#', 5), (' ', 70), ('#', 5), (' ', 1)], [(' ', 15), ('#', 4), (' ', 71), ('#', 4), (' ', 1)], .......
 
+称它多维列表？发现每一维的数字加起来都是95，会不会是数字就是多少个字符，每一维就是一行？？打印出来试一试。
 
+{% highlight python  linenos %}
+import urllib2,pickle
 
+p = urllib2.urlopen('http://www.pythonchallenge.com/pc/def/banner.p')
+data = pickle.load(p)
 
+for row in data:
+	t = ''
+	for x in row:
+		t += x[0]*x[1]
+	print t
 
+# 可是要列表解析才 pythonic 嘛
+print '\n'.join([''.join([ x[0]*x[1] for x in row]) for row in data])
+{% endhightlight%}
 
+然后你就看见了
 
+## 第六关
+[http://www.pythonchallenge.com/pc/def/channel.html](http://www.pythonchallenge.com/pc/def/channel.html)
 
+惯例，看源代码，没看见什么信息，就看见要捐助的信息了。可是这么过关咧？看见了注释`<!--<--zip-->`把html替换成zip试一下？
 
+于是就`wget  http://www.pythonchallenge.com/pc/def/channel.zip`,果然得到了一个zip文件，解压一看，好多txt文件，每个文件的内容就是nothing的值什么的，还有一个README，里面有两个提示：
 
+1. 开头是90052文件。
+2. 答案就在其中。
 
-
-
-
-
+头大~
 
 
 
