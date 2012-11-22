@@ -176,7 +176,7 @@ for row in data:
 
 # 可是要列表解析才 pythonic 嘛
 print '\n'.join([''.join([ x[0]*x[1] for x in row]) for row in data])
-{% endhightlight%}
+{% endhighlight%}
 
 然后你就看见了
 
