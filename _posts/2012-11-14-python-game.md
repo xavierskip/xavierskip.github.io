@@ -162,7 +162,7 @@ for x in xrange(1,400):
 
 称它多维列表？发现每一维的数字加起来都是95，会不会是数字就是多少个字符，每一维就是一行？？打印出来试一试。
 
-{% highlight python  linenos %}
+{% highlight python  %}
 import urllib2,pickle
 
 p = urllib2.urlopen('http://www.pythonchallenge.com/pc/def/banner.p')
@@ -176,7 +176,7 @@ for row in data:
 
 # 可是要列表解析才 pythonic 嘛
 print '\n'.join([''.join([ x[0]*x[1] for x in row]) for row in data])
-{% endhighlight%}
+{% endhighlight %}
 
 然后你就看见了
 
@@ -190,15 +190,63 @@ print '\n'.join([''.join([ x[0]*x[1] for x in row]) for row in data])
 1. 开头是90052文件。
 2. 答案就在其中。
 
-头大~
+和第四关是一样的，通过nothing找到最后的hint，于是就先把文件解压，从90052.txt开始，看看里面到底有什么？
+
+{% highlight python %}
+def next(nothing):
+	file_name = nothing+'.txt'
+	with open(file_name,'r') as c:
+		content = c.read()
+		print content
+		return content.split()[-1]
+
+def main(start):
+	n = next(start)
+	if n.isdigit():
+		main(n)
+	else:
+		print "done!"
+
+if __name__ == '__main__':
+	main('90052')
+{% endhighlight%}
+
+最后返回的提示是，Collect the comments.搞不懂，查找攻略后，发现要用到`zipfile`模块中comment。继续学习zipfile模块。总的来说就是把上面所有的文件的comment打印出来看看是什么效果。
+
+稍微修改了下，不是很优雅，但是搞定了
+
+{% highlight python%}
+import zipfile
+
+def next(nothing):
+	file_name = nothing+'.txt'
+	global l
+	l += z.getinfo(file_name).comment
+	with open(file_name,'r') as c:
+		content = c.read()
+		print content
+		return content.split()[-1]
+
+def main(start):
+	n = next(start)
+	if n.isdigit():
+		main(n)
+	else:
+		print "done!"
+
+if __name__ == '__main__':
+	z = zipfile.ZipFile('channel.zip')
+	l = ''
+	main('90052')
+	print l
+{% endhighlight %}
 
 
+显示“hockey”，然后打开hockey.html却提示“it's in the air. look at the letters.”我擦，什么意思？
+就是最后通关的key就是组成这几个字母的字母。it's 'oxygen'
 
-
-
-
-
-
+## 第七关
+[http://www.pythonchallenge.com/pc/def/oxygen.html](http://www.pythonchallenge.com/pc/def/oxygen.html)
 
 
 
