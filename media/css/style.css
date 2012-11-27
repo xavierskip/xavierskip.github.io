@@ -58,7 +58,7 @@ blockquote p{margin:0.5em;padding:0 0 0 0.7em;}
 .tag a:hover{border-bottom: 0;}
 header{padding:0.5em 0 0.7em 0;border-bottom: 2px solid #E0E0E0;}
 header h1{color: #F95B1F;}
-nav{font-family: 'Oswald', sans-serif;font-size:1.1em;text-transform:uppercase;float:left;margin-left:-12em;margin-top:2em;width:9em;text-align:right;}
+nav{font-family: 'Oswald', sans-serif;font-size:1.1em;text-transform:uppercase;float:left;margin-left:-12em;margin-top:2.3em;width:9em;text-align:right;}
 nav a{display:block;padding:.7em 1em;color:#000000;}
 nav a:hover{background-color: #E7350F;text-decoration:none;color:#f9f9f9;border: 0;-webkit-transition:color .2s linear;}
 .post{padding: .5em 0 3em 0;}
