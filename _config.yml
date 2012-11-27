@@ -6,9 +6,9 @@ tagline: computer;internet;sport;music
 
 name : xavier skip's blog
 descripttion: WTF
-url: http://xavierskip.com
+url: http://blog.xavierskip.com
 
-production_url : http://xavierskip.com
+production_url : http://blog.xavierskip.com
 
 markdown: rdiscount
 pygments: true
