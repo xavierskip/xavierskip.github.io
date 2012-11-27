@@ -48,7 +48,7 @@ blockquote p{margin:0.5em;padding:0 0 0 0.7em;}
 #tag_cloud{margin-bottom: 1em;}
 #tag_cloud a:hover{color:#333333 !important;text-decoration:none;}
 .listing-item,.listing-seperator{list-style-type:none;}
-.listing-item {height: 36px;margin-bottom: 1em;border-bottom: 2px dotted #DDD;}
+.items {height: 36px;margin-bottom: 1em;}
 .listing-item a{font-size: 21px;}
 .listing-item time{color:#999999;float: right;}
 .listing-seperator{font-weight:bold;}
@@ -156,8 +156,7 @@ border: 0;
 
 /* add */
 .excerpt{
-	padding: 0px;
-	color: #545454;
+	color: #999;
 }
 ::selection {
   background: rgba(0, 0, 0, 1);
