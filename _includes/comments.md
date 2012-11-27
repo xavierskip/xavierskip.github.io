@@ -1,9 +1,8 @@
 <section class="comment">
 <!-- Duoshuo Comment BEGIN -->
-	<div class="ds-thread" data-thread-key="" 
-	data-title="" data-author-key="" data-url=""></div>
+	<div class="ds-thread"></div>
 	<script type="text/javascript">
-	var duoshuoQuery = {short_name:"jekyll"};
+	var duoshuoQuery = {short_name:"skipto"};
 	(function() {
 		var ds = document.createElement('script');
 		ds.type = 'text/javascript';ds.async = true;
