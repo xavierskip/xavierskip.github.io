@@ -30,11 +30,11 @@ tags: 胡思乱想
 哦对了11.11是我们敬爱的[苍老师](http://www.weibo.com/u/1739928273)的生日，这是真的是天意嘛？  
 明天是11.12。是[Ivy Chen](http://www.weibo.com/dafachen)的生日。
 
-看着这么多，一点实际内容都没有。作为补偿，献上视频一枚：
-<embed src="http://player.youku.com/player.php/sid/XMzI0MTI0Nzc2/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+
+无聊图送上
+![无聊图](http://fmn.xnpic.com/fmn050/20101225/1620/p_large_i5wK_61d80000eb5d5c42.jpg)
+
 
 我讨厌武汉，但是觉得江滩还是不错的，很安静。  
 我不喜欢塑胶球场，打滑。 
 
-无聊图：
-![无聊图](http://fmn.xnpic.com/fmn050/20101225/1620/p_large_i5wK_61d80000eb5d5c42.jpg)
