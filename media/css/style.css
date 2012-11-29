@@ -22,7 +22,7 @@ modify by xavirskip
 
 @import url(http://fonts.googleapis.com/css?family=Oswald);
 
-body{font-size:14px;word-spacing:1px;margin-left:auto;margin-right:auto;font-family: "Inconsolata","Microsoft YaHei",,sans-serif;color:#000000;background-color:#F1F1F1;}
+body{font-size:14px;word-spacing:1px;margin-left:auto;margin-right:auto;font-family: 'Inconsolata',"Microsoft YaHei",sans-serif;color:#000000;background-color:#F1F1F1;}
 *{padding:0;margin: 0;border:none;outline:none;}
 a{color:#E7350F;text-decoration:none;}
 a:hover{color:#333333;border-bottom: 1px dashed #E7350F;}
