@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About me
+title: 自我剖析
 comments: yes
 ---
 
@@ -20,7 +20,7 @@ comments: yes
 
 
 
-性格上既矛盾又极端，还有些分裂，你可以认为有些内向或者孤僻，可我自认为只是有点quiet。I'm quiet。take is cheap
+性格上既矛盾又极端，还有些分裂，你可以认为有些内向或者孤僻，，随便你啦。可我自认为只是有点quiet。I'm quiet。take is cheap
 
 >有一个真理告诉大家，所有自尊心强烈的人都有着严重的自卑感，所有争强好胜的人每晚都被挫败感折磨着。所有咆哮怒吼给大家鼓劲要战斗到最后一刻的人，其实内心已经接近绝望。所有面无表情不动如山泰山崩于前而面不改色的大师，其实已经面临最深的恐惧。所有上蹿下跳激情飞扬的球员，其实每一次篮板每一暴扣都接近体能崩溃的极限。所有桀骜不驯、傲慢无礼、天下老子第一的人物，其实内心一点都不张狂，而是无尽的压抑和孤单。  
 ---[via](http://bbs.hupu.com/4623589.html)
@@ -36,7 +36,7 @@ comments: yes
 
 
 喜欢音乐，喜欢的风格是rap或者rock。像eminem，2pac，Guns N' Roses， Green day 等～～～  崔健也很不错  
-爱玩电子游戏， 不玩网游，只玩单机（当然联机对战也不错，可是没有这个氛围）  
+爱玩电子游戏， 不玩网游，只玩单机（当然联机对战也不错，可是没有这个氛围）  如果你很*无聊*的话，你可以看看我喜欢的[东西](http://www.douban.com/people/xavierskip/things)
 
 关于、对于 computer，我想说的是：  
 如果没有 Internet ，电脑对于普通人来说，不过是一台高级玩具而已。  
@@ -47,7 +47,8 @@ comments: yes
 以前只知道电脑可以玩游戏，现在我依旧玩它，control it！ 
 
 以上就是我的自我剖析  
-看过[8 mile](http://movie.douban.com/subject/1307853/)么？rabbit 在擂台上的最后一段rap！ 
+看过[8 mile](http://movie.douban.com/subject/1307853/)么？rabbit 在擂台上的最后一段[rap](http://www.yinyuetai.com/video/168448)
+
 
  >我知道痛苦在前面等着我，我不介意，对我来说，快乐永远是一个不可能的词语，除了梦想，我拥有的只有忠诚的孤独
  > 
@@ -68,7 +69,7 @@ It's only after you've lost everything that you're free to do anything......??
 邮箱:<a href="mailto:xavierskip@gmail.com">xavierskip[AT]gmail.com</a>  
 推特/<del>微博</del>: [@xavierskip](https://twitter.com/xavierskip)/  
 github : [https://github.com/xavierskip](https://github.com/xavierskip)  
-你还可以在这里找到我：
+或许你还可以在这里找到我：
 
 * [虎扑](http://my.hupu.com/jzgk)
 * [豆瓣](http://www.douban.com/people/xavierskip/)
