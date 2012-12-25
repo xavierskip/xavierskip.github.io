@@ -2,7 +2,7 @@
 layout: post
 title: 安装 OpenWrt笔记
 excerpt: 无线路由是TP-link WR703n
-tags：折腾
+tags: 折腾
 ---
 
 移动设备越来越多，移动网络的发展。对于无线网络的要求也越来越强烈。而在天朝上网总是绕不过那道“墙”。
