@@ -108,8 +108,10 @@ luci，提供http服务以网页的形式进行设置，我看网上的教程配
 以上只是简单的配置使用，更高阶的配置和使用。以后继续。路由器先用着。
 
 
-
-
+更多参考：
+* [Install OpenWRT on TPlink WR703N](http://wiki.xinchejian.com/wiki/Install_OpenWRT_on_TPlink_WR703N)
+* [利用 OpenWrt 配置 WR703n 自动*河蟹*](http://blog.pinepara.info/tech/flash-openwrt-on-wr703n/)
+* [在TP-Link上安装OpenWrt并配置OpenVPN](http://blog.zhen9ao.me/blog/2012/04/10/how-to-config-openwrt-with-openvpn-on-tp-link-wr703n/)
 
 
 
