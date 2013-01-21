@@ -1,1 +1,1 @@
-# [xavierskip's  blog](blog.xavierskip.com)
+# [xavierskip's  blog](http://xavierskip.github.com)
