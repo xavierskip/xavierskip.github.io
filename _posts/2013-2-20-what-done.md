@@ -184,7 +184,10 @@ if __name__ == '__main__':
 
 我败了个mx2。用起来感觉还行，挺漂亮的，美观，也实用，不过系统的bug和不满意之处也挺多的，电量也是捉襟见肘的，我并没有插电话卡使用，电量一天一冲必须的，android都这样？屏幕很细腻，摄像头，照相成像感觉很一般，没有宣传的那样好。
 
-贴几张照片？
+来几个样张？
 
-![]()
+![1](http://ww3.sinaimg.cn/large/6a0c2c15jw1e1zrxpcfktj.jpg)
+![2](http://ww3.sinaimg.cn/large/6a0c2c15jw1e1zrxw67rnj.jpg)
+![3](http://ww2.sinaimg.cn/large/6a0c2c15jw1e1zry4oh9hj.jpg)
+![4](http://ww1.sinaimg.cn/large/6a0c2c15jw1e1zrxz6z2sj.jpg)
 
