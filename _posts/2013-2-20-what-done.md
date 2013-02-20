@@ -18,9 +18,10 @@ tags: 乱七八糟
 一个完整的网站所需要的还是需要各方面的知识的，例如：数据库，（我对数据库的了解和使用实在是太少了）对框架的熟悉程度也很重要，更需要好的想法。我想对http协议，tcp/ip的运行机制跟多的了解，对网络通信和结构的跟多了解，应该都会更有帮助吧。还有网站的安全应该是非常重要的。
 
 于是我找到了这几个系列文章
-* [Python快速教程](http://www.cnblogs.com/vamei/archive/2012/09/13/2682778.html)
-* [协议森林](http://www.cnblogs.com/vamei/archive/2012/12/05/2802811.html)
-* [Linux的概念与体系](http://www.cnblogs.com/vamei/archive/2012/10/10/2718229.html) 
+
+ * [Python快速教程](http://www.cnblogs.com/vamei/archive/2012/09/13/2682778.html)
+ * [协议森林](http://www.cnblogs.com/vamei/archive/2012/12/05/2802811.html)
+ * [Linux的概念与体系](http://www.cnblogs.com/vamei/archive/2012/10/10/2718229.html) 
 
 温习了下python，写了一个显示目录树型结构的脚本和一个迷你httpServer，有些类似`python -m SimpleHTTPServer`。不够还是不太适应用class，面向对象的来写程序，不过对于一些高级语言来说，万物皆对象，本就是面向对象的，不用专门写class。为了面向对象而面向对象，不好，不管是面向对象还是面向过程还是函数式，不过都是设计模式而已。
 
