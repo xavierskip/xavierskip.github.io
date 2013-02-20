@@ -1,8 +1,27 @@
 ---
 layout: page
-title: 自我剖析
+title: 关于我
 comments: yes
 ---
+
+
+联系方式：
+
+邮箱:<a href="mailto:xavierskip@gmail.com">xavierskip[AT]gmail.com</a>  
+推特/<del>微博</del>: [@xavierskip](https://twitter.com/xavierskip)/ [<del>http://www.weibo.com/skiptoyoulou</del>](http://www.weibo.com/skiptoyoulou) 
+github : [https://github.com/xavierskip](https://github.com/xavierskip)  
+或许你还可以在这里找到我：
+
+* [虎扑](http://my.hupu.com/jzgk)
+* [豆瓣](http://www.douban.com/people/xavierskip/)
+* [v2ex](http://www.v2ex.com/?r=xavierskip)
+* [知乎](http://www.zhihu.com/people/skipto)
+
+运气好的话在互联网上看见有人用 xavierskip这个ID，那应该就是我了。
+
+
+如果你对我感兴趣的话，或许也可以往下看看~
+
 
 我比较理想主义，唯心主义。说好听点是 feel your heart.  
 
@@ -66,11 +85,4 @@ It's only after you've lost everything that you're free to do anything......??
 
 我为什么喜欢晒太阳。也许我是个冷血动物吧。？
 
-邮箱:<a href="mailto:xavierskip@gmail.com">xavierskip[AT]gmail.com</a>  
-推特/<del>微博</del>: [@xavierskip](https://twitter.com/xavierskip)/  
-github : [https://github.com/xavierskip](https://github.com/xavierskip)  
-或许你还可以在这里找到我：
 
-* [虎扑](http://my.hupu.com/jzgk)
-* [豆瓣](http://www.douban.com/people/xavierskip/)
-* [v2ex](http://www.v2ex.com/?r=xavierskip)
