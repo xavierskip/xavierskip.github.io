@@ -8,8 +8,9 @@ comments: yes
 联系方式：
 
 邮箱:<a href="mailto:xavierskip@gmail.com">xavierskip[AT]gmail.com</a>  
-推特/<del>微博</del>: [@xavierskip](https://twitter.com/xavierskip)/ [<del>http://www.weibo.com/skiptoyoulou</del>](http://www.weibo.com/skiptoyoulou) 
+推特/<del>微博</del>: [@xavierskip](https://twitter.com/xavierskip)/ [<del>http://www.weibo.com/skiptoyoulou</del>](http://www.weibo.com/skiptoyoulou)  
 github : [https://github.com/xavierskip](https://github.com/xavierskip)  
+
 或许你还可以在这里找到我：
 
 * [虎扑](http://my.hupu.com/jzgk)
@@ -23,7 +24,7 @@ github : [https://github.com/xavierskip](https://github.com/xavierskip)
 如果你对我感兴趣的话，或许也可以往下看看~
 
 
-我比较理想主义，唯心主义。说好听点是 feel your heart.  
+从小接受的就是辨证唯物主义价值观的教育。可以感觉自己还是比较唯心的。
 
 >你相信世界上宇宙中有外星人么？  
 反正我是认为没有的。  
@@ -37,9 +38,10 @@ github : [https://github.com/xavierskip](https://github.com/xavierskip)
 你也许会问：“怎么没有受外星人影响呢？世界上这么多科学家观测宇宙，这么多工程师去探索宇宙生命？这不是外星人在影响我们么？”按你的逻辑，这就是外星人的存在？   
 那我们寻找的是你心中的外星人还是实实在在物质的外星人呢？？是个问题？   
 
+我也不是个善于讨好别人的人。但是  
+Don't never try to judge me Dude, you don't know what Fuck I been through. 
 
-
-性格上既矛盾又极端，还有些分裂，你可以认为有些内向或者孤僻，，随便你啦。可我自认为只是有点quiet。I'm quiet。take is cheap
+性格上既矛盾又极端，还有些分裂，你可以认为有些内向或者孤僻，随便你啦。可我自认为只是有点quiet。I'm quiet。take is cheap
 
 >有一个真理告诉大家，所有自尊心强烈的人都有着严重的自卑感，所有争强好胜的人每晚都被挫败感折磨着。所有咆哮怒吼给大家鼓劲要战斗到最后一刻的人，其实内心已经接近绝望。所有面无表情不动如山泰山崩于前而面不改色的大师，其实已经面临最深的恐惧。所有上蹿下跳激情飞扬的球员，其实每一次篮板每一暴扣都接近体能崩溃的极限。所有桀骜不驯、傲慢无礼、天下老子第一的人物，其实内心一点都不张狂，而是无尽的压抑和孤单。  
 ---[via](http://bbs.hupu.com/4623589.html)
@@ -82,7 +84,4 @@ github : [https://github.com/xavierskip](https://github.com/xavierskip)
  >他是个不可理喻的人  ---[via](http://blog.chengyichao.info/onesuper)
 
 It's only after you've lost everything that you're free to do anything......??  
-
-我为什么喜欢晒太阳。也许我是个冷血动物吧。？
-
 
