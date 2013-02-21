@@ -85,3 +85,5 @@ Don't never try to judge me Dude, you don't know what Fuck I been through.
 
 It's only after you've lost everything that you're free to do anything......??  
 
+<script type="text/javascript" src="http://www.douban.com/service/badge/xavierskip/?show=collection&amp;select=random&amp;n=6&amp;columns=2&amp;hidelogo=yes&amp;hideself=yes" ></script>
+
