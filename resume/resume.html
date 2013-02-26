@@ -6,32 +6,37 @@
 	<title>我的简历</title>
 
 	<style type="text/css">
-		body{margin: 0px auto;font: 15px 'YaHei Consolas Hybrid'}
+		body{
+			height: 100%;width: 100%;padding: 0;margin: 0;
+			font: 15px 'YaHei Consolas Hybrid';
+		}
 		li{list-style:none;list-style-image:url(li.png);}
 		h1{text-align: center;}
 		a {color:#333;text-decoration:none;}
 		a:hover {color:#fc0;}
 		
-		#fixed {
+		#main {
+			position: relative;
+			padding-left: 25%;
+			background-image: url(bg.png);
+			background-attachment:fixed;
+			background-repeat:repeat;
+			overflow: auto;
+		}
+		#side {
 			position: fixed;
-			top:3px;left:3px;
-			margin: 0px auto;
-			padding: 10px;
-			height:96%;
+			top: 0;left: 0;bottom: 0;
 			width:23%;
+		}
+		#Contact {
+			padding: 10px;
+			height: 100%;
 			background-image: url(F_bg.png);
 			color:#f3f3f3;
 			text-shadow: 0px 1px 2px #235796;
 			box-shadow:  1px 1px 3px #000; moz-box-shadow:  0px 1px 2px #000;
 		}	
-		#content {
-			position: absolute;
-			top:3px;left:0px;
-			margin-left: 25%;
-			background-image: url(bg.png);
-			background-attachment:fixed;
-			background-repeat:repeat;
-		}
+		
 		#text{
 			margin:20px 200px 10px 130px;
 		}
@@ -131,27 +136,7 @@
 
 <body>
 
-<div id='fixed'>
-	<p class="align">Contact me</p>
-		<ul>
-		    <li>手机：壹叁伍肆伍零贰零壹陆壹</li>
-		    <li>邮箱:<a href="mailto:xavierskip@gmail.com?subject=Hello xavierskip!">xavierskip[AT]gmail.com</a></li>
-		    <li>blog:<a href="http://blog.xavierskip.com">blog.xavierskip.com</a></li>
-		    <li>推特/微博：@xavierskip</li>
-		    <li><a href="http://www.douban.com/people/xavierskip/">豆瓣</a></li>
-		    <li><a href="http://www.v2ex.com/member/xavierskip">V2EX</a></li>
-		    <li><a href="http://my.hupu.com/jzgk">虎扑</a></li>
-		</ul>
-	<p class="align">Just do it </p>
-		<ul>
-		    <li><a href="http://userscripts.org/scripts/show/137123">虾米自动签到-油猴脚本</a></li>
-		    <li><a href="https://github.com/xavierskip/delete-weibo">自动批量删除新浪微博</a></li>
-		    <li><a href="https://github.com/xavierskip/hupu_Album_Downloader">虎扑相册下载工具</a></li>
-		</ul>
-	<img class="move" src="proxi.png"  title="Rock it">	
-</div>	
-
-<div id='content'>
+<div id='main'>
 	<div id="text">
 		<h1>简 历</h1>
 		<h3>本人概况</h3>
@@ -186,6 +171,29 @@
 		<p id="footer">Talk is cheap . show me the money</p>
 	</div>
 </div>	
+
+<div id="side">
+	<div id='Contact'>
+		<p class="align">Contact me</p>
+		<ul>
+		    <li>手机：壹叁伍肆伍零贰零壹陆壹</li>
+		    <li>邮箱:<a href="mailto:xavierskip@gmail.com?subject=Hello xavierskip!">xavierskip[AT]gmail.com</a></li>
+			<li>blog:<a href="http://blog.xavierskip.com">blog.xavierskip.com</a></li>
+			<li>推特/微博：@xavierskip</li>
+			<li><a href="http://www.douban.com/people/xavierskip/">豆瓣</a></li>
+			<li><a href="http://www.v2ex.com/member/xavierskip">V2EX</a></li>
+			<li><a href="http://my.hupu.com/jzgk">虎扑</a></li>
+		</ul>
+		<p class="align">Just do it </p>
+			<ul>
+				<li><a href="http://userscripts.org/scripts/show/137123">虾米自动签到-油猴脚本</a></li>
+				<li><a href="https://github.com/xavierskip/delete-weibo">自动批量删除新浪微博</a></li>
+				<li><a href="https://github.com/xavierskip/hupu_Album_Downloader">虎扑相册下载工具</a></li>
+			</ul>
+		<img class="move" src="proxi.png"  title="Rock it">	
+	</div>	
+</div>
+
 
 </body>
 </html>
