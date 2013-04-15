@@ -1,11 +1,11 @@
 permalink: /:year/:month/:day/:title 
 
 title : Xavierskip
-tagline: computer;internet;sport;music
+tagline: computer;internet;sport;music;personal
 
 
-name : xavier skip's blog
-descripttion: WTF
+name : xavier skip
+description: xavier skip's blog
 url: http://blog.xavierskip.com
 
 production_url : http://blog.xavierskip.com
