@@ -2,6 +2,7 @@
 layout: post
 title: RSS与新闻聚合
 tags: 网络 随想
+excerpt: RIP Google Reader  & Aaron Swartz
 ---
 
 Google 宣布将要在七月关闭自家的 Google reader服务，这个世界上最好的 RSS订阅工具（下文中用GR来代替 Google reader），虽然在 Google之前的的种种“大清扫”行动和态度中都让很多人都意识到了GR并不是Google看重的产品，就让他自生自灭吧，但是关闭日期的出现让更多人紧迫了起来，毕竟互联网的重度使用者基本都会使用GR，他们获取互联网信息的很大一部分是来自RSS订阅，同时也是获取信息比较高效的方式之一。更多人对 Google reader的死去，开始思考 RSS订阅是不是过时了，已经要退出历史舞台了？
