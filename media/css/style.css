@@ -68,16 +68,16 @@ nav a:hover{background-color: #E7350F;text-decoration:none;color:#f9f9f9;border:
 .post{margin: .5em 0 1em 0;}
 .post h2{margin: 21px 0 13px 0;}
 .post p {
-	line-height: 2.0em;
-	margin: 15px 0;
+	line-height: 1.6em;
+	margin: 10px 0;
 	letter-spacing: 1px;
 	word-wrap: break-word;
 	overflow: hidden;
 }
-h1{font-family: 'Oswald',"Microsoft YaHei",sans-serif;font-size:1.6em;color:#000;}
-h2{font-family: 'Oswald',"Microsoft YaHei",sans-serif;font-size:1.4em;color:#111;}
-h3{font-family: 'Oswald',"Microsoft YaHei",sans-serif;font-size:1.2em;color:#222;}
-h4{font-family: 'Oswald',"Microsoft YaHei",sans-serif;font-size:1em;color:#333;}
+h1{font-family: 'Oswald',"Microsoft YaHei",sans-serif;font-size:1.6em;color:#000;margin: 1em 0;}
+h2{font-family: 'Oswald',"Microsoft YaHei",sans-serif;font-size:1.4em;color:#111;margin: 1em 0;}
+h3{font-family: 'Oswald',"Microsoft YaHei",sans-serif;font-size:1.2em;color:#222;margin: 1em 0;}
+h4{font-family: 'Oswald',"Microsoft YaHei",sans-serif;font-size:1em;color:#333;margin: 1em 0;}
 pre,code{font-family: Menlo,"Andale Mono",Consolas,"Courier New",Monaco,monospace;font-size:13px;}
 code{padding: 3px 4px;background-color: #F7F7F9;border: 1px solid #E1E1E8;}
 embed,object,iframe{display:block;margin:4px auto;}
