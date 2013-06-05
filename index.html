@@ -14,7 +14,6 @@ layout: page
     <div class="items">
       <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
       <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-      <p class="excerpt">{{ post.excerpt }}</p>
     </div>
   </li>
 {% endfor %}
