@@ -248,6 +248,25 @@ if __name__ == '__main__':
 ## 第七关
 [http://www.pythonchallenge.com/pc/def/oxygen.html](http://www.pythonchallenge.com/pc/def/oxygen.html)
 
+是一个图，图中间有个特别的区域。估计是这个区域的编码中隐藏着密码。
+
+需要使用到 [Python Imaging Library](http://www.pythonware.com/products/pil/)
+
+首先在用看图工具或者ps或者GIMP找到这块的坐标。
+
+x(0,609)y(43,53),不过肉眼从像素上看，每一行的数据应该都是相同的。我们就先来看一下Y坐标是43的那一行吧。你试一下就会发现有规律的的重复，去掉,得到提示，依旧数字转化为ascii码。得到通关key。
+
+{% highlight python%}
+import Image
+im=Image.open("oxygen")
+"".join([chr(im.getpixel((i,43))[0])  for i in xrange(0,609,7)])
+L = '''smart guy, you made it. the next level is [105, 110, 116, 101, 103, 114, 105, 116, 121]'''
+''.join([ chr(i) for i in L])
+'''integrity'''
+{% endhighlight %}
+	
+## 第八关
+[http://www.pythonchallenge.com/pc/def/integrity.html](http://www.pythonchallenge.com/pc/def/integrity.html)
 
 
 
