@@ -6,11 +6,11 @@ tags:
 - python
 - pythongame
 ---
-<h4>Pygame Tutorials</h6>
-<h2>Camera Module Introduction</h3>
-<h3>by Nirav Patel</h4>
-<h4>nrp@eclecti.cc</h6>
-<h4>Revision 1.0, May 25th, 2009</h5>
+####Pygame Tutorials
+###Camera Module Introduction
+####by Nirav Patel
+####nrp@eclecti.cc
+####Revision 1.0, May 25th, 2009
 原文:[http://www.pygame.org/docs/tut/camera/CameraIntro.html](http://www.pygame.org/docs/tut/camera/CameraIntro.html)
 
 感谢这个翻译插件[A+ Dictionary](https://chrome.google.com/webstore/detail/a%20-dictionary/nbdnlnijofenjgknplpelkpmhikpangb) 从此妈妈再也不用担心我的英语学习了！！
@@ -57,7 +57,7 @@ Pygame 1.9开始已经提供了对摄像头的支持，允许你抓取静止的�
 
 #实时画面
 本教程接下就开始可以看到实时画面了。
-过程很简单，就是不停的从摄像头中获取视频帧然后绘制在屏幕上，有效的显示实时画面。基本上你期望也是这样吧。不停的 get_image(),然后显示，刷新，循环。因为性能的原因，我们使用每次都使用同样的显示画面。
+过程很简单，就是不停的从摄像头中获取视频帧然后绘制在屏幕上，有效的显示实时画面。基本上你期望也是这样吧。不停的 get_image(),然后显示，刷新，循环。因为性能的原因，我们使用每次都使用同样的显示表面。
 
 {% highlight python %}
 class Capture(object):
@@ -99,12 +99,12 @@ class Capture(object):
             self.get_and_flip()
 {% endhighlight %}
 
-因为get_image()是一个阻塞的动作，也许会在差摄像头上花费跟多的时间，所以我们用 query_image()来确定摄像头是否准备好。同时可以让显示画面的帧率和摄像头的帧率分开来，并能够保障在一个单独的线程中抓取摄像头中的图像.当然如果你的摄像头支持 query_image()操作的话，这样可以有更好的性能保障。
+因为get_image()是一个阻塞的动作，也许会在差摄像头上花费很多的时间，所以我们用 query_image()来确定摄像头是否准备好。同时可以让显示画面的帧率和摄像头的帧率分开来，并能够保障在一个单独的线程中抓取摄像头中的图像.当然如果你的摄像头支持 query_image()操作的话，这样可以有更好的性能保障。
 
 #基本的显示效果
 Pygame 可以做一些基本的视觉效果（滤镜），变形，遮罩……
 
-#色彩空间
+##色彩空间
 当你初始化摄像头的时候，有一个色彩空间的可选常数，有 'RGB', 'YUV', 和 'HSV'。在计算机视觉中 YUV 和 HSV 通常来说比 RGB 更有用。降低了颜色的阀值。
 `self.cam = pygame.camera.Camera(self.clist[0], self.size, "RGB")`
 ![](http://www.pygame.org/docs/tut/camera/rgb.jpg)
@@ -114,7 +114,7 @@ Pygame 可以做一些基本的视觉效果（滤镜），变形，遮罩……
 ![](http://www.pygame.org/docs/tut/camera/hsv.jpg)
 
 
-#阈值
+##阈值
 在变换模块中使用threshold()我们可做出来像下面的绿屏效果，在特定的场景中分离出特定的颜色。在接下来的例子中，我们分离出绿色的树，剩下的全部变黑。详细的使用方法看[threshold function])(http://www.pygame.org/docs/ref/transform.html#pygame.transform.threshold)
 
     self.thresholded = pygame.surface.Surface(self.size, 0, self.display)
@@ -161,7 +161,7 @@ Pygame 可以做一些基本的视觉效果（滤镜），变形，遮罩……
 ![](http://www.pygame.org/docs/tut/camera/green.jpg)
 `pygame.transform.threshold(self.thresholded,self.snapshot,(0,255,0),(30,30,30),(0,0,0),1,self.background)`
 
-#使用遮罩模块
+##使用遮罩模块
 这个玩意你可以用来显示图像，使用这个模块你也可以使用摄像头作为游戏的输入。上个例子，我们使用阈值分离出了特定的对象，现在，我们来找到这个对象的位置，然后使用它来控制屏幕上的小球。
 
     def get_and_flip(self):
