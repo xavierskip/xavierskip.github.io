@@ -6,12 +6,12 @@ tags:
 - python
 - pythongame
 ---
-<h6>Pygame Tutorials</h6>
-<h3>Camera Module Introduction</h3>
-<h4>by Nirav Patel</h4>
-<h6>nrp@eclecti.cc</h6>
-<h5>Revision 1.0, May 25th, 2009</h5>
-[原文](http://www.pygame.org/docs/tut/camera/CameraIntro.html)
+<h4>Pygame Tutorials</h6>
+<h2>Camera Module Introduction</h3>
+<h3>by Nirav Patel</h4>
+<h4>nrp@eclecti.cc</h6>
+<h4>Revision 1.0, May 25th, 2009</h5>
+原文:[http://www.pygame.org/docs/tut/camera/CameraIntro.html](http://www.pygame.org/docs/tut/camera/CameraIntro.html)
 
 感谢这个翻译插件[A+ Dictionary](https://chrome.google.com/webstore/detail/a%20-dictionary/nbdnlnijofenjgknplpelkpmhikpangb) 从此妈妈再也不用担心我的英语学习了！！
 
@@ -22,7 +22,7 @@ Pygame 1.9开始已经提供了对摄像头的支持，允许你抓取静止的�
 
 提示：作为Pygame1.9，camera模块支持linux上使用[v4l2](https://www.google.com.hk/search?&q=v4l2+)的摄像头。其他平台可以使用 Videocapture（win） 或者 Opencv（Opencv麻烦是麻烦，可是实在很强大！），本教程的重点在本地模块。大部分的代码可以在其他平台是使用，不过某些类似控制的操作也许不能正常工作。本模块依旧是实验性的，意味着在后续的版本中API可能会发生变动。
 
-<h3>引入和初始化</h3>
+#引入和初始化
 
     import pygame
     import pygame.camera
@@ -33,7 +33,7 @@ Pygame 1.9开始已经提供了对摄像头的支持，允许你抓取静止的�
 
 摄像头模块是可选的。需要被引入和手动初始化。如上
 
-<h3>抓取一张图片</h3>
+#抓取一张图片
 
 现在，我们来在最简单的情况下打开摄像头并且从中抓取一帧图片。在接下来的例子中，我们假设在你的电脑中摄像头叫做'/dev/video0',我们将摄像头视频的大小设置为宽640高480.我们用 get_image()来抓取图像。
 
@@ -41,21 +41,21 @@ Pygame 1.9开始已经提供了对摄像头的支持，允许你抓取静止的�
     cam.start()
     image = cam.get_image()
 
-<h3>列出连接的摄像头</h3>
+#列出连接的摄像头
 如果我们不能确定摄像头的真实路径？我们就可以使用 list_cameras()列出摄像头的列表，选取其中我们需要使用的那个（如果你有多个摄像头的话）
 
     camlist = pygame.camera.list_cameras()
     if camlist:
         cam = pygame.caemra.Camera(camlist[0],(640,480))
 
-<h3>控制摄像头</h3>
+#控制摄像头
 大多数摄像头提供像翻转图像和调整亮度的功能。set_controls() 和 get_controls() 要在 start() 后使用。
 
     cam.set_controls(hflip = True, vflip = False)
     # set_controls(hflip = bool, vflip = bool, brightness)
     print camera.get_controls()
 
-<h3>实时画面</h3>
+#实时画面
 本教程接下就开始可以看到实时画面了。
 过程很简单，就是不停的从摄像头中获取视频帧然后绘制在屏幕上，有效的显示实时画面。基本上你期望也是这样吧。不停的 get_image(),然后显示，刷新，循环。因为性能的原因，我们使用每次都使用同样的显示画面。
 
@@ -101,7 +101,7 @@ class Capture(object):
 
 因为get_image()是一个阻塞的动作，也许会在差摄像头上花费跟多的时间，所以我们用 query_image()来确定摄像头是否准备好。同时可以让显示画面的帧率和摄像头的帧率分开来，并能够保障在一个单独的线程中抓取摄像头中的图像.当然如果你的摄像头支持 query_image()操作的话，这样可以有更好的性能保障。
 
-<h3>基本的显示效果</h3>
+#基本的显示效果
 Pygame 可以做一些基本的视觉效果（滤镜），变形，遮罩……
 
 #色彩空间
@@ -185,4 +185,4 @@ Pygame 可以做一些基本的视觉效果（滤镜），变形，遮罩……
 
 more and have fun!
 
-
+<script src="https://gist.github.com/xavierskip/6568747.js"></script>
