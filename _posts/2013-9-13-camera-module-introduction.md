@@ -146,6 +146,10 @@ def calibrate(self):
 `pygame.transform.threshold(self.thresholded,self.snapshot,self.ccolor,(30,30,30),(0,0,0),2)`
 ![](http://www.pygame.org/docs/tut/camera/thresh.jpg)
 
+效果：
+![](http://ww4.sinaimg.cn/large/6a0c2c15gw1e8n9n00mmvj20hs0dcaad.jpg)
+![Rondo](http://ww3.sinaimg.cn/large/6a0c2c15gw1e8n9o9n7edj20hs0dcabf.jpg)
+
 我们可以同样的来做一个绿/蓝色屏幕，首先我们得到背景颜色，然后将背景色替换为绿色，其他不是背景的为黑色。
 ![](http://www.pygame.org/docs/tut/camera/background.jpg)
 这是相机对准空白的墙壁。
@@ -274,3 +278,5 @@ if __name__ == '__main__':
     camera = effect()
     camera.live()
 {% endhighlight %}
+ctrl+s 可以保持图片
+![自爆](http://ww4.sinaimg.cn/large/6a0c2c15gw1e8n9kymobkj20hs0dc74s.jpg)
