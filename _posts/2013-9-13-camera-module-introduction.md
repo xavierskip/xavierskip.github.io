@@ -237,14 +237,14 @@ class Capture(object):
                     pygame.display.quit()
                     exit()
                     going = False
-            if e.type == KEYDOWN:
-                if pygame.key.get_pressed()[K_LCTRL] and pygame.key.get_pressed()[K_s]:
-                    pygame.image.save(self.snapshot,'%s.jpg' %int(time.time()))
-                    print 'save jpg'
-                if e.key == K_m:
-                    print 'm'
-                    pygame.transform.threshold(self.thresholded,self.snapshot,self.ccolor,(30,30,30),(0,0,0),1)
-                    pygame.image.save(self.thresholded,'%s.jpg' %self.cc )
+                if e.type == KEYDOWN:
+                    if pygame.key.get_pressed()[K_LCTRL] and pygame.key.get_pressed()[K_s]:
+                        pygame.image.save(self.snapshot,'%s.jpg' %int(time.time()))
+                        print 'save jpg'
+                    if e.key == K_m:
+                        print 'm'
+                        pygame.transform.threshold(self.thresholded,self.snapshot,self.ccolor,(30,30,30),(0,0,0),1)
+                        pygame.image.save(self.thresholded,'%s.jpg' %int(time.time()) )
 
             self.get_and_flip()
 
@@ -255,7 +255,6 @@ class effect(Capture):
         self.display.blit(self.snapshot,(0,0))
         crect = pygame.draw.rect(self.display, (255,0,0,), (305,225,30,30), 2)
         self.ccolor = pygame.transform.average_color(self.snapshot, crect)
-        self.cc = "-".join([ str(i) for i in list(self.ccolor[0:3]) ])
         self.display.fill(self.ccolor, (0,0,50,50))
         pygame.display.flip()
 
