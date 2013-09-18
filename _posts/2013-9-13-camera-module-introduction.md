@@ -194,10 +194,13 @@ def get_and_flip(self):
 more and have fun!
 
 
-我的[渣代码]
+我的[渣代码]:
+
 用滑块控制颜色，自定义threshold()的三个颜色参数。
+
 * esc 退出
 * ctrl+s 保存图片
+
 {% highlight python %}
 #/usr/bin/env python
 # coding: utf-8
@@ -310,7 +313,9 @@ if __name__ == '__main__':
     camera.live()
 {% endhighlight %}
 获取颜色，然后追踪。
+
 * 按m切换模式。
+
 {% highlight python %}
 #/usr/bin/env python
 # coding: utf-8
