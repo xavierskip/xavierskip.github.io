@@ -117,7 +117,7 @@ Pygame 可以做一些基本的视觉效果（滤镜），变形，遮罩……
 
 
 ##阈值
-在变换模块中使用threshold()我们可做出来像下面的绿屏效果，在特定的场景中分离出特定的颜色。在接下来的例子中，我们分离出绿色的树，剩下的全部变黑。详细的使用方法看[threshold function])(http://www.pygame.org/docs/ref/transform.html#pygame.transform.threshold)
+在变换模块中使用threshold()我们可做出来像下面的绿屏效果，在特定的场景中分离出特定的颜色。在接下来的例子中，我们分离出绿色的树，剩下的全部变黑。详细的使用方法看[threshold function](http://www.pygame.org/docs/ref/transform.html#pygame.transform.threshold)
 {% highlight python %}
 self.thresholded = pygame.surface.Surface(self.size, 0, self.display)
 self.snapshot = self.cam.get_image(self.snapshot)
@@ -146,12 +146,11 @@ def calibrate(self):
 `pygame.transform.threshold(self.thresholded,self.snapshot,self.ccolor,(30,30,30),(0,0,0),2)`
 ![](http://www.pygame.org/docs/tut/camera/thresh.jpg)
 
-效果：
+我自己做出来的效果：
 ![](http://ww4.sinaimg.cn/large/6a0c2c15gw1e8n9n00mmvj20hs0dcaad.jpg)
 ![Rondo](http://ww3.sinaimg.cn/large/6a0c2c15gw1e8n9o9n7edj20hs0dcabf.jpg)
 
 我们可以同样的来做一个绿/蓝色屏幕，首先我们得到背景颜色，然后将背景色替换为绿色，其他不是背景的为黑色。
-![](http://www.pygame.org/docs/tut/camera/background.jpg)
 这是相机对准空白的墙壁。
 {% highlight python %}
 def calibrate(self):
@@ -165,8 +164,10 @@ def calibrate(self):
     self.display.blit(self.background, (0,0))
     pygame.display.flip()
 {% endhighlight %}
-![](http://www.pygame.org/docs/tut/camera/green.jpg)
+![](http://www.pygame.org/docs/tut/camera/background.jpg)
 `pygame.transform.threshold(self.thresholded,self.snapshot,(0,255,0),(30,30,30),(0,0,0),1,self.background)`
+![](http://www.pygame.org/docs/tut/camera/green.jpg)
+
 
 ##使用遮罩模块
 这个玩意你可以用来显示图像，使用这个模块你也可以使用摄像头作为游戏的输入。上个例子，我们使用阈值分离出了特定的对象，现在，我们来找到这个对象的位置，然后使用它来控制屏幕上的小球。
@@ -193,7 +194,10 @@ def get_and_flip(self):
 more and have fun!
 
 
-我的[例子](https://gist.github.com/xavierskip/6568747)：
+我的[渣代码]
+用滑块控制颜色，自定义threshold()的三个颜色参数。
+* esc 退出
+* ctrl+s 保存图片
 {% highlight python %}
 #/usr/bin/env python
 # coding: utf-8
@@ -205,31 +209,72 @@ import time
 
 pygame.init()
 pygame.camera.init()
-
+pygame.display.set_caption("Pygame camera")
 
 class Capture(object):
     def __init__(self,width=640,heigh=480):
-        self.size = (width,heigh)
-        self.display = pygame.display.set_mode(self.size, 0,)
+        self.camera_size = (width,heigh)
+        self.screen_size = (width,heigh+30)
+        self.color = [0,0,0]
+        self.threshold_color = [0,0,0]
+        self.diff_color = [0,0,0]
+        self.screen = pygame.display.set_mode(self.screen_size, 0,)
         self.clist = pygame.camera.list_cameras()
         if not self.clist:
             raise ValueError("Sorry, no cameras detected!")
-        self.cam = pygame.camera.Camera(self.clist[0], self.size, 'RGB') #  RGB HSV YUV
-        self.cam.start()
-        self.cam.set_controls(hflip = True,vflip = True,brightness =10)  #
+        self.cam = pygame.camera.Camera(self.clist[0], self.screen_size, 'RGB') #  RGB HSV YUV
+        try:
+            self.cam.start()
+        except Exception, e:
+            print("camera is used")
+            exit()
+        self.cam.set_controls(hflip = True,vflip = True,brightness =1)  #
         print self.cam.get_controls()
-        self.snapshot = pygame.Surface(self.size, 0, self.display)
-        self.thresholded = pygame.surface.Surface(self.size, 0, self.display)
+        self.snapshot = pygame.Surface(self.camera_size, 0, self.screen)
+        self.thresholded = pygame.surface.Surface(self.camera_size, 0, self.screen)
+        self.red_scale,self.green_scale,self.blue_scale = self.create_scales(160,10)
+
+    def create_scales(self,width,height):
+        red_scale = pygame.surface.Surface((width,height))
+        green_scale = pygame.surface.Surface((width,height))
+        blue_scale = pygame.surface.Surface((width,height))
+        for x in range(width):
+            c = int((x/float(width))*255.)
+            red = (c,0,0)
+            green = (0,c,0)
+            blue = (0,0,c)
+            line_rect = Rect(x,0,1,height)
+            pygame.draw.rect(red_scale,red,line_rect)
+            pygame.draw.rect(green_scale,green,line_rect)
+            pygame.draw.rect(blue_scale,blue,line_rect)
+        return red_scale,green_scale,blue_scale
+
+    def palette_RGB(self,x,y,width,height):
+        red_scale,green_scale,blue_scale = self.create_scales(width,height/3.0)
+        self.screen.blit(red_scale,(x,y))
+        self.screen.blit(green_scale,(x,y+height/3.0))
+        self.screen.blit(blue_scale,(x,y+height/1.5))
+
+    def d_slider(self,color,left,top,width,height):
+        t = self.screen_size[0]/3.0
+        for c in range(3):
+            line_rect = Rect(left+color[c]/255.*213,top+c*10,width,height)
+            pygame.draw.rect(self.screen,(255,255,255),line_rect)
 
     def get_and_flip(self):
         if self.cam.query_image():
             self.snapshot = self.cam.get_image()
-        self.display.blit(self.snapshot, (0,0))
-        pygame.display.flip()
+        pygame.transform.threshold(self.thresholded,self.snapshot,self.color,self.threshold_color,self.diff_color)
+        self.screen.blit(self.thresholded, (0,0))
+        # pygame.display.flip()
+        pygame.display.update()
 
     def live(self):
         going = True
         while going:
+            self.palette_RGB(0,480,213,30)
+            self.palette_RGB(213,480,213,30)
+            self.palette_RGB(426,480,213,30)
             events = pygame.event.get()
             for e in events:
                 if e.type == QUIT or (e.type == KEYDOWN and e.key == K_ESCAPE):
@@ -239,43 +284,101 @@ class Capture(object):
                     going = False
                 if e.type == KEYDOWN:
                     if pygame.key.get_pressed()[K_LCTRL] and pygame.key.get_pressed()[K_s]:
-                        pygame.image.save(self.snapshot,'%s.jpg' %int(time.time()))
+                        pygame.image.save(self.thresholded,'%s.jpg' %int(time.time()))
                         print 'save jpg'
-                    if e.key == K_m:
-                        print 'm'
-                        pygame.transform.threshold(self.thresholded,self.snapshot,self.ccolor,(30,30,30),(0,0,0),1)
-                        pygame.image.save(self.thresholded,'%s.jpg' %int(time.time()) )
-
+            x,y = pygame.mouse.get_pos()
+            pygame.display.set_caption(str(self.color)+str(self.threshold_color)+str(self.diff_color))
+            if pygame.mouse.get_pressed()[0]:
+                if 480 <= y <=510:
+                    row = int((y-480)/10.0)
+                    if 0 <= x < 213:
+                        c = x - 0
+                        self.color[row] = int((c/213.)*255.)
+                    if 213<= x < 426:
+                        c = x - 213
+                        self.threshold_color[row] = int((c/213.)*255.)
+                    if 426<= x < 640:
+                        c = x - 426
+                        self.diff_color[row] = int((c/213.)*255.)
+            self.d_slider(self.color,0,480,3,10)
+            self.d_slider(self.threshold_color,213,480,3,10)
+            self.d_slider(self.diff_color,426,480,3,10)
             self.get_and_flip()
 
-class effect(Capture):
-
-    def get_and_flip(self):
-        self.snapshot = self.cam.get_image(self.snapshot)
-        self.display.blit(self.snapshot,(0,0))
-        crect = pygame.draw.rect(self.display, (255,0,0,), (305,225,30,30), 2)
-        self.ccolor = pygame.transform.average_color(self.snapshot, crect)
-        self.display.fill(self.ccolor, (0,0,50,50))
-        pygame.display.flip()
-
-    # def get_and_flip(self):
-    #     self.snapshot = self.cam.get_image(self.snapshot)
-    #     # threshold against the color we got before
-    #     mask = pygame.mask.from_threshold(self.snapshot, self.ccolor, (30, 30, 30))
-    #     self.display.blit(self.snapshot,(0,0))
-    #     # keep only the largest blob of that color
-    #     connected = mask.connected_component()
-    #     # make sure the blob is big enough that it isn't just noise
-    #     if mask.count() > 100:
-    #         # find the center of the blob
-    #         coord = mask.centroid()
-    #         # draw a circle with size variable on the size of the blob
-    #         pygame.draw.circle(self.display, (0,255,0), coord, max(min(50,mask.count()/400),5))
-    #     pygame.display.flip()
-
 if __name__ == '__main__':
-    camera = effect()
+    camera = Capture()
     camera.live()
 {% endhighlight %}
-ctrl+s 可以保持图片
+获取颜色，然后追踪。
+* 按m切换模式。
+{% highlight python %}
+#/usr/bin/env python
+# coding: utf-8
+
+import pygame
+import pygame.camera
+from pygame.locals import *
+import time
+
+pygame.init()
+pygame.camera.init()
+pygame.display.set_caption("Pygame camera")
+
+class Capture(object):
+	def __init__(self):
+		self.size = (640,480)
+		self.display = pygame.display.set_mode(self.size, 0,)
+		self.clist = pygame.camera.list_cameras()
+		if not self.clist:
+			raise ValueError("Sorry, no cameras detected!")
+		self.cam = pygame.camera.Camera(self.clist[0], self.size, 'RGB')
+		self.cam.start()
+		self.cam.set_controls(hflip = True,vflip = True,brightness =10)
+		print self.cam.get_controls()
+		self.snapshot = pygame.Surface(self.size, 0, self.display)
+		self.thresholded = pygame.Surface(self.size, 0, self.display)
+
+	def get_and_flip(self):
+		if self.cam.query_image():
+			self.snapshot = self.cam.get_image(self.snapshot)
+		mask = pygame.mask.from_threshold(self.snapshot,self.ccolor,(30,30,30))
+		self.display.blit(self.snapshot,(0,0))
+		connected = mask.connected_component()
+		if mask.count() > 100:
+			coord = mask.centroid()
+			pygame.draw.circle(self.display, (0,255,0), coord, max(min(20,mask.count()/400),10))
+		pygame.display.flip()
+
+	def calibrate(self):
+		self.snapshot = self.cam.get_image(self.snapshot)
+		self.display.blit(self.snapshot,(0,0))
+		crect = pygame.draw.rect(self.display,(255,0,0),(int(self.size[0]/2.),int(self.size[1]/2.),30,30),3)
+		self.ccolor = pygame.transform.average_color(self.snapshot, crect)
+		self.display.fill(self.ccolor, (0,0,50,50))
+		pygame.display.flip()
+
+	def main(self):
+		going = True
+		mode = True
+		while going:
+			events = pygame.event.get()
+			for e in events:
+				if e.type == QUIT or (e.type == KEYDOWN and e.key == K_ESCAPE):
+					self.cam.stop()
+					pygame.display.quit()
+					exit()
+					going = False
+				if e.type == KEYDOWN:
+					if e.key == K_m:
+						mode ^= True
+			if mode:
+				self.calibrate()
+				pygame.display.set_caption(str(tuple(self.ccolor[:3])))
+			else:
+				self.get_and_flip()
+
+if __name__ == '__main__':
+	cam = Capture()
+	cam.main()
+{% endhighlight %}
 ![自爆](http://ww4.sinaimg.cn/large/6a0c2c15gw1e8n9kymobkj20hs0dc74s.jpg)
