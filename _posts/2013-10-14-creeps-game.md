@@ -18,10 +18,9 @@ just like that
 
 ![](http://ww3.sinaimg.cn/large/6a0c2c15gw1e9k7kk2p1sj20pm0i2wg5.jpg)
 
-代码看这里吧[https://github.com/xavierskip/creeps/tree/master/source](https://github.com/xavierskip/creeps/tree/master/source)
+代码看我放到github啥上了[https://github.com/xavierskip/creeps](https://github.com/xavierskip/creeps)
 
-然后用pyinstaller打包成exe可执行文件。
-如果你想玩的话可以试一试[download](http://pan.baidu.com/s/1oqow5)
+windows下运行creeps.exe，是用pyinstaller打包成的exe可执行文件。
 
 
 不过我还有个好玩的点子哟，等着、、、
