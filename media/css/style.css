@@ -39,6 +39,7 @@ pre code{margin:1em 0;font-size:13px;line-height:1.6;display:block;overflow:auto
 blockquote{text-align:justify;color:#545454;}
 blockquote::before{
 	content: "“";
+	font-size: 42px;
 	font-family: "Inconsolata",georgia,serif;
 	color: #ccc;
 	position: relative;
