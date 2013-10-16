@@ -50,7 +50,7 @@ tags:
 *[ten000hours](http://instagram.com/ten000hours)*
 >Devin Williams Im a humble trainer looking to help players get better. It's only one of me so I can't train everyone. Wish I could though https://m.youtube.com/watch?v=YvK7rax1eCU
 
-<video src="http://distilleryvesper7-11.ak.instagram.com/3dcb3594347311e39a1922000a9d0dee_101.mp4" width="480" height="480"></video>
+<video src="http://distilleryvesper7-11.ak.instagram.com/3dcb3594347311e39a1922000a9d0dee_101.mp4" width="480" height="480" controls="controls" ></video>
 <embed src="http://distilleryvesper7-11.ak.instagram.com/3dcb3594347311e39a1922000a9d0dee_101.mp4" width="480" height="480">
 
 *[ballislife](http://instagram.com/ballislife)*
@@ -62,7 +62,7 @@ tags:
 *[clmorefree](http://instagram.com/clmorefree)*
 >MoreFree aka RulesBreaker KEEP DA DREAM ALIVE http://weibo.com/morefree
 
-<video src="http://distilleryvesper5-13.ak.instagram.com/caf07dde258311e3911522000a9e087e_101.mp4"  width="480" height="480"></video>
+<video src="http://distilleryvesper5-13.ak.instagram.com/caf07dde258311e3911522000a9e087e_101.mp4"  width="480" height="480" controls="controls"></video>
 
 *[clhanchao](http://instagram.com/clhanchao)*
 >HC Handles soul http://weibo.com/clhansir
