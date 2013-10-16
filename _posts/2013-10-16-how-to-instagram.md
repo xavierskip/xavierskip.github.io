@@ -11,79 +11,77 @@ tags:
 不过最近是找到了一些人follow，能看到些有意思、漂亮的图片了。有哪些呢？
 
 ####美女
-
-*[physit](http://instagram.com/physit)*
+[physit](http://instagram.com/physit)
 >Fiona Sit 薛凱琪 When words fail, music speaks
 
 ![](http://distilleryimage7.ak.instagram.com/fe4027982fa611e39a0a22000a1fba82_8.jpg)
 
 当然有苍老师了
-*[aoi_sola](http://instagram.com/aoi_sola)*
+[aoi_sola](http://instagram.com/aoi_sola)
 >AOI SOLA Twitter → @aoi_sola I'm a Japanese actress. I've been studying English, Chinese and Korean. http://www.aoisola.net/
 
 ![](http://distilleryimage5.ak.instagram.com/a189c6e62d8d11e3938b22000a9f50cb_8.jpg)
 
 外国妞
-*[rademita](http://instagram.com/rademita)*
+[rademita](http://instagram.com/rademita)
 >rachel annamarie demita ✌peace sign & a ponytail 💁 host🎥athlete🏀media geek📲 Tweet me 👉@rademita http://youtube.com/sportsbuddyz
 
 ![](http://distilleryimage5.ak.instagram.com/d40058d0350111e3b31922000a9e5b22_8.jpg)
 
 在南非长大，现在美国上学的一推友
-*[wenlyzhou](http://instagram.com/wenlyzhou)*
+[wenlyzhou](http://instagram.com/wenlyzhou)
 >Its WENLY Bitches A lioness sweetie 🍭 🔫 This is an Africa girl who born in China🀄but raised in Namibia🌍, somehow she started to breath America 's air🌎. https://twitter.com/wenly_
 
 ![](http://distilleryimage8.ak.instagram.com/c4692fca0b5111e3b67922000aaa047d_7.jpg)
 
 棒子
-*[imisskahi](http://instagram.com/imisskahi)*
+[imisskahi](http://instagram.com/imisskahi)
 >imisskahi Girl's talking. www.twitter.com/misskahi www.imisskahi.tumblr.com http://misskahi.blog.me
 
 ![](http://distilleryimage1.ak.instagram.com/434794f4ffe911e2bb6c22000ae90a36_7.jpg)
 
 ####篮球
-*[clsmoothcrew](http://instagram.com/clsmoothcrew)*
+[clsmoothcrew](http://instagram.com/clsmoothcrew)
 >A CL fan from China, update CL pics and videos only.
 
 ![](http://distilleryimage8.ak.instagram.com/540b05da30f111e39cee22000aa803c7_7.jpg)
 
-*[ten000hours](http://instagram.com/ten000hours)*
+[ten000hours](http://instagram.com/ten000hours)
 >Devin Williams Im a humble trainer looking to help players get better. It's only one of me so I can't train everyone. Wish I could though https://m.youtube.com/watch?v=YvK7rax1eCU
 
 <video src="http://distilleryvesper7-11.ak.instagram.com/3dcb3594347311e39a1922000a9d0dee_101.mp4" width="480" height="480" controls="controls" ></video>
 <embed src="http://distilleryvesper7-11.ak.instagram.com/3dcb3594347311e39a1922000a9d0dee_101.mp4" width="480" height="480">
 
-*[ballislife](http://instagram.com/ballislife)*
+[ballislife](http://instagram.com/ballislife)
 >Ballislife Brand created in 2005. We were created for the enthusiast and now for the lifestyle. This is the official instagram of ballislife.com http://ballislife.com/store
 
 ![](http://distilleryimage4.ak.instagram.com/947f1a0c342011e3b74e22000a9e07d7_7.jpg)
 
-
-*[clmorefree](http://instagram.com/clmorefree)*
+[clmorefree](http://instagram.com/clmorefree)
 >MoreFree aka RulesBreaker KEEP DA DREAM ALIVE http://weibo.com/morefree
 
 <video src="http://distilleryvesper5-13.ak.instagram.com/caf07dde258311e3911522000a9e087e_101.mp4"  width="480" height="480" controls="controls"></video>
 
-*[clhanchao](http://instagram.com/clhanchao)*
+[clhanchao](http://instagram.com/clhanchao)
 >HC Handles soul http://weibo.com/clhansir
 
 ![](http://distilleryimage4.ak.instagram.com/f0c605901eff11e390a322000a9f1438_7.jpg)
 
-*[jlin7](http://instagram.com/jlin7)*
+[jlin7](http://instagram.com/jlin7)
 >Jeremy Lin to know Him is to want to know Him more http://www.jlin7.com
 
 ![](http://distilleryimage6.ak.instagram.com/cdd6fae41be911e39edf22000ae916b0_7.jpg)
 
 
 ### IT男
-*[tualatrix](http://instagram.com/tualatrix)*
+[tualatrix](http://instagram.com/tualatrix)
 >Tualatrix Chou I'm TualatriX!
 
 ![](http://distilleryimage7.ak.instagram.com/5fd3504a24f111e3a76e22000aeb0d15_7.jpg)
 
 
 ### 喵
-*[samhaseyebrows](http://instagram.com/samhaseyebrows)*
+[samhaseyebrows](http://instagram.com/samhaseyebrows)
 >Sam This is Sam. He has eyebrows. http://facebook.com/samhaseyebrows
 
 ![](http://distilleryimage8.ak.instagram.com/ac015930cc6311e2b59422000a9f13f8_7.jpg)
