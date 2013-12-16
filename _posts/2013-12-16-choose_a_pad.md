@@ -23,7 +23,7 @@ tags:
 
 好了，扯远了，我们不是来谈论平板的么？
 
-#### 那什么算得上平板呢？
+### 那什么算得上平板呢？
 
 就像枪和炮是用口径来区分的，大于20mm的是炮，小于的是枪。
 我们来区分笔记本、平板、移动设备（手机）就可以根据屏幕的大小来区别。
@@ -37,7 +37,7 @@ tags:
 发现很多女士喜欢使用大屏设备，真的是因为这样显得脸小吗？
 
 
-#### 那如何选择平板呢？
+### 那如何选择平板呢？
 
 **一位女童鞋问我，她说她想买一个可以随时随地打word的平板，想无聊的时间也能随时随地拿出来记东西和打文章。**
 
@@ -51,14 +51,15 @@ tags:
 
 人们往往知道自己想要什么(want)，而不知道自己需要什么(need)。
 
->people don't know what they want until you show it to them.
->>>>>>>>>>>>>>>>Steve Jobs
+>people don't know what they want until you show it to them.  
+Steve Jobs
 
-#### Android 还是 iOS？
+### Android 还是 iOS？
 
 那个 Android 平板好像也挺不错的，为什么不选择他呢？
 
 **应用**
+
 Android 当然够用，只要你到时候不会看着 App Store 上的应用流口水就行。Android 的软件环境与 iOS 相比较简直乱一塌糊涂。（准确点说是应用商店）
 
 官方的安卓市场是Google Play，而国内的 Google Play 市场是不完整的，很多应用根本就在国内的市场上找不到，没有上架,也没有任何需要付费购买的应用，也就是说你想购买也买不到。虽然那些应用对很多人来说可能根本就用不到，比如 twitter客户端…… 但这样总给人一种二等公民的感觉。当你在 Google Play 中搜索“微信”却发现根本就没有，你就知道这个市场是有多坑爹了。
@@ -94,8 +95,8 @@ Google 并没有给国内用户提供正常的付款渠道，和完整的市场�
 
 在苹果官网各种型号的 ipad写的电池使用时间都是 
 
->使用无线网络浏览网页，或观看视频，或聆听音乐，使用时间长达 10 小时
->使用蜂窝网络上网，使用时间长达 9 小时
+>使用无线网络浏览网页，或观看视频，或聆听音乐，使用时间长达 10 小时  
+>使用蜂窝网络上网，使用时间长达 9 小时  
 
 这个应该是连续使用时间吧，待机的话，我记得不怎么使用的话 iPad 好像待机一个星期都可以。苹果在电池续航方面一直都很重视做到很好，在笔记本上 Macbook 系列续航最长的air可达12个小时。Android在续航方面口碑一直都不好，比不过 iPad。不过联想最近推出的 [Yoga Tablet](http://www.ifanr.com/news/366392)宣称续航可以达到18个小时，让人吃惊，是因为卷轴的位置装的电池吗！？
 
@@ -111,7 +112,7 @@ Android 一直以来是在追逐着 iOS，那怕他的研发时间比 iOS 还早
 >三星不需要击败苹果，它只要让 Android用户相信购买三星即可获得和苹果一样的功能，而且屏幕更大价格更实惠，就够了。
 
 
-#### windows
+### windows
 
 我们好像遗忘掉了些什么，Microsoft的迟缓丢掉了几乎整个移动电子市场，匆忙推出了 Windows 8 和 Windows phone再把还有一口气的难兄难弟诺基亚拉下水妄图再抢一份羹。
 
@@ -129,7 +130,7 @@ windows RT 由于系统架构并没有很多的应用支持，不过还是继承
 
 * USB 接口和文件管理器。文件管理，U盘传输文件。简单原始粗暴。想想你第一次使用 iTunes。“谁发明了这么个玩意？WTF!”
 
-Surface RT给人的感觉就是，我和其他平板不一样，我有 Office，我还可以办公，你们可以吗？生产力！懂吗？你们也就是只能玩玩游戏看看网页什么的渣渣！至于windows RT到底能不能代替生产力呢？坑爹吧！生产力需要相关的应用支持，你也就支持个 Office，得瑟个什么!？另外没有键盘鼠标输入就刚称自己代表生产力，那就是耍流氓！所以先给你的Surface RT加上Type Cover吧。
+Surface RT给人的感觉就是，我和其他平板不一样，我有 Office，我还可以办公，你们可以吗？生产力！懂吗？你们也就是只能玩玩游戏看看网页什么的渣渣！至于windows RT到底能不能代替生产力呢？坑爹吧！生产力需要相关的应用支持，你也就支持个 Office，得瑟个什么!？另外没有键盘鼠标输入就刚称自己代表生产力，那就是耍流氓！所以先给你的Surface RT加上[Type Cover](https://www.google.com.hk/search?&q=Type+Cover)吧。
 
 不多说了，毕竟都没有碰过 Surface RT，参考内容[Surface RT: the Good, the Bad, and the Ugly](http://carloslol.com/post/61593509608)
 
@@ -143,23 +144,12 @@ Surface RT给人的感觉就是，我和其他平板不一样，我有 Office，
 
 那不妨看一副漫画
 
-via:[http://zenpencils.com](http://zenpencils.com/comic/97-charles-bukowski-air-and-light-and-time-and-space/)
+via:[zenpencils.com](http://zenpencils.com/comic/97-charles-bukowski-air-and-light-and-time-and-space/)
 
-![](http://maxcdn.zenpencils.com/wp-content/uploads/97_bukowskichinese.jpg)
-
-
-
-------------------------------
-
-写到这里我也累了
-
-挖个坑，还想谈谈生产设备和消费设备，抛弃传统软件和管理文件习惯，利用各种云服务同步、管理文件，版本控制等等。[dropbox](https://www.dropbox.com/‎)   [google doc](https://drive.google.com)   [evernote](https://www.yinxiang.com)  [有道云笔记](http://note.youdao.com/)
+![Just do it!](http://maxcdn.zenpencils.com/wp-content/uploads/97_bukowskichinese.jpg)
 
 
-
-推荐阅读 
-
-
+*推荐阅读 *
 
 [iPad 是否可以取代纸质笔记本？](http://www.zhihu.com/question/20009593)
 
@@ -174,10 +164,18 @@ via:[http://zenpencils.com](http://zenpencils.com/comic/97-charles-bukowski-air-
 [iPad 刻字，刻什么好呢？](http://www.zhihu.com/question/19635159)
 
 
-=====================================
+------------------------------
 
+写到这里我也累了
 
 我是思维太发散，基本就是想到哪写到哪。而且很多产品我本身并没有很深入的使用，就是说很多观点都是想出来的而不是使用出来的，相信你也看出来了，干货基本没有。不过在我吸收了太多的信息后，我需要把它给发泄出来。
+
+老师总告诉我们说，写作文不要吧题目定的太大，标题范围要小，不要太大太泛。显然我是没学好的。
+
+还想挖个坑，谈谈生产设备和消费设备，抛弃传统软件和管理文件习惯，利用各种云服务同步、管理文件，版本控制等等。[dropbox](https://www.dropbox.com/‎)   [google doc](https://drive.google.com)   [evernote](https://www.yinxiang.com)  [有道云笔记](http://note.youdao.com/)
+
+
+
 
 
 
