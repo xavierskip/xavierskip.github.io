@@ -149,7 +149,7 @@ via:[zenpencils.com](http://zenpencils.com/comic/97-charles-bukowski-air-and-lig
 ![Just do it!](http://maxcdn.zenpencils.com/wp-content/uploads/97_bukowskichinese.jpg)
 
 
-*推荐阅读 *
+*推荐阅读*
 
 [iPad 是否可以取代纸质笔记本？](http://www.zhihu.com/question/20009593)
 

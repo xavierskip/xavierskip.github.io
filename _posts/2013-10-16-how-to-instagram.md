@@ -14,13 +14,13 @@ tags:
 [physit](http://instagram.com/physit)
 >Fiona Sit 薛凱琪 When words fail, music speaks
 
-![](http://distilleryimage7.ak.instagram.com/fe4027982fa611e39a0a22000a1fba82_8.jpg)
+![](http://distilleryvesper11-19.ak.instagram.com/c16356325dd811e3b74b1270dd981a11_101.mp4)
 
-当然有苍老师了
+苍老师
 [aoi_sola](http://instagram.com/aoi_sola)
 >AOI SOLA Twitter → @aoi_sola I'm a Japanese actress. I've been studying English, Chinese and Korean. http://www.aoisola.net/
 
-![](http://distilleryimage5.ak.instagram.com/a189c6e62d8d11e3938b22000a9f50cb_8.jpg)
+![](http://distilleryimage0.ak.instagram.com/8da9bc10147711e2aa0322000a1cbab4_7.jpg)
 
 外国妞
 [rademita](http://instagram.com/rademita)
@@ -34,11 +34,6 @@ tags:
 
 ![](http://distilleryimage8.ak.instagram.com/c4692fca0b5111e3b67922000aaa047d_7.jpg)
 
-棒子
-[imisskahi](http://instagram.com/imisskahi)
->imisskahi Girl's talking. www.twitter.com/misskahi www.imisskahi.tumblr.com http://misskahi.blog.me
-
-![](http://distilleryimage1.ak.instagram.com/434794f4ffe911e2bb6c22000ae90a36_7.jpg)
 
 ####篮球
 [clsmoothcrew](http://instagram.com/clsmoothcrew)
