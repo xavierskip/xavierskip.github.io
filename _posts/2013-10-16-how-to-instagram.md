@@ -14,7 +14,7 @@ tags:
 [physit](http://instagram.com/physit)
 >Fiona Sit 薛凱琪 When words fail, music speaks
 
-![](http://distilleryvesper11-19.ak.instagram.com/c16356325dd811e3b74b1270dd981a11_101.mp4)
+<video src="http://distilleryvesper11-19.ak.instagram.com/c16356325dd811e3b74b1270dd981a11_101.mp4"  width="480" height="480" controls="controls"></video>
 
 苍老师
 [aoi_sola](http://instagram.com/aoi_sola)
