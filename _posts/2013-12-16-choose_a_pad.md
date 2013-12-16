@@ -52,7 +52,7 @@ tags:
 人们往往知道自己想要什么(want)，而不知道自己需要什么(need)。
 
 >people don't know what they want until you show it to them.  
-Steve Jobs
+---Steve Jobs
 
 ### Android 还是 iOS？
 
