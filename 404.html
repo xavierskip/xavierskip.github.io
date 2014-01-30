@@ -8,11 +8,8 @@
 			margin: 0;
 		}
 		#content {
-			height: 360px;
+			margin: 0 auto;
 			width: 560px;
-			position: relative;
-			top: 50%;left: 50%;
-			margin: -180px 0 0 -280px;
 		}
 		#content p{
 			margin: 0 auto;
@@ -24,8 +21,6 @@
 			margin: 0px auto;
 		}
 		#sliding {
-			position: absolute;
-			top: 10px;
 		}
 		#sliding span {
 			display: inline-block;
@@ -91,13 +86,6 @@
 	</style>
 </head>
 <body>
-	<span id='sliding'>
-		<span class='fourth'>.</span>
-		<span class='thrird'>.</span>
-		<span class='second'>.</span>
-	    <span class='first'>.</span>
-	</span>
-
 	<div id="content">
 		<p style="font-size: 30px;">警告：</p> 
 　　 	<p>如果你正在阅读本文。那么这次警告正是为你准备的。</p>
@@ -113,6 +101,13 @@
 		<p>如果你不主张你的人性。你将只是一个统计值。</p>
 		<p>你已经被警告了…… </p>
 	</div>
-
+		<div>
+			<span id='sliding'>
+				<span class='fourth'>.</span>
+				<span class='thrird'>.</span>
+				<span class='second'>.</span>
+			    <span class='first'>.</span>
+			</span>
+		</div>
 </body>
 </html>
