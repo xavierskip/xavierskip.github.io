@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [project]“抽屉”一个chrome浏览器扩展
+title: “抽屉”一个chrome浏览器扩展
 tags: 
 - java,chrome extensions
 ---
