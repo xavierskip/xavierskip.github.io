@@ -2,7 +2,7 @@
 layout: post
 title: “抽屉”一个chrome浏览器扩展
 tags: 
-- java,chrome extensions
+- javascript chrome extensions
 ---
 
 这个浏览器扩展是用来帮你保存当前浏览的页面，以及当你需要时，打开这些页面。不会因为不关闭浏览器或者这些页面，而占据大量内存，或者将这些页面固定在窗口，当你使用浏览器时这些页面都会加载，哪怕你只是要浏览其他的某一个页面。
