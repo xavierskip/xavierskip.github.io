@@ -5,6 +5,9 @@ tags:
 - 读书
 - 记录
 ---
+<script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 update：3/24/2014
 
 ![题图：好身材！](http://ww3.sinaimg.cn/large/6a0c2c15gw1eeoxhbij62j21hc0m8wkw.jpg)
@@ -150,8 +153,3 @@ $$ t` = \sqrt{1-\frac{v^2}{c^2}}t $$
 [等效原理](http://zh.wikipedia.org/wiki/%E7%AD%89%E6%95%88%E5%8E%9F%E7%90%86)
 [洛伦兹变换](http://zh.wikipedia.org/wiki/%E6%B4%9B%E4%BC%A6%E5%85%B9%E5%8F%98%E6%8D%A2)
 [相对论](http://zh.wikipedia.org/wiki/%E7%9B%B8%E5%AF%B9%E8%AE%BA)
-
-
-<script type="text/javascript"
-  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
