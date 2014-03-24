@@ -10,7 +10,7 @@ url: http://blog.xavierskip.com
 
 production_url : http://blog.xavierskip.com
 
-markdown: rdiscount
+markdown: kramdown
 pygments: true
 paginate: 16
 auto: true
