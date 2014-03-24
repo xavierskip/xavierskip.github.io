@@ -107,7 +107,7 @@ update：3/24/2014
 从这个相对速度开始说起。我站在岸上，看见一艘船在海上以速度V1向前运动，你在船上以速度V2从船尾走到船头花了时间t，求你相对于我的运动速度V 
 
 
-<img src="http://ww3.sinaimg.cn/large/6a0c2c15gw1eeq51r351bj20kx0hfmy4.jpg" style="width: 400px" >
+<img src="http://ww3.sinaimg.cn/large/6a0c2c15gw1eeq51r351bj20kx0hfmy4.jpg" style="width: 400px;float:left" >
 <div style="clear:both;"> 
 $$ v = \frac{s_{1}+s_{2}}{t} $$
 $$ v = \frac{v_{1}t+v_{2}t}{t} $$
@@ -132,8 +132,8 @@ $$ v = v_{1}+v_{2}  $$
 那么慢了多少呢？我们继续推导，这次要用到勾股定理。
 
 
-<img src="http://ww4.sinaimg.cn/large/6a0c2c15gw1eeq51u8g2hj21kw0stq7a.jpg" style="width: 400px;">
-<div style="float:left">
+<img src="http://ww4.sinaimg.cn/large/6a0c2c15gw1eeq51u8g2hj21kw0stq7a.jpg" style="width: 400px;float:left">
+<div style="clear:both;">
 $$ (ct`)^2 + (vt)^2 = (ct)^2 $$
 $$ c^2t`^2 + v^2t^2 = c^2t^2 $$
 $$ c^2t`^2 = c^2t^2 - v^2t^2 $$
