@@ -3,7 +3,8 @@ var bq = [
   "Don't never try to judge me Dude, you don't know what Fuck I been through",
   "It's only after we've lost everthing that we're free to do anything!",
   "I believe whatever doesn't kill you, simply makes you ... stranger",
-  "参差多态乃幸福本源"
+  "参差多态乃幸福本源",
+  "你问我要去向何方，我指着大海的方向"
 ]
 function random(len){
   return Math.floor(Math.random()*len)
