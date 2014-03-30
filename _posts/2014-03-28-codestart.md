@@ -178,26 +178,26 @@ D. 访问对象属性
         border-radius: 75px;
     }
     #cspan {
-    -webkit-animation: fade 1s linear infinite;
+        -webkit-animation: fade 1s linear infinite;
     }
     @-webkit-keyframes fade {
-    from {
-        opacity: 0;  
-    } 50% {
-        opacity: 1;  
-    } to {wwwddww
-        opacity: 0;
-    }
+        from {
+            opacity: 0;  
+        } 50% {
+            opacity: 1;  
+        } to {
+            opacity: 0;
+        }
     }
     .ring {
-    -webkit-animation: rotate 1s linear infinite;
+        -webkit-animation: rotate 1s linear infinite;
     }
     @-webkit-keyframes rotate {
-    0 {
-        transform: rotate(0deg);
-    } 100% {
-        transform: rotate(360deg);
-    }
+        0 {
+            transform: rotate(0deg);
+        } 100% {
+            transform: rotate(360deg);
+        }
     }
 
 // 进入最后的地图了！！
@@ -205,25 +205,25 @@ D. 访问对象属性
 **下面是在Android 4.0+设备上Wi-fi网络下以"Transfer-Encoding:chunked"方式返回的页面[HTML5 Navigation timing](http://www.w3.org/TR/navigation-timing/) 上报数据图，我们修改了其中一项数据的延时，试找出这项被修改的非正常数据：**
 **测速点上报量延时慢速用户占比 **  ( M ) //这个真的是蒙的。
 
-A. unloadEventStart6600.7116214.55%   14505.4945  
-B. unloadEventEnd6600.7116364.55%     14505.4945  
-C. redirectStart0--  
-D. redirectEnd0--  
-E. fetchStart1500500.00279225-          
-F. domainLookupStart1536400.00320123-  
-G. domainLookupEnd1536400.007041660.03%     
-H. connectStart1536400.007041660.03%  
-I. connectEnd1536400.008852840.03%  
-J. requestStart1537000.008865710.03%  
-K. responseStart1537000.017960.04%  
-L. responseEnd13146800.8258542.86%  
-M. domLoading13147101.2166282.6%  
-N. domInteractive13145301.77285.71%  
-O. domContentLoadedEventStart13145301.772835.71%  
-P. domContentLoadedEventEnd13145301.772845.71%  
-Q. domComplete10112401.688193.95%   
-R. loadEventStart10112401.688483.95%   
-S. loadEventEnd10112401.688483.95%   
+A. unloadEventStart|660|0.711621|4.55%
+B. unloadEventEnd|660|0.7116364.55%
+C. redirectStart|0-|-
+D. redirectEnd|0-|-
+E. fetchStart|150050|0.00279225|-
+F. domainLookupStart|153640|0.00320123|-
+G. domainLookupEnd|153640|0.00704166|0.03%
+H. connectStart|153640|0.00704166|0.03%
+I. connectEnd|153640|0.00885284|0.03%
+J. requestStart|153700|0.00886571|0.03%
+K. responseStart|153700|0.01796|0.04%
+L. responseEnd|1314680|0.825854|2.86%
+M. domLoading|1314710|1.216628|2.6%
+N. domInteractive|1314530|1.7728|5.71%
+O. domContentLoadedEventStart|1314530|1.77283|5.71%
+P. domContentLoadedEventEnd|1314530|1.77284|5.71%
+Q. domComplete|1011240|1.68819|3.95%
+R. loadEventStart|1011240|1.68848|3.95%
+S. loadEventEnd|1011240|1.68848|3.95%
  
 ### 火柴人动画
 
