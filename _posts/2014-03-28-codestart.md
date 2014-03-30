@@ -202,11 +202,11 @@ D. 访问对象属性
 
 // 进入最后的地图了！！
 
-**下面是在Android 4.0+设备上Wi-fi网络下以"Transfer-Encoding:chunked"方式返回的页面[HTML5 Navigation timing](http://www.w3.org/TR/navigation-timing/) 上报数据图，我们修改了其中一项数据的延时，试找出这项被修改的非正常数据：**
+**下面是在Android 4.0+设备上Wi-fi网络下以"Transfer-Encoding:chunked"方式返回的页面[HTML5 Navigation timing](http://www.w3.org/TR/navigation-timing/) 上报数据图，我们修改了其中一项数据的延时，试找出这项被修改的非正常数据：**  
 **测速点上报量延时慢速用户占比 **  ( M ) //这个真的是蒙的。
 
 A. unloadEventStart|660|0.711621|4.55%
-B. unloadEventEnd|660|0.7116364.55%
+B. unloadEventEnd|660|0.711636|4.55%
 C. redirectStart|0-|-
 D. redirectEnd|0-|-
 E. fetchStart|150050|0.00279225|-
