@@ -241,4 +241,29 @@ S. loadEventEnd|1011240|1.68848|3.95%
     }, '*');
 
 ###[腐蚀的画](http://codestar.alloyteam.com/q2/cgi/q/b29b6a737c6e38edddb380ce54ae672b621efbec15cf4ea02293611594bed3c4)
-// 有蹊跷，搞不定，求高人指点！
+// 难点在于，第二步，对rgb的四个信息，想办法让它变成0和1。如果你直接将数值转化为二进制，那么你就将陷进沼泽中。你需要反相的去思考出题人是如何将信息藏到那张图中间去的。最后经人点拨，是使用了图像处理最常见二值化方法，这样答案就一目了然了。
+{% highlight javascript %}
+    var c = document.getElementById('myCanvas'),
+        img = document.getElementById('myImg');
+    var ctx = c.getContext('2d');
+    ctx.drawImage(img,0,0);
+    var imgData = ctx.getImageData(0,0,c.width,c.height);
+    var data = imgData.data;
+    var rgb = [];
+    for(var i=0;i<data.byteLength;i++){
+        if((i+1)%4!=0){
+            var b = data[i];
+            b>127?b=1:b=0;
+            rgb.push(b);        
+        }
+    }
+    var rgbs = rgb.join('')
+    var str = rgbs.match(/[01]{8}/g)
+    .map(function(b) { return String.fromCharCode( parseInt(b,2) ) })
+    .join('');
+    var end = str.search(/AlloyImage/);
+    var ascii = str.slice(0,end);
+    var base64 = btoa(ascii);
+    var base64img = document.getElementById("base64");
+    base64img.src = "data:image/png;base64,"+base64;
+{% endhighlight %}
