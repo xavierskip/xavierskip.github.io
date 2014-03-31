@@ -165,15 +165,15 @@ D. 访问对象属性
 **吃了太多啤酒与炸鸡，产品MM肚子疼得不行，需求根本交不了差，怎么办？来自星星的前端特工，你，只能尝试用超能力停止时间了！据说，当创造出的时间等于地球时间时，就会代替地球时间流逝，使时间静止…**
 
 //好像在腾讯前端特工第一季就有这么一道题，我还记得。我折腾了半天，还以为要发送数据到服务器上，哪知道，创建一个提交按钮，手点更新时间就可以了！！！
-
+``` html
     <input id="power" type="text" placeholder="超能力创造的时间" value="0:0:0">
     <input type="submit" value="提交" onclick="document.getElementById('power').value = (new Date()).getHours()+':'+(new Date()).getMinutes()+':'+(new Date()).getSeconds()">
-
+```
 
 **请完成如下所示 loading效果:**
 **请在下面空格处补齐代码:输入必要的css:**
 //其实很简单，但是只有当你填进正确的数据才会有动画，坑爹！
-
+{% highlight css %}
     .container,#content,.ring{
         border-radius: 75px;
     }
@@ -199,6 +199,7 @@ D. 访问对象属性
             transform: rotate(360deg);
         }
     }
+{% endhighlight %}
 
 // 进入最后的地图了！！
 
@@ -229,41 +230,42 @@ S. loadEventEnd|1011240|1.68848|3.95%
 
 // 看源码，知道了这么创建动作，根据其他模板套用即可，同步的问题，找到动画对象的同步方法调用即可。可能难住人的是提交答案的方式。我是直接安装源码中的 submit()提交方式提交的。
 
-
-    var answers = {
-        naughty1: "naughty1.playTo('gaocha',30,15,true).setPos(880,300).synchto(referObj);",
-        naughty2: "naughty2.playTo('gaocha',30,15,true).setPos(80,540).setReverse(false).synchto(referObj)",
-        naughty3: "naughty3.playTo('gaocha',30,15,true).setPos(240,540).synchto(referObj)"
-    }
-    window.parent.postMessage({
-        type : 'checkAnswer',
-        data : {answer:answers}
-    }, '*');
+``` javascript
+var answers = {
+    naughty1: "naughty1.playTo('gaocha',30,15,true).setPos(880,300).synchto(referObj);",
+    naughty2: "naughty2.playTo('gaocha',30,15,true).setPos(80,540).setReverse(false).synchto(referObj)",
+    naughty3: "naughty3.playTo('gaocha',30,15,true).setPos(240,540).synchto(referObj)"
+}
+window.parent.postMessage({
+    type : 'checkAnswer',
+    data : {answer:answers}
+}, '*');
+```
 
 ###[腐蚀的画](http://codestar.alloyteam.com/q2/cgi/q/b29b6a737c6e38edddb380ce54ae672b621efbec15cf4ea02293611594bed3c4)
 // 难点在于，第二步，对rgb的四个信息，想办法让它变成0和1。如果你直接将数值转化为二进制，那么你就将陷进沼泽中。你需要反相的去思考出题人是如何将信息藏到那张图中间去的。最后经人点拨，是使用了图像处理最常见二值化方法，这样答案就一目了然了。
 {% highlight javascript %}
-    var c = document.getElementById('myCanvas'),
-        img = document.getElementById('myImg');
-    var ctx = c.getContext('2d');
-    ctx.drawImage(img,0,0);
-    var imgData = ctx.getImageData(0,0,c.width,c.height);
-    var data = imgData.data;
-    var rgb = [];
-    for(var i=0;i<data.byteLength;i++){
-        if((i+1)%4!=0){
-            var b = data[i];
-            b>127?b=1:b=0;
-            rgb.push(b);        
-        }
+var c = document.getElementById('myCanvas'),
+    img = document.getElementById('myImg');
+var ctx = c.getContext('2d');
+ctx.drawImage(img,0,0);
+var imgData = ctx.getImageData(0,0,c.width,c.height);
+var data = imgData.data;
+var rgb = [];
+for(var i=0;i<data.byteLength;i++){
+    if((i+1)%4!=0){
+        var b = data[i];
+        b>127?b=1:b=0;
+        rgb.push(b);        
     }
-    var rgbs = rgb.join('')
-    var str = rgbs.match(/[01]{8}/g)
-    .map(function(b) { return String.fromCharCode( parseInt(b,2) ) })
-    .join('');
-    var end = str.search(/AlloyImage/);
-    var ascii = str.slice(0,end);
-    var base64 = btoa(ascii);
-    var base64img = document.getElementById("base64");
-    base64img.src = "data:image/png;base64,"+base64;
+}
+var rgbs = rgb.join('')
+var str = rgbs.match(/[01]{8}/g)
+.map(function(b) { return String.fromCharCode( parseInt(b,2) ) })
+.join('');
+var end = str.search(/AlloyImage/);
+var ascii = str.slice(0,end);
+var base64 = btoa(ascii);
+var base64img = document.getElementById("base64");
+base64img.src = "data:image/png;base64,"+base64;
 {% endhighlight %}
