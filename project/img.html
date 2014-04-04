@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>encode and decode</title>
+    <style type="text/css">
+        #box div {
+            display: inline-block;
+        }
+        #box img {
+            display: block;
+        }
+        .dropbox{
+            border: 2px solid;
+            margin: 7px;
+            font-size: 20px;
+            min-width: 512px;
+            min-height: 256px;
+        }
+        .dropbox.over{
+            border: 2px dashed;
+        }
+        .center{
+          /*position: absolute;
+            top:0;
+            bottom: 0;
+            left: 0;
+            right: 0;*/
+            margin: auto;
+            text-align: center;
+        }
+        .preview {
+            max-width: 512px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="box">
+    <div id="carrier" class="dropbox">
+        <div class="center">img to carry the secret</div>
+    </div>
+    <div id="hidden" class="dropbox">
+        <div class="center">the secret</div>
+    </div>
+</div>
+<button id="encode">encode</button>
+<div id="enimg"></div>
+<button id="decode">decode</button>
+<div id="deimg"></div>
+<script type="text/javascript" src="img.js"></script>
+</body>
+</html>
