@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>encode</title>
+    <style type="text/css">
+    canvas {
+        border: 1px #ccc solid;
+    }
+    #wraper {
+        margin: auto;
+        width: 960px;
+    }
+    #blcakBoard {
+        height: 500px;
+    }
+    #blcakBoard canvas {
+        position: absolute;
+        margin: auto;
+    }
+    #cursor{
+        z-index: 2;
+    }
+    #board{
+        z-index: 1;
+    }
+    #dragbox{
+        background-color: #f2f2f2;
+        width: 200px;
+        height: 300px;
+        color: #000;
+        position: absolute;
+        box-shadow: 1px 1px 3px #646464;
+        z-index: 10;
+    }
+    #dragbox header {
+        cursor: move;
+        height: 25px;
+        background-color: #7E7E7E;
+        color: #FFF;
+        text-align: left;
+        padding-left: 7px;
+    }
+    #encode {
+        width: 100%;
+        height: 30px;
+    }
+    .content{
+        padding: 7px;
+    }
+    .dropbox{
+        border: 2px solid;
+        margin: 10px 0px;
+        font-size: 20px;
+        width: 600px;
+        height: 480px;
+        max-width: 600px;
+        max-height: 480px;
+        position: relative;
+        box-shadow: 0px 0px 5px 1px #ccc inset;
+    }
+    .dropbox.over{
+        border: 2px dashed;
+    }
+    .preview {
+        max-width: 600px;
+        max-height: 480px;
+        margin: auto;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .vertical {
+        margin: 5px 0;
+    }
+    </style>
+</head>
+<body>
+    <div id="wraper">  
+        <p class="vertical">Black Board</p>
+        <div id="blcakBoard">
+            <canvas id="cursor" width="600" height="480"></canvas>
+            <canvas id="board" width="600" height="480"></canvas>
+        </div>
+        <div id="dragbox" style="top: 34px; left: 821px;">
+            <header>console</header>
+            <div class="content">
+                color:<input type="text" id="setcolor" >
+                lineWidth:<input type="range" id="setlineWidth" min="1" max="20">
+                <button id="clearboard">clear</button>
+            </div>
+        </div>
+        <div id="image" class="dropbox">
+            <div class="center info"> the scret of the above img hide in belw img</div>
+        </div>
+        <button id="encode">encode</button>
+        <div id="encodeimg">
+            <img src="">
+        </div>
+    </div>
+<script type="text/javascript" src="encode.js"></script>
+</body>
+</html>
