@@ -33,7 +33,7 @@ ubuntu 14.04 amd64
 
 * dropbox --- 同步
 
-根据这个页面安装 https://www.dropbox.com/install?os=lnx
+根据这个页面安装 [https://www.dropbox.com/install?os=lnx](https://www.dropbox.com/install?os=lnx)
 安装完毕后，可是在面板上没有显示dropbox的图标，`sudo apt-get install libappindicator1`后就可以了，可是我记得 dropbox文件夹上应该有同步的标记的呀，现在怎么没了。搞不懂。
 还需要设置自动启动，先下载dropbox.py，打开"startip applications"，在其中加入相应的启动命令`python dropbox.py start` ,我不知道为什么 dropbox.py 的 autostart选项为什么不起作用。
 
@@ -43,14 +43,15 @@ ubuntu 14.04 amd64
 鉴于chrome浏览器越来越卡，我不想自动升级了，就直接下的 deb包安装
 
 如果你的系统是英文，那么网页的中文显示默认的是宋体而不是文泉驿微米黑。
-调整字体也是很麻烦的。不多说了。http://forum.ubuntu.org.cn/viewtopic.php?f=8&t=323233
+调整字体也是很麻烦的。不多说了。
+[http://forum.ubuntu.org.cn/viewtopic.php?f=8&t=323233](http://forum.ubuntu.org.cn/viewtopic.php?f=8&t=323233)
 `sudo gedit  /etc/fonts/conf.avail/69-language-selector-zh-cn.conf `
 <string>WenQuanYi Micro Hei</string>
 
 
 * 搜狗输入法
 
-在此页面下载 deb包安装即可。[pinyin.sogou.com/linux/help.php](pinyin.sogou.com/linux/help.php)
+在此页面下载 deb包安装即可。[pinyin.sogou.com/linux/help.php](http://pinyin.sogou.com/linux/help.php)
 记住 ubuntu 14.04 不要删除 ibus，`sudo apt-get remove ibus`后系统设置的很多选项就都不见了。
 
 * goagent
@@ -64,7 +65,7 @@ ubuntu 14.04 amd64
 
 * ubuntu-tweak
 
-https://launchpad.net/ubuntu-tweak/+download
+[https://launchpad.net/ubuntu-tweak/+download](https://launchpad.net/ubuntu-tweak/+download)
 
 * sublime text 3
 
@@ -80,7 +81,7 @@ https://launchpad.net/ubuntu-tweak/+download
 
 * 密钥公匙
 
-https://help.github.com/articles/generating-ssh-keys
+[https://help.github.com/articles/generating-ssh-keys](https://help.github.com/articles/generating-ssh-keys)
 
 ## 系统配置
 
