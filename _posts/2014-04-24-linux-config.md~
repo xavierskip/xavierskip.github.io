@@ -51,7 +51,7 @@ ubuntu 14.04 amd64
 
 * 搜狗输入法
 
-在此页面下载 deb包安装即可。[pinyin.sogou.com/linux/help.php](http://pinyin.sogou.com/linux/help.php)
+在此页面下载 deb包安装即可。[http://pinyin.sogou.com/linux/help.php](http://pinyin.sogou.com/linux/help.php)
 记住 ubuntu 14.04 不要删除 ibus，`sudo apt-get remove ibus`后系统设置的很多选项就都不见了。
 
 * goagent
