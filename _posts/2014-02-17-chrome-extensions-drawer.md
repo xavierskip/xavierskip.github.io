@@ -23,7 +23,7 @@ update 2014/4/25
 1. 使用chrome.storage.sync同步
 2. 增加 Ctrl+逗号 快捷键打开
 3. 界面小调整
-4. 条目顺序从近到远
+4. 条目顺序调整
 
 update 2014/3/11  
 **[version: 0.2]**  
