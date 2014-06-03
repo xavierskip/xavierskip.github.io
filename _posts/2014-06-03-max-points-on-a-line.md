@@ -1,0 +1,48 @@
+---
+layout: post
+title: max_points_on_a_line@LeetCode
+tags: 
+- code
+---
+
+`Given n points on a 2D plane, find the maximum number of points that lie on the same straight line.`
+
+如何判断一个平面内的几个点在同一条直线上，可以通过直线L的斜率来判断，可以比较是一次函数y=kx+b的斜率来判断，只要经过同一点的直线并且斜率相同，就可以判断是一条直线。
+
+{% highlight python %}
+# Definition for a point
+# class Point:
+#     def __init__(self, a=0, b=0):
+#         self.x = a
+#         self.y = b
+
+class Solution:
+    # @param points, a list of Points
+    # @return an integer
+    def maxPoints(self, points):
+	length = len(points)
+	# 少于3个点，也就不存在多条直线了，直接返回点数
+        if length < 3: return length
+        res = 1
+	#经过其中的一个点，于其他的点连成几条直线
+        for i in range(length):
+            #要考虑到斜率为0（水平于x轴），或者为无限（水平于y轴）的情况
+	    slope = {'inf':0}
+            samep = 1 #还要考虑相同点的情况
+            a = points[i]
+	    # 和前面连过的点就不用考虑了，直线不用考虑方向，从左到右从右到左都是一条直线
+            for j in range(i+1,length):
+                b = points[j]
+                if a.x == b.x and a.y != b.y:
+		    # 水平于y轴
+		    slope['inf'] += 1
+                elif a.x != b.x:
+                    k = 1.0*(a.y - b.y) / (a.x - b.x)
+                    # 统计不同斜率的点数
+		    slope[k] = 1 if k not in slope else slope[k] + 1
+                else:
+                    samep += 1
+            res = max(res, max(slope.values()) + samep)
+        return res
+
+{% endhighlight %}
