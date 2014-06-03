@@ -1,6 +1,6 @@
 ---
 layout: post
-title: max_points_on_a_line@LeetCode
+title: max points on a line@LeetCode
 tags: 
 - code
 ---
