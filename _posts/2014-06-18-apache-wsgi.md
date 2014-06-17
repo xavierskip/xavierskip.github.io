@@ -22,7 +22,7 @@ tags:
 可是按照各种教程上的步骤，总是不能正常显示网页，我找不到错误所在。哪怕后来我知道在apache log中找错误信息，可也有像 httpd.conf配置的错误信息，让我一直都认为是我的apache配置有误，毕竟我对apache的配置毫无概念。没办法，偷不了懒，还是从了解apache配置，wsgi配置慢慢来吧。就这样从最简单的各种“hello world”开始配置，慢慢的有所概念了。可是我的应用真的很简单呀，为什么要我搭建server这么的麻烦。
 
 
-从各种“hello world”开始配置起，适合都没什么问题。那就是不是我服务配置的问题了，可是我的网页还是error 500，而且log中没有相关的记录。百思不得其解，当然就是突破口。我各种搜索，你知道了这一段时间以来google被墙的厉害，所以就这样从开始到现在所有的都在挫败我！
+从各种“hello world”开始配置起，都没什么问题。那就不是我服务配置的问题了，可是我的网页还是error 500，而且log中没有相关的记录。百思不得其解，当然这就是突破口。我各种搜索，你知道这一段时间以来google被墙的厉害，所以就这样从开始到现在所有的都在挫败我！
 
 我所要做的就是找到问题所在。所有没有错误处理的程序都是耍流氓！！
 
@@ -41,12 +41,14 @@ tips：有的还说关打开debug还不行，还得这样[500 Error without anyt
 	import logging, sys
 	logging.basicConfig(stream=sys.stderr)
 
-flask的mod_wsgi[文档](http://dormousehole.readthedocs.org/en/latest/deploying/mod_wsgi.html)中提到了要在配置文件中加上`WSGIRestrictStdout Off`，可是我不知道我加上去就是个错误配置？或者这样
+flask的mod_wsgi[文档](http://dormousehole.readthedocs.org/en/latest/deploying/mod_wsgi.html)中提到了要在配置文件中加上`WSGIRestrictStdout Off`，可是我不知道我加上去就是个错误配置？
+
+或者这样
 
 	import sys
 	sys.stdout = sys.stderr
 
-不管怎样，看到了错误信息，接下来就简单了。原来是我用来sqlite这种文件型的数据库，而之前开发测试时用的相对路径就可以打开了，可是现在在服务器上这个路径就不好把握了，这个时候相对与服务器的相对路径显然没有绝对路径更容易定位了。
+不管怎样，看到了错误信息，接下来就简单了。原来是因为我用sqlite这种文件型的数据库，而之前开发测试时用的相对路径就可以打开了，可是现在在服务器上这个路径就不好把握了，这个时候相对与服务器的相对路径显然没有绝对路径更容易定位了。
 [Python's working directory when running with WSGI and Apache](http://stackoverflow.com/questions/12081789/pythons-working-directory-when-running-with-wsgi-and-apache)
 
 	import os
@@ -57,7 +59,7 @@ flask的mod_wsgi[文档](http://dormousehole.readthedocs.org/en/latest/deploying
 
 终于可以在服务器上跑了！！！！
 
-虽然还有很多概念都还没搞清楚，但是需要搞清楚的太多了，整个体系还是很庞大。完成最开始的能够运行的目标更重要。
+虽然还有很多概念都还没搞清楚，特别是对apache的<Directory>路径权限什么的还不太清楚，但是需要搞清楚的太多了，整个体系还是很庞大的。而且完成最开始的能够运行的目标更重要。
 
 
 总之，还是学艺不精吧。而且看英文文档还是有些吃力，看到长篇的英文就想跳过去直接看命令，且不说词汇量的问题，很多英文句子要看两遍以上才能弄懂意思。慢慢提高，习惯看英文。
