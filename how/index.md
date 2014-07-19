@@ -11,7 +11,7 @@ comments: yes
 联系方式：
 
 邮箱:<a href="mailto:xavierskip@gmail.com">xavierskip[AT]gmail.com</a>  
-推特/<del>微博</del>: [@xavierskip](https://twitter.com/xavierskip)/ [<del>http://www.weibo.com/skiptoyoulou</del>](http://www.weibo.com/skiptoyoulou)  
+推特/微博: [@xavierskip](https://twitter.com/xavierskip)/ [http://www.weibo.com/skiptoyoulou](http://www.weibo.com/skiptoyoulou)  
 github : [https://github.com/xavierskip](https://github.com/xavierskip)  
 
 或许你还可以在这里找到我：
@@ -75,7 +75,7 @@ Don't never try to judge me Dude, you don't know what Fuck I been through.
 
 
  >我知道痛苦在前面等着我，我不介意，对我来说，快乐永远是一个不可能的词语，除了梦想，我拥有的只有忠诚的孤独
- > 
+ >      
  >他真诚地将自己的挑剔误认为是对美的不懈追求，  
  >把自己的孤僻误认为是不食人间烟火，  
  >把自己的散漫误认为是对于自由的热爱。  
