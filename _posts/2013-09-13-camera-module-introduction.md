@@ -6,11 +6,16 @@ tags:
 - python
 - pythongame
 ---
-#####Pygame Tutorials
-###Camera Module Introduction
-#####by Nirav Patel
-#####nrp@eclecti.cc
-#####Revision 1.0, May 25th, 2009
+##### Pygame Tutorials
+
+### Camera Module Introduction
+
+##### by Nirav Patel
+
+##### nrp@eclecti.cc
+
+##### Revision 1.0, May 25th, 2009
+
 原文:[http://www.pygame.org/docs/tut/camera/CameraIntro.html](http://www.pygame.org/docs/tut/camera/CameraIntro.html)
 
 感谢这个翻译插件[A+ Dictionary](https://chrome.google.com/webstore/detail/a%20-dictionary/nbdnlnijofenjgknplpelkpmhikpangb) 从此妈妈再也不用担心我的英语学习了！！
@@ -196,7 +201,7 @@ more and have fun!
 
 我的[渣代码]:
 
-用滑块控制颜色，自定义threshold()的三个颜色参数。
+### 用滑块控制颜色，自定义threshold()的三个颜色参数。
 
 * esc 退出
 * ctrl+s 保存图片
@@ -312,7 +317,8 @@ if __name__ == '__main__':
     camera = Capture()
     camera.live()
 {% endhighlight %}
-获取颜色，然后追踪。
+
+### 获取颜色，然后追踪。
 
 * 按m切换模式。
 
