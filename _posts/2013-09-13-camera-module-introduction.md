@@ -112,7 +112,7 @@ class Capture(object):
 Pygame 可以做一些基本的视觉效果（滤镜），变形，遮罩……
 
 ##色彩空间
-当你初始化摄像头的时候，有一个色彩空间的可选常数，有 'RGB', 'YUV', 和 'HSV'。在计算机视觉中 YUV 和 HSV 通常来说比 RGB 更有用。降低了颜色的阀值。
+当你初始化摄像头的时候，有一个色彩空间的可选常数，有 'RGB', 'YUV', 和 'HSV'。在计算机视觉中 YUV 和 HSV 通常来说比 RGB 更有用。降低了颜色的阈值。
 `self.cam = pygame.camera.Camera(self.clist[0], self.size, "RGB")`
 ![](http://www.pygame.org/docs/tut/camera/rgb.jpg)
 `self.cam = pygame.camera.Camera(self.clist[0], self.size, "YUV")`
@@ -130,7 +130,7 @@ pygame.transform.threshold(self.thresholded,self.snapshot,(0,255,0),(90,170,170)
 {% endhighlight %}
 ![](http://www.pygame.org/docs/tut/camera/thresholded.jpg)
 
-不过这只能用来寻找你知道准确颜色的对象。为了能够在现实的环境下方便的使用，我们增加一个校验机制来对对象的颜色进行辨认，并以此作为阀值。对此我们需要使用 average_color()这个方法。
+不过这只能用来寻找你知道准确颜色的对象。为了能够在现实的环境下方便的使用，我们增加一个校验机制来对对象的颜色进行辨认，并以此作为阈值。对此我们需要使用 average_color()这个方法。
 
 下面的例子就是在方框中取得颜色，然后将此颜色作为其中的常数在 threshold()方法中使用。Note:<b>这一部分我们都使用的是 HSV 色彩空间。</b>
 {% highlight python %}
