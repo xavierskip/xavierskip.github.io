@@ -34,15 +34,13 @@ tags:
 下面是开始折腾服务器的资料：
 
 
-**新建用户，使用 sudo，取消root用户登录**
-
+* 新建用户，使用 sudo，取消root用户登录  
 [Initial Server Setup with Ubuntu 12.04](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-12-04)
 
-**设置 ssh 公匙登录，不再输入密码**
-
+* 设置 ssh 公匙登录，不再输入密码  
 [How To Set Up SSH Keys](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2)
 
-**速度测试**
+* 速度测试  
 [NYC3 Speedtest](http://speedtest-nyc3.digitalocean.com/)
 
 先装了个 shadowsocks ，跑了下，翻墙速度也不是很快。先用着再说。
