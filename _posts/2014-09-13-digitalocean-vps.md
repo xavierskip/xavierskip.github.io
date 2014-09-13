@@ -42,6 +42,9 @@ tags:
 
 [How To Set Up SSH Keys](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2)
 
+**速度测试**
+[NYC3 Speedtest](http://speedtest-nyc3.digitalocean.com/)
+
 先装了个 shadowsocks ，跑了下，翻墙速度也不是很快。先用着再说。
 
 [用 Supervisor 运行 Shadowsocks](https://github.com/clowwindy/shadowsocks/wiki/%E7%94%A8-Supervisor-%E8%BF%90%E8%A1%8C-Shadowsocks)
