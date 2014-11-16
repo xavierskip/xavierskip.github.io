@@ -40,7 +40,7 @@
 .w { color: #f8f8f2 } /* Text.Whitespace */
 .mf { color: #ae81ff } /* Literal.Number.Float */
 .mh { color: #ae81ff } /* Literal.Number.Hex */
-.mi { color: #ae81ff } /* Literal.Number.Integer */
+.mi { /*color: #ae81ff*/ } /* Literal.Number.Integer ,incompatible with MathJax*/
 .mo { color: #ae81ff } /* Literal.Number.Oct */
 .sb { color: #e6db74 } /* Literal.String.Backtick */
 .sc { color: #e6db74 } /* Literal.String.Char */
