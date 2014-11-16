@@ -7,6 +7,7 @@ wordpress_id: 601
 tags:
 - python
 ---
+<style type="text/css">@import url(/media/css/pygments.css);</style>
 
 
 求阶乘 递归的方式，但是貌似不能求大于999的数，999可以，1000就不行了。
@@ -67,4 +68,4 @@ def main(num):
     	return 0
     
 print main(num)
-{% endhighlight %}     
+{% endhighlight %}

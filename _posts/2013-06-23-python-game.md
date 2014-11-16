@@ -6,8 +6,7 @@ tags:
 - game
 - python
 ---
-
-
+<style type="text/css">@import url(/media/css/pygments.css);</style>
 
 
 其实很早就知道这个网站了，也不是很早了，去年吧。玩了几关就放在收藏夹内了。再没有动过。

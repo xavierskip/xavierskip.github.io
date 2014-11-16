@@ -5,6 +5,7 @@ tags:
 - 前端
 - 技术
 ---
+<style type="text/css">@import url(/media/css/pygments.css);</style>
 
 发现这个玩意是偶然的一次使用 web QQ的时候打开控制台发现了这个[http://codestar.alloyteam.com/](http://codestar.alloyteam.com/),就玩通了第一季。这不第二季又开始了。
 

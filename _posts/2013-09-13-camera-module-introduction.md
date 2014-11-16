@@ -6,6 +6,8 @@ tags:
 - python
 - pythongame
 ---
+<style type="text/css">@import url(/media/css/pygments.css);</style>
+
 ##### Pygame Tutorials
 
 ### Camera Module Introduction
