@@ -20,7 +20,7 @@ modify by xavirskip
 @import url(http://fonts.googleapis.com/css?family=Cuprum);
 */
 
-@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(/media/css/font.css?family=Oswald);
 
 body{font-size:14px;word-spacing:1px;margin-left:auto;margin-right:auto;font-family: "Consolas","Microsoft YaHei",sans-serif;color:#000000;background-color:#FBFBFB;}
 *{padding:0;margin: 0;border:none;outline:none;}
