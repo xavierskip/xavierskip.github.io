@@ -49,8 +49,8 @@ tags:
 有没有看到适量的增加自身的肌肉对于帮助减掉脂肪也很有帮助。所以除了有氧运动增加一些力量训练也非常有必要。
 
 
-####疑问：
-=====
+疑问：
+------
 
 ####女生锻炼会不会长肌肉？
 
@@ -88,20 +88,20 @@ tags:
 有一定的道理。安静的时候消耗的脂肪**比例**是最高的，但是消耗热量的**总量**是最低的，运动时则相反，运动的强度越高消耗的脂肪**比例**着越低，但是运动强度的加大则消耗的热量**总量**也会提高。100的1%也比1的50%要大。所以我们运动强度应该是能让我们保存比较长时间运动状态的大小，这是个动态平衡的过程。
 
 
-####误区：
-====
+误区：
+------
 
 ####我腿粗，我想减腿，该做什么运动？我腰粗，做仰卧起坐，可以减腰吗？
 
-对不起没有**局部减肥**
+对不起没有*局部减肥*
 
 ####我减肥，胸部会变小吗？
 
-对不起没有**局部减肥**
+对不起没有*局部减肥*
 
 ####我多最腹部运动可以帮助减小肚子吗？
 
-对不起没有**局部减肥**
+对不起没有*局部减肥*
 除非用针管给你抽
 
 ####你看他有腹肌、马甲线、人鱼线，好厉害的样子
@@ -109,7 +109,8 @@ tags:
 只要体脂含量够低，就可以看见。不能代表这个人身体好，运动能力好。
 
 
-=====
+------------
+
 运动其实是一种生活方式，如果真的不习惯的这样的方式。做一个肉肉的吃货也没什么
 
 运动
@@ -141,6 +142,7 @@ tags:
 推荐阅读：
 
 [减脂应该配合怎样的三餐食物？](http://www.zhihu.com/question/20616440)
+
 [「有氧运动须超过一定时间才有减脂作用」是真理还是谬论？](http://www.zhihu.com/question/20268444)
 
 [运动到出汗是已经在减脂了吗？](http://www.zhihu.com/question/26383638)
@@ -155,7 +157,6 @@ tags:
 
 
 觉得自己的身材还可以哦
-
 <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="4" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://instagram.com/p/qb6vmyyD56/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_top">动•不动</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">xavierskip（@0x9427）发的视频 · <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2014-07-14T15:18:23+00:00">7月 7, 2014 at 8:18上午 PDT</time></p></div></blockquote><script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
 
 
