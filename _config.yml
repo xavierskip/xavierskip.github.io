@@ -23,6 +23,6 @@ auto: true
 analytics :
   provider : google
   google : 
-  tracking_id : 'UA-35426524-1'
+  tracking_id : 'UA-56943415-1'
   getclicky :
   site_id : 

@@ -6,11 +6,9 @@ layout: default
     <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date:"%Y-%m-%d" }}</time>
   </span>
 </section>
-
 <section class="post">
 {{ content }}
 </section>
-
 <section class="meta">
   {% if page.tags %}
   <span class="tag">
@@ -31,7 +29,6 @@ layout: default
   {% endif %}
   -->
 </section>
-
 <ul class="pager">
   <li class="next">
     {% if page.next %}
@@ -46,11 +43,9 @@ layout: default
     <span><a href="{{ page.previous.url }}">{{ page.previous.title }}</a> &#62;&#62;</span>
     {% else %}
     <span>&#60;&#60;</span>
-    
   </li>
   {% endif %}
 </ul>
-
 {% include comments.md %}
 <script type="text/javascript">
 $(function(){
