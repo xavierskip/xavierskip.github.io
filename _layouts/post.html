@@ -6,9 +6,7 @@ layout: default
     <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date:"%Y-%m-%d" }}</time>
   </span>
 </section>
-<section class="post">
-{{ content }}
-</section>
+<section class="post">{{ content }}</section>
 <section class="meta">
   {% if page.tags %}
   <span class="tag">
