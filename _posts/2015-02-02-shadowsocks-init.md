@@ -82,5 +82,13 @@ post-stop script
 end script
 {% endhighlight %}
 
+Debian系不需要创建 /etc/init/shadowsocks.conf 文件，执行
+
+`sudo update-rc.d shadowsocks defaults`
+
+添加到开机启动中
+
 好了，搞定，可以在shell中直接运行`sudo service shadowsocks {start|reload|stop}`来控制了！
+
+
 
