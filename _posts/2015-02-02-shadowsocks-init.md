@@ -19,7 +19,11 @@ tags:
 谁知道关于添加开机启动服务的官方文档在哪里找？
 
 
-创建脚本`sudo vim /etc/init.d/shadowsocks`
+
+创建脚本 /etc/init.d/shadowsocks
+-----------
+
+`sudo vim /etc/init.d/shadowsocks`
 
 添加以下内容
 
@@ -60,7 +64,8 @@ esac
 
 注意：这里命令的权限,我想以root权限运行，如果不想以root权限运行可以用`sudo -u {user} {command}`。如果不给此脚本文件加上其他用户也可执行权限，在运行`service shadowsocks`不加参数时会提示`unrecognized service`.
 
-创建`/etc/init/shadowsocks.conf`文件
+创建文件 /etc/init/shadowsocks.conf
+--------
 
 `sudo vim /etc/init/shadowsocks.conf`
 
