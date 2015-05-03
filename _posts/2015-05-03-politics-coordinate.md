@@ -32,9 +32,9 @@ tags:
     select age,count(age) from zb group by age;
 
 年龄主要集中在90-95这个年龄段。从这个年段向前向后随着时间跨度人数成递减趋势。
-（PIL画图？）
+![](http://ww4.sinaimg.cn/large/6afb06cdgw1errewn0gm7j20k90bqaao.jpg)
 
-###收入状况
+###受教育教育程度
 
     select edu,count(edu) from zb group by edu;
 
@@ -46,7 +46,10 @@ tags:
 大学|115495
 研究生及以上|28574
 
-###受教育教育程度
+![](http://ww1.sinaimg.cn/large/6afb06cdgw1errewmirhxj20f90az74t.jpg)
+
+
+###收入状况
 
     select earn,count(earn) from zb group by earn;
 
@@ -59,6 +62,8 @@ tags:
 75-100k|14949
 100-150k|14528
 150-300k|9458
+
+![](http://ww3.sinaimg.cn/large/6afb06cdgw1errewo20qxj20ev0af74x.jpg)
 
 #大概的学生比例
 
