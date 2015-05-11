@@ -2,7 +2,7 @@
 layout: post
 title: 自动机编程游戏 Manufactoria
 tags:
-- gmae
+- game
 ---
 
 
