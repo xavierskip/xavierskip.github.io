@@ -11,8 +11,8 @@ url: http://blog.xavierskip.com
 production_url : http://blog.xavierskip.com
 
 markdown: kramdown
-highlighter: true
 paginate: 16
+pygments: true
 # auto: true
 
 
@@ -20,9 +20,9 @@ paginate: 16
 # Set 'provider' to the analytics provider you want to use.
 # Set 'provider' to false to turn analytics off globally.
 #        
-analytics :
-  provider : google
-  google : 
-  tracking_id : 'UA-56943415-1'
-  getclicky :
-  site_id : 
+# analytics :
+#   provider : google
+#   google : 
+#   tracking_id : 'UA-56943415-1'
+#   getclicky :
+#   site_id : 
