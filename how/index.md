@@ -10,7 +10,7 @@ comments: yes
 
 联系方式：
 
-telegram:<a hred="http://telegram.me/skipto">telegram.me/skipto</a>
+telegram:<a href="http://telegram.me/skipto">telegram.me/skipto</a>
 
 邮箱:<a href="mailto:xavierskip@gmail.com">xavierskip[AT]gmail.com</a>
 
@@ -51,7 +51,7 @@ github : [https://github.com/xavierskip](https://github.com/xavierskip)
  
 “ basketball isn't part of my life, it's all my life!” 
 
-我希望我对得起我说的这句话
+我希望我对得起这句话
 
 有些人把 freestyle 就当作街球。其实街球是一种态度。freestyle 只是一种表达态度的一种方式。街球就是没有那些繁文缛节的规则后，你如何在球场和篮筐之间展现你的态度。
  
