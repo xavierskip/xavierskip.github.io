@@ -10,6 +10,7 @@ comments: yes
 
 联系方式：
 
+telegram:<a hred="http://telegram.me/skipto">telegram.me/skipto</a>
 邮箱:<a href="mailto:xavierskip@gmail.com">xavierskip[AT]gmail.com</a>  
 推特/微博: [@xavierskip](https://twitter.com/xavierskip)/ [http://www.weibo.com/skiptoyoulou](http://www.weibo.com/skiptoyoulou)  
 github : [https://github.com/xavierskip](https://github.com/xavierskip)  
@@ -26,9 +27,9 @@ github : [https://github.com/xavierskip](https://github.com/xavierskip)
 
 如果你对我感兴趣的话，或许也可以往下看看~
 
+以下内容已经过期
 
-从小接受的就是辨证唯物主义价值观的教育。可以感觉自己还是比较唯心的。
-
+<del>
 >你相信世界上宇宙中有外星人么？  
 反正我是认为没有的。  
 你会认为宇宙这么大，太阳系仅仅位于银河系的边缘，银河系第三旋臂——猎户旋臂上。  
@@ -72,10 +73,8 @@ Don't never try to judge me Dude, you don't know what Fuck I been through.
 
 以上就是我的自我剖析  
 看过[8 mile](http://movie.douban.com/subject/1307853/)么？rabbit 在擂台上的最后一段[rap](http://www.yinyuetai.com/video/168448)
-
-
- >我知道痛苦在前面等着我，我不介意，对我来说，快乐永远是一个不可能的词语，除了梦想，我拥有的只有忠诚的孤独
- >      
+</del>
+      
  >他真诚地将自己的挑剔误认为是对美的不懈追求，  
  >把自己的孤僻误认为是不食人间烟火，  
  >把自己的散漫误认为是对于自由的热爱。  
@@ -85,8 +84,8 @@ Don't never try to judge me Dude, you don't know what Fuck I been through.
  >他批判世上的所有东西，包括他自己。  
  >当别人指出他的自相矛盾后，他无法自圆其说，于是只好沉默。  
  >他是个不可理喻的人  ---[via](http://blog.chengyichao.info/onesuper)
-
-It's only after you've lost everything that you're free to do anything......??  
+ >
+ >一个彻底孤独的人是礼貌、亲和却不容亲近的，他们不仅拒绝他人的依赖，也极力避免别人的怨恨。他们尽可能活成一个模糊的符号。
 
 
 
