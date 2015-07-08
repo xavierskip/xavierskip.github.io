@@ -11,9 +11,9 @@ url: http://blog.xavierskip.com
 production_url : http://blog.xavierskip.com
 
 markdown: kramdown
-pygments: true
+highlighter: true
 paginate: 16
-auto: true
+# auto: true
 
 
 # Settings for analytics helper
