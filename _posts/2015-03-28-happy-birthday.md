@@ -5,7 +5,7 @@ tags:
 - 乱七八糟
 ---
 
-``` python
+{% highlight python %}
 ans = ask("明年还会祝我生日快乐吗？")
 if ans == “NO":
      say(“谢谢。")
@@ -15,4 +15,4 @@ else:
           say(“谢谢。")
      else:
           say(“对不起。")
-```
+{% endhighlight %}
