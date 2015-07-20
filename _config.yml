@@ -14,6 +14,7 @@ markdown: kramdown
 paginate: 16
 pygments: true
 # auto: true
+nocomments: true
 
 
 
