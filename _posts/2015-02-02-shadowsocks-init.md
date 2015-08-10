@@ -16,7 +16,7 @@ tags:
 * [开机启动 Seafile](http://manual-cn.seafile.com/deploy/start_Seafile_at_system_bootup.html)
 * [ 编写linux service并设置开机启动(Ubuntu)](http://blog.csdn.net/mlnotes/article/details/9676187)
 
-谁知道关于添加开机启动服务的官方文档在哪里找？
+谁知道关于添加开机启动服务的官方文档在哪里找？（更新：[UbuntuBootupHowto](https://help.ubuntu.com/community/UbuntuBootupHowto)）然后发现关于启动的内容这么多！[Upstart Intro, Cookbook and Best Practises](http://upstart.ubuntu.com/cookbook/)
 
 
 
