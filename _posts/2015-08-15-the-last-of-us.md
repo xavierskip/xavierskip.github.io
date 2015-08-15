@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 优酷通关《The last of Us》
+title: 优酷通关《The Last of Us》
 tags:
 - game
 ---
