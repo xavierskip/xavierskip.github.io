@@ -22,7 +22,7 @@ modify by xavirskip
 
 @import url(/media/css/font.css?family=Oswald);
 
-body{font-size:14px;word-spacing:1px;margin-left:auto;margin-right:auto;font-family: "Consolas","Microsoft YaHei",sans-serif;color:#000000;background-color:#FBFBFB;}
+body{font-size:14px;word-spacing:1px;margin-left:auto;margin-right:auto;font-family: "Times New Roman","Consolas","Microsoft YaHei";color:#000000;background-color:#FBFBFB;}
 *{padding:0;margin: 0;border:none;outline:none;}
 a{color:#E7350F;text-decoration:none;}
 a:hover{color:#333333;border-bottom: 1px dashed #E7350F;}
@@ -65,7 +65,7 @@ header{padding:0.5em 0 0.7em 0;border-bottom: 2px solid #E0E0E0;}
 nav{font-family: 'Oswald', sans-serif;font-size:1.1em;text-transform:uppercase;float:left;margin-left:-12em;margin-top:2em;width:9em;text-align:right;}
 nav a{display:block;padding:.7em 1em;color:#000000;}
 nav a:hover{background-color: #E7350F;text-decoration:none;color:#f9f9f9;border: 0;-webkit-transition:color .2s linear;}
-.post{margin: .5em 0 1em 0;}
+.post{margin: .5em 0 1em 0;font-size: 21px;color: #363636;}
 .post h2{margin: 21px 0 13px 0;}
 .post p {
 	margin: 6px;
@@ -73,6 +73,7 @@ nav a:hover{background-color: #E7350F;text-decoration:none;color:#f9f9f9;border:
 	letter-spacing: 1px;
 	word-wrap: break-word;
 	overflow: hidden;
+    font-family: STFangSong,Helvetica,Arial,Vernada,Tahoma,STXihei,"Songti SC",SimSun,Heiti,sans-serif;    
 }
 h1{font-family: 'Oswald',"Microsoft YaHei",sans-serif;font-size:1.6em;}
 h2{font-family: 'Oswald',"Microsoft YaHei",sans-serif;font-size:1.4em;}
