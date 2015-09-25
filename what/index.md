@@ -14,19 +14,7 @@ telegram:<a href="http://telegram.me/skipto">telegram.me/skipto</a>
 
 邮箱:<a href="mailto:xavierskip@gmail.com">xavierskip@gmail.com</a>
 
-推特/微博:  @xavierskip
-
-
-或许你还可以在这里找到我：
-
-* [虎扑](http://my.hupu.com/jzgk)
-* [豆瓣](http://www.douban.com/people/xavierskip/)
-* [v2ex](http://www.v2ex.com/?r=xavierskip)
-* [知乎](http://www.zhihu.com/people/skipto)
-* [GitHub](https://github.com/xavierskip)
-
 运气好的话在互联网上看见有人用 xavierskip这个ID，那应该就是我了。
-
 
 如果你对我感兴趣的话，或许也可以往下看看~
 
