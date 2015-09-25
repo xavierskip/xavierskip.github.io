@@ -12,11 +12,10 @@ comments: yes
 
 telegram:<a href="http://telegram.me/skipto">telegram.me/skipto</a>
 
-邮箱:<a href="mailto:xavierskip@gmail.com">xavierskip[AT]gmail.com</a>
+邮箱:<a href="mailto:xavierskip@gmail.com">xavierskip@gmail.com</a>
 
-推特/微博: [@xavierskip](https://twitter.com/xavierskip)/ [http://www.weibo.com/skiptoyoulou](http://www.weibo.com/skiptoyoulou)
+推特/微博:  @xavierskip
 
-github : [https://github.com/xavierskip](https://github.com/xavierskip)
 
 或许你还可以在这里找到我：
 
@@ -24,6 +23,7 @@ github : [https://github.com/xavierskip](https://github.com/xavierskip)
 * [豆瓣](http://www.douban.com/people/xavierskip/)
 * [v2ex](http://www.v2ex.com/?r=xavierskip)
 * [知乎](http://www.zhihu.com/people/skipto)
+* [GitHub](https://github.com/xavierskip)
 
 运气好的话在互联网上看见有人用 xavierskip这个ID，那应该就是我了。
 
