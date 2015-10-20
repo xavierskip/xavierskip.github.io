@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 减小VirtualBox虚拟机动态扩展硬盘尺寸
+title: 减小VirtualBox虚拟机动态扩展硬盘文件尺寸
 tags:
 - 解决
 ---
