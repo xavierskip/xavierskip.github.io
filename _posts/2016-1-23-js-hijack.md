@@ -18,11 +18,11 @@ tags:
 
 然后在函数中阻止接下来的事件冒泡。
 
-{% highlight python %}
-    // 作用于阻止事件向上冒泡。
-    Event.stopPropagation()
-    // 不仅阻止向上冒泡，也作用于阻止此节点上绑定相同的事件函数执行。
-    Event.stopImmediatePropagation()
+{% highlight javascript %}
+// 作用于阻止事件向上冒泡。
+Event.stopPropagation()
+// 不仅阻止向上冒泡，也作用于阻止此节点上绑定相同的事件函数执行。
+Event.stopImmediatePropagation()
 {% endhighlight %}
 
 但是这么阻止后发现，不仅点击事件被阻止了，我直接用 javascript 调用点击事件`.click()`也被阻止了，阻止成功了但我无法调用点击事件了。还好我发现了一个窍门，Event 事件有一个属性`isTrusted`,根据这个属性我就可以判断是用户点击产生的事件还是 javascript 直接调用的事件。
