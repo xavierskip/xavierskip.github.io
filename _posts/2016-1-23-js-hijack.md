@@ -16,6 +16,9 @@ tags:
 
 `target.addEventListener(type, listener, true );`
 
+![](http://ww4.sinaimg.cn/large/80733bd4gw1f09tjjbi1zj20pi0orgqz.jpg)
+图片来源：[http://www.w3.org/TR/DOM-Level-3-Events/#dom-event-architecture](http://www.w3.org/TR/DOM-Level-3-Events/#dom-event-architecture)
+
 然后在函数中阻止接下来的事件冒泡。
 
 {% highlight javascript %}
