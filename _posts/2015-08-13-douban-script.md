@@ -11,7 +11,8 @@ tags:
 
 就写了个脚本解决这个需求，刚开始找豆瓣FM歌曲信息还废了点功夫，结果发现在本地`localStorage`中存着了，就简单了。
 
-最新版本在此![https://greasyfork.org/zh-CN/scripts/11674-doubanfm2netease](https://greasyfork.org/zh-CN/scripts/11674-doubanfm2netease)
+最新版本在此!
+[https://greasyfork.org/zh-CN/scripts/11674-doubanfm2netease](https://greasyfork.org/zh-CN/scripts/11674-doubanfm2netease)
 
 <script src="https://gist.github.com/xavierskip/861d9f3569142a1ec1e7.js"></script>
 
