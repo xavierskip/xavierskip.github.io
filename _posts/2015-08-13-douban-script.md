@@ -11,6 +11,8 @@ tags:
 
 就写了个脚本解决这个需求，刚开始找豆瓣FM歌曲信息还废了点功夫，结果发现在本地`localStorage`中存着了，就简单了。
 
+最新版本在此![https://greasyfork.org/zh-CN/scripts/11674-doubanfm2netease](https://greasyfork.org/zh-CN/scripts/11674-doubanfm2netease)
+
 <script src="https://gist.github.com/xavierskip/861d9f3569142a1ec1e7.js"></script>
 
 安装好后，点击页面上的链接，根据歌曲信息直接打开网易云音乐的搜索地址，歌曲轻松找到了！（搜索信息是歌曲名和表演者，不知道为什么豆瓣存储的信息表演者和专辑名是一样的）
@@ -20,3 +22,4 @@ tags:
 脚本地址：[https://github.com/xavierskip/delete-weibo/blob/master/del_weibo.js](https://github.com/xavierskip/delete-weibo/blob/master/del_weibo.js)
 
 许久没用了，修改了下适应了改版后的新浪微博页面。
+
