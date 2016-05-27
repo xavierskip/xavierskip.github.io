@@ -12,7 +12,8 @@ production_url : http://blog.xavierskip.com
 
 markdown: kramdown
 paginate: 16
-pygments: true
+highlighter: rouge
+# pygments: true
 # auto: true
 nocomments: true
 
