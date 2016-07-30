@@ -80,7 +80,7 @@ h2{font-family: 'Oswald',"Microsoft YaHei",sans-serif;font-size:1.4em;}
 h3{font-family: 'Oswald',"Microsoft YaHei",sans-serif;font-size:1.2em;margin: 1em 0;}
 h4{font-family: 'Oswald',"Microsoft YaHei",sans-serif;font-size:1em;}
 pre,code{font-family: Menlo,"Andale Mono",Consolas,"Courier New",Monaco,monospace;font-size:13px;}
-code{padding: 3px 4px;color:#00FF73;background-color:#272822;border-radius: 3px;}
+code{padding: 3px 4px;color:#fff;background-color:#272822;border-radius: 3px;}
 embed,object,iframe,video{display:block;margin:4px auto;}
 .gist{font-size: 12px;line-height:1.6;}
 
