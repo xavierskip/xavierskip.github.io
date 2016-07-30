@@ -33,7 +33,8 @@ In [4]: c == d
 Out[4]: True
 In [5]: id(c) == id(d)
 Out[5]: False
-```)
+```
+）
 
 ```python
 from werkzeug.exceptions import HTTPException, default_exceptions,  Aborter
