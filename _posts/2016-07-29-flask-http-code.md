@@ -11,7 +11,29 @@ tags:
 
 首先我们需要自定义一个错误，这个错误类继承于`werkzeug.exceptions.HTTPException`.我以 [451 Unavailable For Legal Reasons](https://en.wikipedia.org/wiki/HTTP_451) 这个状态码为例子。[RFC](https://tools.ietf.org/html/rfc7725)
 
-abort其实是类`werkzeug.exceptions.Aborter`的实例,abort初始化的时候就需要 default_exceptions 这个变量，但是我不知道为什么在 Aborter.__init__() 中更新 default_exceptions 后，在 Flask._get_exc_class_and_code 中的 default_exceptions 依旧没变。所以我不使用 flask 提供的 abort ，而是先更新 default_exceptions 然后再调用`werkzeug.exceptions.Aborter`创建一个 abort。
+abort其实是类`werkzeug.exceptions.Aborter`的实例,abort初始化的时候就需要 default_exceptions 这个变量，但是我不知道为什么在 Aborter.__init__ 中更新 default_exceptions 后，在 Flask._get_exc_class_and_code 中的 default_exceptions 依旧没变。所以我不使用 flask 提供的 abort ，而是先更新 default_exceptions 然后再调用`werkzeug.exceptions.Aborter`创建一个 abort。
+
+(2016年7月30日更正：  
+我重新看了一下 Aborter.__init__ 中的代码，之前太不仔细了，self.mapping 并不是直接引用的 default_exceptions, 而是利用 dict函数生成新的字典。
+
+```python
+class Aborter(object):
+    def __init__(self, mapping=None, extra=None):
+        if mapping is None:
+            mapping = default_exceptions
+        self.mapping = dict(mapping)
+        if extra is not None:
+            self.mapping.update(extra)
+
+In [1]: d = {'a':123}
+In [2]: c = dict(d)
+In [3]: c
+Out[3]: {'a': 123}
+In [4]: c == d
+Out[4]: True
+In [5]: id(c) == id(d)
+Out[5]: False
+```)
 
 ```python
 from werkzeug.exceptions import HTTPException, default_exceptions,  Aborter
