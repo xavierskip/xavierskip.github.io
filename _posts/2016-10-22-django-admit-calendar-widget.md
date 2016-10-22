@@ -15,10 +15,9 @@ admin site 中的日历控件使用方法很简单
 <input type="text" class="vDateField">
 <input type="text" class="vTimeField">
 ```
-只要页面中的 input 的 class 属性为 vDateField 或者 vTimeField 为即可，会自动在输入框后边添加上日历控件开关，这两个 class 属性一个选择是日期控件一个是选择时间控件（注意这里设置的 input type 为 text 和标准的 date 值不同）
+只要页面中的 input 的 class 属性为 vDateField 或者 vTimeField 即可，会自动在输入框后边添加上日历控件开关，这两个 class 属性一个选择是日期控件一个是选择时间控件（注意这里设置的 input type 为 text 和标准的 date 值不同）
 
 接下来是载入控件所需要的资源
-
 
 __css 资源__
 ```html
