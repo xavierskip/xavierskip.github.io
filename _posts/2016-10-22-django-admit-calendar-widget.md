@@ -43,7 +43,8 @@ admin site 中的日历控件使用方法很简单
 在你的 urls.py 中添加以下内容,确保 url 在你的 admin site 之前
 
 ```python
-def i18n_javascript(request):    return admin.site.i18n_javascript(request)
+def i18n_javascript(request):
+    return admin.site.i18n_javascript(request)
 patterns = [
     ...
     url(r'^admin/jsi18n', i18n_javascript),
@@ -51,7 +52,7 @@ patterns = [
 ]
 ```
 
-django admin site 专门使用一套 jQuery 为了不会和其它 jQuery 干扰，使用方式与一般`$`开头不同，是`django.jQuery`。如果页面本身就已经引入了 jQuery，那么只需要在 jquery.init.js 上修改一下即可，否则还需要引入 admin site 的 jQuery 库。
+django admin site 专门使用一套 jQuery 为了不会和其它 jQuery 干扰，使用方式与一般`$`开头不同，是`django.jQuery`。如果页面本身就已经引入了 jQuery，那么只需要在 jquery.init.js 上修改一下即可，否则请直接引入 admin site 的 jQuery 库。
 	
 ``` html{% raw %}
 <script src="{% static 'admin/js/jquery.js' %}"></script>
@@ -68,13 +69,13 @@ var jQuery = django.jQuery;
 var $=jQuery;
 ```
 	
-最后一项`window.__admin_media_prefix__`是需要设定的，否则控件的图标无法正确的显示。这一段是在`admin/base.html`中找到的，在`DateTimeShortcuts.js`中有描述
+最后一项`window.__admin_media_prefix__`如果不能正确设定，控件的图标将无法显示。设置是在`admin/base.html`中找到的，在`DateTimeShortcuts.js`中有描述
 
 >Get admin_media_prefix by grabbing it off the window object. It's set in the admin/base.html template, so if it's not there, someone's overridden the template. In that case, we'll set a clearly-invalid value in the hopes that someone will examine HTTP requests and see it.
 
 
-最后使用时需要注意的是，这个控件使用的是字符型输入框，最后上传的日期格式为`2016/10/26`，而后段处理时标志的日期格式为`2016-10-26`，所以最后后段接受到数据后还需转换一下。
+最后，使用时需要注意的是，这个控件使用的是字符型输入框，最后上传的日期格式为`2016/10/26`，而后端处理时的标准日期格式为`2016-10-26`，所以最后后端接收到数据后还需转换一下。
 
-推荐阅读：[巧将Django Admin应用至前端部分
+参考：[巧将Django Admin应用至前端部分
 ](https://imtx.me/archives/1454.html)
 
