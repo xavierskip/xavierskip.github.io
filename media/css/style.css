@@ -22,7 +22,7 @@ modify by xavirskip
 
 @import url(/media/css/font.css?family=Oswald);
 
-body{font-size:14px;word-spacing:1px;margin-left:auto;margin-right:auto;font-family: "Times New Roman","Consolas","Microsoft YaHei";color:#000000;background-color:#FBFBFB;}
+body{font-size:14px;margin-left:auto;margin-right:auto;font-family: "Times New Roman","Consolas","Microsoft YaHei";color:#000000;background-color:#FBFBFB;}
 *{padding:0;margin: 0;border:none;outline:none;}
 a{color:#E7350F;text-decoration:none;}
 a:hover{color:#333333;border-bottom: 1px dashed #E7350F;}
@@ -70,7 +70,6 @@ nav a:hover{background-color: #E7350F;text-decoration:none;color:#f9f9f9;border:
 .post p {
 	margin: 6px;
 	line-height: 1.6em;
-	letter-spacing: 1px;
 	word-wrap: break-word;
 	overflow: hidden;
     font-family: STFangSong,Helvetica,Arial,Vernada,Tahoma,STXihei,"Songti SC",SimSun,Heiti,sans-serif;    
