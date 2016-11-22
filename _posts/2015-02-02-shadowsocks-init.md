@@ -16,7 +16,7 @@ tags:
 谁知道关于添加开机启动服务的官方文档在哪里找？（更新：[UbuntuBootupHowto](https://help.ubuntu.com/community/UbuntuBootupHowto)）然后发现关于启动的内容这么多！[Upstart Intro, Cookbook and Best Practises](http://upstart.ubuntu.com/cookbook/)
 
 
-###创建脚本 /etc/init.d/shadowsocks
+### 创建脚本 /etc/init.d/shadowsocks
 
 `sudo vim /etc/init.d/shadowsocks`
 
@@ -64,12 +64,12 @@ esac
 
 注意：这里命令是以root权限运行，如果不想以root权限运行可以用将命令改为`sudo -u {user} {command}`
 
-###增加这个文件的可执行权限
+### 增加这个文件的可执行权限
 
 `sudo chmod +x /etc/init.d/shadowsocks`
 
 
-###在 rc.d 中新增
+### 在 rc.d 中新增
 
 `sudo update-rc.d shadowsocks defaults`
 
