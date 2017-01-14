@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 直接下载百度网盘资源,没有限速
+title: 直接下载百度网盘资源,不要限速
 tags:
 - wget
 ---
@@ -42,6 +42,7 @@ tags:
 相关阅读：
 
 [知乎：百度网盘下载限速如何破解？](https://www.zhihu.com/question/28333225)
+
 [wget 相关命令解释](https://www.gnu.org/software/wget/manual/html_node/HTTP-Options.html)
 
 
