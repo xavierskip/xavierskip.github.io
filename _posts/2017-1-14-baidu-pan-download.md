@@ -23,7 +23,7 @@ tags:
 
 例如：`http://pcs.baidu.com/rest/2.0/pcs/file?method=download&app_id=250528&path=%2Ffuturama%2F%E9%A3%9E%E5%87%BA%E4%B8%AA%E6%9C%AA%E6%9D%A54%2F409.rmvb`
 
-随便修改修改一下：`http://pcs.baidu.com/rest/2.0/pcs/file?method=download&app_id=250528&path=%2Ffutu`
+随便修改一下：`http://pcs.baidu.com/rest/2.0/pcs/file?method=download&app_id=250528&path=%2Ffutu`
 
 使用错误的链接地址是方便我们找到 cookies，打开开发工具，访问错误的链接，找到 cookies 就行了。
 
