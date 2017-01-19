@@ -17,7 +17,7 @@ tags:
 
 ![](https://ww2.sinaimg.cn/large/006tNbRwgw1fbqbr084mij30lx0ec10a.jpg)
 
-复制保存好这些链接，接下来我们需要使用下载工具来批量下载这些文件，我使用的是 wget，当然你使用[aria2c](https://aria2.github.io/manual/en/html/index.html)也是没有问题的。 **注意：下载的同时必须带上你的 cookies。**
+复制保存好这些链接，接下来我们需要使用下载工具来批量下载这些文件，我使用的是 wget，当然你使用[aria2c](https://aria2.github.io/manual/en/html/index.html)也是没有问题的。 __注意：下载的同时必须带上你的 cookies。__
 
 下面是如何获取到你的 cookies。我们来利用 chrome 的开发工具获取。首先从上面的链接中挑一个出来。
 
