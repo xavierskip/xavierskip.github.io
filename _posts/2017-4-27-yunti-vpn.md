@@ -19,7 +19,7 @@ tags:
 
 下面是 Android 上使用 IKEv2 连接 VPN 的配置范例。
 
-1. 首先你需要安装[strongSwan VPN Client](https://play.google.com/store/apps/details?id=org.strongswan.android)
+* 首先你需要安装[strongSwan VPN Client](https://play.google.com/store/apps/details?id=org.strongswan.android)
 
 然后你需要取得云梯提供的根证书，如果你已经安装过云梯的客户端并成功使用过，那么你一定安装好了这个证书，你可以直接在 MAC OS 的"钥匙串访问"中获取这个名为"VPNCloud Class 3 Root CA 1"的证书，证书部分信息如下。
 
@@ -32,13 +32,13 @@ tags:
 
 本人对证书类安全机制并不了解，考虑到随意安装根证书的风险，我就不提供这个证书文件的下载了。因为这个证书是通过客户端安装到系统里的，如果你没有相应系统平台来安装、使用这个客户端，要么再等一个月云梯官方发布了其他平台的客户端，要么给我发送邮件，我再提供给你这个证书。
 
-2. 将这个证书安装到你的手机里
+* 将这个证书安装到你的手机里
 
 你可以直接安装到你的 Android 系统中，但是我推荐你导入到 strongSwan APP 中就可以了。
 ![](http://ww4.sinaimg.cn/large/006tKfTcgy1ff1jp6wai8j30k00zkwh5.jpg)
 在 strongSwan 中你可以在 CA证书>已导入 中看到你导入的云梯证书。
  
-3. 最后，添加 vpn 配置如下
+* 最后，添加 vpn 配置如下
 
 ![](http://ww4.sinaimg.cn/large/006tKfTcgy1ff1jrzjr45j30k01jaq61.jpg)
 
