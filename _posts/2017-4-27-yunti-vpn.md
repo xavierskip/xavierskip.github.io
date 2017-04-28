@@ -46,5 +46,9 @@ tags:
 
 我依葫芦画瓢，在 Windows 系统上却没有成功，安装证书到系统中，然后创建 IKEv2 连接，试了很多选项，依旧不成功。没辙了。
 
+然后在网上看到了这个留言，整个人都不好了。
+
+![](http://ww3.sinaimg.cn/large/006tKfTcgy1ff2bfdouerj30f403kt98.jpg)
+
 
 
