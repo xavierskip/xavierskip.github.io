@@ -52,11 +52,11 @@ tags:
 
 不过我在 twitter 上联系了云梯的CEO [@kegen](https://twitter.com/kgen)后，他告诉了我在 Windows 上配置的方法。（本人使用的是 Windows10 操作系统）
 
-1.安装上面提到的那个证书。安装证书的时候选择导入当前计算机而不是当前用户，存储区域选择：受信任的根证书颁发机构。
+1. 安装上面提到的那个证书。安装证书的时候选择导入当前计算机而不是当前用户，存储区域选择：受信任的根证书颁发机构。
 
-2.添加一条注册表值`HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\RasMan\Parameters\DisableIKENameEkuCheck `类型为 DWORD，值为1
+2. 添加一条注册表值`HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\RasMan\Parameters\DisableIKENameEkuCheck `类型为 DWORD，值为1
 
-3.添加 IKEv2 连接方式如下图所示![](http://ww4.sinaimg.cn/large/006tNc79gy1ff3tbpujf7j30bp0gvjro.jpg)
+3. 添加 IKEv2 连接方式如下图所示![](http://ww4.sinaimg.cn/large/006tNc79gy1ff3tbpujf7j30bp0gvjro.jpg)
 
 接下来就可以连接了。如果连接成功了后，依旧打不开相应的网站，可以去设置一下你的 DNS 服务器为 8.8.8.8。或者你需要在 *网络* > *TCP/IPv4* > *高级* > *IP设置* 中选中『在远程网络上使用默认网关』
 
@@ -64,6 +64,7 @@ tags:
 
 
 相关：
+
 [Windows 10设置登录VPN服务器图文介绍（IKEv2模式）](https://www.cvpncup.com/config/windows10-ikev2)
 
 [安卓开关vpn的快捷方式？](https://www.zhihu.com/question/37393013/answer/161280766)
