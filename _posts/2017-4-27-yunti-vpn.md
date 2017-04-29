@@ -63,3 +63,8 @@ tags:
 ![](http://ww1.sinaimg.cn/large/006tNc79gy1ff3tdprimkj311c0gwwfq.jpg)
 
 
+相关：
+[Windows 10设置登录VPN服务器图文介绍（IKEv2模式）](https://www.cvpncup.com/config/windows10-ikev2)
+
+[安卓开关vpn的快捷方式？](https://www.zhihu.com/question/37393013/answer/161280766)
+
