@@ -3,7 +3,18 @@ layout: post
 title: 云梯 VPN IKEv2 连接方式在 Android、Windows 系统上的配置 
 tags:
 - vpn
+typora-copy-images-to: ipic
 ---
+
+####注意：
+
+####由于以下原因
+
+![屏幕快照 2017-12-02 下午8.53.41](https://ws3.sinaimg.cn/large/006tNc79gy1fm2q2xhz1hj30hx043gmu.jpg)
+
+####相关信息已经被老大哥掌握，所以我们需要删除已经安装的相关客户端程序，最重要的需要删除已经安装的相关证书文件，防止被中间人攻击。
+
+####以上于2017年12月1日更新
 
 从13年以来一直购买了云梯的 VPN 服务，但是用的不多。毕竟 VPN 用起来没有其他跨墙手段比如 http 代理或者 socket 代理等等使用起来灵活，哪怕不考虑速度因素，VPN 的连接、断开、切换路由表都还挺麻烦的，而且不跨墙的访问流量还是占大多数的，所以 vpn 一直以来都是作为备用梯子来使用的。
 
@@ -26,7 +37,7 @@ tags:
 ![](http://ww4.sinaimg.cn/large/006tKfTcgy1ff1ipn6m9hj30mm0ctdho.jpg)
 
 证书指纹如下：
-	
+​	
 	sha: D0 F7 BE 76 4C 41 5E 60 CF 58 B7 F2 B4 11 0C 69 67 27 90 76
 	md4: 7B FE F5 62 B1 9F F3 27 CB C8 37 C8 67 6D 9D 21
 
@@ -37,7 +48,7 @@ tags:
 你可以直接安装到你的 Android 系统中，但是我推荐你导入到 strongSwan APP 中就可以了。
 ![](http://ww4.sinaimg.cn/large/006tKfTcgy1ff1jp6wai8j30k00zkwh5.jpg)
 在 strongSwan 中你可以在 CA证书>已导入 中看到你导入的云梯证书。
- 
+
 * 最后，添加 vpn 配置如下
 
 ![](http://ww4.sinaimg.cn/large/006tKfTcgy1ff1jrzjr45j30k01jaq61.jpg)
