@@ -3,7 +3,6 @@ layout: post
 title: 
 tags:在使用Gooey这个GUI库以及使用PyInstaller进行打包的过程中踩的若干个坑
 - programe
-typora-copy-images-to: ipic
 ---
 
 用Python3写了个小工具，想起来之前看过一个非常酷的GUI库，一直没有实践过，想着应用到这个非常简单的工具上应该不会有什么阻碍的，但是依旧踩了些坑，而且看起来更像是自己给自己挖的坑。
