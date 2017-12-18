@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 在使用Gooey这个GUI库以及使用PyInstaller进行打包的过程中踩的若干个坑
+title: 在使用Gooey库以及使用PyInstaller对其进行打包过程中踩的若干个坑
 tags:
 - programe
 ---
