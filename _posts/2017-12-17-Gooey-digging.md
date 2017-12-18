@@ -11,9 +11,9 @@ tags:
 
 首先我使用的GUI库是[**Gooey**](https://github.com/chriskiehl/Gooey)。它是一个能够非常方便的将你的命令行程序转换成图形界面的程序库。
 
-但是当你的程序在__中文Windows系统__中运行时，你会发现输出中文字符并不会如你所愿出现在程序的输出界面中。报错是我们非常熟悉的字符编码错误`UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc4 in position 6: invalid continuation byte`，经常有初学者遇到编码问题手足无措然后上论坛提问，有些人便会直接回答道：换掉2用Python3吧。我想他们是不是误会了些什么，如果你对基本的字符编码概念一无所知以及不规范操作字符串不管你用Python2还是Python3一样都会遇到字符编码的问题。Python3在处理字符的方式与Python2截然不同，但是这不意味这些改动会保障你不出字符编码的问题。
+但是当你的程序在**中文Windows系统**中运行时，你会发现输出中文字符并不会如你所愿出现在程序的输出界面中。报错是我们非常熟悉的字符编码错误`UnicodeDecodeError: 'utf-8' codec can't decode byte 0xc4 in position 6: invalid continuation byte`，经常有初学者遇到编码问题手足无措然后上论坛提问，有些人便会直接回答道：换掉2直接用Python3吧。我想他们是不是误会了些什么，如果你对基本的字符编码概念一无所知以及不规范操作字符串不管你用Python2还是Python3一样都会遇到字符编码的问题。Python3在处理字符的方式与Python2截然不同，但是这不意味这些改动会保障你不出字符编码的问题。
 
-好在MacOS上运行一切正常，可能和中文Windows下终端的默认编码有关系，我在`cmd`下执行`chcp`得到的是`活动代码页: 936`，不仅输出中文会引发错误，而且我也试过日文等其他语言，我认为是__因为字符编码的原因在中文Windows系统下输出任何Non-ASCII字符都会引发编码错误__，具体的原因我还没有深入的debug，我在github上提出了[Issue](https://github.com/chriskiehl/Gooey/issues/230)但是到目前为止没有得到回复。
+好在MacOS上运行一切正常，可能和中文Windows下终端的默认编码有关系，我在`cmd`下执行`chcp`得到的是`活动代码页: 936`，不仅输出中文会引发错误，而且我也试过日文等其他语言，我认为是**因为字符编码的原因在中文Windows系统下输出任何Non-ASCII字符都会引发编码错误**，具体的原因我还没有深入的debug，我在github上提出了[Issue](https://github.com/chriskiehl/Gooey/issues/230)但是到目前为止没有得到回复。
 
 暂时试出来两个解决方法。
 
@@ -21,9 +21,8 @@ tags:
 
 1、直接在源码出错的位置修改，正确的转换字符串
 
-`gooey\gui\windows\runtime_display_panel.py` line 53
-
 ```python
+# gooey\gui\windows\runtime_display_panel.py line 53
 self.cmd_textbox.AppendText(txt.decode('GBk'))
 ```
 
@@ -65,7 +64,7 @@ time.sleep(1)
 
 我安装的PyInstller版本是3.3。哪知道这个版本不兼容xp，不兼容不是不能在xp系统上运行，而是打包的可执行文件不能在xp上运行，但是可以在Windows7及以上的系统运行，也就是说3.3版本的打包可执行文件不能在xp上运行。我知道xp已经很老，安装Python3也只能安装Python3.5版本以下的，但是既然我们都到Windows上打包程序了，而且一个小工具而已，在系统上也不应该是兼容性的问题，这个问题大多数出在PyInstaller自身上。
 
-网上搜索了一下发现确实是版本的问题，有人反映在[3.2.1版本还可以在xp下工作](https://github.com/pyinstaller/pyinstaller/issues/2931)，于是我重新安装了3.2.1版本来试一下。注意，这里有一个坑，重新安装后不要马上执行打包操作，**请先清除之前打包过程中生成的build文件夹**，否则会引发错误。然后3.2.1版本在给可执行程序添加version信息的功能上并不兼容Python3，具体解决方法可以参考我的[项目说明书][1]。
+网上搜索了一下发现确实是版本的问题，有人反映在[3.2.1版本还可以在xp下工作](https://github.com/pyinstaller/pyinstaller/issues/2931)，于是我重新安装了3.2.1版本来试一下。注意，这里有一个坑，**重新安装后不要马上执行打包操作，请先清除之前打包过程中生成的build文件夹**，否则会引发错误。然后3.2.1版本在给可执行程序添加version信息的功能上并不兼容Python3，具体解决方法可以参考我的[项目说明书][1]。
 
 好了解决了上面的问题，总算可以正常的在Windows XP下打包程序了。然后我看到PyInstaller更新了，[v3.3.1][2]更新的内容有
 
