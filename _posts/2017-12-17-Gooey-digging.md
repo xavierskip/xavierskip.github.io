@@ -90,6 +90,8 @@ Windows10下也是差不多的情况，具体报错信息不同，不想研究�
 
 妈蛋，XP下打包好的可执行文件拿去滚。到最后还是得靠XP。
 
+最后我为了解决在Windows中文系统中无法正确显示输出中包含中文等各种其他字符的问题提出了[Pull request](https://github.com/chriskiehl/Gooey/pull/237)
+
 [1]:https://coding.net/u/skipto/p/CSVFilter/git
 [2]:https://github.com/pyinstaller/pyinstaller/releases
 [3]:https://upx.github.io/
