@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jacascript 如何劫持一个绑定了匿名函数的事件？
+title: Javascript 如何劫持一个绑定了匿名函数的事件？
 tags:
 - javascript
 ---
