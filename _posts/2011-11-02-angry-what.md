@@ -157,7 +157,6 @@ Fuck Free Wold! 3-1-3~~Fuck Free Wold! 3-1-3~~Fuck Free Wold! 3-1-3~~)
 Work?
 他对他的兄弟说：”那是你的生活，我想做我自己的事情！“
 
-![](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2011/11/2657405255142146312-494x277.jpg)
 
 接下来就是经典的《lose yourself》了~~~~
 想想我大一寒假就是听着这首去长大打球
@@ -181,6 +180,7 @@ Work?
 
 不是为了证明什么，也不是为了获得什么，我只是感到身体里仿佛有一头野兽要脱笼而出，只有站在球场上才能把它赶走。
 
+```
 Sometimes I get upset
 有的时候我变得沮丧
 Cuz I ain't blew up yet
@@ -395,11 +395,7 @@ Hit the burbs and all you see is a blur on 8 mile rd.
 敲碎了围栏，在你看来不过是八英里路上的污点
 
 FUCK WORLD~~
-
-
-
-* * *
-
+```
 
 
 做一个清醒者，冷冷的旁观这个世界，向世界索取自己想要的东西，做自己想要做的事，成为自己想要成为的人，该抓住的抓住，该舍弃的舍弃，该背叛的时候就背叛，这才是真正的够酷
