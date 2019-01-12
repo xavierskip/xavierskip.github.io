@@ -14,12 +14,12 @@ tags: video
 
 # 第一回合
 
-<iframe src="//player.youku.com/embed/XMjc0MTgwMTgw" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="720" height="560"> </iframe>
+<iframe src="https://player.youku.com/embed/XMjc0MTgwMTgw" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="498" height="510"> </iframe>
 
 
 
 # 第二回合
 
-<iframe src="//player.youku.com/embed/XMjk4ODgwNzg4" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="720" height="560"> </iframe>
+<iframe src="https://player.youku.com/embed/XMjk4ODgwNzg4" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="498" height="510"> </iframe>
 
 
