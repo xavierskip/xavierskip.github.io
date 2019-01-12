@@ -158,6 +158,7 @@ $$ t` = \sqrt{1-\frac{v^2}{c^2}} \cdot t $$
 - [洛伦兹变换](http://zh.wikipedia.org/wiki/%E6%B4%9B%E4%BC%A6%E5%85%B9%E5%8F%98%E6%8D%A2)
 - [相对论](http://zh.wikipedia.org/wiki/%E7%9B%B8%E5%AF%B9%E8%AE%BA)
 
-<script type="text/javascript"
-  src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_SVG">
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js??config=TeX-AMS-MML_SVG">
 </script>
