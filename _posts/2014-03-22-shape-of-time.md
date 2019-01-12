@@ -159,6 +159,5 @@ $$ t` = \sqrt{1-\frac{v^2}{c^2}} \cdot t $$
 - [相对论](http://zh.wikipedia.org/wiki/%E7%9B%B8%E5%AF%B9%E8%AE%BA)
 
 <script type="text/javascript"
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_SVG">
+  src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_SVG">
 </script>
-
