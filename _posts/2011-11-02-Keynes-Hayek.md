@@ -12,12 +12,12 @@ tags: video
 
 想起来一个：政府建一个楼，然后拆掉，GDP就增倍了～～
 
-# 第一回合
+# [第一回合](https://v.youku.com/v_show/id_XMjc0MTgwMTgw.html)
 
 <iframe src="//player.youku.com/embed/XMjc0MTgwMTgw" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="720" height="560"> </iframe>
 
 
-# 第二回合
+# [第二回合](https://v.youku.com/v_show/id_XMjk4ODgwNzg4.html)
 
 <iframe src="https://player.youku.com/embed/XMjk4ODgwNzg4" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="720" height="560"> </iframe>
 
