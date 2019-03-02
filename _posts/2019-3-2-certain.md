@@ -1,0 +1,34 @@
+---
+layout: post
+title: 确定的事情
+tags:
+- 烂七八糟
+---
+
+突然间在豆瓣上看见有人在转播 [@Vamei](https://www.douban.com/people/ztftom/) 因为抑郁症去世的消息。又是一个因为抑郁症走了的人。
+
+在网络上认识他是因为看过他写的python教程以及一些其他计算机相关技术的文章，也一直在豆瓣上关注他，还知道他在搞 [AI养猪](https://www.douban.com/note/687052558/)，不知道怎么就突然的就走了。
+
+在我印象里网络上时不时就有人传来某某因为抑郁症去世的消息，像 [@走饭](https://weibo.com/xiaofan116) [@江绪林](https://weibo.com/u/1880142780) 等等
+
+对呀，每天都有人死去。
+
+身边也逐渐有老人离去，父母的年纪也渐渐大了，而我也终将老去。
+
+死亡终究是个确定的事情。
+
+除了失去与离开，还有一件确定的事情，那就是
+
+![我想现在虽然是太空时代，人类早就可以坐太空船去月球，但永远无法探索别人内心的宇宙。](https://ws2.sinaimg.cn/large/006tKfTcgy1g0ot1rvqr4j30o00lv41w.jpg)
+
+
+
+
+
+推荐观看：
+
+[《本杰明·巴顿奇事》](https://movie.douban.com/subject/1485260/)
+
+[彩虹合唱《来自外公的一封信》](https://www.bilibili.com/video/av44354464)
+
+[我用AI养猪](https://www.yixi.tv/speech/724)
