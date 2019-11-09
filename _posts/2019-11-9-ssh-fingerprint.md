@@ -112,7 +112,6 @@ The key's randomart image is:
 推荐阅读：
 
 -  [ssh 登录服务器的指纹如何获取、验证，以及除了中间人攻击外什么操作会改变服务器指纹？](https://segmentfault.com/q/1010000009057659)
-
 - [Checking ssh public key fingerprints](https://www.phcomp.co.uk/Tutorials/Unix-And-Linux/ssh-check-server-fingerprint.html)
 - [openssh cookbook](https://en.wikibooks.org/wiki/OpenSSH/Cookbook/Public_Key_Authentication#Downloading_keys)
 - [SHA256 ssh fingerprint given by the client but only md5 fingerprint known for server](https://superuser.com/questions/929566/sha256-ssh-fingerprint-given-by-the-client-but-only-md5-fingerprint-known-for-se/929567#929567)
