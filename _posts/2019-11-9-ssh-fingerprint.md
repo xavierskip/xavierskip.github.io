@@ -107,6 +107,20 @@ The key's randomart image is:
 +----[SHA256]-----+
 ```
 
+下面的命令更直观的显示指纹是怎么生成的
+
+```shell
+# 直接本地读取公钥
+> awk '{print $2}' ssh_host_ecdsa_key.pub | base64 -d | shasum -a 256 -b | awk '{print $1}' | xxd -r -p | base64
+fMVRWYO/+73I9ZoFGhPKelH67IoPyexzLBtbxUx2EhE=
+
+# 远程获取公钥
+> ssh-keyscan -t ecdsa 192.168.10.1 | awk '{print $3}' |base64 -d|openssl sha256 -binary |base64
+# 192.168.10.1:22 SSH-2.0-OpenSSH_7.4p1 Raspbian
+fMVRWYO/+73I9ZoFGhPKelH67IoPyexzLBtbxUx2EhE=
+
+```
+
 
 
 推荐阅读：
