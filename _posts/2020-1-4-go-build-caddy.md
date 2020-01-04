@@ -9,13 +9,11 @@ tags:
 
 不是可以自行[下载](https://caddyserver.com/v1/download)，包括各种平台各种插件，一有尽有，很方便呀?
 
-何必自己编译，哪怕大家都知道go编译或是交叉编译都超级方便，可以但是没必要。
+何必自己编译，哪怕大家都知道 go 编译或是交叉编译都超级方便，可以但是没必要。
 
 这是因为我需要使用的 dnspod 插件出了点[问题](https://github.com/caddyserver/dnsproviders/issues/87)
 
-```
-acme: error presenting token: API call failed: json: cannot unmarshal number into Go struct field DomainInfo.info.share_total of type string
-```
+	acme: error presenting token: API call failed: json: cannot unmarshal number into Go struct field DomainInfo.info.share_total of type string
 
 还没来得及修复，只有自己动手编译了，还好这个问题很好[修复](https://github.com/decker502/dnspod-go/commit/385e0366b9b2e7aa429c517e9d07c70eb7612f70)
 
@@ -25,11 +23,11 @@ acme: error presenting token: API call failed: json: cannot unmarshal number int
 
 不复杂，参照 [build](https://github.com/caddyserver/caddy#build) 步骤即可。
 
-但是我们的问题是，需要先修改一点点源代码的内容再来build。
+但是我们的问题是，需要先修改一点点源代码的内容再来 build。
 
-这里使用了`go mod`，我对go的这个包管理方式是一无所知，无从下手。
+这里使用了`go mod`，我对 go 的这个包管理方式是一无所知，无从下手。
 
-先是`go get`遇上了麻烦，被墙了。还好有本地的http代理，添加环境变量搞定。
+先是`go get`遇上了麻烦，被墙了。还好有本地的 http 代理，添加环境变量搞定。
 
 ```shell
 export http_proxy=http://127.0.0.1:8080
