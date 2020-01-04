@@ -13,7 +13,7 @@ tags:
 
 这是因为我需要使用的 dnspod 插件出了点[问题](https://github.com/caddyserver/dnsproviders/issues/87)
 
-	acme: error presenting token: API call failed: json: cannot unmarshal number into Go struct field DomainInfo.info.share_total of type string
+```acme: error presenting token: API call failed: json: cannot unmarshal number into Go struct field DomainInfo.info.share_total of type string```
 
 还没来得及修复，只有自己动手编译了，还好这个问题很好[修复](https://github.com/decker502/dnspod-go/commit/385e0366b9b2e7aa429c517e9d07c70eb7612f70)
 
