@@ -11,7 +11,7 @@ tags:
 
 何必自己编译，哪怕大家都知道go编译或是交叉编译都超级方便，可以但是没必要。
 
-但是我需要使用的 dnspod 插件出了点[问题](https://github.com/caddyserver/dnsproviders/issues/87)
+这是因为我需要使用的 dnspod 插件出了点[问题](https://github.com/caddyserver/dnsproviders/issues/87)
 
 `acme: error presenting token: API call failed: json: cannot unmarshal number into Go struct field DomainInfo.info.share_total of type string`
 
@@ -21,7 +21,7 @@ tags:
 
 ### 开始编译caddy
 
-不复杂，参照 https://github.com/caddyserver/caddy#build 步骤即可。
+不复杂，参照 [build](https://github.com/caddyserver/caddy#build) 步骤即可。
 
 但是我们的问题是，需要先修改一点点源代码的内容再来build。
 
@@ -48,11 +48,11 @@ OK！It'works!!
 
 `GOOS=linux GOARCH=arm GOARM=7 go install`
 
-https://golang.org/doc/install/source#environment
+[https://golang.org/doc/install/source#environment](https://golang.org/doc/install/source#environment)
 
 `uname -a` 参看设备信息来选择GOARM
 
-https://github.com/golang/go/wiki/GoArm#supported-architectures
+[https://github.com/golang/go/wiki/GoArm#supported-architectures](https://github.com/golang/go/wiki/GoArm#supported-architectures)
 
 
 
