@@ -13,7 +13,9 @@ tags:
 
 这是因为我需要使用的 dnspod 插件出了点[问题](https://github.com/caddyserver/dnsproviders/issues/87)
 
-`acme: error presenting token: API call failed: json: cannot unmarshal number into Go struct field DomainInfo.info.share_total of type string`
+```
+acme: error presenting token: API call failed: json: cannot unmarshal number into Go struct field DomainInfo.info.share_total of type string
+```
 
 还没来得及修复，只有自己动手编译了，还好这个问题很好[修复](https://github.com/decker502/dnspod-go/commit/385e0366b9b2e7aa429c517e9d07c70eb7612f70)
 
@@ -34,9 +36,9 @@ export http_proxy=http://127.0.0.1:8080
 export https_proxy=https://127.0.0.1:880 
 ```
 
-可是关键在于我们需要**修改**某个package的内容再install，我并不知道这其中的机制到底是什么，但是我知道get下来的内容保存在了`$GOPATH/pkg/mod`的文件夹下。于是我就直接进入这个文件夹下找到我需要修改的package，完成我的修改然后再`go install`。
+可是关键在于我们需要**修改**某个 package 的内容再 install，我并不知道这其中的机制到底是什么，但是我知道 get 下来的内容保存在了`$GOPATH/pkg/mod`的文件夹下。于是我就直接进入这个文件夹下找到我需要修改的 package，完成我的修改然后再`go install`。
 
-然后copy到我的树莓派上运行！
+然后 copy 到我的树莓派上运行！
 
 OK！It'works!!
 
