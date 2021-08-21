@@ -5,6 +5,8 @@ tags:
 - 胡思乱想
 ---
 
+![Blade Runner 2049](https://i.loli.net/2021/08/21/xJ8ZTVlYXvUM5qa.jpg)
+
 众所周知，在现在的条件下，去火星的话只有单程车票，所以就没想着要回来。
 
 ![image.png](https://i.loli.net/2021/08/12/PTmxFMcJiqANE9j.png)
