@@ -51,6 +51,6 @@ tags:
 >
 > -那些。。。让我看到自己的部分。
 
-<iframe src="//player.bilibili.com/player.html?aid=760210516&bvid=BV1W64y1i746&cid=328260851&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width:="720px"
-    height:="468px">“作品比命更重要”——庵野秀明与《EVA》制作之路【银屏系漫游指南】丨机核</iframe>
+<iframe src="//player.bilibili.com/player.html?aid=760210516&bvid=BV1W64y1i746&cid=328260851&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="720px"
+    height="468px">“作品比命更重要”——庵野秀明与《EVA》制作之路【银屏系漫游指南】丨机核</iframe>
 
