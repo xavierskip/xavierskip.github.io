@@ -37,3 +37,19 @@ tags:
 
 ![Better Call Saul S01E02 00:37:32](https://i.loli.net/2021/08/19/Ah2jEnvQGHLNZq1.jpg)
 
+
+
+说这么多，其实我想说的就是，人呀，总是会给自己所做过的行为一个合理化的解释。回过头来看，到底是你本性驱使的行为，还是有了行为后你反过来了解了并塑造出来的本性。总之，当一个人在面对自己的时候是很难的。
+
+
+
+> -你喜欢自己的动画吗？
+>
+> -喜欢一部分吧，但也有不喜欢的地方。
+>
+> -不喜欢的是哪里呢？
+>
+> -那些。。。让我看到自己的部分。
+
+<iframe src="//player.bilibili.com/player.html?aid=760210516&bvid=BV1W64y1i746&cid=328260851&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">“作品比命更重要”——庵野秀明与《EVA》制作之路【银屏系漫游指南】丨机核</iframe>
+
