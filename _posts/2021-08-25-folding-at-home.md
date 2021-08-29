@@ -31,17 +31,17 @@ tags:
 
 安装中几点注意事项我提一下，以Windows平台为例：
 
-##### 可以选择手动启动软件，没必要安装屏保
+#### 可以选择手动启动软件，没必要安装屏保
 
 ![image.png](https://i.loli.net/2021/08/29/molSTCDj6vhL8BI.png)
 
-##### 手动运行程序
+#### 手动运行程序
 
 ![image.png](https://i.loli.net/2021/08/29/B2C1Ab37haxmqyv.png)
 
 安装完成后有几个程序，该点哪一个。点 **Folding@home**，FAHControl 和 Web control 只是控制面板。
 
-##### 两个控制面板
+#### 两个控制面板
 
 ![一个是网页控制面板，一个是高级控制面板](https://i.loli.net/2021/08/29/2LDvhbc4kCyi6tm.png)
 
@@ -53,7 +53,7 @@ tags:
 
 
 
-##### 高级控制面板里的名词解释
+#### 高级控制面板里的名词解释
 
 有一个名词**PPD**即 Points Per Day 每日得分的意思，
 
@@ -65,7 +65,7 @@ tags:
 
 这个控制面板不仅可以控制本机的运算程序，还可以联机控制别的电脑上的运算程序，在面板左侧可以添加管理其他机器，这样就可以在Windows电脑上用GUI图形界面控制跑在另一台机器上比如Linux上的folding@home程序了。具体可参考此贴：[https://www.equn.com/forum/thread-48322-1-1.html](https://www.equn.com/forum/thread-48322-1-1.html)
 
-##### linux 手动安装
+#### linux 手动安装
 
 参考官方教程：[https://foldingathome.org/support/faq/installation-guides/linux/manual-installation-advanced/](https://foldingathome.org/support/faq/installation-guides/linux/manual-installation-advanced/)
 
