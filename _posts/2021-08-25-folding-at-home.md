@@ -73,7 +73,7 @@ tags:
 
 个人觉得只需要安装 **fahclient** 即可，**fahcontrol_all** 因为依赖于python2 的原因在 Ubuntu 20.04 上安装会有问题
 
-[^2]: https://foldingforum.org/viewtopic.php?f=16&t=34757
+[2]: https://foldingforum.org/viewtopic.php?f=16&amp;t=34757	"FAHControl Ubuntu 20.04 install issue"
 
 ，而且可以把控制交给别的电脑上的控制面板。
 
