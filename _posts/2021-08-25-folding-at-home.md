@@ -95,5 +95,4 @@ tags:
 
 其他分布式计算平台 [BOINC](https://boinc.berkeley.edu/)：[https://boinc.berkeley.edu/download.php](https://boinc.berkeley.edu/download.php)
 
-[1]: https://foldingforum.org/viewtopic.php?f=16&amp;t=34757	"sds"
 
