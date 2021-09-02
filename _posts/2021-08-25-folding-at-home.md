@@ -73,7 +73,7 @@ tags:
 
 个人觉得只需要安装 **fahclient** 即可，**fahcontrol_all** 因为依赖于python2 的原因在 Ubuntu 20.04 上安装会有问题[^2]，而且可以把控制交给别的电脑上的控制面板。
 
-[2]: https://foldingforum.org/viewtopic.php?f=16&amp;t=34757	"FAHControl Ubuntu 20.04 install issue"
+[^2]: https://foldingforum.org/viewtopic.php?f=16&amp;t=34757	"FAHControl Ubuntu 20.04 install issue"
 
 ### 我干的这么样
 
@@ -94,4 +94,6 @@ tags:
 分布式计算论坛：[https://www.equn.com/forum/](https://www.equn.com/forum/)
 
 其他分布式计算平台 [BOINC](https://boinc.berkeley.edu/)：[https://boinc.berkeley.edu/download.php](https://boinc.berkeley.edu/download.php)
+
+[1]: https://foldingforum.org/viewtopic.php?f=16&amp;t=34757	"sds"
 
