@@ -4,7 +4,7 @@ title: 【转载】迟到的「给编程初学者的一封信」
 tags:
 - 转载
 ---
-> 全网转载自：[http://einverne.github.io/post/2021/01/an-open-letter-to-those-who-want-to-start-programming.html](http://einverne.github.io/post/2021/01/an-open-letter-to-those-who-want-to-start-programming.html)
+> 全文转载自：[einverne.github.io](http://einverne.github.io/post/2021/01/an-open-letter-to-those-who-want-to-start-programming.html)
 
 这些天翻箱倒柜，翻出来一些大学时候的文档，其中一篇是当时上外教课时打印给我们的材料，虽然可以看得到当时也在上面做过笔记，但现在已经完全不记得有这样一份文档的存在了。但回过头再看文档的内容，每一句话都是非常珍贵的建议，是一份那个时期完全需要读一下的材料，但当时却并没有好好珍惜。这份文档的名字叫做「An open letter to those who want to start programming」，如果记得没错的话这份文档交到我手上的时候，应该就是我刚去学习如何编程的时候。如果当时就能够理解这一份文档内容的话，这些年来我肯定能少走不少的弯路。
 
@@ -37,55 +37,55 @@ tags:
 An open letter to those who want to start programming
 
 
-First off, welcome to the fraternity. There aren’t too many people who want to create stuff and solve problems. You are a [hacker](http://www.paulgraham.com/hp.html). You are one of those who wants to do something interesting.
+First off, welcome to the fraternity. There aren't too many people who want to create stuff and solve problems. You are a [hacker](http://www.paulgraham.com/hp.html). You are one of those who wants to do something interesting.
 
-> _“When you don’t create things, you become defined by your tastes rather than ability."_
+> _“When you don't create things, you become defined by your tastes rather than ability."_
 > 
 > _– WhyTheLuckyStiff_
 
 Take the words below with a pinch of salt. All these come from me – a _bag-and-tag programmer_. I love to get things working, rather than sit at something and over-optimize it.
 
-Start creating something just for fun. That’s a great start! There’s no way you will start if you say you “_need to learn before doing_”. Everybody’s got to start somewhere. Fire up your editor and start writing code.
+Start creating something just for fun. That's a great start! There's no way you will start if you say you “_need to learn before doing_”. Everybody's got to start somewhere. Fire up your editor and start writing code.
 
-Here’s something important which people might call bad advice, but I’m sure you’ll stand by me when I’m finished saying why. **Initially, screw the algorithms and data structures.** They do not have generic use-cases in most simple applications. You can learn them later when you need them. Over a period of time, you’ll know what to apply in situations. Knowing their names and what they do would suffice to be able to pick some paper, dust it and implement it. And that is… if no library (other programmers' re-usable code) is available, to do it in the programming language of your choice.
+Here's something important which people might call bad advice, but I'm sure you'll stand by me when I'm finished saying why. **Initially, screw the algorithms and data structures.** They do not have generic use-cases in most simple applications. You can learn them later when you need them. Over a period of time, you'll know what to apply in situations. Knowing their names and what they do would suffice to be able to pick some paper, dust it and implement it. And that is… if no library (other programmers' re-usable code) is available, to do it in the programming language of your choice.
 
 **Choose a good language. One that you think you can produce something useful in short time.**
 
-So let C not be your first language. That might give you the satisfaction of doing things the really old-n-geeky way. C was the solution to the problem Assembly Language was. It offers better syntactic sugar than it’s prominent predecessor – Assemble Language. But today, C (or C++) is not a language that you can produce something very quickly. I would suggest that you use a dynamic language – I won’t sideline any options. Choose a language whose syntax (and documentation) you think you might be comfortable with. For this, you might want to spend some time trying out different languages for a few hours. The purpose of choosing such a language is not to make you feel better and that programming is easy. Completing stuff faster and being able to see the output keeps you motivated. Don’t choose a language that requires a special heavy-weight IDE (tool that helps you write code and run it) to program better in the language. All you should need is a text editor.
+So let C not be your first language. That might give you the satisfaction of doing things the really old-n-geeky way. C was the solution to the problem Assembly Language was. It offers better syntactic sugar than it's prominent predecessor – Assemble Language. But today, C (or C++) is not a language that you can produce something very quickly. I would suggest that you use a dynamic language – I won't sideline any options. Choose a language whose syntax (and documentation) you think you might be comfortable with. For this, you might want to spend some time trying out different languages for a few hours. The purpose of choosing such a language is not to make you feel better and that programming is easy. Completing stuff faster and being able to see the output keeps you motivated. Don't choose a language that requires a special heavy-weight IDE (tool that helps you write code and run it) to program better in the language. All you should need is a text editor.
 
 **Choose a good editor.**
 
 An editor is to a programmer, like how a bow is to an archer. Here are some editors to get started with…
 
 -   [SublimeText 2](http://www.sublimetext.com/2) – recommended if you are just starting.
--   Emacs – huge learning curve. Complex key shortcuts. And to be able to customize it, you’ll need to learn Emacs Lisp.
--   Vim – used by many for it’s simplicity and the fact that it comes with linux distros by default. I used Emacs for 2yrs and then switched to Vim to run away from emacs’s complex key strokes and when my little finger on both hands started hurting. Knowing vim keystrokes is a must. When you work remotely and try to type out code on some server from your computer, you’ll know that the only editor available from the command line without any installs, is Vim.
+-   Emacs – huge learning curve. Complex key shortcuts. And to be able to customize it, you'll need to learn Emacs Lisp.
+-   Vim – used by many for it's simplicity and the fact that it comes with linux distros by default. I used Emacs for 2yrs and then switched to Vim to run away from emacs's complex key strokes and when my little finger on both hands started hurting. Knowing vim keystrokes is a must. When you work remotely and try to type out code on some server from your computer, you'll know that the only editor available from the command line without any installs, is Vim.
 
-Watchout! Emacs and Vim might be really old. But they both have some features which even most modern editors don’t have.
+Watchout! Emacs and Vim might be really old. But they both have some features which even most modern editors don't have.
 
-**Use an operating system that’ll teach you something.**
+**Use an operating system that'll teach you something.**
 
-Windows won’t teach you anything. The only thing you learn using Windows is to click the ._exe_ file to install the software and use it. It may seem cool in the beginning, but in the long run when you have to deploy applications, especially if you are aspiring to be a web developer, you’ll need atleast basic knowledge of linux. Linux also allows you to customize stuff the way you need them to be. Macs are cool too, but I assume that you cannot afford one of those now.
+Windows won't teach you anything. The only thing you learn using Windows is to click the ._exe_ file to install the software and use it. It may seem cool in the beginning, but in the long run when you have to deploy applications, especially if you are aspiring to be a web developer, you'll need atleast basic knowledge of linux. Linux also allows you to customize stuff the way you need them to be. Macs are cool too, but I assume that you cannot afford one of those now.
 
-**Don’t copy-paste files to backup stuff.**
+**Don't copy-paste files to backup stuff.**
 
-It’s usual among amateur programmers to copy-paste files to some temporary directory in order to backup them. That’s the only way they seem to know. Stop that! Use a version control software. I strongly suggest Git, since it’s popular and easy to use. It has nice community and resources to support new-comers. (Apart from Git, There’s mercurial, darcs, fossil, etc. But just start with Git. I’m not going to bother you with the reasons for suggesting Git).
+It's usual among amateur programmers to copy-paste files to some temporary directory in order to backup them. That's the only way they seem to know. Stop that! Use a version control software. I strongly suggest Git, since it's popular and easy to use. It has nice community and resources to support new-comers. (Apart from Git, There's mercurial, darcs, fossil, etc. But just start with Git. I'm not going to bother you with the reasons for suggesting Git).
 
 **Know where to get help.**
 
-Join a community that you can relate to (with the tools you use). [StackOverflow](http://stackoverflow.com/) is Facebook for programmers. There are no status messages and comments. Instead there are questions and answers. Also learn to use the [IRC](http://en.wikipedia.org/wiki/Internet_Relay_Chat). It’s an old form of chatrooms and is now being used by mostly developers to share information and helping each other.
+Join a community that you can relate to (with the tools you use). [StackOverflow](http://stackoverflow.com/) is Facebook for programmers. There are no status messages and comments. Instead there are questions and answers. Also learn to use the [IRC](http://en.wikipedia.org/wiki/Internet_Relay_Chat). It's an old form of chatrooms and is now being used by mostly developers to share information and helping each other.
 
 **Develop your netiquette.**
 
-Know when to ask questions. Most problems you face might have been stumbled upon by others who might have already posted on the internet for answers. Before asking on IRC or any forums, google first (or should I say [blekko](http://blekko.com/) first) to see if there’s already a solution to your problem. IRC needs patience. Remember people are helping you for free out of goodwill. Sometimes it might take hours, for someone in the chatroom to respond to you. So wait until they do. Besides, be polite. It's a small world. Karma, good or bad, comes back.
+Know when to ask questions. Most problems you face might have been stumbled upon by others who might have already posted on the internet for answers. Before asking on IRC or any forums, google first (or should I say [blekko](http://blekko.com/) first) to see if there's already a solution to your problem. IRC needs patience. Remember people are helping you for free out of goodwill. Sometimes it might take hours, for someone in the chatroom to respond to you. So wait until they do. Besides, be polite. It's a small world. Karma, good or bad, comes back.
 
 **Meet people, because books only teach you routine stuff (_oh and the "book" is dead [they say](http://diveintomark.org/archives/2011/04/29/the-book-is-dead)_).**
 
-There are some street smarts that you’ll learn when you tinker with stuff or learn from those who do it. Roam, meet people and say _hello_. You are not the only programmer in your place. Make friends and do stuff with them. If you've noticed, when a couple geeks get together, whatever the starting point of the conversation be, it always ends up getting technical. It's bound to happen. Enjoy it. Programming for a good number of years, I can tell you that I learnt nothing more than what the books and articles said, until I starting meeting people and getting technical with them 6yrs back. So I always say that I’ve been programming for 6yrs, because that’s when I started meeting people and feel I really started to learn.
+There are some street smarts that you'll learn when you tinker with stuff or learn from those who do it. Roam, meet people and say _hello_. You are not the only programmer in your place. Make friends and do stuff with them. If you've noticed, when a couple geeks get together, whatever the starting point of the conversation be, it always ends up getting technical. It's bound to happen. Enjoy it. Programming for a good number of years, I can tell you that I learnt nothing more than what the books and articles said, until I starting meeting people and getting technical with them 6yrs back. So I always say that I've been programming for 6yrs, because that's when I started meeting people and feel I really started to learn.
 
 **Write opensource code.**
 
-Writing opensource code is giving back. It’s much more than charity. You are leaving code that others can use and improve on _(maybe)_ for years to come. It also helps you refine your skills when someone else adds to your code or suggests changes. Code that you opensource doesn't have to be big. It can even be a useful little program that downloads youtube videos. Moreover, you’ll be surprised, that your code will often help you start and have interesting conversations with people.
+Writing opensource code is giving back. It's much more than charity. You are leaving code that others can use and improve on _(maybe)_ for years to come. It also helps you refine your skills when someone else adds to your code or suggests changes. Code that you opensource doesn't have to be big. It can even be a useful little program that downloads youtube videos. Moreover, you'll be surprised, that your code will often help you start and have interesting conversations with people.
 
 Lastly, when years pass, return this favour, by writing a similar letter to someone else who asks you for such help. And possibily correct me.
 
