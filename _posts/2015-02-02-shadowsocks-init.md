@@ -5,6 +5,12 @@ tags:
 - 技术
 ---
 
+**此文章内容已经被淘汰，请访问[更新后的内容](https://blog.xavierskip.com/2021-11-02-systemctl/)。**
+
+
+
+
+
 虽然我知道服务器一般是不重启的，但是万一重启了，还得重新运行shadowsocks server还是很麻烦的，就想将 shadowsocks 添加到开机运行中去。
 
 参考以下两篇文章，依葫芦画瓢，还算是成功了。
