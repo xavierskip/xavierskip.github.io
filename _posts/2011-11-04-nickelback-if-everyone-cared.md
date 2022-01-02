@@ -11,7 +11,9 @@ categories:
 tags: music
 ---
 
-<iframe src="http://player.vimeo.com/video/6216273?byline=0&amp;portrait=0&amp;badge=0&amp;color=ffffff" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/6216273">Nickelback "If Everyone Cared"</a> from <a href="http://vimeo.com/justincronkite">Justin Cronkite</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+<iframe src="https://player.vimeo.com/video/6216273?h=f366c6697b&color=ffffff&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/6216273">Nickelback &quot;If Everyone Cared&quot;</a> from <a href="https://vimeo.com/justincronkite">Justin Cronkite</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
 永远不要怀疑一小群信心坚定的人改变世界的能力
 事实上，世界正是被这些人所改变～～
 
