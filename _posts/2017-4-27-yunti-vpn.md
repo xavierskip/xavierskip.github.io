@@ -10,7 +10,7 @@ typora-copy-images-to: ipic
 
 #### 由于以下原因 [via](http://jsfzb.xhby.net/mp2/pc/c/201710/25/c393290.html)
 
-![屏幕快照 2017-12-02 下午8.53.41](https://ws3.sinaimg.cn/large/006tNc79gy1fm2q2xhz1hj30hx043gmu.jpg)
+![屏幕快照 2017-12-02 下午8.53.41](https://h.xavierskip.com:42049/i/11248d074887266fb2de1f250121dbd4af58457613c01c1455bd7efbe4908e41.jpg)
 
 #### 相关信息已经被老大哥掌握，所以我们需要删除已经安装的相关客户端程序，最重要的需要删除已经安装的相关证书文件，防止被中间人攻击。MacOS 系统用户还需要删除相关的描述文件。
 
