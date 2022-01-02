@@ -11,7 +11,7 @@ tags:
 
 开始是想从 jQuery 的 .bind() .live() .delegate() .on() 等绑定事件来入手（这些 jQuery 方法是不是都在冒泡阶段处理事件？），翻了一些资料，也走了一些弯路，最后在了解了DOM 事件处理流程后找到了解决办法。
 
-![](http://ww4.sinaimg.cn/large/80733bd4gw1f09tjjbi1zj20pi0orgqz.jpg)
+![](https://www.w3.org/TR/DOM-Level-3-Events/images/eventflow.svg)
 图片来源[3]
 
 ### 解决过程
@@ -40,7 +40,7 @@ Event.stopImmediatePropagation()
 
 最后上代码
 {::nomarkdown}
-<a class="jsbin-embed" href="http://jsbin.com/pohogogewu/embed?html,js,console,output">JS Bin on jsbin.com</a><script src="http://static.jsbin.com/js/embed.min.js?3.35.9"></script>
+<a class="jsbin-embed" href="http://jsbin.com/pohogogewu/embed?html,js,console,output" target="_blank">JS Bin on jsbin.com</a><script src="http://static.jsbin.com/js/embed.min.js?3.35.9"></script>
 {:/nomarkdown}
 
 
