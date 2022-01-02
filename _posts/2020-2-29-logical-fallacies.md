@@ -5,7 +5,7 @@ tags:
 - 转载
 ---
 
-via: [煎蛋网：你不该犯的逻辑谬误](http://jandan.net/2019/07/30/logical-fallacyis.html)
+via: [煎蛋网：你不该犯的逻辑谬误](http://jandan.net/p/104070)
 
 **稻草人(Strawman)论证、稻草人谬误**
 
@@ -203,4 +203,4 @@ via: [煎蛋网：你不该犯的逻辑谬误](http://jandan.net/2019/07/30/logi
 
 教学实例：
 
-![https://weibo.com/2260257255/Is9tydeQa](https://wx1.sinaimg.cn/large/86b8c9e7ly1gbgucfirmuj20g01w0gxu.jpg)
+![https://weibo.com/2260257255/Is9tydeQa](https://h.xavierskip.com:42049/i/d00174c0517d5443cdbae0e81dafc848712f3aad49fcb18b83dcb2a5d19eac1f.jpg)
