@@ -11,7 +11,7 @@ tags:
 
 开始是想从 jQuery 的 .bind() .live() .delegate() .on() 等绑定事件来入手（这些 jQuery 方法是不是都在冒泡阶段处理事件？），翻了一些资料，也走了一些弯路，最后在了解了DOM 事件处理流程后找到了解决办法。
 
-![](https://www.w3.org/TR/DOM-Level-3-Events/images/eventflow.svg)
+![DOM event flow](https://www.w3.org/TR/DOM-Level-3-Events/images/eventflow.svg)
 图片来源[3]
 
 ### 解决过程
@@ -43,6 +43,51 @@ Event.stopImmediatePropagation()
 <a class="jsbin-embed" href="http://jsbin.com/pohogogewu/embed?html,js,console,output" target="_blank">JS Bin on jsbin.com</a><script src="http://static.jsbin.com/js/embed.min.js?3.35.9"></script>
 {:/nomarkdown}
 
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+<div id="D">DIV
+  <a id="A" href="#test">aaa</a>
+</div>
+
+</body>
+</html>
+```
+```javascript
+var A = document.getElementById('A');
+
+A.addEventListener('click', function(e){
+  e.preventDefault();
+  console.log('A clicked');
+}, false);
+
+
+
+var D = document.getElementById('D');
+
+function hijack(){
+    if(confirm('y/n ?')){
+      A.click();
+    }
+}
+
+D.addEventListener('click', function(e){
+//   console.log(e.target);
+  if(e.target == A){
+    if(e.isTrusted === true){
+      e.stopImmediatePropagation();
+      hijack();
+    }
+  }
+}, true);
+```
 
 [1]:http://harttle.com/2015/07/31/javascript-event.html
 [2]:http://fex.baidu.com/blog/2014/05/what-happen/
