@@ -17,11 +17,11 @@ tags: video
 
 # [第一回合](https://www.bilibili.com/video/BV1Zx411V7ec)
 
-<iframe src="//player.bilibili.com/player.html?aid=16635432&bvid=BV1Zx411V7ec&cid=27131441&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=16635432&bvid=BV1Zx411V7ec&cid=27131441&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="720" height="560"> </iframe>
 
 # [第二回合](https://www.bilibili.com/video/BV1tW411E7Sm)
 
-<iframe src="//player.bilibili.com/player.html?aid=19523265&bvid=BV1tW411E7Sm&cid=31836475&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=19523265&bvid=BV1tW411E7Sm&cid=31836475&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="720" height="560"> </iframe>
 
 这个团队又发布了另一组说唱对决[Mises vs. Marx](https://www.youtube.com/watch?v=QwqnRYPcrl0)
 
