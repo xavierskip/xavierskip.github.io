@@ -17,32 +17,31 @@ tags:
 
 里面有几个方法有意思
 
-    
-    
-    primes =[x for x in range ( 1 , 100 ) if not [y for y in range ( 2 ,x/2+1)   if x % y == 0 ]] 
-    print primes
-    
+```python    
+primes =[x for x in range ( 1 , 100 ) if not [y for y in range ( 2 ,x/2+1)   if x % y == 0 ]] 
+print primes
+```    
 
 
 这应该是最python的方法了，强大的列表解析呀!
 
 
     
-    
-    primes = []  
-      
-    for n in range(2, 101):  
-        for i in primes:  
-            if n % i == 0:  
-                break  
-            elif i ** 2 > n:  
-                primes.append(n)  
-                break  
-        else:  
+```python
+primes = []  
+  
+for n in range(2, 101):  
+    for i in primes:  
+        if n % i == 0:  
+            break  
+        elif i ** 2 > n:  
             primes.append(n)  
-      
-    print primes  
-    
+            break  
+    else:  
+        primes.append(n)  
+  
+print primes
+```    
 
 
 我觉得这个思路很清晰呀！
@@ -51,22 +50,18 @@ tags:
 经过我修改的，个人很满意
 
     
-    
-     #-*- encoding:UTF-8 -*- 
-    
-    primes=[]
-    num = int(raw_input('enter:'))
-    for n in range(2,num):
-    	for i in primes:
-    		if n%i == 0:
-    			break
-    	else:
-    		primes.append(n)
-    
-    print primes
-    print '1到',num,'有',len(primes),'个素数'
-    
+```python 
+#-*- encoding:UTF-8 -*- 
 
+primes=[]
+num = int(raw_input('enter:'))
+for n in range(2,num):
+	for i in primes:
+		if n%i == 0:
+			break
+	else:
+		primes.append(n)
 
-
-
+print primes
+print '1到',num,'有',len(primes),'个素数'
+```
