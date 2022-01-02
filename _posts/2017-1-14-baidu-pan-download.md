@@ -13,9 +13,9 @@ tags:
 
 我来举个例子。我想下载我网盘中的 《[Futurama](https://movie.douban.com/subject_search?search_text=Futurama)》剧集。选中我们相应的文件后，点击下载助手，选择 API 下载，如果你只下载一个文件点击即可下载，如果需要下载多个文件点击批量链接。
 
-![](https://ww1.sinaimg.cn/large/006tNc79gw1fbqbr1ga3yj30rw05o404.jpg)
+![baidpan 1](https://h.xavierskip.com:42049/i/bc1a8160b181aa76cb9a25743c913fa4fb57d7b60e667e005d772fed63bd2e24.jpg)
 
-![](https://ww2.sinaimg.cn/large/006tNbRwgw1fbqbr084mij30lx0ec10a.jpg)
+![baidpan 2](https://h.xavierskip.com:42049/i/7fed0d4202aa0c53e4a3f1ffbede2f61e510d2c608e6c083b2e6e2e2e3b4c9b9.jpg)
 
 复制保存好这些链接，接下来我们需要使用下载工具来批量下载这些文件，我使用的是 wget，当然你使用[aria2c](https://aria2.github.io/manual/en/html/index.html)也是没有问题的。 __注意：下载的同时必须带上你的 cookies。__
 
@@ -27,7 +27,7 @@ tags:
 
 使用错误的链接地址是方便我们找到 cookies，打开开发工具，访问错误的链接，找到 cookies 就行了。
 
-![](https://ww1.sinaimg.cn/large/006tNbRwgw1fbqe6o2fqoj313u0aitd6.jpg)
+![cookies](https://h.xavierskip.com:42049/i/9750bf6dbe3e335328d2ef9a743ea27dbea4a350051b26b8a898e244d0d1e816.jpg)
 
 最后一步，直接带上我们找到 cookies 用 wget 批量下载。
 
