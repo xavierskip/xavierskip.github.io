@@ -31,26 +31,27 @@ tags:
 生成在某个范围的斐波纳契数列
 
 
+```python
+#-*- encoding:UTF-8 -*- 
     
-     #-*- encoding:UTF-8 -*- 
+def fibs(star,nexto,upto):
+  result = [star,nexto]
+  while True:
+    n = result[-1]+result[-2]
+    if n <upto:
+      result.append(n)
+    else:
+      break
+  
+  print result
     
-    def fibs(star,nexto,upto):
-    	result = [star,nexto]
-    	while True:
-    		n = result[-1]+result[-2]
-    		if n <upto:
-    			result.append(n)
-    		else:
-    			break
-    	print result
-    
-    star = input('Enter a number what you want start: ')
-    nexto = input('Enter the next number: ')
-    upto = input('Enter a number what you want stop: ')
-    print 'your Fibonacci series  like this[',star,',',nexto,',~~~,',upto,']'
-    
-    fibs(star,nexto,upto)
+star = input('Enter a number what you want start: ')
+nexto = input('Enter the next number: ')
+upto = input('Enter a number what you want stop: ')
+print 'your Fibonacci series  like this[',star,',',nexto,',~~~,',upto,']'
 
+fibs(star,nexto,upto)
+```
 
 还有改进的地方，输入数据的地方
 还有细节的方面可以完善么？
