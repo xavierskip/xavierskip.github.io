@@ -56,7 +56,6 @@ Event.stopImmediatePropagation()
 <div id="D">DIV
   <a id="A" href="#test">aaa</a>
 </div>
-
 </body>
 </html>
 ```
@@ -67,8 +66,6 @@ A.addEventListener('click', function(e){
   e.preventDefault();
   console.log('A clicked');
 }, false);
-
-
 
 var D = document.getElementById('D');
 
