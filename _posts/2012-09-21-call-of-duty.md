@@ -61,105 +61,107 @@ tags:
 
 ![JustCause2](https://h.xavierskip.com:42049/i/f47b19f21596c08bd60ab402e434ed68157f9396e4f30ea6b55551d9bc591bb5.jpg)
 
-正当防卫，巨大的沙盘世界，优美细腻的风景画面，上天入地，开坦克打飞机，爽。
+<center>正当防卫，巨大的沙盘世界，优美细腻的风景画面，上天入地，开坦克打飞机，爽。</center>
 
 
 
 ![Transformers: War for Cybertron](https://h.xavierskip.com:42049/i/6f7b874e3f6ddb892db17e9233b318bad6783c31ae4abfe3e63a9f49a182e6ba.jpg)]
 
-变形金刚，感觉没什么意思，还是开枪，装子弹，开枪，变形就是个噱头。
+<center>变形金刚，感觉没什么意思，还是开枪，装子弹，开枪，变形就是个噱头。</center>
 
 
 
 ![SC2](https://h.xavierskip.com:42049/i/d0a6aae5b243ced6a754e980ba82b04f8832b60d6b82642b8ddb9a54a183090b.jpg)
 
-星际争霸2自由之翼，很有幸参加了第二阶段公测，唉大半个暑假就浪费在这上面了，唉。但是本人很菜，虽然接触星际1是98年，但是仍然很菜，就打打电脑，呵呵。后来网易代理还买了一个月的点卡。
+<center>星际争霸2自由之翼，很有幸参加了第二阶段公测，唉大半个暑假就浪费在这上面了，唉。但是本人很菜，虽然接触星际1是98年，但是仍然很菜，就打打电脑，呵呵。后来网易代理还买了一个月的点卡。</center>
 
 ![iw4sp](https://h.xavierskip.com:42049/i/2e24076b2a264544681f408571ed5e841cd7f08dd83cb20274f3ab45a6259c04.jpg)
 
-应该是重玩使命召唤6，456我记得我都是在网吧通关的。
+<center>应该是重玩使命召唤6，456我记得我都是在网吧通关的。</center>
 
 
 
 ![Crysis](https://h.xavierskip.com:42049/i/6839535a859dd129d82ecc9e96a8dfae04b7e6094f063d83b223c5ca9f88ffbd.jpg)
 
-孤岛危机，还好机器勉强可以带的动。汗～～
+<center>孤岛危机，还好机器勉强可以带的动。汗～～</center>
 
 
 
 ![GTA IV](https://h.xavierskip.com:42049/i/84fbb4fe6a37ad94f17ff24c1cbc0654a7dad750a30c5ff513fd19184d48397f.jpg)
 
-GTA4，机器跑着卡的一笔，主要是cpu太烂了，I3 330的，还有游戏优化也够烂的，没有玩通。
+<center>GTA4，机器跑着卡的一笔，主要是cpu太烂了，I3 330的，还有游戏优化也够烂的，没有玩通。</center>
 
 
 
 ![iw3sp](https://h.xavierskip.com:42049/i/cfa0e12e81f5fc7ab5ca621796b06e05a77afa96f69f7aae0f1e004eeb273cef.jpg)
 
-使命召唤4，这图看着就有感觉吧！
+<center>使命召唤4，这图看着就有感觉吧！</center>
 
 
 
 ![fifa 2010](https://h.xavierskip.com:42049/i/14c8714b0f417e54a352763247aff9569973d4eb0a9e38c224a997e2762fa344.jpg)
 
-fifa10，开始超越pes的一代。没人陪我玩。
+<center>fifa10，开始超越pes的一代。没人陪我玩。</center>
 
 ![wargame](https://h.xavierskip.com:42049/i/95cab7cc85345f69268e85abdf69095b58819e434e399965bfc131158ecc1cab.jpg)
 
-战争机器，主机平台移植游戏，二代和三代只有主机平台才有。
+<center>战争机器，主机平台移植游戏，二代和三代只有主机平台才有。</center>
 
 
 
 ![CivilizationV_DX11-2010-10-07-20-49-55-69.jpg](https://h.xavierskip.com:42049/i/88a694e790b14378d754c087f96bf24081882cde06f40d15bc2668c46130af83.jpg)
 
-文明5，3和4都玩过，都很经典。
+<center>文明5，3和4都玩过，都很经典。</center>
 
 
 
 ![nba2k11-2010-10-11-22-52-49-98.jpg](https://h.xavierskip.com:42049/i/563d510a7498df4c97943c81ce17fa814068fd83913c4896e3dae955004e027c.jpg)
 
-2k11，2k系列的巅峰之作，12一点都不好玩，但是很激动呀！！因为游戏中终于有Jordan了，官方的
+<center>2k11，2k系列的巅峰之作，12一点都不好玩，但是很激动呀！！因为游戏中终于有Jordan了，官方的</center>
 
 ![moh-2010-10-14-14-18-45-93.jpg](https://h.xavierskip.com:42049/i/6ae28e3f929aec99fe7705fe94c10be8cc4f327acd1ac14aee069f2bc11a3776.jpg)
 
-荣誉勋章，还是不错的游戏，EA用来为《战地》做铺垫的
+<center>荣誉勋章，还是不错的游戏，EA用来为《战地》做铺垫的</center>
 
 ![DarksidersPC-2010-10-26-21-02-20-02.jpg](https://h.xavierskip.com:42049/i/4f14c12301abb3c1df22a21cb543e75af85e8ae659339e976df9c101def7d906.jpg)
 
-暗黑血统，不错的ARPG，解密元素不错，画面风格很帅，打斗系统打击感不足，boss战有意思
+<center>暗黑血统，不错的ARPG，解密元素不错，画面风格很帅，打斗系统打击感不足，boss战有意思</center>
 
 ![Shank-2010-10-28-22-05-55-71.jpg](https://h.xavierskip.com:42049/i/70ac619bb9a7fa10dcde913d61f0dbd5721a637325058d7f37af8b2f05eebb46.jpg)
 
-shark，对这种画面风格毫无抵抗力
+<center>shark，对这种画面风格毫无抵抗力</center>
 
 ![dirt3_game-2011-09-10-17-58-57-17.jpg](https://h.xavierskip.com:42049/i/dccb138fcf1bbed37bdf3aff102c774cec9b8790520c2d1cc656ba75f69534f5.jpg)
 
-尘埃3，最好最真实的赛车游戏，不喜欢极品飞车系列
+<center>尘埃3，最好最真实的赛车游戏，不喜欢极品飞车系列</center>
 
 ![wargame-g4wlive 2011-09-20 21-58-04-11.jpg](https://h.xavierskip.com:42049/i/f5be1b0022cc1b5e5e1de2989aaa1125dac089baaf0fd1d4cd49f1fd7baf3dd9.jpg)
 
-战争机器，可以说是主机平台上移植的游戏中最好的了，2代和3代都没有pc版的了
+<center>战争机器，可以说是主机平台上移植的游戏中最好的了，2代和3代都没有pc版的了</center>
 
 ![bf3-2011-09-30-09-57-51-36.jpg](https://h.xavierskip.com:42049/i/f9c7f973513d9ce04d2d8433821ee5e8aeb5635d552dbe01377f25bafff6c85d.jpg)
-很有幸参加了公测，还好机器带的动
 
+<center>很有幸参加了公测，还好机器带的动</center>
 
 
 ![BatmanAC-2011-12-04-12-42-26-93.png](https://h.xavierskip.com:42049/i/857f804bfd721fe098a2af2a2f85ae9fc2b4ab187464a5b2fddc641ffce29e20.png)
 
-
+<center>蝙蝠侠：阿卡姆城</center>
 
 
 
 ![iw5sp-2011-11-11-04-08-59-96.jpg](https://h.xavierskip.com:42049/i/48940d18eddeba4a6d8e88a02f8aadcc19f33b6f3c62cd73e7f1cbd33800b08b.jpg)
 
-现代战争系列的终结
+<center>现代战争系列的终结</center>
 
 ![TESV-2011-11-19-00-05-04-70.jpg](https://h.xavierskip.com:42049/i/cb810ca9ded4fa005a9b8f63a8ee08cf2a4e40cb755efb31ef0ad5273dae6625.jpg)
+
+<center>老滚5</center>
 
 
 ![nba2k12-2011-10-07-11-27-19-36.jpg](https://h.xavierskip.com:42049/i/5fd68eb40631c17d404826619431eea9a06115d3cc235b83d16998df86e1a186.jpg)
 
-12感觉有些方面还没有11好
+<center>12感觉有些方面还没有11好</center>
 
 
 总结下来，无外乎枪，车，球。
