@@ -65,7 +65,7 @@ tags:
 
 
 
-![Transformers: War for Cybertron](https://h.xavierskip.com:42049/i/6f7b874e3f6ddb892db17e9233b318bad6783c31ae4abfe3e63a9f49a182e6ba.jpg)]
+![Transformers: War for Cybertron](https://h.xavierskip.com:42049/i/6f7b874e3f6ddb892db17e9233b318bad6783c31ae4abfe3e63a9f49a182e6ba.jpg)
 
 <center>变形金刚，感觉没什么意思，还是开枪，装子弹，开枪，变形就是个噱头。</center>
 

@@ -172,7 +172,7 @@ via:[zenpencils.com](http://zenpencils.com/comic/97-charles-bukowski-air-and-lig
 
 老师总告诉我们说，写作文不要吧题目定的太大，标题范围要小，不要太大太泛。显然我是没学好的。
 
-还想挖个坑，谈谈生产设备和消费设备，抛弃传统软件和管理文件习惯，利用各种云服务同步、管理文件，版本控制等等。[dropbox](https://www.dropbox.com/‎)   [google doc](https://drive.google.com)   [evernote](https://www.yinxiang.com)  [有道云笔记](http://note.youdao.com/)
+还想挖个坑，谈谈生产设备和消费设备，抛弃传统软件和管理文件习惯，利用各种云服务同步、管理文件，版本控制等等。[dropbox](https://www.dropbox.com/)   [google doc](https://drive.google.com)   [evernote](https://www.yinxiang.com)  [有道云笔记](http://note.youdao.com/)
 
 
 

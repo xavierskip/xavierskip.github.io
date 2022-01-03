@@ -12,6 +12,8 @@ tags:
 - fun
 ---
 
+2022/1/3 更新：网站链接已经打不开，脚本已经失效。但是我找到了项目库在githb上[https://github.com/gcr/goggles](https://github.com/gcr/goggles)
+
 哈哈！！
 
 让我们开始
@@ -36,7 +38,7 @@ tags:
 
 等等，唯一限制你的是你的想象力！！！！
 
-via： 煎蛋  [http://jandan.net/2012/02/17/hidden_javascript_graffito.html](http://jandan.net/2012/02/17/hidden_javascript_graffito.html)
+via： 煎蛋  [http://jandan.net/2012/02/17/hidden_javascript_graffito.html](https://jandan.net/p/26495)
 
 官网：[http://goggles.sneakygcr.net/](http://goggles.sneakygcr.net/) 有20个热门的网页等着你去涂鸦！！
 
