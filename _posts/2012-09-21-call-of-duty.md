@@ -52,11 +52,10 @@ tags:
 
 
 
-![nba2k10](https://h.xavierskip.com:42049/i/226aa8a53e9e4c548728acbed8b5f502a80a367433922a80dcda54bf83988494.jpg)]
+![nba2k10](https://h.xavierskip.com:42049/i/226aa8a53e9e4c548728acbed8b5f502a80a367433922a80dcda54bf83988494.jpg)
 
+<center>买来小Y的第一个安装就是这个游戏呀。 2k10。梦寐以求的终于玩上了。</center>
 
-
-买来小Y的第一个安装就是这个游戏呀。 2k10。梦寐以求的终于玩上了。
 
 
 
