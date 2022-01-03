@@ -10,11 +10,11 @@ tags:
 
 不过最近是找到了一些人follow，能看到些有意思、漂亮的图片了。有哪些呢？
 
-####美女
+#### 美女
 [physit](http://instagram.com/physit)
 >Fiona Sit 薛凱琪 When words fail, music speaks
 
-<video src="http://distilleryvesper11-19.ak.instagram.com/c16356325dd811e3b74b1270dd981a11_101.mp4"  width="480" height="480" controls="controls"></video>
+<video src="https://distilleryvesper11-19.ak.instagram.com/c16356325dd811e3b74b1270dd981a11_101.mp4"  width="480" height="480" controls="controls"></video>
 
 苍老师
 [aoi_sola](http://instagram.com/aoi_sola)
@@ -35,7 +35,7 @@ tags:
 ![](http://distilleryimage8.ak.instagram.com/c4692fca0b5111e3b67922000aaa047d_7.jpg)
 
 
-####篮球
+#### 篮球
 [clsmoothcrew](http://instagram.com/clsmoothcrew)
 >A CL fan from China, update CL pics and videos only.
 
@@ -67,20 +67,21 @@ tags:
 ![](http://distilleryimage6.ak.instagram.com/cdd6fae41be911e39edf22000ae916b0_7.jpg)
 
 
-### IT男
+#### IT男
 [tualatrix](http://instagram.com/tualatrix)
 >Tualatrix Chou I'm TualatriX!
 
 ![](http://distilleryimage7.ak.instagram.com/5fd3504a24f111e3a76e22000aeb0d15_7.jpg)
 
 
-### 喵
+#### 喵
 [samhaseyebrows](http://instagram.com/samhaseyebrows)
 >Sam This is Sam. He has eyebrows. http://facebook.com/samhaseyebrows
 
 ![](http://distilleryimage8.ak.instagram.com/ac015930cc6311e2b59422000a9f13f8_7.jpg)
 
 =======
+
 哈哈，还有没有有意思的用户推荐呢？
 
 那我的 instagram呢？
@@ -90,7 +91,7 @@ tags:
 .ig-b-v-24 { width: 137px; height: 24px; background: url(//badges.instagram.com/static/images/ig-badge-view-sprite-24.png) no-repeat 0 0; }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
 .ig-b-v-24 { background-image: url(//badges.instagram.com/static/images/ig-badge-view-sprite-24@2x.png); background-size: 160px 178px; } }</style>
-<a href="http://instagram.com/xavierskip?ref=badge" class="ig-b- ig-b-v-24"><img src="//badges.instagram.com/static/images/ig-badge-view-24.png" alt="Instagram" /></a>
+<a href="//instagram.com/xavierskip?ref=badge" class="ig-b- ig-b-v-24"><img src="//badges.instagram.com/static/images/ig-badge-view-24.png" alt="Instagram" /></a>
 有没有发现我所有的照片有共同一个特点。
 那就是基本没有人。
 
@@ -101,8 +102,8 @@ tags:
 ![](http://distilleryimage9.ak.instagram.com/0350ecb617bc11e3baba22000ae90d6f_7.jpg)
 
 
-###在社交时，我们在干什么？
-<embed src="http://player.youku.com/player.php/sid/XNTYwMjQwMzY4/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+#### 在社交时，我们在干什么？
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7pPFPryO9zM" title="【一席】黃繼新：社交時我們在幹什麼" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 >随着社会化互联网的发展，那些社交网站或者APP，抓住了作为社会化动物的人类对于获取他人认可和得到周围环境对自我的认同这一需求，增加获得认可的机会，降低提供认可的门槛，甚至尽其所能的迎合这些渴望，让一切变得似乎更简单更方便。我们是被自己的欲望牵着走，还是我们很清楚地知道自己需要得到哪些认同。
 
-人们似乎对于图像的认识比阅读文字获取信息来的更容易方便直观，而且有的人对于写一段文字来表达还是有难度，但是按下快门，似乎更是简单，而 instagram就让这一切更容易，漂亮的滤镜让你的照片更漂亮，你不用抓耳挠腮的在140字下为如何表达而烦恼，快门，分享，就这么简单。甚至不需要思考
+人们似乎对于图像的认识比阅读文字获取信息来的更容易方便直观，而且有的人对于写一段文字来表达还是有难度，但是按下快门，似乎更是简单，而 instagram 就让这一切更容易，漂亮的滤镜让你的照片更漂亮，你不用抓耳挠腮的在140字下为如何表达而烦恼，快门，分享，就这么简单。甚至不需要思考

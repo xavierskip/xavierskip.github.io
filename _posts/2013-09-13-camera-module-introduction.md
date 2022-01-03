@@ -18,7 +18,7 @@ tags:
 
 ##### Revision 1.0, May 25th, 2009
 
-原文:[http://www.pygame.org/docs/tut/camera/CameraIntro.html](http://www.pygame.org/docs/tut/camera/CameraIntro.html)
+原文:[https://www.pygame.org/docs/tut/CameraIntro.html](https://www.pygame.org/docs/tut/CameraIntro.html)
 
 感谢这个翻译插件[A+ Dictionary](https://chrome.google.com/webstore/detail/a%20-dictionary/nbdnlnijofenjgknplpelkpmhikpangb) 从此妈妈再也不用担心我的英语学习了！！
 
@@ -29,7 +29,8 @@ Pygame 1.9开始已经提供了对摄像头的支持，允许你抓取静止的�
 
 提示：作为Pygame1.9，camera模块支持linux上使用[v4l2](https://www.google.com.hk/search?&q=v4l2+)的摄像头。其他平台可以使用 Videocapture（win） 或者 Opencv（Opencv麻烦是麻烦，可是实在很强大！），本教程的重点在本地模块。大部分的代码可以在其他平台是使用，不过某些类似控制的操作也许不能正常工作。本模块依旧是实验性的，意味着在后续的版本中API可能会发生变动。
 
-#引入和初始化
+# 引入和初始化
+
 {% highlight python %}
 import pygame
 import pygame.camera
@@ -40,7 +41,8 @@ pygame.camera.init()
 {% endhighlight %}
 摄像头模块是可选的。需要被引入和手动初始化。如上
 
-#抓取一张图片
+# 抓取一张图片
+
 现在，我们来在最简单的情况下打开摄像头并且从中抓取一帧图片。在接下来的例子中，我们假设在你的电脑中摄像头叫做'/dev/video0',我们将摄像头视频的大小设置为宽640高480.我们用 get_image()来抓取图像。
 {% highlight python %}
 cam = pygame.camera.Camera("/dev/video0",(640,480))
@@ -48,7 +50,8 @@ cam.start()
 image = cam.get_image()
 {% endhighlight %}
 
-#列出连接的摄像头
+# 列出连接的摄像头
+
 如果我们不能确定摄像头的真实路径？我们就可以使用 list_cameras()列出摄像头的列表，选取其中我们需要使用的那个（如果你有多个摄像头的话）
 {% highlight python %}
 camlist = pygame.camera.list_cameras()
@@ -56,7 +59,8 @@ camlist = pygame.camera.list_cameras()
         cam = pygame.caemra.Camera(camlist[0],(640,480))
 {% endhighlight %}
 
-#控制摄像头
+# 控制摄像头
+
 大多数摄像头提供像翻转图像和调整亮度的功能。set_controls() 和 get_controls() 要在 start() 后使用。
 {% highlight python %}
 cam.set_controls(hflip = True, vflip = False)
@@ -64,7 +68,8 @@ cam.set_controls(hflip = True, vflip = False)
 print camera.get_controls()
 {% endhighlight %}
 
-#实时画面
+# 实时画面
+
 本教程接下就开始可以看到实时画面了。
 过程很简单，就是不停的从摄像头中获取视频帧然后绘制在屏幕上，有效的显示实时画面。基本上你期望也是这样吧。不停的 get_image(),然后显示，刷新，循环。因为性能的原因，我们使用每次都使用同样的显示表面。
 
@@ -110,27 +115,32 @@ class Capture(object):
 
 因为get_image()是一个阻塞的动作，也许会在差摄像头上花费很多的时间，所以我们用 query_image()来确定摄像头是否准备好。同时可以让显示画面的帧率和摄像头的帧率分开来，并能够保障在一个单独的线程中抓取摄像头中的图像.当然如果你的摄像头支持 query_image()操作的话，这样可以有更好的性能保障。
 
-#基本的显示效果
+# 基本的显示效果
+
 Pygame 可以做一些基本的视觉效果（滤镜），变形，遮罩……
 
-##色彩空间
+## 色彩空间
+
 当你初始化摄像头的时候，有一个色彩空间的可选常数，有 'RGB', 'YUV', 和 'HSV'。在计算机视觉中 YUV 和 HSV 通常来说比 RGB 更有用。降低了颜色的阈值。
 `self.cam = pygame.camera.Camera(self.clist[0], self.size, "RGB")`
-![](http://www.pygame.org/docs/tut/camera/rgb.jpg)
+![https://www.pygame.org/docs/_images/camera_rgb.jpg](https://www.pygame.org/docs/_images/camera_rgb.jpg)
 `self.cam = pygame.camera.Camera(self.clist[0], self.size, "YUV")`
-![](http://www.pygame.org/docs/tut/camera/yuv.jpg)
+!https://www.pygame.org/docs/_images/camera_yuv.jpg](https://www.pygame.org/docs/_images/camera_yuv.jpg)
 `self.cam = pygame.camera.Camera(self.clist[0], self.size, "HSV")`
-![](http://www.pygame.org/docs/tut/camera/hsv.jpg)
+![https://www.pygame.org/docs/_images/camera_hsv.jpg](https://www.pygame.org/docs/_images/camera_hsv.jpg)
 
 
-##阈值
+## 阈值
+
 在变换模块中使用threshold()我们可做出来像下面的绿屏效果，在特定的场景中分离出特定的颜色。在接下来的例子中，我们分离出绿色的树，剩下的全部变黑。详细的使用方法看[threshold function](http://www.pygame.org/docs/ref/transform.html#pygame.transform.threshold)
+
 {% highlight python %}
 self.thresholded = pygame.surface.Surface(self.size, 0, self.display)
 self.snapshot = self.cam.get_image(self.snapshot)
 pygame.transform.threshold(self.thresholded,self.snapshot,(0,255,0),(90,170,170),(0,0,0),2)
 {% endhighlight %}
-![](http://www.pygame.org/docs/tut/camera/thresholded.jpg)
+
+![https://www.pygame.org/docs/_images/camera_thresholded.jpg](https://www.pygame.org/docs/_images/camera_thresholded.jpg)
 
 不过这只能用来寻找你知道准确颜色的对象。为了能够在现实的环境下方便的使用，我们增加一个校验机制来对对象的颜色进行辨认，并以此作为阈值。对此我们需要使用 average_color()这个方法。
 
@@ -149,13 +159,16 @@ def calibrate(self):
     self.display.fill(self.ccolor, (0,0,50,50))
     pygame.display.flip()
 {% endhighlight %}
-![](http://www.pygame.org/docs/tut/camera/average.jpg)
-`pygame.transform.threshold(self.thresholded,self.snapshot,self.ccolor,(30,30,30),(0,0,0),2)`
-![](http://www.pygame.org/docs/tut/camera/thresh.jpg)
+
+![https://www.pygame.org/docs/_images/camera_average.jpg](https://www.pygame.org/docs/_images/camera_average.jpg)
+```python
+pygame.transform.threshold(self.thresholded,self.snapshot,self.ccolor,(30,30,30),(0,0,0),2)
+```
+![https://www.pygame.org/docs/_images/camera_thresh.jpg](https://www.pygame.org/docs/_images/camera_thresh.jpg)
 
 我自己做出来的效果：
-![](http://ww4.sinaimg.cn/large/6a0c2c15gw1e8n9n00mmvj20hs0dcaad.jpg)
-![Rondo](http://ww3.sinaimg.cn/large/6a0c2c15gw1e8n9o9n7edj20hs0dcabf.jpg)
+![book](https://h.xavierskip.com:42049/i/aac86647c9c23a334232b06e513641394cb52f25cf5a3ca31ebcde154bdcad01.jpg)
+![Rondo](https://h.xavierskip.com:42049/i/b877994acd76f98d4800c011b5be6803afd9789dbd88009a1d0053f5b99f24d2.jpg)
 
 我们可以同样的来做一个绿/蓝色屏幕，首先我们得到背景颜色，然后将背景色替换为绿色，其他不是背景的为黑色。
 这是相机对准空白的墙壁。
@@ -171,12 +184,15 @@ def calibrate(self):
     self.display.blit(self.background, (0,0))
     pygame.display.flip()
 {% endhighlight %}
-![](http://www.pygame.org/docs/tut/camera/background.jpg)
-`pygame.transform.threshold(self.thresholded,self.snapshot,(0,255,0),(30,30,30),(0,0,0),1,self.background)`
-![](http://www.pygame.org/docs/tut/camera/green.jpg)
+![https://www.pygame.org/docs/_images/camera_background.jpg](https://www.pygame.org/docs/_images/camera_background.jpg)
+```python
+pygame.transform.threshold(self.thresholded,self.snapshot,(0,255,0),(30,30,30),(0,0,0),1,self.background)
+```
+![https://www.pygame.org/docs/_images/camera_green.jpg](https://www.pygame.org/docs/_images/camera_green.jpg)
 
 
-##使用遮罩模块
+## 使用遮罩模块
+
 这个玩意你可以用来显示图像，使用这个模块你也可以使用摄像头作为游戏的输入。上个例子，我们使用阈值分离出了特定的对象，现在，我们来找到这个对象的位置，然后使用它来控制屏幕上的小球。
 {% highlight python %}
 def get_and_flip(self):
@@ -194,7 +210,8 @@ def get_and_flip(self):
        pygame.draw.circle(self.display, (0,255,0), coord, max(min(50,mask.count()/400),5))
     pygame.display.flip()
 {% endhighlight %}
-![](http://www.pygame.org/docs/tut/camera/mask.jpg)
+
+![https://www.pygame.org/docs/_images/camera_mask.jpg](https://www.pygame.org/docs/_images/camera_mask.jpg)
 
 这只是些基本的例子。你还可以跟踪不同颜色的斑点，描绘物体的轮廓，现实世界和游戏世界中的物体碰撞检测。得到一个物体的角度，然后精确的控制它。
 
@@ -394,4 +411,5 @@ if __name__ == '__main__':
 	cam = Capture()
 	cam.main()
 {% endhighlight %}
-![自爆](http://ww4.sinaimg.cn/large/6a0c2c15gw1e8n9kymobkj20hs0dc74s.jpg)
+
+![自爆](https://h.xavierskip.com:42049/i/337c45f5c2eb369317854adae60643e344fc407d154edef19ab5c46cab3f6f50.jpg)
