@@ -122,6 +122,7 @@ Pygame 可以做一些基本的视觉效果（滤镜），变形，遮罩……
 ## 色彩空间
 
 当你初始化摄像头的时候，有一个色彩空间的可选常数，有 'RGB', 'YUV', 和 'HSV'。在计算机视觉中 YUV 和 HSV 通常来说比 RGB 更有用。降低了颜色的阈值。
+
 `self.cam = pygame.camera.Camera(self.clist[0], self.size, "RGB")`
 ![https://www.pygame.org/docs/_images/camera_rgb.jpg](https://www.pygame.org/docs/_images/camera_rgb.jpg)
 `self.cam = pygame.camera.Camera(self.clist[0], self.size, "YUV")`

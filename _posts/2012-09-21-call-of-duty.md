@@ -20,7 +20,7 @@ tags:
 
 终于又解锁了一项成就：Call of Duty 4 到 7，全部老兵难度通关。以下内容都是在老兵难度下进行～～～
 
-[![](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/CoDWaW-2012-02-28-17-22-45-83-494x278.png)](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/CoDWaW-2012-02-28-17-22-45-83.png)
+![COD5](https://h.xavierskip.com:42049/i/7dc15b19235fb3884ccd451de32eb7902a735a1d9b079f9b209c598c14dfb015.png)
 
 最近玩游戏很少了，除了寒假玩通了《蝙蝠侠-阿卡姆疯人院》，基本没怎么碰游戏了。有时就在老兵的难度下温习温习 Call Of Duty:World At War，提提神。老兵难度确实很难呀！隔几天玩一下，一玩就卡在哪里打不过去了，就不玩了，隔几天再试，轻松通过，我想应该是人品的问题。
 
@@ -52,7 +52,7 @@ tags:
 
 
 
-[![](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/nba2k10-2010-06-04-18-43-31-63-494x278.jpg)](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/nba2k10-2010-06-04-18-43-31-63.jpg)
+![nba2k10](https://h.xavierskip.com:42049/i/226aa8a53e9e4c548728acbed8b5f502a80a367433922a80dcda54bf83988494.jpg)]
 
 
 
@@ -60,118 +60,110 @@ tags:
 
 
 
-[![](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/JustCause2_game-2010-06-04-22-11-32-79-494x278.jpg)](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/JustCause2_game-2010-06-04-22-11-32-79.jpg)
+![JustCause2](https://h.xavierskip.com:42049/i/f47b19f21596c08bd60ab402e434ed68157f9396e4f30ea6b55551d9bc591bb5.jpg)
 
 正当防卫，巨大的沙盘世界，优美细腻的风景画面，上天入地，开坦克打飞机，爽。
 
 
 
-[![](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/TWFC-2010-09-07-18-06-38-14-494x278.jpg)](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/TWFC-2010-09-07-18-06-38-14.jpg)变形金刚，感觉没什么意思，还是开枪，装子弹，开枪，变形就是个噱头。
+![Transformers: War for Cybertron](https://h.xavierskip.com:42049/i/6f7b874e3f6ddb892db17e9233b318bad6783c31ae4abfe3e63a9f49a182e6ba.jpg)]
+
+变形金刚，感觉没什么意思，还是开枪，装子弹，开枪，变形就是个噱头。
 
 
 
-[![](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/SC2-2010-08-04-15-32-04-60-494x278.jpg)](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/SC2-2010-08-04-15-32-04-60.jpg)星际争霸2自由之翼，很有幸参加了第二阶段公测，唉大半个暑假就浪费在这上面了，唉。但是本人很菜，虽然接触星际1是98年，但是仍然很菜，就打打电脑，呵呵。后来网易代理还买了一个月的点卡。
+![SC2](https://h.xavierskip.com:42049/i/d0a6aae5b243ced6a754e980ba82b04f8832b60d6b82642b8ddb9a54a183090b.jpg)
 
-[![](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/iw4sp-2010-08-15-16-33-14-88-494x278.jpg)](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/iw4sp-2010-08-15-16-33-14-88.jpg)应该是重玩使命召唤6，456我记得我都是在网吧通关的。
+星际争霸2自由之翼，很有幸参加了第二阶段公测，唉大半个暑假就浪费在这上面了，唉。但是本人很菜，虽然接触星际1是98年，但是仍然很菜，就打打电脑，呵呵。后来网易代理还买了一个月的点卡。
 
+![iw4sp](https://h.xavierskip.com:42049/i/2e24076b2a264544681f408571ed5e841cd7f08dd83cb20274f3ab45a6259c04.jpg)
 
-
-[![](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/Crysis-2010-09-03-20-23-02-78-494x278.jpg)](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/Crysis-2010-09-03-20-23-02-78.jpg)孤岛危机，还好机器勉强可以带的动。汗～～
-
-
-
-[![](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/GTAIV-2010-09-06-16-57-10-54-494x278.jpg)](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/GTAIV-2010-09-06-16-57-10-54.jpg)GTA4，机器跑着卡的一笔，主要是cpu太烂了，I3 330的，还有游戏优化也够烂的，没有玩通。
+应该是重玩使命召唤6，456我记得我都是在网吧通关的。
 
 
 
-[![](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/iw3sp-2010-09-20-22-30-20-56-494x278.jpg)](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/iw3sp-2010-09-20-22-30-20-56.jpg)使命召唤4，这图看着就有感觉吧！
+![Crysis](https://h.xavierskip.com:42049/i/6839535a859dd129d82ecc9e96a8dfae04b7e6094f063d83b223c5ca9f88ffbd.jpg)
+
+孤岛危机，还好机器勉强可以带的动。汗～～
 
 
 
-[![](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/fifa-2010-09-21-17-21-45-06-494x278.jpg)](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/fifa-2010-09-21-17-21-45-06.jpg)fifa10，开始超越pes的一代。没人陪我玩。
+![GTA IV](https://h.xavierskip.com:42049/i/84fbb4fe6a37ad94f17ff24c1cbc0654a7dad750a30c5ff513fd19184d48397f.jpg)
 
-[caption id="attachment_461" align="aligncenter" width="494" caption="战争机器，主机平台移植游戏，二代和三代只有主机平台才有。"][![](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/wargame-g4wlive-2011-09-20-21-56-43-19-494x278.jpg)](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/wargame-g4wlive-2011-09-20-21-56-43-19.jpg)[/caption]
-
-
-
-[caption id="attachment_467" align="aligncenter" width="494" caption="文明5，3和4都玩过，都很经典。"][![](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/CivilizationV_DX11-2010-10-07-20-49-55-69-494x278.jpg)](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/CivilizationV_DX11-2010-10-07-20-49-55-69.jpg)[/caption]
+GTA4，机器跑着卡的一笔，主要是cpu太烂了，I3 330的，还有游戏优化也够烂的，没有玩通。
 
 
 
+![iw3sp](https://h.xavierskip.com:42049/i/cfa0e12e81f5fc7ab5ca621796b06e05a77afa96f69f7aae0f1e004eeb273cef.jpg)
 
-
-[caption id="attachment_466" align="aligncenter" width="494" caption="2k11，2k系列的巅峰之作，12一点都不好玩，但是很激动呀！！因为游戏中终于有Jordan了，官方的"][![](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/nba2k11-2010-10-11-22-52-49-98-494x278.jpg)](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/nba2k11-2010-10-11-22-52-49-98.jpg)[/caption]
-
-
-
-[caption id="attachment_465" align="aligncenter" width="494" caption="荣誉勋章，还是不错的游戏，EA用来为《战地》做铺垫的"][![](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/moh-2010-10-14-14-18-45-93-494x278.jpg)](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/moh-2010-10-14-14-18-45-93.jpg)[/caption]
+使命召唤4，这图看着就有感觉吧！
 
 
 
-[caption id="attachment_464" align="aligncenter" width="494" caption="暗黑血统，不错的ARPG，解密元素不错，画面风格很帅，打斗系统打击感不足，boss战有意思"][![](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/DarksidersPC-2010-10-26-21-02-20-02-494x278.jpg)](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/DarksidersPC-2010-10-26-21-02-20-02.jpg)[/caption]
+![fifa 2010](https://h.xavierskip.com:42049/i/14c8714b0f417e54a352763247aff9569973d4eb0a9e38c224a997e2762fa344.jpg)
 
-[caption id="attachment_463" align="aligncenter" width="494" caption="shark，对这种画面风格毫无抵抗力"][![](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/Shank-2010-10-28-22-05-55-71-494x278.jpg)](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/Shank-2010-10-28-22-05-55-71.jpg)[/caption]
+fifa10，开始超越pes的一代。没人陪我玩。
 
-[caption id="attachment_462" align="aligncenter" width="494" caption="尘埃3，最好最真实的赛车游戏，不喜欢极品飞车系列"][![](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/dirt3_game-2011-09-10-17-58-57-17-494x278.jpg)](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/dirt3_game-2011-09-10-17-58-57-17.jpg)[/caption]
+![wargame](https://h.xavierskip.com:42049/i/95cab7cc85345f69268e85abdf69095b58819e434e399965bfc131158ecc1cab.jpg)
 
-[caption id="attachment_461" align="aligncenter" width="494" caption="战争机器，可以说是主机平台上移植的游戏中最好的了，2代和3代都没有pc版的了"][![](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/wargame-g4wlive-2011-09-20-21-56-43-19-494x278.jpg)](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/wargame-g4wlive-2011-09-20-21-56-43-19.jpg)[/caption]
-
-
-
-[caption id="attachment_468" align="aligncenter" width="494" caption="很有幸参加了公测，还好机器带的动"][![](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/bf3-2011-09-30-09-57-51-36-494x277.jpg)](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/bf3-2011-09-30-09-57-51-36.jpg)[/caption]
-
-[![](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/BatmanAC-2011-12-04-12-42-26-93.png)](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/BatmanAC-2011-12-04-12-42-26-93.png)
+战争机器，主机平台移植游戏，二代和三代只有主机平台才有。
 
 
 
+![CivilizationV_DX11-2010-10-07-20-49-55-69.jpg](https://h.xavierskip.com:42049/i/88a694e790b14378d754c087f96bf24081882cde06f40d15bc2668c46130af83.jpg)
+
+文明5，3和4都玩过，都很经典。
+
+
+
+![nba2k11-2010-10-11-22-52-49-98.jpg](https://h.xavierskip.com:42049/i/563d510a7498df4c97943c81ce17fa814068fd83913c4896e3dae955004e027c.jpg)
+
+2k11，2k系列的巅峰之作，12一点都不好玩，但是很激动呀！！因为游戏中终于有Jordan了，官方的
+
+![moh-2010-10-14-14-18-45-93.jpg](https://h.xavierskip.com:42049/i/6ae28e3f929aec99fe7705fe94c10be8cc4f327acd1ac14aee069f2bc11a3776.jpg)
+
+荣誉勋章，还是不错的游戏，EA用来为《战地》做铺垫的
+
+![DarksidersPC-2010-10-26-21-02-20-02.jpg](https://h.xavierskip.com:42049/i/4f14c12301abb3c1df22a21cb543e75af85e8ae659339e976df9c101def7d906.jpg)
+
+暗黑血统，不错的ARPG，解密元素不错，画面风格很帅，打斗系统打击感不足，boss战有意思
+
+![Shank-2010-10-28-22-05-55-71.jpg](https://h.xavierskip.com:42049/i/70ac619bb9a7fa10dcde913d61f0dbd5721a637325058d7f37af8b2f05eebb46.jpg)
+
+shark，对这种画面风格毫无抵抗力
+
+![dirt3_game-2011-09-10-17-58-57-17.jpg](https://h.xavierskip.com:42049/i/dccb138fcf1bbed37bdf3aff102c774cec9b8790520c2d1cc656ba75f69534f5.jpg)
+
+尘埃3，最好最真实的赛车游戏，不喜欢极品飞车系列
+
+![wargame-g4wlive 2011-09-20 21-58-04-11.jpg](https://h.xavierskip.com:42049/i/f5be1b0022cc1b5e5e1de2989aaa1125dac089baaf0fd1d4cd49f1fd7baf3dd9.jpg)
+
+战争机器，可以说是主机平台上移植的游戏中最好的了，2代和3代都没有pc版的了
+
+![bf3-2011-09-30-09-57-51-36.jpg](https://h.xavierskip.com:42049/i/f9c7f973513d9ce04d2d8433821ee5e8aeb5635d552dbe01377f25bafff6c85d.jpg)
+很有幸参加了公测，还好机器带的动
+
+
+
+![BatmanAC-2011-12-04-12-42-26-93.png](https://h.xavierskip.com:42049/i/857f804bfd721fe098a2af2a2f85ae9fc2b4ab187464a5b2fddc641ffce29e20.png)
 
 
 
 
 
+![iw5sp-2011-11-11-04-08-59-96.jpg](https://h.xavierskip.com:42049/i/48940d18eddeba4a6d8e88a02f8aadcc19f33b6f3c62cd73e7f1cbd33800b08b.jpg)
 
-[caption id="attachment_471" align="aligncenter" width="494" caption="现代战争系列的终结"][![](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/iw5sp-2011-11-11-04-08-59-96-494x278.jpg)](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/iw5sp-2011-11-11-04-08-59-96.jpg)[/caption]
+现代战争系列的终结
 
-
-
-[![](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/TESV-2011-11-19-00-05-04-70.jpg)](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/TESV-2011-11-19-00-05-04-70.jpg)
-
+![TESV-2011-11-19-00-05-04-70.jpg](https://h.xavierskip.com:42049/i/cb810ca9ded4fa005a9b8f63a8ee08cf2a4e40cb755efb31ef0ad5273dae6625.jpg)
 
 
-[caption id="attachment_472" align="aligncenter" width="494" caption="12感觉有些方面还没有11好"][![](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/nba2k12-2011-10-07-11-27-19-36-494x278.jpg)](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/nba2k12-2011-10-07-11-27-19-36.jpg)[/caption]
+![nba2k12-2011-10-07-11-27-19-36.jpg](https://h.xavierskip.com:42049/i/5fd68eb40631c17d404826619431eea9a06115d3cc235b83d16998df86e1a186.jpg)
 
-
-
-
-
-
-
+12感觉有些方面还没有11好
 
 
 总结下来，无外乎枪，车，球。
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 我的三大爱好：篮球；游戏；音乐

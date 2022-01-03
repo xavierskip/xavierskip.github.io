@@ -17,7 +17,6 @@ tags: 胡思乱想
 
 无聊图送上
 ![呼呼](https://h.xavierskip.com:42049/i/6fcee2b62ae096c5f2704b75cd1b7f4ff95f59070a3791424f20293bec70e835.jpg)
-![无聊图](http://ww2.sinaimg.cn/large/a74ecc4cjw1dzpmjogwgvj.jpg)
 
 
 我讨厌武汉，但是觉得江滩还是不错的，很安静。  
