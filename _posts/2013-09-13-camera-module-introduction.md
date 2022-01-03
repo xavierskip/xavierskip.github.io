@@ -125,7 +125,7 @@ Pygame 可以做一些基本的视觉效果（滤镜），变形，遮罩……
 `self.cam = pygame.camera.Camera(self.clist[0], self.size, "RGB")`
 ![https://www.pygame.org/docs/_images/camera_rgb.jpg](https://www.pygame.org/docs/_images/camera_rgb.jpg)
 `self.cam = pygame.camera.Camera(self.clist[0], self.size, "YUV")`
-!https://www.pygame.org/docs/_images/camera_yuv.jpg](https://www.pygame.org/docs/_images/camera_yuv.jpg)
+![https://www.pygame.org/docs/_images/camera_yuv.jpg](https://www.pygame.org/docs/_images/camera_yuv.jpg)
 `self.cam = pygame.camera.Camera(self.clist[0], self.size, "HSV")`
 ![https://www.pygame.org/docs/_images/camera_hsv.jpg](https://www.pygame.org/docs/_images/camera_hsv.jpg)
 
