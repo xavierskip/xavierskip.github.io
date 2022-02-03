@@ -21,7 +21,7 @@ layout: page
 {% endfor %}
 </ul>
 
-<script defer src="/media/js/jquery.tagcloud.js"></script>
+<script async src="/media/js/jquery.tagcloud.js"></script>
 <script type="text/javascript">
 $.fn.tagcloud.defaults = {
     size: {start: 1, end: 1, unit: 'em'},
