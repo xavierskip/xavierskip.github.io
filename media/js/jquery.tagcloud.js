@@ -82,7 +82,7 @@
 
 // config and run
 $.fn.tagcloud.defaults = {
-    size: {start: 7, end: 24, unit: "pt"},
+    size: {start: 10, end: 24, unit: "pt"},
       color: {start: '#f8e0e6', end: '#ff3333'}
 };
 $(function () {
