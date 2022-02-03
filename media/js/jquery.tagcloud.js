@@ -1,3 +1,4 @@
+// jquery.tagcloud.js
 (function($) {
 
   $.fn.tagcloud = function(options) {
@@ -78,3 +79,12 @@
   }
 
 })(jQuery);
+// config and run
+$.fn.tagcloud.defaults = {
+    size: {start: 1, end: 5, unit: 'em'},
+      color: {start: '#f8e0e6', end: '#ff3333'}
+};
+
+$(function () {
+    $('#tag_cloud a').tagcloud();
+});

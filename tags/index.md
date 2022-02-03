@@ -21,14 +21,4 @@ layout: page
 {% endfor %}
 </ul>
 
-<script async src="/media/js/jquery.tagcloud.js"></script>
-<script type="text/javascript">
-$.fn.tagcloud.defaults = {
-    size: {start: 1, end: 1, unit: 'em'},
-      color: {start: '#f8e0e6', end: '#ff3333'}
-};
-
-$(function () {
-    $('#tag_cloud a').tagcloud();
-});
-</script>
+<script defer src="/media/js/jquery.tagcloud.js"></script>
