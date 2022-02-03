@@ -79,12 +79,12 @@
   }
 
 })(jQuery);
+
 // config and run
 $.fn.tagcloud.defaults = {
-    size: {start: 1, end: 5, unit: 'em'},
+    size: {start: 12, end: 20, unit: "pt"},
       color: {start: '#f8e0e6', end: '#ff3333'}
 };
-
 $(function () {
     $('#tag_cloud a').tagcloud();
 });
