@@ -5,7 +5,7 @@ comments: yes
 ---
 <div id="douban" style="float: right;">
 	<p>或许你也喜欢：</p>
-	<script type="text/javascript" src="http://www.douban.com/service/badge/xavierskip/?show=collection&amp;select=random&amp;n=6&amp;columns=2&amp;hidelogo=yes&amp;hideself=yes" ></script>
+	<script type="text/javascript" src="//www.douban.com/service/badge/xavierskip/?show=collection&amp;select=random&amp;n=6&amp;columns=2&amp;hidelogo=yes&amp;hideself=yes" ></script>
 </div>
 
 联系方式：
