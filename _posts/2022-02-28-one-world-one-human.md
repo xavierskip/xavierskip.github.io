@@ -2,7 +2,7 @@
 layout: post
 title: 世界上只有一种人类
 tags:
-- 科普
+- human
 ---
 
 我说：“世界上只有一种人类”。
