@@ -27,12 +27,12 @@ tags:
 
 第一个问题搜索“NEBULA 战队”google搜索第一结果中就有“成立于2017年3月”。
 
-第二题通过搜索“Software Freedom Day”或者“软件自由日 USTC 中科大”可以找到当天的会议资料PPT，根据资料的URL还能发现一切其他的资料，甚至有活动的[全场录像](https://ftp.lug.ustc.edu.cn/%E6%B4%BB%E5%8A%A8/2022.9.20_%E8%BD%AF%E4%BB%B6%E8%87%AA%E7%94%B1%E6%97%A5/video/)，在我仔细观察ppt没有发现相关细节的时候，只好观看了相关会议讲座，根据讲者的描述，听发音搜索“kdenlife”结果发现是“Kdenkive”，一款视频编辑软件。
+第二题通过搜索“Software Freedom Day”或者“软件自由日 USTC 中科大”可以找到当天的会议资料PPT，根据资料的URL还能发现一切其他的资料，甚至有活动的[全场录像](https://ftp.lug.ustc.edu.cn/%E6%B4%BB%E5%8A%A8/2022.9.20_%E8%BD%AF%E4%BB%B6%E8%87%AA%E7%94%B1%E6%97%A5/video/)，在我仔细观察ppt没有发现相关细节的时候，只好观看了相关会议讲座，根据讲者的描述，听发音搜索“kdenlife”结果发现是“Kdenlive”，一款视频编辑软件。
 
 第三题，搜索结果里会有干扰，多试几次就得到结果了。
 
 四五六尝试了，没有答出来。
-其实第四题很简单，在github相关的[仓库](https://github.com/torvalds/linux)上里搜索“CVE-2021-4034”，选择 Commits 就看到了。
+其实第四题很简单，在github相关的[仓库](https://github.com/torvalds/linux)上里搜索“CVE-2021-4034”，选择 [Commits](https://github.com/torvalds/linux/search?q=CVE-2021-4034&type=commits) 就看到了。
 第五题要用[https://www.shodan.io/](https://www.shodan.io/)这个搜索引擎来搜索。其实我之前还写过一篇文件“[ssh远程登陆中的钥匙指纹是什么以及如何比对](https://blog.xavierskip.com/2019-11-09-ssh-fingerprint/)”来探讨这个指纹这么的出来的。
 既然第四第五题都没答出来，第六题我浅浅的搜索了一下就没继续尝试了。
 
@@ -40,7 +40,7 @@ tags:
 
 其实题目里讲的很清楚了，将下载下来的文件用vscode打开，直接搜索“flag”就能找了。第一问相当于是送分了，同时告诉大家vscode的历史记录里会保存你删除的文件，小心自己的代码被泄露。
 
-第二问更加明显了，就是需要了解一下Rclone这个软件是啥。毕竟`rclone.conf`里有加密的信息，并且写清楚了就是flag2，上网搜索一下“rclone password”，了解了下 rclone obscure，在机器上安装了rclone试了一下，flag应该就是用`rclone obscure`混淆保存了，配置文件的密码被掩盖了肯定是可以被还原的，要不然怎么用配置里的账号密码登录服务呢。继续搜索，在GitHub上甚至找到了项目的源码[https://github.com/rclone/rclone/blob/master/fs/config/obscure/obscure.go](https://github.com/rclone/rclone/blob/master/fs/config/obscure/obscure.go),这里面明显有个`Reveal`函数，最后在一个[issue](https://github.com/rclone/rclone/issues/2265#issuecomment-615900929)中找到了方法直接使用命令`rclone reveal [pass]`就找到了flag2！
+第二问更加明显了，就是需要了解一下Rclone这个软件是啥。毕竟`rclone.conf`里有加密的信息，并且写清楚了就是flag2，上网搜索一下“rclone password”，了解了下 rclone obscure，在机器上安装了rclone试了一下，flag应该就是用`rclone obscure`混淆保存了，配置文件的密码被掩盖了肯定是可以被还原的，要不然怎么用配置里的账号密码登录服务呢。继续搜索，在GitHub上甚至找到了项目的源码[obscure.go](https://github.com/rclone/rclone/blob/master/fs/config/obscure/obscure.go),这里面明显有个`Reveal`函数，最后在一个[issue](https://github.com/rclone/rclone/issues/2265#issuecomment-615900929)中找到了方法直接使用命令`rclone reveal [pass]`就找到了flag2！
 
 
 #### 4、[HeiLang]([HeiLang](https://hack.lug.ustc.edu.cn/#HeiLang))
