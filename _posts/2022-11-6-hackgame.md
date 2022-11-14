@@ -77,6 +77,8 @@ print(r.text)
 
 照片分析很简单，直接看图片的exif信息即可。接下来的社工，我就知道在日本千叶的海洋球场，找航班实在是没法子了，去看官方答案吧。
 
+我发现这种根据照片推理位置的玩法还真有一些人喜欢玩，还有专门的网站做这种的游戏。国外的网站有：[geoguessr](https://www.geoguessr.com)，国内的网站有[炒饭网络迷踪图寻](https://chao.fan/tuxun)，可以看相关的[UP主 EasyEnglish](https://www.bilibili.com/video/BV1Gd4y1w72Y/)来了解一下。
+
 #### 7、[LaTeX 机器人](http://202.38.93.111:10020/)
 
 啥不不懂，上网搜索呗。按照这篇文件介绍的内容[how hacking with LaTex](https://exexute.github.io/2019/04/24/how-hacking-with-LaTex/)发现除了读文件，不能执行命令，就找到flag1，flag2找不到了。去看别人的[答案](https://github.com/USTC-Hackergame/hackergame2022-writeups/search?q=LaTeX)吧。
