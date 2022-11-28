@@ -283,7 +283,7 @@ int main(void){
 
 发现CFR这个工具好用。直接的生成源代码文件里面的字符串不会错乱。
 
-` java -jar cfr-0.152.jar prob15.jar > GeekGame.java`
+`java -jar cfr-0.152.jar prob15.jar > GeekGame.java`
 
 很明显，第一个flag就在这里，先对flag进行base64编码再进行rot13替换，这两个都能很方便的逆向操作的。
 
