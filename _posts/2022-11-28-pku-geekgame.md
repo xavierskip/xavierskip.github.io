@@ -395,3 +395,5 @@ if __name__ == '__main__':
 感觉有点酷
 ![flag](https://h.xavierskip.com:42049/i/1b33d5b56578cac62f3a5538e937da293262353bdce7e3ed994379d451984363.jpg)
 
+
+其他的题目可以去看官方[writeup](https://github.com/PKU-GeekGame/geekgame-2nd/tree/master/problemset)。
