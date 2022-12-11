@@ -85,7 +85,7 @@ tags:
 
 
 
-![FoldingAtHome-wus-certificate-548990173](https://tva1.sinaimg.cn/large/008i3skNgy1gtxn9ahmxkj60hs0dcwfz02.jpg)
+![FoldingAtHome-wus-certificate-548990173](https://apps.foldingathome.org/awards?user=548990173)
 
 
 
