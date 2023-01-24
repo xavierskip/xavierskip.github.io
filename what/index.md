@@ -3,16 +3,8 @@ layout: page
 title: 关于
 comments: yes
 ---
-<div id="douban" style="float: right;">
-	<p>或许你也喜欢：</p>
-	<script type="text/javascript" src="//www.douban.com/service/badge/xavierskip/?show=collection&amp;select=random&amp;n=6&amp;columns=2&amp;hidelogo=yes&amp;hideself=yes" ></script>
-</div>
 
-联系方式：
-
-telegram:<a href="http://telegram.me/skipto">telegram.me/skipto</a>
-
-邮箱:<a href="mailto:xavierskip@gmail.com">xavierskip@gmail.com</a>
+联系方式参考[给我发一封GPG邮件吧！](/2021-02-22-openpgp/)：
 
 运气好的话在互联网上看见有人用 xavierskip这个ID，那应该就是我了。
 
