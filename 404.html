@@ -6,10 +6,15 @@
 		body {
 			padding: 0;
 			margin: 0;
+			background-color: #000;
+			color: #00ff4e;
 		}
 		#content {
 			margin: 0 auto;
-			width: 560px;
+			width: 720px;
+			padding-top: 10px;
+			/* display: flex;
+			justify-content: center; */
 		}
 		#content p{
 			margin: 0 auto;
@@ -21,6 +26,8 @@
 			margin: 0px auto;
 		}
 		#sliding {
+			width: 100%;
+			display: inline-block;
 		}
 		#sliding span {
 			display: inline-block;
@@ -51,55 +58,31 @@
 			-ms-animation:     move 2s cubic-bezier(0.000, 0.970, 1.000, 0.030) .3s infinite;
 			animation:         move 2s cubic-bezier(0.000, 0.970, 1.000, 0.030) .3s infinite;
 		}
-		@-webkit-keyframes move{
-			0%{
-				-webkit-transform:translate(0);	
-			}
-			100%{
-				-webkit-transform:translate(960px);
-			}
-		}
-		@-moz-keyframes move{
-			0%{
-				-moz-transform:translate(0);	
-			}
-			100%{
-				-moz-transform:translate(960px);
-			}
-		}
-		@-ms-keyframes move{
-			0%{
-				-ms-transform:translate(0);	
-			}
-			100%{
-				-ms-transform:translate(960px);
-			}
-		}
 		@keyframes move{
 			0%{
 				transform:translate(0);	
 			}
 			100%{
-				transform:translate(960px);
+				transform:translate(1080px);
 			}
 		}
 	</style>
 </head>
 <body>
 	<div id="content">
-		<p style="font-size: 30px;">警告：</p> 
-　　 	<p>如果你正在阅读本文。那么这次警告正是为你准备的。</p>
-		<p>你所读到的本文中的每个词都是你生命中又一秒钟的浪费。</p> 
-		<p>你没有别的事情可以做吗？</p>
-		<p>你的生命真的如此空虚以至于你怎么都想不出另一个打发时间的方法吗?</p>
-		<p>还是你如此容易受权威的影响以至于你要呈上它所要求的一切尊敬和信任？</p>
-		<p>你读了所有你被假定应该读的了吗？</p>
-		<p>你思考了所有你被假定应该思考的了吗？</p>
-		<p>买了所有你被告知你应当想要的了吗？</p>
-		<p>离开你的房间。去见一个异性。停止过度的购物和自慰。</p>
-		<p>辞了你的工作。开始一次搏击。证明你是活着的。</p>
-		<p>如果你不主张你的人性。你将只是一个统计值。</p>
-		<p>你已经被警告了…… </p>
+		<p class="flex-div" style="font-size: 30px;">警告：</p> 
+　　 	<p class="flex-div" >如果你正在阅读本文。那么这次警告正是为你准备的。</p>
+		<p class="flex-div" >你所读到的本文中的每个词都是你生命中又一秒钟的浪费。</p> 
+		<p class="flex-div" >你没有别的事情可以做吗？</p>
+		<p class="flex-div" >你的生命真的如此空虚以至于你怎么都想不出另一个打发时间的方法吗?</p>
+		<p class="flex-div" >还是你如此容易受权威的影响以至于你要呈上它所要求的一切尊敬和信任？</p>
+		<p class="flex-div" >你读了所有你被假定应该读的了吗？</p>
+		<p class="flex-div" >你思考了所有你被假定应该思考的了吗？</p>
+		<p class="flex-div" >买了所有你被告知你应当想要的了吗？</p>
+		<p class="flex-div" >离开你的房间。去见一个异性。停止过度的购物和自慰。</p>
+		<p class="flex-div" >辞了你的工作。开始一次搏击。证明你是活着的。</p>
+		<p class="flex-div" >如果你不主张你的人性。你将只是一个统计值。</p>
+		<p class="flex-div" >你已经被警告了…… </p>
 	</div>
 		<div>
 			<span id='sliding'>
