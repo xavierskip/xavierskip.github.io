@@ -33,7 +33,7 @@ top: 1px;
 hr{margin:.7em 0;border-top:1px dashed #d0d0d0;border-bottom:1px dashed #f9f9f9;}
 p{padding:.5em 0;}
 li{padding:.2em 0;}
-ol,ul{list-style-position:inside;}
+/* ol,ul{list-style-position:inside;} */
 ol ul, ul ol, ul ul, ol ol {margin-left:1em;}
 pre code{margin:1em 0;font-size:13px;line-height:1.6;display:block;overflow:auto;}
 blockquote{color:#545454;}
