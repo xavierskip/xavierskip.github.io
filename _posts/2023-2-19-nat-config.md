@@ -19,7 +19,7 @@ tags:
 
 我又找到了第三个解决方案（但是不推荐）：
 
-3. [DNS Mapping](https://support.huawei.com/enterprise/zh/doc/EDOC1100033729/6325cc27)。需要开启[ALG](https://support.huawei.com/enterprise/zh/doc/EDOC1100033729/9130981d) [DNS功能](https://support.huawei.com/enterprise/zh/doc/EDOC1100033729/2a5c5e5b) 。会修改DNS应答中的相应地址信息。
+3. 配置[DNS Mapping](https://support.huawei.com/enterprise/zh/doc/EDOC1100033729/6325cc27)。需要开启[ALG](https://support.huawei.com/enterprise/zh/doc/EDOC1100033729/9130981d) 来修改DNS应答中的相应地址信息。
 
 配置复杂，而且很明显要占用一些设备性能。有专门的FAQ来说明这个问题：[配置DNS Mapping后，CPU占用率高应如何解决](https://support.huawei.com/enterprise/zh/doc/EDOC1100112409/7e88872)
 
