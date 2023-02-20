@@ -51,8 +51,46 @@ return
 ```
 最后不忘了save一下。
 
+还没完，NAT转换类型一般有4种：
 
-推荐阅读：
+NAT1：Full Cone NAT（完全圆锥型，一对一）
+
+NAT2：Restricted Cone NAT（地址限制圆锥型）
+
+NAT3：Port Restricted Cone NAT（端口限制圆锥型）
+
+NAT4：Symmetric NAT（对称型）
+
+1-4是越来越严格，越宽松意味着公网中点对点通讯能够更轻松的建立，对于个人用户的网络体验是有帮助的，例如点对点连接及内网穿透等。但是对于企业应用来说安全是第一位的，所以这个路由器默认的是 NAT4 Symmetric NAT。
+
+你的NAT网络属于哪个等级可以通过[pystun3](https://pypi.org/project/pystun3/)这个工具来检测。
+
+```
+$ pip install pystun3  # 安装
+$ pystun3              # 看到结果
+NAT Type: Symmetric NAT
+External IP: <your-ip-here>
+External Port: 54320
+```
+
+要想调整华为路由器的nat策略也是可以的，通过这个[FAQ：AR110-S是否支持完全圆锥型NAT](https://support.huawei.com/enterprise/zh/knowledge/KB1001421792)可知：
+
+```
+nat mapping-mode endpoint-independent
+nat filter-mode endpoint-independent
+```
+
+配置这两个命令即可。注意，配置策略后并不会立即生效，重启吧。
+
+关于NAT等级、NAT的原理、如何穿透NAT这就是不是几句话能够说明白的，想了解的可以看下面的一些资料：
+
+ - [NAT 原理以及 UDP 穿透](https://paper.seebug.org/1561/)
+ - [[译] NAT 穿透是如何工作的：技术原理及企业级实践（Tailscale, 2020）](https://arthurchiao.art/blog/how-nat-traversal-works-zh)
+ - [[译] NAT - 网络地址转换（2016）](http://arthurchiao.art/blog/nat-zh/)
+ - [穿越防火牆技術](http://www.cs.nccu.edu.tw/~lien/Writing/NGN/firewall.htm)
+ - [Peer-to-Peer Communication Across Network Address Translators](https://bford.info/pub/net/p2pnat/)
+
+其他：
 
 [命令行的快捷键](https://support.huawei.com/enterprise/zh/doc/EDOC1100041711/36ae01a3)
 
@@ -78,4 +116,6 @@ return
 |<Esc+D> |删除光标右侧的一个字符串（字）。|
 |<Esc+F> |将光标向右移动一个字符串（字）。|
 
-![](https://raw.githubusercontent.com/fliptheweb/bash-shortcuts-cheat-sheet/master/moving_cli.png) via:[Bash Shortcuts](https://gist.github.com/tuxfight3r/60051ac67c5f0445efee)
+[Bash Shortcuts](https://gist.github.com/tuxfight3r/60051ac67c5f0445efee)
+
+![](https://raw.githubusercontent.com/fliptheweb/bash-shortcuts-cheat-sheet/master/moving_cli.png) 
