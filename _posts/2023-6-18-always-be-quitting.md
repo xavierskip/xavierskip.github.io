@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 【转载】Always be quitting
+title: 【转载】Always be quitting 时刻准备离职
 tags:
 - work
 ---
