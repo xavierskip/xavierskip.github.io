@@ -65,18 +65,13 @@ X-Ace-Host: 4620a9aa-88f4-4ac1-a49d-e2012910921
 
 A few interesting things :
 
-> 
-> 
 	
 >   * The request is using a custom “ACE” method, instead of a more usual GET.
-> 
-	
+> 	
 >   * The url requested is “/ace”
 > 
-	
 >   * The Content-Length is nearly 2GB. Which is obviously not conforming to the HTTP standard.
 > 
-	
 >   * X-Ace-host is some form of GUID. After trying with several iPhone 4Ses, it seems to be tied to the actual device (pretty much like an UDID).
 > 
 
@@ -97,9 +92,7 @@ A few interesting things :
 	
   * Siri 工作的时候发送的是原始的音频数据到服务器
 
-	
   *  他们不会公开他们的crack的成果，但是所有的我不都告诉你了么？自己私人用用是没问题的。
-
 	
   * [collection of tools ](https://github.com/applidium/Cracking-Siri)这是那些帮助他们完成这些工作的工具，有用ruby写的，也有c，还有object-c。
 
