@@ -23,7 +23,7 @@ tags:
         const player = ruffle.createPlayer();
         const container = document.getElementById("container");
         container.appendChild(player);
-        player.load("https://xavierskip.com/downIoad/Manufactoria.swf");
+        player.load("/media/Manufactoria.swf");
         player.style.width = "600px";
         player.style.height = "400px";
     });
