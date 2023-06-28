@@ -15,13 +15,13 @@ tags:
 
 {::nomarkdown}
 <!-- <embed src="http://pleasingfungus.com/Manufactoria/Manufactoria.swf" width="640" height="480" class="manufactoria"> -->
-<div id="container"></div>
+<div id="manufactoria"></div>
 <script>
     window.RufflePlayer = window.RufflePlayer || {};
     window.addEventListener("load", (event) => {
         const ruffle = window.RufflePlayer.newest();
         const player = ruffle.createPlayer();
-        const container = document.getElementById("container");
+        const container = document.getElementById("manufactoria");
         container.appendChild(player);
         player.load("/media/Manufactoria.swf");
         player.style.width = "600px";
