@@ -16,6 +16,7 @@ tags:
 {::nomarkdown}
 <!-- <embed src="http://pleasingfungus.com/Manufactoria/Manufactoria.swf" width="640" height="480" class="manufactoria"> -->
 <div id="manufactoria"></div>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 <script>
     window.RufflePlayer = window.RufflePlayer || {};
     window.addEventListener("load", (event) => {
@@ -23,10 +24,9 @@ tags:
         const player = ruffle.createPlayer();
         const container = document.getElementById("manufactoria");
         container.appendChild(player);
+        player.style.width = "640px";
+        player.style.height = "480px";
         player.load("/media/Manufactoria.swf");
-        player.style.width = "600px";
-        player.style.height = "400px";
     });
 </script>
-<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 {:/nomarkdown}
