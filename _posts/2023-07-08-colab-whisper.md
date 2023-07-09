@@ -27,7 +27,7 @@ colab 上很多依赖项已经安装好了，你只需要安装 whisper 就可�
 
 #### 4、🎶上传音频文件及参数设置
 
-手动上传文件到机器上，选择文件名、音译还翻译、语言等参数，要想识别出来的是简体文字可以指定`prompt`，[指定 Whisper 输出为简体中文](https://wulu.zone/posts/whisper-cn)。
+手动上传文件到机器上，选择文件名、音译还是翻译、语言等参数，要想识别出来的是简体文字可以指定`prompt`，[指定 Whisper 输出为简体中文](https://wulu.zone/posts/whisper-cn)。
 
 #### 5、🚀运行
 
