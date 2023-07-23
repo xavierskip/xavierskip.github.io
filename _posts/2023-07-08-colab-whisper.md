@@ -47,3 +47,8 @@ just run it!
 - [Port of OpenAI's Whisper model in C/C++](https://github.com/ggerganov/whisper.cpp)
 - [Making OpenAI Whisper faster](https://nikolas.blog/making-openai-whisper-faster/)
 - [Faster Whisper transcription with CTranslate2](https://github.com/guillaumekln/faster-whisper)
+
+有人已经根据 [faster-whisper](https://github.com/guillaumekln/faster-whisper) 写好了脚本直接上 colab 上使用即可。
+
+- [# **Youtube Videos Transcription with Faster Whisper**](https://github.com/lewangdev/faster-whisper-youtube)
+- [Videos Transcription and Translation with Faster Whisper and ChatGPT](https://github.com/lewangdev/autotranslate)
