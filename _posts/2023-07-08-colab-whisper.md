@@ -50,5 +50,5 @@ just run it!
 
 有人已经根据 [faster-whisper](https://github.com/guillaumekln/faster-whisper) 写好了脚本直接上 colab 上使用即可。
 
-- [# **Youtube Videos Transcription with Faster Whisper**](https://github.com/lewangdev/faster-whisper-youtube)
+- [Youtube Videos Transcription with Faster Whisper](https://github.com/lewangdev/faster-whisper-youtube)
 - [Videos Transcription and Translation with Faster Whisper and ChatGPT](https://github.com/lewangdev/autotranslate)
