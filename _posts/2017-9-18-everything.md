@@ -29,14 +29,14 @@ Everything 限制搜索路径我是知道的，设置了限制搜索路径以便
 
 [索引>NTFS]不需要的分卷取消『包含到数据库』的选项，仅包含的文本框中填写你需要分享的目录，多个目录用”;”符号分割。
 
-![索引>NTFS](https://h.xavierskip.com:42049/i/bc76e173d70e66d796e4ecd89adf231f56ceb2719feb5b9966798cd1e9c285ed.jpg)
+![索引>NTFS](https://f.xavierskip.com:42049/i/bc76e173d70e66d796e4ecd89adf231f56ceb2719feb5b9966798cd1e9c285ed.jpg)
 
 当然别忘了在[常规]选项中选中[随系统自启动]、[Everything 服务]，以及打开 HTTP 服务器功能
 
-![随系统自启动](https://h.xavierskip.com:42049/i/315e74695a20dc17b68d6c468c6be8fa7d13dd33aee5c71d826f945b8f0b45a6.jpg)
+![随系统自启动](https://f.xavierskip.com:42049/i/315e74695a20dc17b68d6c468c6be8fa7d13dd33aee5c71d826f945b8f0b45a6.jpg)
 
 最后你也可以根据[HTTP](http://www.voidtools.com/zh-cn/support/everything/http/)帮助来自定义 web 界面。
 
-![web 界面](https://h.xavierskip.com:42049/i/ecbeffec2f13b790bce080718395005a75ec3e346779b9835209ef3cfafd6ee3.jpg)
+![web 界面](https://f.xavierskip.com:42049/i/ecbeffec2f13b790bce080718395005a75ec3e346779b9835209ef3cfafd6ee3.jpg)
 
 

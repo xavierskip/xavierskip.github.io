@@ -13,7 +13,7 @@ tags:
 
 一个星期的比赛结束了，我获得了总分545、总排名141的成绩。看的出来相比较中科大的比赛，参赛人数少多了，相应的难度也有所提高。
 
-![成绩](https://h.xavierskip.com:42049/i/eaf243e6da121f70c41e63a2d05168af597a37ec965798922a4eb499b525816e.png)
+![成绩](https://f.xavierskip.com:42049/i/eaf243e6da121f70c41e63a2d05168af597a37ec965798922a4eb499b525816e.png)
 
 开始我看到每道题的完成情况，对自己有了深深的怀疑，没有信心呀，这些题我估计是一个都做不出来了。结果，还是凭借自己的努力还是做出来了几题，第二阶段给了更多的提示后，也搞定了一题。整个过程还是有一定的成就感的。
 
@@ -244,7 +244,7 @@ if __name__ == '__main__':
 
 当看到结果的时候，泪流满面！！
 
-![兴奋](https://h.xavierskip.com:42049/i/f47957840d6685618b07d67dd5b7129769992ff18d2bf7cec6602449bf88a26c.jpg)
+![兴奋](https://f.xavierskip.com:42049/i/f47957840d6685618b07d67dd5b7129769992ff18d2bf7cec6602449bf88a26c.jpg)
 
 
 ### [编原译理习题课](https://geekgame.pku.edu.cn/#/game/prob04)
@@ -393,7 +393,7 @@ if __name__ == '__main__':
 
 ```
 感觉有点酷
-![flag](https://h.xavierskip.com:42049/i/1b33d5b56578cac62f3a5538e937da293262353bdce7e3ed994379d451984363.jpg)
+![flag](https://f.xavierskip.com:42049/i/1b33d5b56578cac62f3a5538e937da293262353bdce7e3ed994379d451984363.jpg)
 
 
 其他的题目可以去看官方[writeup](https://github.com/PKU-GeekGame/geekgame-2nd/tree/master/problemset)。

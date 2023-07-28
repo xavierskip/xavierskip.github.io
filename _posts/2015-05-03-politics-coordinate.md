@@ -33,7 +33,7 @@ tags:
     select age,count(age) from zb group by age;
 
 年龄主要集中在90-95这个年龄段。从这个年段向前向后随着时间跨度人数成递减趋势。
-![年龄比例](https://h.xavierskip.com:42049/i/247ecc42f2a302c7c6c3083b2a990524c93217817b0b5f2d908e15d57d239fdc.png)
+![年龄比例](https://f.xavierskip.com:42049/i/247ecc42f2a302c7c6c3083b2a990524c93217817b0b5f2d908e15d57d239fdc.png)
 
 ### 受教育教育程度
 
@@ -47,7 +47,7 @@ tags:
 大学|115495
 研究生及以上|28574
 
-![受教育教育程度](https://h.xavierskip.com:42049/i/0cea69d53fb86b2aac883de66345e06bcd576355ffd6ffb44ea0b8604a311dc9.png)
+![受教育教育程度](https://f.xavierskip.com:42049/i/0cea69d53fb86b2aac883de66345e06bcd576355ffd6ffb44ea0b8604a311dc9.png)
 
 
 ### 收入状况
@@ -64,7 +64,7 @@ tags:
 100-150k|14528
 150-300k|9458
 
-![收入状况](https://h.xavierskip.com:42049/i/19ef021b904c1b78906b3663b31d47dafb4dd4c336a4d8aa7bce3ee2fdec89e9.png)
+![收入状况](https://f.xavierskip.com:42049/i/19ef021b904c1b78906b3663b31d47dafb4dd4c336a4d8aa7bce3ee2fdec89e9.png)
 
 ### 大概的学生比例
 
@@ -95,7 +95,7 @@ tags:
 |同意|64990|
 |强烈同意|16520|
 
-![如果人民没有受过民主教育，他们是不应该拥有普选权的](https://h.xavierskip.com:42049/i/7fd017bda883d6f75d6219fa91033bbd51c1104f398d97e4aa8e263460ef52c2.png)
+![如果人民没有受过民主教育，他们是不应该拥有普选权的](https://f.xavierskip.com:42049/i/7fd017bda883d6f75d6219fa91033bbd51c1104f398d97e4aa8e263460ef52c2.png)
 
 2.人权高于主权。（同意）
 
@@ -106,7 +106,7 @@ tags:
 |同意|68261|
 |强烈同意|32179|
 
-![人权高于主权](https://h.xavierskip.com:42049/i/0b32f4abf8ceaa68c59da02f9bf95f1745fc33138f21e1d153e0b33754b66588.png)
+![人权高于主权](https://f.xavierskip.com:42049/i/0b32f4abf8ceaa68c59da02f9bf95f1745fc33138f21e1d153e0b33754b66588.png)
 
 3.发生重大社会安全事件时，即使认为信息公开会导致骚乱的风险，政府仍应该开放信息传播。（同意）
 
@@ -117,7 +117,7 @@ tags:
 |同意|52394|
 |强烈同意|22611|
 
-![发生重大社会安全事件时，即使认为信息公开会导致骚乱的风险，政府仍应该开放信息传播](https://h.xavierskip.com:42049/i/30c40a17baf2d792e0c3aa7cb1808ec1fb664cf8833d05380f767b7cc1ea7b81.png)
+![发生重大社会安全事件时，即使认为信息公开会导致骚乱的风险，政府仍应该开放信息传播](https://f.xavierskip.com:42049/i/30c40a17baf2d792e0c3aa7cb1808ec1fb664cf8833d05380f767b7cc1ea7b81.png)
 
 4.西方的多党制不适合中国国情。(反对)
 
@@ -128,7 +128,7 @@ tags:
 |同意|58206|
 |强烈同意|13121|
 
-![西方的多党制不适合中国国情](https://h.xavierskip.com:42049/i/96ba7020f5cbfe587ae645433fafc68e00650d94364e8c853b5a87c391e3d430.png)
+![西方的多党制不适合中国国情](https://f.xavierskip.com:42049/i/96ba7020f5cbfe587ae645433fafc68e00650d94364e8c853b5a87c391e3d430.png)
 
 5.在中国照搬西方式的言论自由会导致社会失序。（反对）
 
@@ -139,7 +139,7 @@ tags:
 |同意|73730|
 |强烈同意|25389|
 
-![在中国照搬西方式的言论自由会导致社会失序](https://h.xavierskip.com:42049/i/8fb49a013594244fe161cde8ae8562baa970ff0aaf7f0641ee7d6ae3e8422046.png)
+![在中国照搬西方式的言论自由会导致社会失序](https://f.xavierskip.com:42049/i/8fb49a013594244fe161cde8ae8562baa970ff0aaf7f0641ee7d6ae3e8422046.png)
 
 6.由高校自主考试招生比全国统一考试招生更好。（反对）
 
@@ -150,7 +150,7 @@ tags:
 |同意|56729|
 |强烈同意|25288|
 
-![由高校自主考试招生比全国统一考试招生更好](https://h.xavierskip.com:42049/i/bf26bdbb7694235619b42845e74bc06c2dc8fe795ad3444f1e8c72f0990b698f.png)
+![由高校自主考试招生比全国统一考试招生更好](https://f.xavierskip.com:42049/i/bf26bdbb7694235619b42845e74bc06c2dc8fe795ad3444f1e8c72f0990b698f.png)
 
 7.应该容许宗教人士在非宗教场所公开传教。（同意）
 
@@ -161,7 +161,7 @@ tags:
 |同意|61572|
 |强烈同意|7694|
 
-![应该容许宗教人士在非宗教场所公开传教](https://h.xavierskip.com:42049/i/7ec4a850d1f759f52fe49c1fc3697c2c43a246cfa31509321ef201dd149ada2f.png)
+![应该容许宗教人士在非宗教场所公开传教](https://f.xavierskip.com:42049/i/7ec4a850d1f759f52fe49c1fc3697c2c43a246cfa31509321ef201dd149ada2f.png)
 
 8.无论中小学生或大学生，都应参加由国家统一安排的军训。（反对）
 
@@ -172,7 +172,7 @@ tags:
 |同意|63402|
 |强烈同意|21969|
 
-![无论中小学生或大学生，都应参加由国家统一安排的军训](https://h.xavierskip.com:42049/i/3cb131015295e6030293760b2f5cdc4e26c6d9ce0f7459f235853d584137fc6a.png)
+![无论中小学生或大学生，都应参加由国家统一安排的军训](https://f.xavierskip.com:42049/i/3cb131015295e6030293760b2f5cdc4e26c6d9ce0f7459f235853d584137fc6a.png)
 
 9.国家的统一和领土完整是社会的最高利益。（反对）
 
@@ -183,7 +183,7 @@ tags:
 |同意|57189|
 |强烈同意|41291|
 
-![国家的统一和领土完整是社会的最高利益](https://h.xavierskip.com:42049/i/09df8d2ca3dd5bdabfad7965bbd9eb973691ec2bed747db4f69afcfe3311ee4b.png)
+![国家的统一和领土完整是社会的最高利益](https://f.xavierskip.com:42049/i/09df8d2ca3dd5bdabfad7965bbd9eb973691ec2bed747db4f69afcfe3311ee4b.png)
 
 10.哪怕经历了违反程序规定的审讯和取证过程，确实有罪的罪犯也应被处刑。（强烈反对）
 
@@ -194,7 +194,7 @@ tags:
 |同意|86556|
 |强烈同意|9323|
 
-![哪怕经历了违反程序规定的审讯和取证过程，确实有罪的罪犯也应被处刑](https://h.xavierskip.com:42049/i/ced0057106530e9c1db45a35e96186cba8032d29b21bca64c63ccadbe4f33b5c.png)
+![哪怕经历了违反程序规定的审讯和取证过程，确实有罪的罪犯也应被处刑](https://f.xavierskip.com:42049/i/ced0057106530e9c1db45a35e96186cba8032d29b21bca64c63ccadbe4f33b5c.png)
 
 11.国家有义务进行对外援助。（反对）
 
@@ -205,7 +205,7 @@ tags:
 |同意|73094|
 |强烈同意|22974|
 
-![国家有义务进行对外援助](https://h.xavierskip.com:42049/i/b85abacfa4d87064ecabf9448ac79d1a4d872ab6e2caa3eef978791121c0ba07.png)
+![国家有义务进行对外援助](https://f.xavierskip.com:42049/i/b85abacfa4d87064ecabf9448ac79d1a4d872ab6e2caa3eef978791121c0ba07.png)
 
 12.国家领导人及开国领袖的形象可以作为文艺作品的丑化对象。（同意）
 
@@ -216,7 +216,7 @@ tags:
 |同意|87131|
 |强烈同意|24713|
 
-![国家领导人及开国领袖的形象可以作为文艺作品的丑化对象](https://h.xavierskip.com:42049/i/694427bce9e7e903c24956fd4aea5b3866b02990ccf47aff7dd00c8ce23d0c92.png)
+![国家领导人及开国领袖的形象可以作为文艺作品的丑化对象](https://f.xavierskip.com:42049/i/694427bce9e7e903c24956fd4aea5b3866b02990ccf47aff7dd00c8ce23d0c92.png)
 
 13.当法律未能充分制止罪恶行为时，人民群众有权自发对罪恶行为进行制裁。（反对）
 
@@ -227,7 +227,7 @@ tags:
 |同意|58897|
 |强烈同意|18074|
 
-![当法律未能充分制止罪恶行为时，人民群众有权自发对罪恶行为进行制裁](https://h.xavierskip.com:42049/i/09c37c945ca60fb531eb44cae8087e00f93b9411a24495897c7ca30f699cdb9a.png)
+![当法律未能充分制止罪恶行为时，人民群众有权自发对罪恶行为进行制裁](https://f.xavierskip.com:42049/i/09c37c945ca60fb531eb44cae8087e00f93b9411a24495897c7ca30f699cdb9a.png)
 
 14.应当允许媒体代表某一特定阶层或利益集团发言。（同意）
 
@@ -238,7 +238,7 @@ tags:
 |同意|68001|
 |强烈同意|10329|
 
-![应当允许媒体代表某一特定阶层或利益集团发言](https://h.xavierskip.com:42049/i/302adcc9ee672c1fe2e38098f147517444e068ba4e982aa95851dcd6b458c1a6.png)
+![应当允许媒体代表某一特定阶层或利益集团发言](https://f.xavierskip.com:42049/i/302adcc9ee672c1fe2e38098f147517444e068ba4e982aa95851dcd6b458c1a6.png)
 
 15.如果国家综合实力许可，那么中国有权为了维护自己的利益而采取任何行动。（反对）
 
@@ -249,7 +249,7 @@ tags:
 |同意|64507|
 |强烈同意|38462|
 
-![如果国家综合实力许可，那么中国有权为了维护自己的利益而采取任何行动](https://h.xavierskip.com:42049/i/50204ea49b38f48e02b6620dfb8de7941d2ecbd4b6d8439792c90b9777c4e6f2.png)
+![如果国家综合实力许可，那么中国有权为了维护自己的利益而采取任何行动](https://f.xavierskip.com:42049/i/50204ea49b38f48e02b6620dfb8de7941d2ecbd4b6d8439792c90b9777c4e6f2.png)
 
 16.条件允许的话应该武力统一台湾。（反对）
 
@@ -260,7 +260,7 @@ tags:
 |同意|52048|
 |强烈同意|22544|
 
-![条件允许的话应该武力统一台湾](https://h.xavierskip.com:42049/i/3170a249ee028732dcf61abef0c95fd3e997e8eaa41077645c4fea7243c91534.png)
+![条件允许的话应该武力统一台湾](https://f.xavierskip.com:42049/i/3170a249ee028732dcf61abef0c95fd3e997e8eaa41077645c4fea7243c91534.png)
 
 17.律师即使明知被辩护人的犯罪事实也应当尽力为其进行辩护。（同意）
 
@@ -271,7 +271,7 @@ tags:
 |同意|60031|
 |强烈同意|35795|
 
-![律师即使明知被辩护人的犯罪事实也应当尽力为其进行辩护](https://h.xavierskip.com:42049/i/28b409d43b36cb5c9ff2b09a6f52753a700e6309a605ddd1caef9de2bb5dcb19.png)
+![律师即使明知被辩护人的犯罪事实也应当尽力为其进行辩护](https://f.xavierskip.com:42049/i/28b409d43b36cb5c9ff2b09a6f52753a700e6309a605ddd1caef9de2bb5dcb19.png)
 
 18.应该允许中国公民同时具有外国国籍。（同意）
 
@@ -282,7 +282,7 @@ tags:
 |同意|43748|
 |强烈同意|13780|
 
-![应该允许中国公民同时具有外国国籍](https://h.xavierskip.com:42049/i/87f92e4ac0f5f1385f02dc61bbab2334107babd1fcaffc411522ac384d0c21a1.png)
+![应该允许中国公民同时具有外国国籍](https://f.xavierskip.com:42049/i/87f92e4ac0f5f1385f02dc61bbab2334107babd1fcaffc411522ac384d0c21a1.png)
 
 19.以美国为首的西方国家不可能真正容许中国崛起成为一流强国。（反对）
 
@@ -293,7 +293,7 @@ tags:
 |同意|30855|
 |强烈同意|15195|
 
-![以美国为首的西方国家不可能真正容许中国崛起成为一流强国](https://h.xavierskip.com:42049/i/100d149003370e6b508f8942216e3a852cd21ca5611e9faaecc4ad230e1873d7.png)
+![以美国为首的西方国家不可能真正容许中国崛起成为一流强国](https://f.xavierskip.com:42049/i/100d149003370e6b508f8942216e3a852cd21ca5611e9faaecc4ad230e1873d7.png)
 
 20.国家应当采取措施培养和支持体育健儿在各种国际比赛场合为国争光。（同意）
 
@@ -304,7 +304,7 @@ tags:
 |同意|81903|
 |强烈同意|53133|
 
-![国家应当采取措施培养和支持体育健儿在各种国际比赛场合为国争光](https://h.xavierskip.com:42049/i/0e3dd8f6def629f64d9031a347a5c39b146a7eb2987e53608891a7f2ab94166d.png)
+![国家应当采取措施培养和支持体育健儿在各种国际比赛场合为国争光](https://f.xavierskip.com:42049/i/0e3dd8f6def629f64d9031a347a5c39b146a7eb2987e53608891a7f2ab94166d.png)
 
 21.最低工资应由国家规定。（反对）
 
@@ -315,7 +315,7 @@ tags:
 |同意|43252|
 |强烈同意|19437|
 
-![最低工资应由国家规定](https://h.xavierskip.com:42049/i/5e27ad779d19e5928001d39c3e4300a939bea10a8de6ba54d0ac16c9d324c301.png)
+![最低工资应由国家规定](https://f.xavierskip.com:42049/i/5e27ad779d19e5928001d39c3e4300a939bea10a8de6ba54d0ac16c9d324c301.png)
 
 22.中国改革开放以来的经济发展的成果都被一小群人占有了，大多数人没得到什么好处。（反对）
 
@@ -326,7 +326,7 @@ tags:
 |同意|85119|
 |强烈同意|13345|
 
-![中国改革开放以来的经济发展的成果都被一小群人占有了，大多数人没得到什么好处](https://h.xavierskip.com:42049/i/1434637dec4fe32871afbe662eb7164cb119a92492b996fdc6e615de563683e7.png)
+![中国改革开放以来的经济发展的成果都被一小群人占有了，大多数人没得到什么好处](https://f.xavierskip.com:42049/i/1434637dec4fe32871afbe662eb7164cb119a92492b996fdc6e615de563683e7.png)
 
 23.在重大工程项目的决策中，个人利益应该为社会利益让路。（反对）
 
@@ -337,7 +337,7 @@ tags:
 |同意|85304|
 |强烈同意|11440|
 
-![在重大工程项目的决策中，个人利益应该为社会利益让路](https://h.xavierskip.com:42049/i/89bc3bf759c1f0199640f6ecfce9414faa1ddb203071e20b695ae21dbf1c1e66.png)
+![在重大工程项目的决策中，个人利益应该为社会利益让路](https://f.xavierskip.com:42049/i/89bc3bf759c1f0199640f6ecfce9414faa1ddb203071e20b695ae21dbf1c1e66.png)
 
 24.浪费粮食也是个人的自由。（强烈反对）
 
@@ -348,7 +348,7 @@ tags:
 |同意|38424|
 |强烈同意|11093|
 
-![浪费粮食也是个人的自由](https://h.xavierskip.com:42049/i/3cb289c2a8a0cb1d9f0decc4d4610bc0d5277eb4e3e90b59649defebcde006b0.png)
+![浪费粮食也是个人的自由](https://f.xavierskip.com:42049/i/3cb289c2a8a0cb1d9f0decc4d4610bc0d5277eb4e3e90b59649defebcde006b0.png)
 
 25.如果猪肉价格过高，政府应当干预。（同意）
 
@@ -359,7 +359,7 @@ tags:
 |同意|75063|
 |强烈同意|24952|
 
-![如果猪肉价格过高，政府应当干预](https://h.xavierskip.com:42049/i/cb7026f3ed92ee964cbda94f21232168ec8c0100f791abe7cedca7a16049ca7a.png)
+![如果猪肉价格过高，政府应当干预](https://f.xavierskip.com:42049/i/cb7026f3ed92ee964cbda94f21232168ec8c0100f791abe7cedca7a16049ca7a.png)
 
 26.应当对国外同类产品征收高额关税来保护国内民族工业。（反对）
 
@@ -370,7 +370,7 @@ tags:
 |同意|58104|
 |强烈同意|7023|
 
-![应当对国外同类产品征收高额关税来保护国内民族工业](https://h.xavierskip.com:42049/i/632be3179705af8743dec7012b907f26bccd8786cfa413016c1f168144031683.png)
+![应当对国外同类产品征收高额关税来保护国内民族工业](https://f.xavierskip.com:42049/i/632be3179705af8743dec7012b907f26bccd8786cfa413016c1f168144031683.png)
 
 27.教育应当尽可能公立。（强烈同意）
 
@@ -381,7 +381,7 @@ tags:
 |同意|51143|
 |强烈同意|8549|
 
-![教育应当尽可能公立](https://h.xavierskip.com:42049/i/2bbede399471e7239316b4a326b702b8dfe523fececd32f2f2c5520a1f22427c.png)
+![教育应当尽可能公立](https://f.xavierskip.com:42049/i/2bbede399471e7239316b4a326b702b8dfe523fececd32f2f2c5520a1f22427c.png)
 
 28.国有企业的利益属于国家利益。（同意）
 
@@ -392,7 +392,7 @@ tags:
 |同意|81834|
 |强烈同意|23833|
 
-![国有企业的利益属于国家利益](https://h.xavierskip.com:42049/i/6973ca16a20e6fc08cb96ab6ddafc69e65d8494217413ddd2d0f91254db48fb3.png)
+![国有企业的利益属于国家利益](https://f.xavierskip.com:42049/i/6973ca16a20e6fc08cb96ab6ddafc69e65d8494217413ddd2d0f91254db48fb3.png)
 
 29.试图控制房地产价格的行为会破坏经济发展。（反对）
 
@@ -403,7 +403,7 @@ tags:
 |同意|36942|
 |强烈同意|8785|
 
-![试图控制房地产价格的行为会破坏经济发展](https://h.xavierskip.com:42049/i/77a393a8b4c9f8a2662dbfe802630d7bdf7c14235e01452b2d084916e9b8b55f.png)
+![试图控制房地产价格的行为会破坏经济发展](https://f.xavierskip.com:42049/i/77a393a8b4c9f8a2662dbfe802630d7bdf7c14235e01452b2d084916e9b8b55f.png)
 
 30.改善低收入者生活的首要手段是国家给予财政补贴和扶持。（反对）
 
@@ -414,7 +414,7 @@ tags:
 |同意|35118|
 |强烈同意|29006|
 
-![改善低收入者生活的首要手段是国家给予财政补贴和扶持](https://h.xavierskip.com:42049/i/75e7bae4d664979587e837f51db1807f7640ddf74458e5202a851be162ac18ef.png)
+![改善低收入者生活的首要手段是国家给予财政补贴和扶持](https://f.xavierskip.com:42049/i/75e7bae4d664979587e837f51db1807f7640ddf74458e5202a851be162ac18ef.png)
 
 31.有钱人理应获得更好的医疗服务。（同意）
 
@@ -425,7 +425,7 @@ tags:
 |同意|47678|
 |强烈同意|14160|
 
-![有钱人理应获得更好的医疗服务](https://h.xavierskip.com:42049/i/d087c21aa2c46c221bea67bbeeccc147d8757ee8d91d8d03c4333419e5f52504.png)
+![有钱人理应获得更好的医疗服务](https://f.xavierskip.com:42049/i/d087c21aa2c46c221bea67bbeeccc147d8757ee8d91d8d03c4333419e5f52504.png)
 
 32.高收入者应该公开自己的经济来源。（同意）
 
@@ -436,7 +436,7 @@ tags:
 |同意|44911|
 |强烈同意|27092|
 
-![高收入者应该公开自己的经济来源](https://h.xavierskip.com:42049/i/a5ee783d860e622237585fcbf3ca323db4ffabfb83be9b4349637b5fd4cd5d38.png)
+![高收入者应该公开自己的经济来源](https://f.xavierskip.com:42049/i/a5ee783d860e622237585fcbf3ca323db4ffabfb83be9b4349637b5fd4cd5d38.png)
 
 33.靠运作资金赚钱的人对社会的贡献比不上靠劳动赚钱的人。（反对）
 
@@ -447,7 +447,7 @@ tags:
 |同意|87879|
 |强烈同意|21197|
 
-![靠运作资金赚钱的人对社会的贡献比不上靠劳动赚钱的人](https://h.xavierskip.com:42049/i/f6a130d002cd3b18035096d1b2b87aeb864b3605bb34ec9e55e09ef022cea44f.png)
+![靠运作资金赚钱的人对社会的贡献比不上靠劳动赚钱的人](https://f.xavierskip.com:42049/i/f6a130d002cd3b18035096d1b2b87aeb864b3605bb34ec9e55e09ef022cea44f.png)
 
 34.与其让国有企业亏损破产，不如转卖给资本家。（同意）
 
@@ -458,7 +458,7 @@ tags:
 |同意|62415|
 |强烈同意|8893|
 
-![与其让国有企业亏损破产，不如转卖给资本家](https://h.xavierskip.com:42049/i/428c7af29d942f3d341d2e3a033f7ec7d01c56a22bd35960cb65b21d9720ef31.png)
+![与其让国有企业亏损破产，不如转卖给资本家](https://f.xavierskip.com:42049/i/428c7af29d942f3d341d2e3a033f7ec7d01c56a22bd35960cb65b21d9720ef31.png)
 
 35.那些关系到国家安全、以及其他重要国计民生的领域，必须全部由国有企业掌控。（反对）
 
@@ -469,7 +469,7 @@ tags:
 |同意|110890|
 |强烈同意|24764|
 
-![那些关系到国家安全、以及其他重要国计民生的领域，必须全部由国有企业掌控](https://h.xavierskip.com:42049/i/d947b7fb4a084e6ba728811b88f49c03d28e3ad6320008222d0aaab300ba3f18.png)
+![那些关系到国家安全、以及其他重要国计民生的领域，必须全部由国有企业掌控](https://f.xavierskip.com:42049/i/d947b7fb4a084e6ba728811b88f49c03d28e3ad6320008222d0aaab300ba3f18.png)
 
 36.资本积累的过程总是伴随着对普通劳动人民利益的伤害。（同意）
 
@@ -480,7 +480,7 @@ tags:
 |同意|57441|
 |强烈同意|11921|
 
-![资本积累的过程总是伴随着对普通劳动人民利益的伤害](https://h.xavierskip.com:42049/i/c29dd8f28ecd08f422fa1eded67c1a779ccca574fc0604ed9e4ed56173bcb85d.png)
+![资本积累的过程总是伴随着对普通劳动人民利益的伤害](https://f.xavierskip.com:42049/i/c29dd8f28ecd08f422fa1eded67c1a779ccca574fc0604ed9e4ed56173bcb85d.png)
 
 37.私人应当可以拥有和买卖土地。（同意）
 
@@ -491,7 +491,7 @@ tags:
 |同意|70663|
 |强烈同意|26212|
 
-![私人应当可以拥有和买卖土地](https://h.xavierskip.com:42049/i/561fb956667949f66a5f8802255a9cdf06dc8a061cc19ce280ff327a39149277.png)
+![私人应当可以拥有和买卖土地](https://f.xavierskip.com:42049/i/561fb956667949f66a5f8802255a9cdf06dc8a061cc19ce280ff327a39149277.png)
 
 38.政府应当采用较高的粮食收购价格以增加农民收入。（反对）
 
@@ -502,7 +502,7 @@ tags:
 |同意|91477|
 |强烈同意|21862|
 
-![政府应当采用较高的粮食收购价格以增加农民收入](https://h.xavierskip.com:42049/i/5e6a89b358c3c167d89474f99e1769c9b4dc53393cf6943b0d29dbd29a51fe34.png)
+![政府应当采用较高的粮食收购价格以增加农民收入](https://f.xavierskip.com:42049/i/5e6a89b358c3c167d89474f99e1769c9b4dc53393cf6943b0d29dbd29a51fe34.png)
 
 39.在华外国资本应享受和民族资本同样的待遇。（同意）
 
@@ -513,7 +513,7 @@ tags:
 |同意|46208|
 |强烈同意|7615|
 
-![在华外国资本应享受和民族资本同样的待遇](https://h.xavierskip.com:42049/i/26e017875357a9f79b5e47103a223c2df318f28a3aed299a05ce0d047977088e.png)
+![在华外国资本应享受和民族资本同样的待遇](https://f.xavierskip.com:42049/i/26e017875357a9f79b5e47103a223c2df318f28a3aed299a05ce0d047977088e.png)
 
 40.市场竞争中自然形成的垄断地位是无害的。（反对）
 
@@ -524,7 +524,7 @@ tags:
 |同意|79644|
 |强烈同意|18389|
 
-![市场竞争中自然形成的垄断地位是无害的](https://h.xavierskip.com:42049/i/15d6652e92a9e55fdf7769e946a1d61046186f9246092ba6e05a70100a9b93a3.png)
+![市场竞争中自然形成的垄断地位是无害的](https://f.xavierskip.com:42049/i/15d6652e92a9e55fdf7769e946a1d61046186f9246092ba6e05a70100a9b93a3.png)
 
 41.两个成年人之间自愿的性行为是其自由，无论其婚姻关系为何。（同意）
 
@@ -535,7 +535,7 @@ tags:
 |同意|75257|
 |强烈同意|13305|
 
-![两个成年人之间自愿的性行为是其自由，无论其婚姻关系为何](https://h.xavierskip.com:42049/i/fb568a074ace90fa0fac45cbb5f6c89a7c5bf4a9bb517672efc0af4585e68186.png)
+![两个成年人之间自愿的性行为是其自由，无论其婚姻关系为何](https://f.xavierskip.com:42049/i/fb568a074ace90fa0fac45cbb5f6c89a7c5bf4a9bb517672efc0af4585e68186.png)
 
 42.不应公开谈论自己长辈的缺点。（强烈反对）
 
@@ -546,7 +546,7 @@ tags:
 |同意|58176|
 |强烈同意|27078|
 
-![不应公开谈论自己长辈的缺点](https://h.xavierskip.com:42049/i/6a9fa0563e4d0eab70571aaadb4e9cd8432a953000d8fd4487c2eb067e49bae1.png)
+![不应公开谈论自己长辈的缺点](https://f.xavierskip.com:42049/i/6a9fa0563e4d0eab70571aaadb4e9cd8432a953000d8fd4487c2eb067e49bae1.png)
 
 43.现代中国社会需要儒家思想。（强烈反对）
 
@@ -557,7 +557,7 @@ tags:
 |同意|27982|
 |强烈同意|11217|
 
-![现代中国社会需要儒家思想](https://h.xavierskip.com:42049/i/f4e5e21050633371174932b96f46c04d26238d19908e713c22fbb5c2119c02f1.png)
+![现代中国社会需要儒家思想](https://f.xavierskip.com:42049/i/f4e5e21050633371174932b96f46c04d26238d19908e713c22fbb5c2119c02f1.png)
 
 44.判断艺术作品的价值的根本标准是看是不是受到人民大众喜爱。（强烈反对）
 
@@ -568,7 +568,7 @@ tags:
 |同意|93743|
 |强烈同意|16536|
 
-![判断艺术作品的价值的根本标准是看是不是受到人民大众喜爱](https://h.xavierskip.com:42049/i/b0d8890b28012a39975cda4f34509996a8fa35b5f16f87239cb71a0431ef2c34.png)
+![判断艺术作品的价值的根本标准是看是不是受到人民大众喜爱](https://f.xavierskip.com:42049/i/b0d8890b28012a39975cda4f34509996a8fa35b5f16f87239cb71a0431ef2c34.png)
 
 45.即使有人口压力，国家和社会也无权干涉个人要不要孩子，要几个孩子。（反对）
 
@@ -579,7 +579,7 @@ tags:
 |同意|38255|
 |强烈同意|5182|
 
-![即使有人口压力，国家和社会也无权干涉个人要不要孩子，要几个孩子](https://h.xavierskip.com:42049/i/34540040751651707f5ea764387dfa1bff3fdbe57c7df60e4e1d8b78f815c07d.png)
+![即使有人口压力，国家和社会也无权干涉个人要不要孩子，要几个孩子](https://f.xavierskip.com:42049/i/34540040751651707f5ea764387dfa1bff3fdbe57c7df60e4e1d8b78f815c07d.png)
 
 46.周易八卦能够有效的解释很多事情。（强烈反对）
 
@@ -590,7 +590,7 @@ tags:
 |同意|66356|
 |强烈同意|26280|
 
-![周易八卦能够有效的解释很多事情](https://h.xavierskip.com:42049/i/0fb24746f9741e998efa8065b423f1896069e7cb4590adc0acb6bc0801893b37.png)
+![周易八卦能够有效的解释很多事情](https://f.xavierskip.com:42049/i/0fb24746f9741e998efa8065b423f1896069e7cb4590adc0acb6bc0801893b37.png)
 
 47.中国传统医学对人体健康的观念比现代主流医学更高明。（强烈反对）
 
@@ -601,7 +601,7 @@ tags:
 |同意|89453|
 |强烈同意|18387|
 
-![中国传统医学对人体健康的观念比现代主流医学更高明](https://h.xavierskip.com:42049/i/1e7eb2f25ba11473dc8200428fb16c2f36f9d2e85d5ca3c65e5f134561b9d09b.png)
+![中国传统医学对人体健康的观念比现代主流医学更高明](https://f.xavierskip.com:42049/i/1e7eb2f25ba11473dc8200428fb16c2f36f9d2e85d5ca3c65e5f134561b9d09b.png)
 
 48.汉字无需人为推行简化。（同意）
 
@@ -612,7 +612,7 @@ tags:
 |同意|37638|
 |强烈同意|9024|
 
-![汉字无需人为推行简化](https://h.xavierskip.com:42049/i/27d422d2a67a9310c6a348a8a200bdd2cf945a8a7dd690e6c712fe1cb58e6c73.png)
+![汉字无需人为推行简化](https://f.xavierskip.com:42049/i/27d422d2a67a9310c6a348a8a200bdd2cf945a8a7dd690e6c712fe1cb58e6c73.png)
 
 49.应当将中国传统文化的经典作品作为儿童基础教育读物。（反对）
 
@@ -623,7 +623,7 @@ tags:
 |同意|83712|
 |强烈同意|13276|
 
-![应当将中国传统文化的经典作品作为儿童基础教育读物](https://h.xavierskip.com:42049/i/0e45e9964033a5778370d1d14f74e2433237304a349b752ee4770f4427a4fef5.png)
+![应当将中国传统文化的经典作品作为儿童基础教育读物](https://f.xavierskip.com:42049/i/0e45e9964033a5778370d1d14f74e2433237304a349b752ee4770f4427a4fef5.png)
 
 50.如果是出于自愿，我会认可我的孩子和同性结成伴侣关系。（同意）
 
@@ -634,7 +634,7 @@ tags:
 |同意|81944|
 |强烈同意|14813|
 
-![如果是出于自愿，我会认可我的孩子和同性结成伴侣关系](https://h.xavierskip.com:42049/i/cd125e6fdf13c618c8dc864793243262854288ca36abd0aaa47a914d9181478c.png)
+![如果是出于自愿，我会认可我的孩子和同性结成伴侣关系](https://f.xavierskip.com:42049/i/cd125e6fdf13c618c8dc864793243262854288ca36abd0aaa47a914d9181478c.png)
 
 
 

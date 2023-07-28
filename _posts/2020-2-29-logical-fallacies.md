@@ -203,4 +203,4 @@ via: [煎蛋网：你不该犯的逻辑谬误](http://jandan.net/p/104070)
 
 教学实例：
 
-![https://weibo.com/2260257255/Is9tydeQa](https://h.xavierskip.com:42049/i/d00174c0517d5443cdbae0e81dafc848712f3aad49fcb18b83dcb2a5d19eac1f.jpg)
+![https://weibo.com/2260257255/Is9tydeQa](https://f.xavierskip.com:42049/i/d00174c0517d5443cdbae0e81dafc848712f3aad49fcb18b83dcb2a5d19eac1f.jpg)

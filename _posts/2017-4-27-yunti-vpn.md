@@ -10,7 +10,7 @@ typora-copy-images-to: ipic
 
 #### 由于以下原因 [via](http://jsfzb.xhby.net/mp2/pc/c/201710/25/c393290.html)
 
-![屏幕快照 2017-12-02 下午8.53.41](https://h.xavierskip.com:42049/i/11248d074887266fb2de1f250121dbd4af58457613c01c1455bd7efbe4908e41.jpg)
+![屏幕快照 2017-12-02 下午8.53.41](https://f.xavierskip.com:42049/i/11248d074887266fb2de1f250121dbd4af58457613c01c1455bd7efbe4908e41.jpg)
 
 #### 相关信息已经被老大哥掌握，所以我们需要删除已经安装的相关客户端程序，最重要的需要删除已经安装的相关证书文件，防止被中间人攻击。MacOS 系统用户还需要删除相关的描述文件。
 
@@ -21,9 +21,9 @@ typora-copy-images-to: ipic
 换成电信的网络后，vps 上自建的 shadowsocks 因为线路的变动导致速度巨慢，于是 VPN 成了跨墙首选。刚好年初，云梯 VPN 提供了 MAC 、iOS 平台上的客户端，使用 IKEv2 连接方式，连接香港2节点（香港唯独这个节点快速稳定）出人意料的稳定以及快速，客户端提供国内外线路自动区分功能，用起来体验不错。目前使用来看唯一的缺陷是不能使用网页版网易云音乐(web 页面可以正常访问但是不能播放音乐，域名解析直接返回了127.0.0.1，我的解决方案是直接修改 hosts 文件)。
 
 但是在其他平台，比如 Windows 和 Android 下都没有相应的客户端，云梯官方也没有提供相应的 IKEv2 配置范例，我在客服中多次反映，得到回复如下
-![回复如下](https://h.xavierskip.com:42049/i/59096c4b555905c2166e918b5e73cb06897224d1dd6f0a8ddc4685117bb267f7.jpg)
+![回复如下](https://f.xavierskip.com:42049/i/59096c4b555905c2166e918b5e73cb06897224d1dd6f0a8ddc4685117bb267f7.jpg)
 看来就只能等待了
-![等待继续](https://h.xavierskip.com:42049/i/7d01f19b6050b0318bc68ebef17bdb9d759ee01ef1f78c4e6489fc6d4acd65dc.jpg)
+![等待继续](https://f.xavierskip.com:42049/i/7d01f19b6050b0318bc68ebef17bdb9d759ee01ef1f78c4e6489fc6d4acd65dc.jpg)
 但是不知道为什么相同的节点使用 PPTP 和 L2TP/IPsec 协议连接并不稳定，速度也不快，而 IKEv2 就很好，很是疑惑？
 
 更疑惑的是为什么官方不提供 IKEv2 连接方式的在各个系统平台配置案例，VPN 连接不应该受困于客户端呀！
@@ -34,7 +34,7 @@ typora-copy-images-to: ipic
 
 然后你需要取得云梯提供的根证书，如果你已经安装过云梯的客户端并成功使用过，那么你一定安装好了这个证书，你可以直接在 MAC OS 的"钥匙串访问"中获取这个名为"VPNCloud Class 3 Root CA 1"的证书，证书部分信息如下。
 
-![证书部分信息](https://h.xavierskip.com:42049/i/9f05ff2b8d59cb233b42db94ec1993490ab3285a0996baf7bc2e6612ceb348cb.jpg)
+![证书部分信息](https://f.xavierskip.com:42049/i/9f05ff2b8d59cb233b42db94ec1993490ab3285a0996baf7bc2e6612ceb348cb.jpg)
 
 证书指纹如下：
 ​	
@@ -46,12 +46,12 @@ typora-copy-images-to: ipic
 * 将这个证书安装到你的手机里
 
 你可以直接安装到你的 Android 系统中，但是我推荐你导入到 strongSwan APP 中就可以了。
-![导入到 strongSwan](https://h.xavierskip.com:42049/i/11974fd396f1a3d65ae82da909547e29d932c26406ae5331173971b475f0a5ce.jpg)
+![导入到 strongSwan](https://f.xavierskip.com:42049/i/11974fd396f1a3d65ae82da909547e29d932c26406ae5331173971b475f0a5ce.jpg)
 在 strongSwan 中你可以在 CA证书>已导入 中看到你导入的云梯证书。
 
 * 最后，添加 vpn 配置如下
 
-![strongSwan 配置](https://h.xavierskip.com:42049/i/ddf43700d81ae5212f749618b2d9ca4fba26122d61a69af7d956de6e5f9529ed.jpg)
+![strongSwan 配置](https://f.xavierskip.com:42049/i/ddf43700d81ae5212f749618b2d9ca4fba26122d61a69af7d956de6e5f9529ed.jpg)
 
 然后就可以连接了！
 
@@ -59,17 +59,17 @@ typora-copy-images-to: ipic
 
 然后在网上看到了这个留言，整个人都不好了。
 
-![kgen回复](https://h.xavierskip.com:42049/i/c5f6d06eff1c5bfd2ab15f3ad1494a96c3c51c5bbdbb5023030244dff4ef4f30.jpg)
+![kgen回复](https://f.xavierskip.com:42049/i/c5f6d06eff1c5bfd2ab15f3ad1494a96c3c51c5bbdbb5023030244dff4ef4f30.jpg)
 
 不过我在 twitter 上联系了云梯的CEO [@kegen](https://twitter.com/kgen)后，他告诉了我在 Windows 上配置的方法。（本人使用的是 Windows10 操作系统）
 
 1. 安装上面提到的那个证书。安装证书的时候选择导入当前计算机而不是当前用户，存储区域选择：受信任的根证书颁发机构。
 2. 添加一条注册表值`HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\RasMan\Parameters\DisableIKENameEkuCheck `类型为 DWORD，值为1
-3. 添加 IKEv2 连接方式如下图所示![添加 IKEv2 连接方式](https://h.xavierskip.com:42049/i/8ea34f80a811425c6d2759b4ddb5e9b065783e03f27b16aa4c9b9f56417096b9.jpg)
+3. 添加 IKEv2 连接方式如下图所示![添加 IKEv2 连接方式](https://f.xavierskip.com:42049/i/8ea34f80a811425c6d2759b4ddb5e9b065783e03f27b16aa4c9b9f56417096b9.jpg)
 
 接下来就可以连接了。如果连接成功了后，依旧打不开相应的网站，可以去设置一下你的 DNS 服务器为 8.8.8.8。或者你需要在 *网络* > *TCP/IPv4* > *高级* > *IP设置* 中选中『在远程网络上使用默认网关』
 
-![网络设置](https://h.xavierskip.com:42049/i/79617d2ae9f57ffa406e8751e675a134ce377bd7d310612363bc5a8587f79f04.jpg)
+![网络设置](https://f.xavierskip.com:42049/i/79617d2ae9f57ffa406e8751e675a134ce377bd7d310612363bc5a8587f79f04.jpg)
 
 
 相关：

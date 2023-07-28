@@ -71,7 +71,7 @@ tags:
 
 这下从win95开始Microsoft再也micro了，图形界面大大简化了电脑的操作了，电脑再也不是神秘的玩意了，就像这样
 
-![liangdian-494x396.jpg](https://h.xavierskip.com:42049/i/1247627032f4a6111c67fc9358e2896fde975fc68e9e94ceff86ab68613d4a29.jpg)
+![liangdian-494x396.jpg](https://f.xavierskip.com:42049/i/1247627032f4a6111c67fc9358e2896fde975fc68e9e94ceff86ab68613d4a29.jpg)
 
 
 呵呵，别笑！严肃！我军秘密武器怎么能让美帝看到呢？！！

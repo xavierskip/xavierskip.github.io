@@ -4,7 +4,7 @@ title: 访问不了openai不用慌
 tags:
 - GFW
 ---
-![https://www.reddit.com/r/OpenAI/comments/zhmv9u/map_of_openai_unsupported_countries/](https://h.xavierskip.com:42049/i/22b23828411d02e868dd89e50549c00f1099f9b6c5d1df485cca4cda5bb014b0.jpg)
+![https://www.reddit.com/r/OpenAI/comments/zhmv9u/map_of_openai_unsupported_countries/](https://f.xavierskip.com:42049/i/22b23828411d02e868dd89e50549c00f1099f9b6c5d1df485cca4cda5bb014b0.jpg)
 
 目前，我处在的地区要访问 chat.openai.com 不仅被openai[限制](https://platform.openai.com/docs/supported-countries)，还被GFW给dns污染了。
 
