@@ -124,11 +124,11 @@ Pygame 可以做一些基本的视觉效果（滤镜），变形，遮罩……
 当你初始化摄像头的时候，有一个色彩空间的可选常数，有 'RGB', 'YUV', 和 'HSV'。在计算机视觉中 YUV 和 HSV 通常来说比 RGB 更有用。降低了颜色的阈值。
 
 `self.cam = pygame.camera.Camera(self.clist[0], self.size, "RGB")`
-![https://www.pygame.org/docs/_images/camera_rgb.jpg](https://www.pygame.org/docs/_images/camera_rgb.jpg)
+![camera_rgb.jpg](https://www.pygame.org/docs/_images/camera_rgb.jpg)
 `self.cam = pygame.camera.Camera(self.clist[0], self.size, "YUV")`
-![https://www.pygame.org/docs/_images/camera_yuv.jpg](https://www.pygame.org/docs/_images/camera_yuv.jpg)
+![camera_yuv.jpg](https://www.pygame.org/docs/_images/camera_yuv.jpg)
 `self.cam = pygame.camera.Camera(self.clist[0], self.size, "HSV")`
-![https://www.pygame.org/docs/_images/camera_hsv.jpg](https://www.pygame.org/docs/_images/camera_hsv.jpg)
+![camera_hsv.jpg](https://www.pygame.org/docs/_images/camera_hsv.jpg)
 
 
 ## 阈值
@@ -141,7 +141,7 @@ self.snapshot = self.cam.get_image(self.snapshot)
 pygame.transform.threshold(self.thresholded,self.snapshot,(0,255,0),(90,170,170),(0,0,0),2)
 {% endhighlight %}
 
-![https://www.pygame.org/docs/_images/camera_thresholded.jpg](https://www.pygame.org/docs/_images/camera_thresholded.jpg)
+![camera_thresholded.jpg](https://www.pygame.org/docs/_images/camera_thresholded.jpg)
 
 不过这只能用来寻找你知道准确颜色的对象。为了能够在现实的环境下方便的使用，我们增加一个校验机制来对对象的颜色进行辨认，并以此作为阈值。对此我们需要使用 average_color()这个方法。
 
@@ -161,11 +161,11 @@ def calibrate(self):
     pygame.display.flip()
 {% endhighlight %}
 
-![https://www.pygame.org/docs/_images/camera_average.jpg](https://www.pygame.org/docs/_images/camera_average.jpg)
+![camera_average.jpg](https://www.pygame.org/docs/_images/camera_average.jpg)
 ```python
 pygame.transform.threshold(self.thresholded,self.snapshot,self.ccolor,(30,30,30),(0,0,0),2)
 ```
-![https://www.pygame.org/docs/_images/camera_thresh.jpg](https://www.pygame.org/docs/_images/camera_thresh.jpg)
+![camera_thresh.jpg](https://www.pygame.org/docs/_images/camera_thresh.jpg)
 
 我自己做出来的效果：
 ![book](https://f.xavierskip.com:42049/i/aac86647c9c23a334232b06e513641394cb52f25cf5a3ca31ebcde154bdcad01.jpg)
@@ -185,11 +185,11 @@ def calibrate(self):
     self.display.blit(self.background, (0,0))
     pygame.display.flip()
 {% endhighlight %}
-![https://www.pygame.org/docs/_images/camera_background.jpg](https://www.pygame.org/docs/_images/camera_background.jpg)
+![camera_background.jpg](https://www.pygame.org/docs/_images/camera_background.jpg)
 ```python
 pygame.transform.threshold(self.thresholded,self.snapshot,(0,255,0),(30,30,30),(0,0,0),1,self.background)
 ```
-![https://www.pygame.org/docs/_images/camera_green.jpg](https://www.pygame.org/docs/_images/camera_green.jpg)
+![camera_green.jpg](https://www.pygame.org/docs/_images/camera_green.jpg)
 
 
 ## 使用遮罩模块
@@ -212,7 +212,7 @@ def get_and_flip(self):
     pygame.display.flip()
 {% endhighlight %}
 
-![https://www.pygame.org/docs/_images/camera_mask.jpg](https://www.pygame.org/docs/_images/camera_mask.jpg)
+![camera_mask.jpg](https://www.pygame.org/docs/_images/camera_mask.jpg)
 
 这只是些基本的例子。你还可以跟踪不同颜色的斑点，描绘物体的轮廓，现实世界和游戏世界中的物体碰撞检测。得到一个物体的角度，然后精确的控制它。
 

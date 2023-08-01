@@ -12,7 +12,9 @@ tags:
 - fun
 ---
 
-2022/1/3 更新：网站链接已经打不开，脚本已经失效。但是我找到了项目库在githb上[https://github.com/gcr/goggles](https://github.com/gcr/goggles)
+2022/1/3 更新：网站链接已经打不开，脚本已经失效。但是我找到了项目库在github上 [https://github.com/gcr/goggles](https://github.com/gcr/goggles)
+
+[当年的网页 web archive](https://web.archive.org/web/20140207182328/http://jandan.net/2012/02/17/hidden_javascript_graffito.html)
 
 哈哈！！
 
@@ -26,33 +28,13 @@ tags:
 
 这玩意就是让你能在网页上瞎画的东东。更神奇的是，你在某网页上涂鸦的东西，如果别人也用这段代码打开同一个网页的话，可以看到你画的东西哦！就像这样子：
 
-[![](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/Snap7-494x234.jpg)](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/Snap7.jpg)
-
-[![](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/Snap6-494x234.jpg)](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/Snap6.jpg)
-
-
-
-[![](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/Snap5-494x234.jpg)](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/Snap5.jpg)
-
-[![](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/Snap4-494x234.jpg)](http://xavierskip-wordpress.stor.sinaapp.com/uploads/2012/02/Snap4.jpg)
+![](https://f.xavierskip.com:42049/i/99e80ed9f471792716f1ec289a1a343007e69ab047993cc4fcc70819136f8a27.jpg)
 
 等等，唯一限制你的是你的想象力！！！！
 
-via： 煎蛋  [http://jandan.net/2012/02/17/hidden_javascript_graffito.html](https://jandan.net/p/26495)
+via： 煎蛋  [http://jandan.net/2012/02/17/hidden_javascript_graffito.html](https://jandan.net/p/26495)
 
-官网：[http://goggles.sneakygcr.net/](http://goggles.sneakygcr.net/) 有20个热门的网页等着你去涂鸦！！
-
-
-
-
-
-
-
-
-
-
-
-
+官网：[http://goggles.sneakygcr.net/](http://goggles.sneakygcr.net/) 有20个热门的网页等着你去涂鸦！！
 
 
 # Just for fun!!

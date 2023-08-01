@@ -5,11 +5,11 @@ tags:
 - 胡思乱想
 ---
 
-![Blade Runner 2049](https://i.loli.net/2021/08/21/xJ8ZTVlYXvUM5qa.jpg)
+![Blade Runner 2049](https://f.xavierskip.com:42049/i/c0e7f9c8c12d5565cafdfe7af90757ba99f6ed5e44a9577d12e044def2dc4cb0.jpg)
 
 众所周知，在现在的条件下，去火星的话只有单程车票，所以就没想着要回来。
 
-![image.png](https://i.loli.net/2021/08/12/PTmxFMcJiqANE9j.png)
+![渔夫和魔鬼](https://f.xavierskip.com:42049/i/db8eea90675482407930a606069af83b6137bc57d609d653e62e93557393c3c1.png)
 
 恶魔说：我被封印在瓶子里，被扔入大海，在海浪中飘荡了许多个世纪，起初我发誓谁要是救我出来我就满足他的愿望，可是我等了好久，始终没有人来救我，于是我愤怒的发誓从现在开始谁要是救我出来，我就要杀了他。
 
@@ -35,7 +35,7 @@ tags:
 
 上面的那段话是不是显得我有点二极管思维，不是正确就是错误的，我知道这个世界的事情是有多个维度的，我只是试图建立一个简单的模型，我可以驾驭的模型，不一定正确但也许有用。不过我是个彻头彻尾的悲观主义者倒是看起来很明显的。
 
-![Better Call Saul S01E02 00:37:32](https://i.loli.net/2021/08/19/Ah2jEnvQGHLNZq1.jpg)
+![Better Call Saul S01E02 00:37:32](https://f.xavierskip.com:42049/i/aba5f502625004e5b7fdb385cc3676ccf795250c81f30c6cade0b3ca81048001.jpg)
 
 
 
