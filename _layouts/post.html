@@ -2,6 +2,14 @@
 layout: default
 comments: true
 ---
+<div id="toc" style="float: right;
+                     margin-right: -12em;
+                     margin-top: 2em;
+                     width: 9em;">
+  <div class="fix" style="position: fixed;">
+    {% include toc.html html=content %}
+  </div>
+</div>
 <link rel="stylesheet" href="/media/css/monokai.css">
 <section class="meta">
   <span class="time">
