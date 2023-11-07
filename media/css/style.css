@@ -225,3 +225,13 @@ table tr th :first-child, table tr td :first-child {
 table tr th :last-child, table tr td :last-child {
   margin-bottom: 0; 
 }
+/* toc */
+#toc {
+	float: right;
+  margin-right: -12em;
+  margin-top: 2em;
+  width: 9em;
+}
+.fix {
+	position: fixed;
+}
