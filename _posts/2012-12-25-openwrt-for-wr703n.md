@@ -10,7 +10,7 @@ tags: 折腾
 于是入手了一个 TP-link WR703n 无线3G路由器。刷机 openwrt后可立刻变身性价比极高的神器。你懂的。
 （wireless fredom）!
 
-##准备工作
+## 准备工作
 
 wr703n是在 openwrt支持的 [设备列表](http://wiki.openwrt.org/toh/start)中的，直接在wr703n的[页面](http://wiki.openwrt.org/toh/tp-link/tl-wr703n)中下载固件刷机即可。固件[squashfs-factory.bin](http://downloads.openwrt.org/attitude_adjustment/12.09-beta/ar71xx/generic/openwrt-ar71xx-generic-tl-wr703n-v1-squashfs-factory.bin)。
 
@@ -28,7 +28,7 @@ wr703n是在 openwrt支持的 [设备列表](http://wiki.openwrt.org/toh/start)�
 	exit
 	ssh root@192.168.1.1
 
-##网络配置
+## 网络配置
 openwrt的网络配置文件集中在在 /etc/config 文件夹下，cd 进去
 	cd  /etc/config/
 
@@ -92,7 +92,7 @@ luci，提供http服务以网页的形式进行设置，我看网上的教程配
 
 
 
-##你有可能遇到的问题
+## 你有可能遇到的问题
 
 有可能在配置的时候出现了失误，无法连接到路由器了，怎么办？我想重新配置。
 
