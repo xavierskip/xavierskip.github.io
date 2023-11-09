@@ -8,15 +8,15 @@ tags:
 ---
 <style type="text/css">@import url(/media/css/pygments.css);</style>
 
-##### Pygame Tutorials
+***Pygame Tutorials***
 
-### Camera Module Introduction
+***Camera Module Introduction***
 
-##### by Nirav Patel
+***by Nirav Patel***
 
-##### nrp@eclecti.cc
+***nrp@eclecti.cc***
 
-##### Revision 1.0, May 25th, 2009
+***Revision 1.0, May 25th, 2009***
 
 原文:[https://www.pygame.org/docs/tut/CameraIntro.html](https://www.pygame.org/docs/tut/CameraIntro.html)
 

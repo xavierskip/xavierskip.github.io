@@ -3,7 +3,7 @@ layout: post
 title: 腾讯《前端突击队》第二季（攻略）
 tags: 
 - 前端
-- 技术
+- CTF
 ---
 <style type="text/css">@import url(/media/css/pygments.css);</style>
 
@@ -84,7 +84,7 @@ C. -webkit-text-size-adjust: none
 D. -webkit-transform: rotateX(100deg)  
 E. -webkit-appearance: none  
 
-**~~520.1314 等于什么？**(B) //通过控制台
+**`~~520.1314`等于什么？**(B) //通过控制台
 
 A. -520.1314  
 B. 520  
@@ -206,7 +206,7 @@ D. 访问对象属性
 // 进入最后的地图了！！
 
 **下面是在Android 4.0+设备上Wi-fi网络下以"Transfer-Encoding:chunked"方式返回的页面[HTML5 Navigation timing](http://www.w3.org/TR/navigation-timing/) 上报数据图，我们修改了其中一项数据的延时，试找出这项被修改的非正常数据：**  
-**测速点上报量延时慢速用户占比 **  ( M ) //这个真的是蒙的。
+**测速点上报量延时慢速用户占比**  ( M ) // 这个真的是蒙的。
 
 A. unloadEventStart|660|0.711621|4.55%
 B. unloadEventEnd|660|0.711636|4.55%
@@ -244,7 +244,7 @@ window.parent.postMessage({
 }, '*');
 {% endhighlight %}
 
-###[腐蚀的画](http://codestar.alloyteam.com/q2/cgi/q/b29b6a737c6e38edddb380ce54ae672b621efbec15cf4ea02293611594bed3c4)
+### [腐蚀的画](http://codestar.alloyteam.com/q2/cgi/q/b29b6a737c6e38edddb380ce54ae672b621efbec15cf4ea02293611594bed3c4)
 // 难点在于，第二步，对rgb的四个信息，想办法让它变成0和1。如果你直接将数值转化为二进制，那么你就将陷进沼泽中。你需要反相的去思考出题人是如何将信息藏到那张图中间去的。最后经人点拨，是使用了图像处理最常见二值化方法，这样答案就一目了然了。
 {% highlight javascript %}
 var c = document.getElementById('myCanvas'),

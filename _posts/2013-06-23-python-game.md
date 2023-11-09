@@ -3,7 +3,7 @@ layout: post
 excerpt: pythonchallenge 游戏
 title: python challenge
 tags:
-- game
+- CTF
 - python
 ---
 <style type="text/css">@import url(/media/css/pygments.css);</style>

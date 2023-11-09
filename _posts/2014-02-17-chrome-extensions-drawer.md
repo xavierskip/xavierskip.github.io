@@ -19,6 +19,7 @@ tags:
 
 update 2014/05/22
 **[version: 0.26]**
+
 由于之前没有注意到 chrome.storge.sync的容量是如此的小，所以存储还是换回了 chrome.storge.local,另外增加在每个条目上显示保存的页面数量。
 
 
