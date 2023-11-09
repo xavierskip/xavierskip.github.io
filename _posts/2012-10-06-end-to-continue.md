@@ -2,12 +2,8 @@
 layout: post
 title: 未完待续
 excerpt: 就从这篇开始吧
-tags: 胡思乱想
+tags: 胡思乱想 碎碎念 预言
 ---
-
-<embed src="http://www.xiami.com/widget/0_2926353/singlePlayer.swf" type="application/x-shockwave-flash" width="257" height="33" wmode="transparent"></embed>
-
-
 
 从前有个 『渔夫与魔鬼的故事』
 
