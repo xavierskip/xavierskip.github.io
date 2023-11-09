@@ -19,7 +19,7 @@ tags:
 
 下面就记录一下我的解题过程：
 
-#### [签到](https://geekgame.pku.edu.cn/#/game/prob19)
+# [签到](https://geekgame.pku.edu.cn/#/game/prob19)
 
 下载下来一个PDF文件，这是要干啥，我还煞有其事的把文件丢进[HxD](https://mh-nexus.de/en/hxd/)里观察一番，没有。一个签到题而已，还要怎么复杂呢？我观察到用edge浏览器打开pdf文件会显示“此文件具有受限权限。您可能无法访问某些功能。”是无法复制吗？在edge浏览器中确实无法复制（后来我发现只有edge浏览器实现了这样的限制，在chrome和Firefox中都没有限制复制），我找了一个可以解锁的网站给这个pdf解锁试试看，这时候发现文件下面那个高度怀疑是flag的那段文字无法单独复制出来，因为背景有其他文字干扰复制（其实可以不用鼠标选择访问，直接ctrl+a全选复制），我换到firefox中，可以正常的选择到那段异常的文字而不会受到背景下其他字符的干扰。结果复制出来的文字并不是，这只是签到题呀！要不要什么弯弯绕呀！这里我是把复制出来的粘贴到了浏览器地址栏中，格式中换行被吞了。
 
@@ -33,7 +33,7 @@ lgNc_oMe_@ekae2}
 
 这下就很清楚的了，我是看到了提示：“第一届 PKU GeekGame [签到题的题解](https://github.com/PKU-GeekGame/geekgame-1st/tree/master/writeups/xmcp#%E7%AD%BE%E5%88%B0-signin)对解出本题可能有帮助”，我总算是搞明白了。
 
-#### [小北问答 · 极速版](https://geekgame.pku.edu.cn/#/game/prob01)
+# [小北问答 · 极速版](https://geekgame.pku.edu.cn/#/game/prob01)
 
 这道题很有意思，是我有信心搞定的一道题。总共有八个问题，每次抽取其中7个问题，答对后每题14分，在一定时间内完成再加2分，也就是说7题全部答对，并且必须是用脚本才能在一定的时间内完成的即可拿到满分即第二个flag。这八道题是：
 
@@ -247,11 +247,11 @@ if __name__ == '__main__':
 ![兴奋](https://f.xavierskip.com:42049/i/f47957840d6685618b07d67dd5b7129769992ff18d2bf7cec6602449bf88a26c.jpg)
 
 
-### [编原译理习题课](https://geekgame.pku.edu.cn/#/game/prob04)
+# [编原译理习题课](https://geekgame.pku.edu.cn/#/game/prob04)
 
 这题有三个flag，最终有210人部分通过，其实不难，前两个通过搜索就能完成，感觉是个送分题，结果只有210人部分通过，看来参加PKU的比赛确实没有USTC的多呀！
 
-##### 编译出的程序超过 8MB
+## 编译出的程序超过 8MB
 [increase binary executable size](https://stackoverflow.com/questions/43520681/increase-binary-executable-size)
 
 ``` c
@@ -267,13 +267,13 @@ int main(void){
 }
 ```
 
-##### 输出的报错信息超过 2MB
+## 输出的报错信息超过 2MB
 [只用 30 行以内代码，C++ 最多可以产生多少行的编译错误信息？](https://www.zhihu.com/question/61427323)
 `struct x struct z<x(x(x(x(x(x(x(x(x(x(x(x(x(x(x(x(x(x(y,x(y><y*,x(y*w>v<y*,w,x{}`
 
 其实我也不懂为啥，面对搜索引擎答题呗！
 
-### [Flag Checker](https://geekgame.pku.edu.cn/#/game/prob15)
+# [Flag Checker](https://geekgame.pku.edu.cn/#/game/prob15)
 
 一个逆向java的题目，我居然解出来了。还好不是逆向C之类的，估计我就不行了。
 
@@ -352,7 +352,7 @@ function checkflag2(_0xa83ex2){var _0x724b=['charCodeAt','map','','split','strin
 ```
 
 
-### [企鹅文档](https://geekgame.pku.edu.cn/#/game/prob21)
+# [企鹅文档](https://geekgame.pku.edu.cn/#/game/prob21)
 
 有点意思，又不太难的题目，是在第二阶段提示下做出来的。这道题是利用腾讯文档来的，肯定不是利用腾讯文档的漏洞了，提示是一道流量分析题，应该是就是用浏览器的工具分析http请求。
 
