@@ -2,7 +2,7 @@
 layout: post
 title: 生日快乐
 tags:
-- 乱七八糟
+- 碎碎念
 ---
 
 {% highlight python %}

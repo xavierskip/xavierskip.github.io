@@ -2,6 +2,7 @@
 layout: post
 title: 【转载】Always be quitting 时刻准备离职
 tags:
+- 转载
 - work
 ---
 

@@ -3,6 +3,7 @@ layout: post
 title: 在 Django admin site 之外使用其日历控件
 tags:
 - django
+- javascript
 ---
 
 Django admin 是个非常方便的后台搭建工具，方便填写各类表单数据的控件都有，于是想在站点其他页面上也可以使用这些控件而不仅仅是 admin site 上。比如想在一个站点搜索页面的上使用日期选择控件，其实在html5 标准下 Chrome 浏览器会根据 input 标签 type 值准备好各种控件，但是对于很多其他浏览器来说并不自带各种方便的控件。所以为了浏览器的兼容性，我们需要引入第三方的控件。日历控件非常常见及常用，但是如果你已经在你的站点中启用了 Django admin，为什么不用一下 admin site 中的控件呢？

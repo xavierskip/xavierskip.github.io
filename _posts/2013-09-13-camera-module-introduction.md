@@ -4,7 +4,10 @@ excerpt: python pythongame
 title: 「翻译」介绍 pygame的 camera模块
 tags:
 - python
-- pythongame
+- pygame
+- code
+- 转载
+- 翻译
 ---
 <style type="text/css">@import url(/media/css/pygments.css);</style>
 

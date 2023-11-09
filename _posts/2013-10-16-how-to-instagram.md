@@ -2,7 +2,9 @@
 layout: post
 title: 你instagram了吗？
 tags: 
-- 乱七八糟
+- 碎碎念
+- instagram
+- 社交网络
 ---
 
 

@@ -3,6 +3,7 @@ layout: post
 title: ssh远程登陆中的钥匙指纹是什么以及如何比对
 tags:
 - ssh
+- network
 ---
 
 有时候我们在 ssh 登陆时会出现下面的警告信息

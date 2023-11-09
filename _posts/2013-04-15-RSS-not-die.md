@@ -1,7 +1,7 @@
 ---
 layout: post
 title: RSS与新闻聚合
-tags: 网络 随想
+tags: RSS 碎碎念 网络
 excerpt: RIP Google Reader  & Aaron Swartz
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: 【转载】互联网巨头里的人肉木马
 tags:
-- repost
+- 转载
 ---
 
 ![豆瓣日志仅自己可见](https://f.xavierskip.com:42049/i/82e23337a6d7b045d265469396bec742047c482d7fdaf6af442ff092d4f3b3ce.jpg)

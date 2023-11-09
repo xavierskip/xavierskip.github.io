@@ -3,6 +3,7 @@ layout: post
 title: 自行编译caddy
 tags:
 - golang
+- caddy
 ---
 
 ### 为什么要自己编译caddy?

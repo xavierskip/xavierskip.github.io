@@ -2,8 +2,9 @@
 layout: post
 title: 对“中国政治坐标系测试”进行数据分析
 tags:
-- 技术
+- 政治坐标系
 - 调查
+- 数据
 ---
 
 [中国政治坐标系测试](http://zuobiao.me/)

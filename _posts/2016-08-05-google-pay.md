@@ -4,6 +4,8 @@ title: 使用“全球付”解决了谷歌服务中付款的问题
 tags:
 - pay
 - google
+- note
+- archived
 ---
 
 *** 更新：2017年3月发现全球付的虚拟信用卡已经无法在 Google PLAY 中付款了。***

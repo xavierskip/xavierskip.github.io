@@ -2,7 +2,7 @@
 layout: post
 title: 怎么翻译“you deserve it”?
 tags:
-- 乱七八糟
+- 碎碎念
 ---
 you deserve it ，有两个翻译，如果是在乐观的情况下，翻译是:这是你应得的（你值得拥有这一切），如果是悲观的情况下，翻译是:你TM活该。
 

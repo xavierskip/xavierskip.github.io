@@ -2,7 +2,7 @@
 layout: post
 title: 虎扑相册下载脚本使用指南
 excerpt: 一个简单的python脚本
-tags: python  script program
+tags: python program
 ---
 
 一个简单的python脚本

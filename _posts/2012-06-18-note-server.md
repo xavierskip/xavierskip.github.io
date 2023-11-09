@@ -6,7 +6,8 @@ title: 使用node.js实现一个简单的静态文件服务器
 wordpress_id: 549
 tags:
 - nodejs
-- server
+- network
+- code
 ---
 
 最近用win比较多，好吧，这一个星期都是在win下。在win下就搞搞 js，linux下就搞搞python。会不会搞混？我觉得这两个语言还是有很多相同的地方吧。

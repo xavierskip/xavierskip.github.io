@@ -3,6 +3,7 @@ layout: post
 title: 【转载】迟到的「给编程初学者的一封信」
 tags:
 - 转载
+- 编程
 ---
 > 全文转载自：[einverne.github.io](http://einverne.github.io/post/2021/01/an-open-letter-to-those-who-want-to-start-programming.html)
 

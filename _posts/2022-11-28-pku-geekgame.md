@@ -3,6 +3,7 @@ layout: post
 title: 第二届北京大学信息安全综合能力竞赛
 tags:
 - ctf
+- geekgame
 ---
 
 是的又有一个CTF比赛可以参加了。([上一个比赛在此](/2022-11-06-hackgame/))。

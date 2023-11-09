@@ -2,7 +2,8 @@
 layout: post
 title: 设置 shadowsocks server 开机启动
 tags:
-- 技术
+- archived
+- shadowsocks
 ---
 
 **此文章内容已经被淘汰，请访问[更新后的内容](https://blog.xavierskip.com/2021-11-02-systemctl/)。**

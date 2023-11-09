@@ -6,6 +6,7 @@ title: 「一個人」的狀態，總是最糟的。
 wordpress_id: 544
 tags:
 - 转载
+- 知乎
 ---
 
 源自：知乎 [http://www.zhihu.com/question/20151457](http://www.zhihu.com/question/20151457)

@@ -3,6 +3,7 @@ layout: post
 title: 一席演讲《不止是游戏》观后感
 tags:
 - game
+- podcast
 ---
 
 一席演讲 [不止是游戏](https://www.yixi.tv/#/speech/detail?id=710)

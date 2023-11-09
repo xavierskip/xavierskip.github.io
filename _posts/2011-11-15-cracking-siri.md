@@ -6,7 +6,7 @@ title: Cracking Siri 当然不是我了
 wordpress_id: 170
 categories:
 - Geek
-tags: note
+tags: 转载 翻译
 ---
 
 原文 ：[http://applidium.com/en/news/cracking_siri/](http://applidium.com/en/news/cracking_siri/)

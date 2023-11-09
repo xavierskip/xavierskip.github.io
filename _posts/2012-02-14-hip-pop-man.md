@@ -11,6 +11,7 @@ tags:
 - music
 - eminem
 - lrc
+- 碎碎念
 ---
 
 我不是技术宅。

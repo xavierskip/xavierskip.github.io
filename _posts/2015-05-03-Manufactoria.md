@@ -3,6 +3,8 @@ layout: post
 title: 自动机编程游戏 Manufactoria
 tags:
 - game
+- FLASH
+- swf
 ---
 
 2023/06/28 更新：[Ruffle ](https://ruffle.rs/)已经能够让这个游戏运行了！你可以去[这里玩这款游戏](https://www.kongregate.com/games/PleasingFungus/manufactoria)。并且还有了新版的游戏[Manufactoria 2022](http://pleasingfungus.com/)。

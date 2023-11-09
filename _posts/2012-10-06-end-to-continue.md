@@ -2,7 +2,7 @@
 layout: post
 title: 未完待续
 excerpt: 就从这篇开始吧
-tags: 胡思乱想 碎碎念 预言
+tags: 碎碎念 预言
 ---
 
 从前有个 『渔夫与魔鬼的故事』

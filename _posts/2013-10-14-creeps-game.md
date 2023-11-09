@@ -4,6 +4,7 @@ title: 使用pygame制作的一个无聊游戏--creeps
 tags: 
 - python
 - pygame
+- program
 ---
 
 最近一直在看pygame，之前的是应用pygame的摄像头模块，这次就是做个真正的游戏了。

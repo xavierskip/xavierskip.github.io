@@ -8,6 +8,7 @@ categories:
 - python
 tags:
 - python
+- code
 ---
 
 斐波纳契数列就是，这个数列的中的数等于前两个数字的之和

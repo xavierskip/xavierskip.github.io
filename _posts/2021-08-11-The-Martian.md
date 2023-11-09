@@ -2,7 +2,7 @@
 layout: post
 title: 当一个人说想去火星的时候实际想说的是
 tags:
-- 胡思乱想
+- 碎碎念
 ---
 
 ![Blade Runner 2049](https://f.xavierskip.com:42049/i/c0e7f9c8c12d5565cafdfe7af90757ba99f6ed5e44a9577d12e044def2dc4cb0.jpg)
@@ -17,7 +17,7 @@ tags:
 
 推荐阅读：
 
-- [为什么要通过转动摄像头以16进制数来通讯？](https://movie.douban.com/review/9974498/)
+- [为什么要通过转动摄像头以16进制数来通讯？](/2019-02-14-code)
 
 再下面是一点点碎碎念
 

@@ -4,7 +4,7 @@ date: 2012-07-28 16:19:17
 layout: post
 title: hate wuhan
 wordpress_id: 581
-tags: 胡思乱想
+tags: 碎碎念
 ---
 
 今天去打球，火大了，真TMD的极品，遇见一个就罢了，遇见了三个。

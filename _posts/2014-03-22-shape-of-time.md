@@ -3,7 +3,9 @@ layout: post
 title: 《时间的形状》读书笔记
 tags: 
 - 读书
-- 记录
+- 笔记
+- 科学
+- 相对论
 ---
 ![题图：地心引力](https://f.xavierskip.com:42049/i/d1557b9628675d74434377b8db2f9ccc51d262aaa87204221bc0603a280610d5.jpg)
 

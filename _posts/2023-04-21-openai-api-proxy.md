@@ -3,6 +3,7 @@ layout: post
 title: 访问不了openai不用慌
 tags:
 - GFW
+- nginx
 ---
 ![https://www.reddit.com/r/OpenAI/comments/zhmv9u/map_of_openai_unsupported_countries/](https://f.xavierskip.com:42049/i/22b23828411d02e868dd89e50549c00f1099f9b6c5d1df485cca4cda5bb014b0.jpg)
 

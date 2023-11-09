@@ -7,6 +7,7 @@ wordpress_id: 556
 tags:
 - 油猴脚本
 - javascript
+- archived
 ---
 
 为了偷个懒，不用每次打开虾米网然后去点那个签到按钮。

@@ -2,7 +2,8 @@
 layout: post
 title: 网络租房小记
 tags:
-- 小记
+- 网络
+- note
 - Server
 ---
 

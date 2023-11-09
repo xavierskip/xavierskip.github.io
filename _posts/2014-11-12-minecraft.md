@@ -3,7 +3,7 @@ layout: post
 title: MineCraft 游戏小视频
 tags:
 - 游戏
-- 视频
+- video
 ---
 ![MineCraft1.8](https://f.xavierskip.com:42049/i/a9d344ffa49154e3b12574b8e1c712eead87d91050bedcb462267667e90b989a.jpg)
 
@@ -26,6 +26,6 @@ soundflower在这里下载
 
 
 {::nomarkdown}
-<iframe height=498 width=510 src='https://player.youku.com/embed/XODI0ODU4MzMy' frameborder=0 'allowfullscreen'></iframe>
+<iframe height=405 width=720 src='https://player.youku.com/embed/XODI0ODU4MzMy' frameborder=0></iframe>
 {:/nomarkdown}
 via:[https://v.youku.com/v_show/id_XODI0ODU4MzMy.html](https://v.youku.com/v_show/id_XODI0ODU4MzMy.html)

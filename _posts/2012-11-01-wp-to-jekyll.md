@@ -2,7 +2,7 @@
 layout: post
 title: blog搬迁
 excerpt: 將wordpress上的文章迁移到jekyll上来
-tags: wordpress jekyll 
+tags: wordpress jekyll blog
 ---
 
 不再使用 wordpress blog了，可是以前写过的文字怎么办？虽然文章都很二，但是毕竟是一个字一个字打出来的呀。（除转载的）   

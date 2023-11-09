@@ -2,7 +2,7 @@
 layout: post
 title: 显卡除了用来挖矿还能干什么？
 tags:
-- 分享
+- 硬件
 ---
 
 

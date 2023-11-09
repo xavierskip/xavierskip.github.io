@@ -2,7 +2,8 @@
 layout: post
 title: 如何选择平板电脑
 tags: 
-- IT
+- 碎碎念
+- 电子设备
 ---
 
 

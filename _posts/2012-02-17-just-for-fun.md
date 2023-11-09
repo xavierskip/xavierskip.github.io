@@ -9,7 +9,8 @@ categories:
 - 未分类
 - 杂
 tags:
-- fun
+- jandan
+- javascript
 ---
 
 2022/1/3 更新：网站链接已经打不开，脚本已经失效。但是我找到了项目库在github上 [https://github.com/gcr/goggles](https://github.com/gcr/goggles)

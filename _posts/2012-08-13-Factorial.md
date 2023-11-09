@@ -6,6 +6,7 @@ title: 阶乘以及后面有几个零
 wordpress_id: 601
 tags:
 - python
+- code
 ---
 <style type="text/css">@import url(/media/css/pygments.css);</style>
 

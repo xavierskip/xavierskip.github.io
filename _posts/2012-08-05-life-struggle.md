@@ -4,7 +4,7 @@ layout: post
 comments: true
 date: 2012-08-05 14:37:38
 wordpress_id: 593
-tags: 胡思乱想
+tags: 碎碎念
 ---
 
 > - Is life always this hard, or is it just when you're a kid? 

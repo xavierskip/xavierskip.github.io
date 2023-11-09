@@ -3,6 +3,7 @@ layout: post
 title: linux 系统下添加开机启动服务
 tags:
 - linux
+- note
 ---
 
 因为好多年前写过一篇文章介绍这个内容，文章的内容已经过时了，最近在linux下实践添加了几个自动启动的程序，做个总结，也顺便更新下[以前的内容](https://blog.xavierskip.com/2015-02-02-shadowsocks-init/)。

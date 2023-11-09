@@ -3,6 +3,7 @@ layout: post
 title: 软件 Everything 提供的 HTTP 功能中限定搜索目录的解决方案 
 tags:
 - software
+- note
 ---
 
 前言：

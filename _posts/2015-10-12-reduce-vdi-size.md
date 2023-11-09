@@ -2,7 +2,9 @@
 layout: post
 title: 减小VirtualBox虚拟机动态扩展硬盘文件尺寸
 tags:
-- 解决
+- 虚拟机
+- VirtualBox
+- note
 ---
 在使用VirtualBox虚拟机的时候发现，虚拟机硬盘文件的大小增长的很快而实际虚拟机系统并没有存储那么多的文件。
 
@@ -16,7 +18,7 @@ tags:
 
 **我的环境是，宿主机 windows 系统，虚拟机 linux ubuntu。**
 
-####步骤：
+#### 步骤：
 
 首先对虚拟机中的空闲磁盘空间进行标记，未用空间全部标零。
 
@@ -32,10 +34,10 @@ linux 利用 zerofree，`sudo apt-get install zerofree`
 
 在VirtualBox的安装目录下找到VBoxManage.exe，cmd中执行`VBoxManage.exe modifyhd "path\to\vm.vdi" -compact`，等待，完成后你会发现虚拟机的硬盘文件缩小了很多。反正我的是从100G缩小到23G，和我的虚拟机系统真正的文件内容22G相差无几。
 
-####参考：
+#### 参考：
 [How To Shrink Your Virtualbox VM And Free Up Space For Your Hard Disk](https://www.maketecheasier.com/shrink-your-virtualbox-vm/)
 
-####备注：
+#### 备注：
 
 
 在我查资料的时候，大多都说执行命令`sudo mount -n -o remount,ro  /dev/sda`重新挂载分区为只读模式，如果你是正常启动的server然后再重新挂载，必定是不行的，server运行的时候太多文件被读写了，所以还是直接进入Recocery Mode比较方便。
