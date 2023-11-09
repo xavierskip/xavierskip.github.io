@@ -17,7 +17,7 @@ tags:
 
 ### Folding@home是什么
 
-> **Folding@home**（简称**FAH**或**F@h**）是一个研究[蛋白质折叠](https://zh.wikipedia.org/wiki/蛋白质折叠)、误折、聚合及由此引起的相关疾病的[分布式计算](https://zh.wikipedia.org/wiki/分布式计算)工程。由[斯坦福大学](https://zh.wikipedia.org/wiki/史丹佛大學)[化学](https://zh.wikipedia.org/wiki/化學)系的潘德实验室（Pande Lab）主持，于2000年10月1日正式引导。Folding@home现时是世界上最大的分布式计算计划，于2007年为[吉尼斯世界纪录](https://zh.wikipedia.org/wiki/吉尼斯世界纪录)所承认[[2\]](https://zh.wikipedia.org/wiki/Folding@home#cite_note-2)。
+> **Folding@home**（简称**FAH**或**F@h**）是一个研究[蛋白质折叠](https://zh.wikipedia.org/wiki/蛋白质折叠)、误折、聚合及由此引起的相关疾病的[分布式计算](https://zh.wikipedia.org/wiki/分布式计算)工程。由[斯坦福大学](https://zh.wikipedia.org/wiki/史丹佛大學)[化学](https://zh.wikipedia.org/wiki/化學)系的潘德实验室（Pande Lab）主持，于2000年10月1日正式引导。Folding@home现时是世界上最大的分布式计算计划，于2007年为[吉尼斯世界纪录](https://zh.wikipedia.org/wiki/吉尼斯世界纪录)所承认[^2](https://zh.wikipedia.org/wiki/Folding@home#cite_note-2)。
 >
 > via: [https://zh.wikipedia.org/wiki/Folding@home](https://zh.wikipedia.org/wiki/Folding@home)
 
