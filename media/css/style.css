@@ -234,4 +234,5 @@ table tr th :last-child, table tr td :last-child {
 }
 .fix {
 	position: fixed;
+	max-width: 16em;
 }
