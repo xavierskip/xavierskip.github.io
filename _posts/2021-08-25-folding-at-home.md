@@ -17,9 +17,9 @@ tags:
 
 ### Folding@home是什么
 
-> **Folding@home**（简称**FAH**或**F@h**）是一个研究[蛋白质折叠](https://zh.wikipedia.org/wiki/蛋白质折叠)、误折、聚合及由此引起的相关疾病的[分布式计算](https://zh.wikipedia.org/wiki/分布式计算)工程。由[斯坦福大学](https://zh.wikipedia.org/wiki/史丹佛大學)[化学](https://zh.wikipedia.org/wiki/化學)系的潘德实验室（Pande Lab）主持，于2000年10月1日正式引导。Folding@home现时是世界上最大的分布式计算计划，于2007年为[吉尼斯世界纪录](https://zh.wikipedia.org/wiki/吉尼斯世界纪录)所承认[^2](https://zh.wikipedia.org/wiki/Folding@home#cite_note-2)。
->
-> via: [https://zh.wikipedia.org/wiki/Folding@home](https://zh.wikipedia.org/wiki/Folding@home)
+> **Folding@home**（简称**FAH**或**F@h**）是一个研究[蛋白质折叠](https://zh.wikipedia.org/wiki/蛋白质折叠)、误折、聚合及由此引起的相关疾病的[分布式计算](https://zh.wikipedia.org/wiki/分布式计算)工程。由[斯坦福大学](https://zh.wikipedia.org/wiki/史丹佛大學)[化学](https://zh.wikipedia.org/wiki/化學)系的潘德实验室（Pande Lab）主持，于2000年10月1日正式引导。Folding@home现时是世界上最大的分布式计算计划，于2007年为[吉尼斯世界纪录](https://zh.wikipedia.org/wiki/吉尼斯世界纪录)所承认。
+
+via: [https://zh.wikipedia.org/wiki/Folding@home](https://zh.wikipedia.org/wiki/Folding@home)
 
 一个依赖海量算力支持的分布式计算项目，并且已经运行了二十多年了，也许你听说过[SETI@home](https://setiathome.berkeley.edu/)（已于去年3月停止）这个用来分析射电望远镜数据来寻找外星人的项目，都是一样的利用千千万万个分布在世界各地的电脑计算资源来帮助计算，不仅仅用于最新的[新冠病毒](https://foldingathome.org/diseases/infectious-diseases/covid-19/?lng=zh-CN)的研究，包括了癌症（[乳腺癌](https://foldingathome.org/diseases/cancer/breast-cancer/?lng=zh-CN)、[肾癌](https://foldingathome.org/diseases/cancer/kidney-cancer/?lng=zh-CN)）、传染病、神经性疾病([阿兹海默](https://foldingathome.org/diseases/neurological-diseases/alzheimers-disease/?lng=zh-CN))等等...
 
