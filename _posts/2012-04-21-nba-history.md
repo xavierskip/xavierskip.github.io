@@ -32,164 +32,61 @@ youtube上的。没办法，上传到国内的，在优酷和土豆上会有版�
 
 
 
-	
-  * 威尔特·张伯伦        Wilton  Chamberlain
-
-	
-  * 比尔·拉塞尔           Bill Russell                 凯尔特人          6号
-
-	
-  * 杰里·韦斯特          Jerry Alan West           湖人               44号
-
-	
-  * 厄尔·门罗             Vernon Earl Monroe      尼克斯             15号
-
-	
-  * 沃尔特·弗雷泽       Walter  Frazier             尼克斯             10号
-
-	
-  * 韦斯·昂塞尔德      Westley Sissel Unseld   巴尔的摩子弹      41号
-
-	
-  * 皮特·马拉维奇      Pete Maravich               爵士                 7号
-
-	
-  * J 博士                 Julius Erving                 76人                  6号
-
-	
-  * 乔治·格文            Geoge Gervin               马刺                 4号
-
-	
-  * 魔术师约翰逊       Earvin Johnson               湖人             32号
-
-	
-  * 拉里·伯德            Larry  Bird                    凯尔特人           33号
-
-	
-  * 丹尼斯·约翰逊     Dennis Johnson           凯尔特人   3号
-
-	
-  * 托马斯·钱伯斯     Thomas  Chambers     太阳
-
-	
-  * “雨人” 坎普         Shawn Kemp              超音速       40号
-
-	
-  * 凯文·约翰逊       Kevin Johnson             太阳     7号
-
-	
-  * “天勾” 贾巴尔     Kareem Abdul-Jabbar   湖人 33号
-
-	
-  * 乔丹                 Michael Jordan             公牛   23号
-
-	
-  * 大卫·罗宾逊      David Robinson            马刺 50号
-
-	
-  * 哈基姆·奥拉朱旺  Hakeem  Olajuwon     火箭 34号
-
-	
-  * 尤因                  Patrick Ewing             尼克斯  33号
-
-	
-  * 穆大叔    英文名太长了。怕溢出就不写了     一直都是背景
-
-	
-  * 斯科特•斯凯尔斯  Scott Skiles  背景被帽
-
-	
-  * “邮差” 马龙         Karl Malone                爵士   32号
-
-	
-  * 巴克利爵士         Charles  Barkley       76人 /太阳   34号
-
-	
-  * 拉里·约翰逊        Larry  Johnson          黄蜂/尼克斯   2号
-
-	
-  * 阿朗佐·莫宁        Alonzo Mourning       黄蜂    33号
-
-	
-  * 德里克·科尔曼     Derrick Coleman       篮网  44号
-
-	
-  * “大鲨鱼” 奥尼尔    Shaquille O'Neal        魔术  32号
-
-	
-  * 斯科蒂·皮蓬          Scottie Pippen           公牛 33号
-
-	
-  * “滑翔机” 德雷克斯勒  Clyde Drexler        开拓者 22号
-
-	
-  * 蒂姆·哈达威         Tim Hardaway             勇士 / 热火     10号
-
-	
-  * “微笑刺客” 伊塞亚-托马斯    Isiah Thomas 活塞 11号
-
-	
-  * 乔·杜马斯              Joe Dumars           活塞 4号
-
-	
-  * 杰森-基德               Jason Kidd               太阳/网/小牛     32/5/2 号
-
-	
-  * 格兰特·希尔           Grant Hill                活塞 33号
-
-	
-  * “狂人” 斯普雷维尔    Latrell Sprewell        尼克斯 8号
-
-	
-  * “弗老大”弗朗西斯     Steve Francis         火箭 3号
-
-	
-  * 雷·阿伦                   Ray Allen                  雄鹿     34号
-
-	
-  * “白巧克力” 威廉姆斯   Jason Williams     国王  55号
-
-	
-  * 科比                      Kobe Bryant             湖人 8号
-
-	
-  * 萨博尼斯                 Arvydas Sabonis   开拓者    11号   背景了～～
-
-	
-  * 阿伦·艾弗森           Allen Iverson               76人  3号
-
-	
-  * 邓呆                    Tim Duncan                马刺   21号
-
-	
-  * 克里斯·韦伯         Chris Webber               国王 4号
-
-	
-  * "KG"                  Kevin Garnett                森林狼  21号
-
-	
-  * 杰梅因·奥尼尔     Jermaine O'Neal                步行者   7号
-
-	
-  * 斯塔德迈尔         Amar'e Stoudemire           太阳 32号
-
-	
-  * 德克·诺维茨基     Dirk Nowitzki                     小牛 41号
-
-	
-  * “魔兽” 霍华德     Dwight Howard                    魔术 12号
-
-	
-  * LBJ                    LeBron  James                    骑士 23号
-
-	
-  * “闪电侠” 韦德      Dwyane Wade                 热火  3号
-
-	
-  * 克里斯·波什       Chris Bosh                       猛龙   4号
-
-	
-  * 史蒂夫·纳什     Steve Nash                       太阳 13号
+|                                    |                     |
+|------------------------------------|---------------------|
+| 威尔特·张伯伦   Wilton Chamberlain   |                    |
+| 比尔·拉塞尔     Bill Russell         | 凯尔特人       6号|
+| 杰里·韦斯特     Jerry Alan West      |  湖人         44号|
+| 厄尔·门罗       Vernon Earl Monroe   | 尼克斯        15号|
+| 沃尔特·弗雷泽   Walter Frazier        |   尼克斯       10号|
+| 韦斯·昂塞尔德   Westley Sissel Unseld | 巴尔的摩子弹   41号|
+| 皮特·马拉维奇   Pete Maravich         |  爵士         7号|
+| J博士          Julius Erving           | 76人         6号|
+| 乔治·格文      Geoge Gervin           |  马刺      4号|
+| 魔术师约翰逊   Earvin Johnson        |  湖人         32号|
+| 拉里·伯德      Larry Bird           |   凯尔特人    33号|
+| 丹尼斯·约翰逊   Dennis Johnson     |  凯尔特人        3号|
+| 托马斯·钱伯斯   Thomas Chambers    |  太阳      |
+| “雨人” 坎普     Shawn Kemp         | 超音速         40号|
+| 凯文·约翰逊     Kevin Johnson       |   太阳        7号|
+| “天勾” 贾巴尔   Kareem Abdul-Jabbar | 湖人          33号|
+| 乔丹           Michael Jordan       |   公牛     23号|
+| 大卫·罗宾逊     David Robinson      |  马刺        50号|
+| 哈基姆·奥拉朱旺 Hakeem Olajuwon      |  火箭        34号|
+| 尤因           Patrick Ewing        |   尼克斯        33号|
+| 穆大叔 英文名太长了。怕溢出就不写了     |  一直都是背景 |
+| 斯科特•斯凯尔斯 Scott Skiles          | 背景被帽 |
+| “邮差” 马龙    Karl Malone           |   爵士         32号|
+| 巴克利爵士     Charles Barkley       |   76人 /太阳   34号|
+| 拉里·约翰逊    Larry Johnson         | 黄蜂/尼克斯    2号|
+| 阿朗佐·莫宁    Alonzo Mourning       |  黄蜂        33号|
+| 德里克·科尔曼  Derrick Coleman       |   篮网      44号|
+| “大鲨鱼” 奥尼尔 Shaquille O'Neal     |   魔术      32号|
+| 斯科蒂·皮蓬     Scottie Pippen       |  公牛 33号|
+| “滑翔机”德雷克斯勒 Clyde Drexler      |开拓者 22号|
+| 蒂姆·哈达威       Tim Hardaway       |   勇士 / 热火   10号|
+| “微笑刺客”伊塞亚-托马斯 Isiah Thomas  | 活塞 11号|
+| 乔·杜马斯              Joe Dumars     |  活塞 4号|
+| 杰森-基德              Jason Kidd     |太阳/网/小牛   32/5/2 号|
+| 格兰特·希尔            Grant Hill            |活塞 33号|
+| “狂人” 斯普雷维尔      Latrell Sprewell |尼克斯 8号	|
+| “弗老大”弗朗西斯       Steve Francis    | 火箭|
+| 雷·阿伦               Ray Allen       | 雄鹿   34号|
+| “白巧克力” 威廉姆斯   Jason Williams  | 国王 55号|
+| 科比                 Kobe Bryant      |   湖人 8号|
+| 萨博尼斯             Arvydas Sabonis  | 开拓者  11号  背景了～～|
+| 阿伦·艾弗森         Allen Iverson         |  76人 3号|
+| 邓呆                Tim Duncan           |马刺  21号|
+| 克里斯·韦伯          Chris Webber          |  国王 4号|
+| "KG"                Kevin Garnett           |森林狼 21号|
+| 杰梅因·奥尼尔       Jermaine O'Neal    | 步行者  7号|
+| 斯塔德迈尔         Amar'e Stoudemire  | 太阳 32号|
+| 德克·诺维茨基     Dirk Nowitzki       |   小牛 41号|
+| “魔兽” 霍华德     Dwight Howard       |  魔术 12号|
+| LBJ             LeBron James         |  骑士 23号|
+| “闪电侠” 韦德    Dwyane Wade          | 热火 3号|
+| 克里斯·波什      Chris Bosh           |  猛龙  4号|
+| 史蒂夫·纳什      Steve Nash           |  太阳 13号|
 
 
 
@@ -204,7 +101,7 @@ youtube上的。没办法，上传到国内的，在优酷和土豆上会有版�
 
 
 
-还有雷吉·米勒？？也许我没看见。还有 “人类电影精华” 多米尼克·威尔金斯咧？远古一点的 凯文·麦克海尔 和 摩西·马龙 也许是我没看到。。。。
+还有雷吉·米勒？？也许我没看见。还有 “人类电影精华” 多米尼克·威尔金斯咧？远古一点的 凯文·麦克海尔 和摩西·马龙 也许是我没看到。。。。
 
 
 
