@@ -2,10 +2,10 @@
 layout: post
 title: “抽屉”一个chrome浏览器扩展
 tags:
-	- program
-	- javascript
-	- chrome
-	- extensions
+- program
+- javascript
+- chrome
+- extensions
 ---
 **介绍**：当你面对浏览器多个窗口上的一堆标签页面想等一下或者下次再来浏览的时候，你会？
 
