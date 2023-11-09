@@ -20,18 +20,12 @@ tags:
   * 说出其中80%的球星的名字-------------------------------------------------就算你及格了吧。
 
 	
-  * 能够指出这是当年哪场比赛什么什么的超过十场的        -----------------加分项
+  * 能够指出这是当年哪场比赛什么什么的超过十场的-----------------加分项
 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nJCD1ru1F6w?si=GiAaKsms6efal5AD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>BWEYRE.DESERT.NBA - Bboys War.</iframe>
 
-
-    
-
-
-
-<iframe width="640" height="360" src="http://www.youtube.com/embed/RlM1KUbndN8" frameborder="0" allowfullscreen></iframe>
-    youtube上的。没办法，上传到国内的，在优酷和土豆上会有版权问题，sina的不会，可是我偷懒，不想传了，fuck GFW!!!!
-    而且这个视频在国内是有的，很久之前我是在虎扑上第一次看到这个视频的，并且下载了高清版本。
+youtube上的。没办法，上传到国内的，在优酷和土豆上会有版权问题，sina的不会，可是我偷懒，不想传了，fuck GFW!!!!而且这个视频在国内是有的，很久之前我是在虎扑上第一次看到这个视频的，并且下载了高清版本。
 
 
 我来统计下有哪些球员：（有些模糊看不太清楚）

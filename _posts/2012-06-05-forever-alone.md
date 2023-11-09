@@ -5,10 +5,10 @@ layout: post
 title: 「一個人」的狀態，總是最糟的。
 wordpress_id: 544
 tags:
-- note
+- 转载
 ---
 
-源之：知乎 ：[http://www.zhihu.com/question/20151457](http://www.zhihu.com/question/20151457)
+源自：知乎 [http://www.zhihu.com/question/20151457](http://www.zhihu.com/question/20151457)
 
 
 
@@ -96,4 +96,4 @@ Don't never try to judge me Dude, you don't know what Fuck I been through
 
 
 
-------------------------------------如果深山里有只鸟，会唱最美的歌，但是从没人听过或者见过，那么这只鸟是否存在呢
+-----如果深山里有只鸟，会唱最美的歌，但是从没人听过或者见过，那么这只鸟是否存在呢
