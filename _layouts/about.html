@@ -1,0 +1,14 @@
+---
+layout: default
+comments: true
+---
+<div id="toc">
+  <div class="fix">
+    {% include toc.html html=content %}
+  </div>
+</div>
+<section class="post">{{ content }}</section>
+{% if page.comments %}
+{% include comments.md %}
+{% endif %}
+

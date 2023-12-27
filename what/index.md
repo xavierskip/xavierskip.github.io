@@ -1,18 +1,30 @@
 ---
-layout: page
+layout: about
 title: 友链及联系方式
 comments: yes
 ---
 
-# 友链
+## 友链
 
 |blog |访问地址 |简介|
 |-------------|--------|--------|
 |MANKA の blog|[https://blog.nest.moe/](https://blog.nest.moe/)|🌐💻🚀🔍🛠️🍇🍰|
 
+### 想添加本站的信息
+
+```yaml
+title: Xavierskip's blog
+avatar:
+  - https://blog.xavierskip.com/media/logo/android-chrome-512x512.png
+  - https://blog.xavierskip.com/media/logo/android-chrome-192x192.png
+  - https://blog.xavierskip.com/media/logo/favicon-32x32.png
+  - https://blog.xavierskip.com/media/logo/favicon-16x16.png
+url: https://blog.nest.moe
+slogan: null
+```
 
 
-# 联系方式
+## 联系方式
 
 参考[给我发一封GPG邮件吧！](/2021-02-22-openpgp/)
 
