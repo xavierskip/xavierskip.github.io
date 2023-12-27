@@ -200,6 +200,7 @@ border: 0;
 }
 
 .hiddendel:hover {
+	color: #fff;
 	background-color: bisque;
 }
 
