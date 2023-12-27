@@ -195,11 +195,11 @@ border: 0;
 	float: left;
 }
 
-del .hidden {
+.hiddendel {
 	color: transparent;
 }
 
-del .hidden:hover {
+.hiddendel:hover {
 	background-color: bisque;
 }
 
