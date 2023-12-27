@@ -9,6 +9,7 @@ comments: yes
 |blog |访问地址 |简介|
 |-------------|--------|--------|
 |MANKA の blog|[https://blog.nest.moe/](https://blog.nest.moe/)|🌐💻🚀🔍🛠️🍇🍰|
+|Hi, DIYgod|[https://diygod.cc](https://diygod.cc)|写代码是热爱，写到世界充满爱！|
 
 ### 想添加本站的信息
 
