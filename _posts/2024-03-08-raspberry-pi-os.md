@@ -41,7 +41,7 @@ tags:
 
 现在你已经可以去连接 ssh ，但是你看到的是 
 
-```
+```bash
 > ssh 192.168.1.102
 Please note that SSH may not work until a valid user has been set up.
 
@@ -61,7 +61,7 @@ See http://rptl.io/newuser for details.
 
 其中文件的内容包括你的用户名和密码，示例内容如下。
 
-```
+```bash
 # 用户名：pi
 # 密码：mypassword
 pi:$6$KgLgFlKAs4Vb3X92$1BMPc1y7omB1OI71vg800t4Iu2rIfBHwWWPGwZB93BaNS9pH0Z.Ts.2XseWap1gJrf6cnDyaXXlHyK8WZkQbk.
@@ -101,13 +101,13 @@ Raspberry Pi OS Bookworm 不再支持使用 wpa_supplicant.conf 方式来设定w
 
 我们需要更新 `/etc/apt/sources.list` 和 `/etc/apt/sources.list.d/raspi.list` 这两个文件的内容。可以复制原文件做好备份，但是不要复制 /etc/apt/sources.list.d/raspi.list 文件，因为
 
-```
+```bash
 N: Ignoring file 'raspi.list.backup' in directory '/etc/apt/sources.list.d/' as it has an invalid filename extension
 ```
 
 我们选择清华源来作为我们的软件源，参照 [Raspbian 软件仓库](https://mirrors.tuna.tsinghua.edu.cn/help/raspbian/) 和 [Raspberrypi 软件仓库](https://mirrors.tuna.tsinghua.edu.cn/help/raspberrypi/) 来调整我们的软件源。如果你像我一样安装的是64位系统，那么需要参考[Debian 软件源](https://mirrors.tuna.tsinghua.edu.cn/help/debian/)的内容，如果你是32位系统也就是 armv7l 架构并且没有看到对应的 Debian 版本 Debian 12 Bookworm，手动把前一版的 bullseye 换成 bookworm 即可。
 
-```
+```bash
 > cat /etc/apt/sources.list
 
 # 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
@@ -157,7 +157,7 @@ ssh-keygen -t ed25519 -a 256 -C "xxx@xxx"
 
 在 home 目录下创建一个只有我们用户可以访问的`.ssh`文件夹，创建`authorized_keys`文件，并写入你的公钥匙
 
-```
+```bash
 > mkdir ~/.ssh
 > chmod 700 ~/.ssh
 > sudo vim ~/.ssh/authorized_keys
@@ -166,7 +166,7 @@ ssh-keygen -t ed25519 -a 256 -C "xxx@xxx"
 
 在你的终端设备上配置好 config 文件， 就可以用简短的名称来一键登陆了！
 
-```
+```bash
 > vim ~/.ssh/config
 
 Host [yourhostname]
@@ -191,7 +191,7 @@ Linux labpi 6.1.0-rpi8-rpi-v8 #1 SMP PREEMPT Debian 1:6.1.73-1+rpt1 (2024-01-25)
 
 因为sshd主配置文件`/etc/ssh/sshd_config`里有`Include /etc/ssh/sshd_config.d/*.conf`一行，所以我们可以在`/etc/ssh/sshd_config.d`里创建自己的配置文件
 
-```
+```bash
 > sudo vim /etc/ssh/sshd_config.d/my.conf
 
 ChallengeResponseAuthentication no
@@ -237,13 +237,13 @@ File Browser 是一款给本地文件夹里的文件内容提供网络访问的�
 
 我参考[浅析 fstab 与移动硬盘挂载方法](https://steinslab.io/archives/1503)设定的 fstab 文件如下
 
-```
+```bash
 UUID=[drive uuid] /home/nas/toshiba ext4 defaults,nofail,x-systemd.device-timeout=1,noatime 0 2
 ```
 
 根据[fstab](https://wiki.archlinuxcn.org/wiki/Fstab#%E9%80%9A%E8%BF%87_systemd_%E8%87%AA%E5%8A%A8%E6%8C%82%E8%BD%BD)文档，虽然说 nofail 建议和 x-systemd.device-timeout 一起使用，但是我的老硬盘好像反应比较慢，我就把这条给去掉了，所以最后我的 fstab 设置是：
 
-```
+```bash
 UUID=[drive uuid] /home/nas/toshiba ext4 defaults,nofail,noatime 0 2
 ```
 
@@ -257,7 +257,7 @@ UUID=[drive uuid] /home/nas/toshiba ext4 defaults,nofail,noatime 0 2
 
 看来需要先添加虚拟环境，然后再安装。
 
-```
+```bash
 > python -m venv djangoenv
 > source djangoenv/bin/activate
 > pip install django
