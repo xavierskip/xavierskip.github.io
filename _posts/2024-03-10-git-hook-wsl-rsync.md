@@ -16,13 +16,13 @@ tags:
 
 在我的 MAC 上很快就设置好了 `.git/hooks/pre-push`
 
-```
+```bash
 rsync -azP raspi:/home/pi/www/  ~/xavierskip.github.io/_db
 ```
 
 我依葫芦画瓢在 Windows 上的 git 仓库里设置同样的 hook 时，运行会报错！
 
-```
+```bash
 > cat pre-push
 
 #!/bin/bash
@@ -39,7 +39,7 @@ rsync error: syntax or usage error (code 1) at main.c(1428) [Receiver=3.2.7]
 
 这位老哥告诉了我们一个叫做`MSYS_NO_PATHCONV`的环境变量，最终解决了在 Windows git 上的某种路径错误。
 
-```
+```bash
 #!/bin/bash
 # https://stackoverflow.com/a/67658259/1265727
 # solve：The source and destination cannot both be remote.
