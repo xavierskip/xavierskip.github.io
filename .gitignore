@@ -1,5 +1,6 @@
 _site/*
 _db/*
+_posts/temple_file/*
 .DS_Store
 Gemfile
 Gemfile.lock
