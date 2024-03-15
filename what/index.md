@@ -13,6 +13,7 @@ comments: yes
 |MANKA の blog|[https://blog.nest.moe/](https://blog.nest.moe/)|#这个真的要填吗，这个凭个人喜好填就行了吧|
 |Hi, DIYgod|[https://diygod.cc](https://diygod.cc)|写代码是热爱，写到世界充满爱！|
 |evilpan's blog|[https://evilpan.com/](https://evilpan.com/)|Life is not a rat race.|
+|PRIN BLOG|[https://prinsss.github.io/](https://prinsss.github.io/)|半吊子全栈开发者的日常|
 
 ### 想添加本站的信息
 
