@@ -14,6 +14,7 @@ comments: yes
 |Hi, DIYgod|[https://diygod.cc](https://diygod.cc)|写代码是热爱，写到世界充满爱！|
 |evilpan's blog|[https://evilpan.com/](https://evilpan.com/)|Life is not a rat race.|
 |PRIN BLOG|[https://prinsss.github.io/](https://prinsss.github.io/)|半吊子全栈开发者的日常|
+|土豆不好吃|[https://dmesg.app/](https://dmesg.app/)|Benny 小土豆· 谦和之中见卓越|
 
 ### 想添加本站的信息
 
