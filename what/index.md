@@ -55,7 +55,7 @@ comments: yes
 那我们寻找的是你心中的外星人还是实实在在物质的外星人呢？？是个问题？</del>
 
 >有一个真理告诉大家，所有自尊心强烈的人都有着严重的自卑感，所有争强好胜的人每晚都被挫败感折磨着。所有咆哮怒吼给大家鼓劲要战斗到最后一刻的人，其实内心已经接近绝望。所有面无表情不动如山泰山崩于前而面不改色的大师，其实已经面临最深的恐惧。所有上蹿下跳激情飞扬的球员，其实每一次篮板每一暴扣都接近体能崩溃的极限。所有桀骜不驯、傲慢无礼、天下老子第一的人物，其实内心一点都不张狂，而是无尽的压抑和孤单。  
----[via](http://bbs.hupu.com/4623589.html)
+---[via](https://web.archive.org/web/20130413022028/https://bbs.hupu.com/4623589.html)
 
 爱好运动，更是我的一种生活方式  
  
@@ -65,7 +65,7 @@ comments: yes
 
 有些人把 freestyle 就当作街球。其实街球是一种态度。freestyle 只是一种表达态度的一种方式。街球就是没有那些繁文缛节的规则后，你如何在球场和篮筐之间展现你的态度。
  
-看过[8 mile](http://movie.douban.com/subject/1307853/)么？rabbit 在擂台上的最后一段[rap](http://www.yinyuetai.com/video/168448)
+看过[8 mile](http://movie.douban.com/subject/1307853/)么？rabbit 在擂台上的最后一段[rap](https://www.bilibili.com/bangumi/play/ep763690/?share_source=copy_web&t=5751)
       
  >他真诚地将自己的挑剔误认为是对美的不懈追求，  
  >把自己的孤僻误认为是不食人间烟火，  
@@ -75,7 +75,7 @@ comments: yes
  >他有很强的责任感，却也因此害怕做出承诺。  
  >他批判世上的所有东西，包括他自己。  
  >当别人指出他的自相矛盾后，他无法自圆其说，于是只好沉默。  
- >他是个不可理喻的人  ---[via](http://blog.chengyichao.info/onesuper)
+ >他是个不可理喻的人  ---[via](https://web.archive.org/web/20120624210651/http://blog.chengyichao.info/onesuper)
  >
  >一个彻底孤独的人是礼貌、亲和却不容亲近的，他们不仅拒绝他人的依赖，也极力避免别人的怨恨。他们尽可能活成一个模糊的符号。
 
