@@ -266,10 +266,20 @@ UUID=[drive uuid] /home/nas/toshiba ext4 defaults,nofail,noatime 0 2
 
 ## vscode 远程开发 👨‍💻
 
-哦对了，如果你喜欢通过 vs code 远程登录到设备上来开发，树莓派3B 1G 的内存及默认 100M 的 SWAP 交换空间[有点小](https://github.com/raspberrypi/linux/issues/2810#issuecomment-1137620403)，我建议修改`/etc/dphys-swapfile`文件中的`CONF_SWAPSIZE`值来增加 Swp 空间，个人建议至少到 256M，可酌情添加。
+哦对了，如果你喜欢通过 vs code 远程登录到设备上来开发，树莓派3B 1G 的内存及默认 100M 的 SWAP 交换空间[有点小](https://github.com/raspberrypi/linux/issues/2810#issuecomment-1137620403)，我建议修改`/etc/dphys-swapfile`文件中的`CONF_SWAPSIZE`值来增加 Swap 空间，个人建议至少到 256M，可酌情添加。
 
 ![htop](https://f.xavierskip.com:42049/i/10ae4d2d1642be03ad7137dcbb1dc4f182fed186c42861c45dbd5e57e44f3138.png)
 
+2024-04-03 更新：我将 Swap 空间增加了 512M 依旧出现了上面的情况，看来还需要增加 Swap 空间的大小，但是我还是建议要先修改 swappiness 的值，因为观察到内存的空间并没有占满而是先占满了 Sawp 的空间，默认 swappiness 的值是60，我将其改成了 10. 在`/etc/sysctl.conf`中添加下面的内容。
+
+
+```
+# Changed swappiness from a default of 60 to 10 to decrease swap usage
+vm.swappiness = 10
+
+```
+
+重启或者`sysctl -p`，`cat /proc/sys/vm/swappiness`检查配置是否生效。
 
 # 总结 🏁
 
