@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<base target="_blank">
+	<title>我的简历</title>
+
+	<style type="text/css">
+		body{
+			height: 100%;width: 100%;padding: 0;margin: 0;
+			font: 15px 'YaHei Consolas Hybrid';
+		}
+		li{list-style:none;list-style-image:url(li.png);}
+		h1{text-align: center;}
+		a {color:#333;text-decoration:none;}
+		a:hover {color:#fc0;}
+		
+		#main {
+			position: relative;
+			padding-left: 25%;
+			background-image: url(bg.png);
+			background-attachment:fixed;
+			background-repeat:repeat;
+			overflow: auto;
+		}
+		#side {
+			position: fixed;
+			top: 0;left: 0;bottom: 0;
+			width:23%;
+		}
+		#Contact {
+			padding: 10px;
+			height: 100%;
+			background-image: url(F_bg.png);
+			color:#f3f3f3;
+			text-shadow: 0px 1px 2px #235796;
+			box-shadow:  1px 1px 3px #000; moz-box-shadow:  0px 1px 2px #000;
+		}	
+		
+		#text{
+			margin:20px 200px 10px 130px;
+		}
+		#text p{
+			line-height: 23px;
+		}
+		#footer{
+			border-top:1px #333 dashed;
+			font-size:10px;
+			margin-top:70px;
+			text-align:center;
+			padding-top: 2px;
+		}
+		
+		.align{
+			height:32px;width:190px;
+			line-height:25px;
+			border-width: 0px 0px 2px 20px;
+			border-style: solid;
+			border-color: #fc0;
+			padding-left: 7px;
+			margin: 50px 50px 20px 20px;
+			font-size: 27px;
+			font-weight: bold;
+			text-align:left;
+		}
+		.line {display:inline-block;width:230px;}
+		.code {
+			padding: 1px 2px;
+			border-radius: 2px;
+			background-color: #F7F7F9;
+			border: 1px solid #E1E1E8;
+			color: rgb(211, 0, 0);
+		}
+		/* animation */
+		.move:hover {
+			-webkit-animation: move 0.2s 10;
+			-moz-animation: move 0.2s 10;
+			animation: move 0.2s 10;
+		}
+
+		@-webkit-keyframes move{
+			0%{
+				-webkit-transform:translate(0);
+			}
+			25%{
+				-webkit-transform:translate(-10px) rotate( -1deg);
+			}
+			50%{
+				-webkit-transform:translate(10px) rotate( 1deg);
+			}
+			75%{
+				-webkit-transform:translate(-10px) rotate( -1deg);
+			}
+			100%{
+				-webkit-transform:translate(0px);
+			}			
+		}
+		@-moz-keyframes move{
+			0%{
+				-moz-transform:translate(0);
+			}
+			25%{
+				-moz-transform:translate(-10px) rotate( -1deg);
+			}
+			50%{
+				-moz-transform:translate(10px) rotate( 1deg);
+			}
+			75%{
+				-moz-transform:translate(-10px) rotate( -1deg);
+			}
+			100%{
+				-moz-transform:translate(0px);
+			}			
+		}
+		@keyframes move{
+			0%{
+				transform:translate(0);
+			}
+			25%{
+				transform:translate(-10px) rotate( -1deg);
+			}
+			50%{
+				transform:translate(10px) rotate( 1deg);
+			}
+			75%{
+				transform:translate(-10px) rotate( -1deg);
+			}
+			100%{
+				transform:translate(0px);
+			}			
+		}
+
+
+	</style>
+</head>
+
+<body>
+
+<div id='main'>
+	<div id="text">
+		<h1>简 历</h1>
+		<h3>本人概况</h3>
+		<p><span class='line'>姓名：田泽信</span><span class='line'>性别：男</span></p>
+		<p><span class='line'>学历：大专</span><span class='line'>专业：计算机网络技术</span></p>
+		<h3>个人简介</h3>
+		<p>>: 武汉大学珞珈学院 计算机网络技术专业09级,12年毕业。</p>
+		<p>
+			热爱互联网，关注各种互联网的前沿信息。认为互联网的存在是为了打破信息垄断，降低交流成本，缩短信息传播的时间和空间。分享是很重要的互联网精神。
+		</p>
+		<p>
+			从学习制作网页开始，熟悉 <span class="code">html</span>和 <span class="code">css</span>，能够手写符 w3c规范的页面，掌握 Photoshop的基本操作。这里有一些当时学习制作的页面，<a href="http://xavierskips.googlecode.com/svn/trunk/">http://xavierskips.googlecode.com/svn/trunk/</a>
+		</p>
+		<p>
+			编程方面，常用的语言是 <span class="code">Python</span>和 <span class="code">Javascript</span>，可以写一些小工具来解决学习生活中遇到的问题或者困难。编程语言只是工具，能够解决问题的是扎实的计算机理论知识。还有很多知识需要我在实践中去学习。
+		</p>
+		<p>
+			欣赏 *nix 的设计哲学。熟悉 <span class="code">Linux</span>操作环境。了解 <span class="code">HTTP</span>协议、<span class="code">socket</span>网络编程。熟悉 python 的Web 开发微框架 <span class="code">Flask</span>、前端的 <span class="code">jquery</span>库、<span class="code">ajax</span>技术，<span class="code">html5</span>+<span class="code">CSS3</span>都实践过。
+		</p>
+		<p>
+			>:简历，需要客观，但是还是想说些主观的东西。
+		</p>
+		<p>
+			本人在学校学习成绩不是很优秀，也没有学的很刻苦，没有各种奖证和奖学金，但是我还是认为我还是个有趣的人，保持着强烈的好奇心，也许不善言谈和交际，但不妨碍我有广泛的兴趣和爱好。
+		</p>
+		<p>
+			热爱运动，篮球是我的生命。也热爱音乐，喜欢摇滚和 rap。电子游戏也是我的最爱，我对游戏的看法是：电子游戏不过是艺术的另一种表达形式而已，与电影、小说无异。
+		</p>
+		<p id="footer">Talk is cheap . show me the money</p>
+	</div>
+</div>	
+
+<div id="side">
+	<div id='Contact'>
+		<p class="align">Contact me</p>
+		<ul>
+		    <li>手机：壹叁伍肆伍零贰零壹陆壹</li>
+		    <li>邮箱:<a href="mailto:xavierskip@gmail.com?subject=Hello xavierskip!">xavierskip[AT]gmail.com</a></li>
+			<li>blog:<a href="http://blog.xavierskip.com">blog.xavierskip.com</a></li>
+			<li>推特/微博：@xavierskip</li>
+			<li><a href="http://www.douban.com/people/xavierskip/">豆瓣</a></li>
+			<li><a href="http://www.v2ex.com/member/xavierskip">V2EX</a></li>
+			<li><a href="http://my.hupu.com/jzgk">虎扑</a></li>
+		</ul>
+		<p class="align">Just do it </p>
+			<ul>
+				<li><a href="http://userscripts.org/scripts/show/137123">虾米自动签到-油猴脚本(js)</a></li>
+				<li><a href="https://github.com/xavierskip/delete-weibo">自动批量删除新浪微博(js)</a></li>
+				<li><a href="http://hoopjrs.duapp.com">虎扑相册下载工具(web)</a></li>
+				<li><a href="https://github.com/xavierskip/TransFile">TransFile(python)</a></li>
+			</ul>
+		<img class="move" src="proxi.png"  title="Rock it">	
+	</div>	
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,222 @@
+
+.drawer_container {
+    max-width: 480px;
+}
+
+#gyro, #gyro2 {
+    max-width: 400px;
+}
+
+.full_width {
+    max-width: 100%;
+}
+
+#bending1_seg0 {
+    max-width: 500px;    
+    margin: 0 auto;
+}
+
+.loading_text {
+    margin: 0 auto;
+    color:#333;
+    font-size: 1.3em;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    animation: flicker 2s infinite;
+}
+
+.dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #eee;
+    border: 1.5px solid #000;
+    display: inline-block;
+    margin: 0em 0.1em 1px 0.1em;
+}
+
+.dot.small {
+    width: 4px;
+    height: 4px;
+}
+
+.dashed {
+    background-image: linear-gradient(to right, rgba(70, 70, 70, 1) 55%, rgba(70, 70, 70, 0) 0%);
+    background-position: 0px 1.1em;
+    background-size: 8px 1.5px;
+    background-repeat: repeat-x;
+}
+
+.restart_inline {
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    background-image: url('play_pause.png');
+    background-size: 66px 22px;
+    background-position: -44px 0px;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    margin: 0em 0em -0.2em 0em;
+}
+
+.cog, .cog_rider, .cog_bike {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 0em 0.1em 0em 0.1em;
+    
+    background-color: white;
+      background-image: linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%), linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%);
+      background-position: 0 0, 5px 5px;
+      background-size: 10px 10px;
+}
+
+.cog_rider {
+    border: 2px solid #d2a627;
+    background-image: linear-gradient(45deg, #d2a627 25%, transparent 25%, transparent 75%, #d2a627 75%), linear-gradient(45deg, #d2a627 25%, transparent 25%, transparent 75%, #d2a627 75%);
+}
+
+.cog_bike {
+    border: 2px solid #619CBF;
+    background-image: linear-gradient(45deg, #619CBF 25%, transparent 25%, transparent 75%, #619CBF 75%), linear-gradient(45deg, #619CBF 25%, transparent 25%, transparent 75%, #619CBF 75%);
+}
+
+.wall {
+    color:#888;    
+}
+
+.force {
+    color:#EB515C;
+}
+
+.force1 {
+    color:#2870C2;
+}
+
+.force2 {
+    color:#6ea845;
+}
+.force3 {
+    color: #e386a2;
+}
+.force4 {
+    color: #EF935C;
+}
+.force5 {
+    color: #6DABBB;
+}
+.force6 {
+    color: #d4a73f;
+}
+
+.rider {
+    color: #c59f31;
+}
+
+.hub {
+    color: #e0a92b;
+}
+
+.rim {
+    color: #4B72AC;
+}
+
+.nipple {
+    color: #d16464;
+}
+
+.spoke {
+    color: #888;
+}
+
+.hub_wood {
+    color: #A27C55;
+}
+.spoke_wood {
+    color: #C1AE9A;
+}
+
+.beam {
+    color: #999;
+}
+
+.tension {
+    color: #297CDE;
+}
+
+.compression {
+    color: #FF951E;
+}
+
+.tube {
+    color: #293B6F;
+}
+
+.slider_hub .slider_left_gutter,
+.slider_hub .slider_right_gutter,
+.slider_hub .slider_knob {
+    background: #E0BB61;
+}
+
+.slider_force .slider_left_gutter,
+.slider_force .slider_right_gutter,
+.slider_force .slider_knob {
+    background: #EB515C;
+}
+
+.slider_force1 .slider_left_gutter,
+.slider_force1 .slider_right_gutter,
+.slider_force1 .slider_knob {
+    background: #2870C2;
+}
+
+.slider_force2 .slider_left_gutter,
+.slider_force2 .slider_right_gutter,
+.slider_force2 .slider_knob {
+    background: #7cb952;
+}
+
+.slider_force3 .slider_left_gutter,
+.slider_force3 .slider_right_gutter,
+.slider_force3 .slider_knob {
+    background: #FC8BAD;
+}
+
+.slider_force6 .slider_left_gutter,
+.slider_force6 .slider_right_gutter,
+.slider_force6 .slider_knob {
+    background: #eab63f;
+}
+
+.slider_rider .slider_left_gutter,
+.slider_rider .slider_right_gutter,
+.slider_rider .slider_knob {
+    background: #eabc37;
+}
+
+
+
+
+.slider_nipple .slider_left_gutter,
+.slider_nipple .slider_right_gutter,
+.slider_nipple .slider_knob {
+    background: #d16464;
+}
+
+.slider_wood .slider_left_gutter,
+.slider_wood .slider_right_gutter,
+.slider_wood .slider_knob {
+    background: #C19C76;
+}
+
+.slider_tube .slider_left_gutter,
+.slider_tube .slider_right_gutter,
+.slider_tube .slider_knob {
+    background: #293B6F;
+}
