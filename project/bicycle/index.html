@@ -589,70 +589,155 @@ s = <span class="equation_frac">
     在上面的这些例子中，我们见证了当骑手改变位置或者因为空气阻力及刹车减慢自行车速度时，两个车轮分别作用于地面的力是如何分配的。以及在极端使用前刹的条件下，自行车会失去平衡向前翻倒。
 </p>
 <p>
-    不幸的是，如果我们从后来来观察自行车，情况就大不相同了。让我们继续探讨自行车左右摆动是如何受力影响的。
+    不幸的是，如果我们从后方来观察自行车，情况就大不相同了。让我们继续探讨自行车左右摆动是如何受力影响的。
 </p>
 
 <h1 id="left-and-right">左 右<a href="https://ciechanow.ski/bicycle/#left-and-right" class="hanchor" ariaLabel="Anchor"><img src="media/anchor.png" width="16px" height="8px"/></a> </h1>
 
 <p>
-    
+    在下面的演示中，你可以看到只知道直直握着车把的骑手和自行车会发生什么，一点点的倾斜也会让他们在垂直方向失去平衡。通过拖动滑块，你可以直接控制<span class="force6"><strong>倾斜角度</strong></span>，但一旦你松手，一切就控制不住了：
 </p>
-<p>In the demonstration below, you can witness what happens to the bicycle and its inattentive rider who is holding the handlebars in the straight-ahead direction, as they together tilt away from the vertical even by a small amount. By dragging the slider, you can directly control that  <span class="force6"><strong>leaning angle</strong></span>, but once you let go, the forces will take over:</p>
+
 <div class="drawer_container ratio_100" id="bike_force_lateral"></div>
 <div class="slider_force6" id="bike_force_lateral_sl0"></div>
-<p>The intuitive way to understand why this happens is to notice that the <span class="force1"><strong>friction</strong></span> between the tires and the ground makes the contact patches act like hinges on which the bicycle can pivot. As the <span class="force"><strong>gravity</strong></span> develops an arm against that pivot, it rotates the bicycle more and more until it eventually falls down.</p>
-<p>Notice that the fall is self-perpetuating – as soon as the <span class="force"><strong>gravity</strong></span> develops an arm force, the bike will lean even further, which increases that arm and the rotating moment. In the front-to-back direction, the two wheels provided two points of support that could trade the load to keep the bike balanced. In the side-to-side direction, the contact patch under a tire is very narrow and it can&rsquo;t provide much support, which makes the entire system very easy to tip over.</p>
-<p>While this situation often happens when learning to ride a bike, most riders have very little trouble keeping a bicycle upright. One could assume that riders simply balance their bodies left and right to keep the center of mass over the tires to minimize the force arm of <span class="force"><strong>gravity</strong></span>. After all, a skilled cyclist can easily ride a bike hands-free using only the body motions to keep the bicycle straight.</p>
-<p>Unfortunately, merely tilting the body to change the position of the center of mass is often not enough, which you may have experienced trying to balance yourself on a bicycle that&rsquo;s <em>not moving</em> and has its brakes locked to prevent any subtle forwards or backwards motions. In the simplified simulation below, you can try to balance such a stationary bicycle by <span class="force6"><strong>tilting the rider&rsquo;s body</strong></span> with the slider. Be ready for action as soon as you start over with <span class="restart_inline"></span> button:</p>
+
+<p>
+    轮胎与地面之间的接触区因为<span class="force1"><strong>摩擦力</strong></span>的作用我们可以直观的将其视为一个铰链，自行车可以围绕其旋转。在<span class="force"><strong>重力</strong></span>的作用下，自行车最终只会摔倒。
+</p>
+<p>
+    请注意，一旦<span class="force"><strong>重力</strong></span>产生一个力臂，自行车就会倾斜的越来越快，因为倾斜会进一步增加该力臂和旋转力矩。从前后方向上来看，两个轮子提供的两个支撑点能够均衡负载使自行车保持平衡，但是从左右方向上来看，轮胎下的接触面实在是太窄了，无法提供足够的支撑，整个系统很容易倾倒。
+</p>
+<p>
+    这种情况在刚学习骑自行车时经常发生，但是大多数人都不会被如何保持自行车直立给难倒。有人可能会假设骑手只是通过左右平衡身体让质心保持在轮胎上方减小<span class="force"><strong>重力</strong></span>的力臂从而保持车身平衡。毕竟，骑行高手可以轻松的双手脱把骑行，只是通过身体动作来保持自行车自行。
+</p>
+<p>
+    你一定尝试过在不移动的自行车上保持平衡，不幸的是仅仅通过倾斜身体调整质心位置通常来说是不够的。在下面的模拟中，你可以尝试通过调整滑块来<span class="force6"><strong>倾斜骑手的身体</strong></span>以保持这辆静止自行车的平衡。一旦你点击 <span class="restart_inline"></span> 按钮就要马上采取行动：
+</p>
+
 <div class="drawer_container ratio_100" id="bike_force_lateral2"></div>
 <div class="slider_rider" id="bike_force_lateral2_sl0"></div>
-<p>Despite the labored contortions of the rider, the center of mass doesn&rsquo;t move that much, making it very difficult to balance a bicycle this way. Before we solve the puzzle of hands-free stability in motion, let&rsquo;s explore a more typical way of keeping the bike upright when riding by simply gently turning the handlebars.</p>
-<p>In the demonstration below, you can witness what happens to the bike and rider as the handlebars are turned. I keep the camera directly behind the bike so that you can see how it tilts away from the vertical. The slider controls the progress of time:</p>
+<p>
+    尽管骑手费力的扭动身体，但是质心并没有移动太多，使得想用这种方式来平衡自行车非常困难。在去解决双手脱把骑行的难题之前，让我们先去探索仅仅通过转动车把来保持自行车直立的方式。
+</p>
+<p>
+    下面的演示中，你可以看到转动车把时自行车和骑手会发生什么变化。我们从自行车后方可以很清楚的看到自行车是如何偏离垂直方向的。时间进度由滑块控制：
+</p>
+
 <div class="drawer_container ratio_100" id="bike_force_handlebars"></div>
 <div class="long_slider" id="bike_force_handlebars_sl0"></div>
-<p>Unfortunately, we&rsquo;ve reached the limits of what we can easily visualize using these flat illustrations. Even though we leave the green pastures behind and enter the kingdom of infinite checkerboard pavement, we at least make it easier to show these forces from different angles. The demonstration below shows the exact same situation as the one we&rsquo;ve just seen:</p>
+
+<p>
+    平面图显然已经不能完全应付这种情况，下面的演示使我们更容易地从多个角度观察这种情况：
+</p>
+
 <div class="drawer_container ratio_100" id="bike_force_handlebars2"></div>
 <div class="long_slider" id="bike_force_handlebars2_sl0"></div>
-<p>When the handlebars are turned and the front wheel doesn&rsquo;t point straight at the direction of travel, the front tire generates a <span class="force6"><strong>side force</strong></span>. The rear tire follows very quickly, and <span class="force6"><strong>both forces</strong></span> start to counter the tilt of the bicycle, which straightens it up. The indicator in the bottom right corner shows the current steering angle of the front wheel.</p>
-<p>Notice that instead of trying to shift the center of mass on top of the contact patches of the tires, this gentle steering action pushes these contact patches <em>under</em> the center of mass – this also reduces the arm length of <span class="force"><strong>gravity</strong></span> to zero.</p>
-<p>In general, as the bicycle starts to tilt to a side, the rider can gently steer into that leaning side, which develops a force that restores the bike and rider to the vertical. As the bike straightens, the rider also repositions the handlebars.</p>
-<p>Naturally, even if the bike gets back to a perfectly balanced position, it will quickly get disturbed away from it, so during a normal ride the correction process happens continuously as the rider subconsciously reacts to the changes in the tilt of the bike and his body.</p>
-<p>The development of this side force may seem a little mysterious, so let&rsquo;s take a closer look at what happens between the tire and the ground after the rider turns the handlebars. Firstly, notice that it&rsquo;s possible for a wheel to be <span class="force1"><strong>traveling at</strong></span> a slightly different direction than it&rsquo;s currently <span class="force6"><strong>aiming at</strong></span>:</p>
+
+<p>
+    当车把转向，前轮不再指向前进的方向时，前轮会产生一个<span class="force6"><strong>侧向力</strong></span>。后轮也马上跟随，<span class="force6"><strong>这两股力</strong></span>使倾斜的自行车回正。右下角的指示器显示了当前前轮的转向角度。
+</p>
+<p>
+    请注意，与试图将质心移动到轮胎接触面的正上方不同，这种小幅度的转向动作推动接触面到质心之下 - 这也会减少<span class="force"><strong>重力</strong></span>的力臂为零。
+</p>
+<p>
+    通常来说，当自行车向一个方向倾斜时，骑手可以向倾斜的这一侧小幅度的转向，这会产生一种力使自行车恢复直立，当车辆直立时，骑手也会重新调整车把的位置。
+</p>
+<p>
+    即使自行车恢复到完全平衡的位置，也会很快被打乱，所以在骑行过程中，骑手会下意识的根据自行车和身体状态的变化不停做出调整反应。
+</p>
+<p>
+    这个侧向力的产生看起来有些神秘，所以让我们更仔细的观察在骑手转动把手后轮子和地面之间发生了什么。首先，请注意，轮子的<span class="force1"><strong>前进方向</strong></span>可能和轮子当前<span class="force6"><strong>指向的方向</strong></span>不同：
+</p>
+
 <div class="drawer_container ratio_100" id="slip_angle2"></div>
 <div class="slider_force1" id="slip_angle2_sl0"></div>
 <div class="slider_force6" id="slip_angle2_sl1"></div>
-<p>The angle spanned  between these two directions is known as the <a href="https://en.wikipedia.org/wiki/Slip_angle"><em>slip angle</em></a>. As you may suspect, a non-zero slip angle is a little unnatural for a tire, so it will undergo some deformation when forced to roll like this.</p>
-<p>In the demonstration below, I put a bunch of small points <span class="dot small" style="background-color: #444;border-color: #444;"></span> on the circumference of the tire, I also made that tire semitransparent to make it easier to see what&rsquo;s going on in the contact patch area:</p>
+
+<p>
+    这两个方向所形成的夹角被称之为<a href="https://zh.wikipedia.org/wiki/%E5%81%8F%E6%BB%91%E8%A7%92"><em>偏滑角</em></a>。正如你可能猜到的，对于轮胎来说非零偏滑角是有些不自然的，所以当被迫滚动时，它会发生一些形变。
+</p>
+<p>
+    在下面的演示中，我沿着轮胎的周长布满一些小点 <span class="dot small" style="background-color: #444;border-color: #444;"></span>，并让轮胎也变的透明，这样能更轻松的观察到在接触区发生了什么：
+</p>
+
 <div class="drawer_container ratio_100" id="slip_angle"></div>
 <div class="slider_force1" id="slip_angle_sl0"></div>
 <div class="slider_force6" id="slip_angle_sl1"></div>
-<p>Recall that the contact patch has a shape of a long ellipse. When a tire rolls with a non-zero <span class="force6"><strong>slip angle</strong></span>, the first point of contact with the ground happens to the side of the central axis, that I&rsquo;m showing with a <span class="force1"><strong>thin blue line</strong></span>. Due to friction, the tire sticks to the ground in that area, so that part of the tire doesn&rsquo;t follow the motion of the wheel and is gets <span class="force"><strong>deformed away</strong></span> as the wheel rolls forward.</p>
-<p>This <span class="force"><strong>deformation</strong></span> generates a <span class="force2"><strong>force</strong></span> that wants to push the wheel to a side to minimize that <span class="force"><strong>deformation</strong></span>. Eventually, these deforming forces become large enough to overcome the friction, and the rear section of the tire slides across the ground.</p>
-<p>I need to note that when you change the <span class="force6"><strong>slip angle</strong></span> in the demonstration, I&rsquo;m showing you the deformation of the tire in its fully developed state for that angle. In the physical world it can take a <a href="https://en.wikipedia.org/wiki/Relaxation_length">small amount of travel</a> for the tire to deform and exert full force.</p>
-<p>As we may expect, the magnitude of the side force depends on the slip angle, but similarly to the forward and backward forces developed by the accelerating and braking tires, the side forces developed by a tire are also strongly related to the <span class="force"><strong>vertical load</strong></span> on the wheel:</p>
+
+<p>
+    回想一下接触面是个长椭圆形。当轮胎以一个不为零的<span class="force6"><strong>偏滑角</strong></span>滚动，其与地面的第一个接触点在<span class="force1"><strong>细蓝色</strong></span>中心轴之外。由于摩擦力的作用，轮胎在那个区域与地面紧密接触，所以这部分并不完全跟随轮子的运动，而是在轮子向前滚动时被<span class="force"><strong>拉扯变形</strong></span>。
+</p>
+<p>
+    <span class="force"><strong>变形</strong></span>产生的<span class="force2"><strong>力</strong></span>推动轮子向另外一侧以减小这种<span class="force"><strong>形变</strong></span>。最终，这股形变力变大到足够克服摩擦力，轮胎后部就会在地面上滑动。
+</p>
+<p>
+    我需要指出的是，在演示中当你改变<span class="force6"><strong>偏滑角</strong></span>时，我向你展示的轮胎已是充分形变的状态，在真实的物理世界里，发生这一切还需要<a href="https://en.wikipedia.org/wiki/Relaxation_length">一点点过程</a>。
+</p>
+<p>
+    正如我们意料的那样，侧向力的大小取决于偏滑角，与加速和制动时向前向后的力类似，轮胎产生的侧向力也与轮胎<span class="force"><strong>垂直载荷</strong></span>密切相关：
+</p>
+
 <div class="drawer_container ratio_60 full_width" id="pacejka2"></div>
 <div class="slider_force" id="pacejka2_sl0"></div>
-<p>Naturally, the bigger the slip angle, the bigger the deformation and the resulting force in <strong><span class="gradient_word" data-color0="#bbbbbb" data-color1="#487AC5">one direction</span></strong> or <strong><span class="gradient_word" data-color0="#bbbbbb" data-color1="#E0806A">the other</span></strong>, but at some point the tire gets too deformed and it will start mostly sliding, which limits the side forces it can generate.</p>
-<p>There are two other aspects of tire behavior that are worth mentioning. Firstly, a tire can only sustain a certain amount of deformation in <em>any</em> direction without breaking contact with the ground, so it&rsquo;s much easier to start skidding when braking <em>and</em> turning at the same time. Secondly, a leaning tire pointed in the direction of travel can still generate some side forces through an effect known as <a href="https://en.wikipedia.org/wiki/Camber_thrust"><em>camber thrust</em></a>, but it&rsquo;s usually a few times smaller than the regular slip angle forces, at least at typical angles of side tilt.</p>
-<p>While vital for stability, the side force generated by tires also allow a bicycle to turn. In the demonstration below, you can witness a bicycle and a rider in a steady turn:</p>
+
+<p>
+    偏滑角越大，形变越大，自然产生的力也越大，但是力大到某种程度，轮胎过度变形开始打滑限制了力量继续变大。
+</p>
+<p>
+    关于轮胎形变还有两个值得提到的点。首先，轮胎在任何方向上都只能承受一定量的变形否则会与地面脱离接触，因此在同时刹车和转弯时更容易开始打滑。其次，指向行驶方向的倾斜轮胎仍会通过一种称为<a href="https://en.wikipedia.org/wiki/Camber_thrust">外倾推力</a>的效应产生一些侧向力，但通常比普通偏滑角力小几倍，至少在典型的侧倾角度下是如此。
+</p>
+<p>
+    尽管轮胎产生的侧向力对自行车的稳定性至关重要，但也能让自行车转弯。在下面的演示中，您可以看到一辆自行车和骑手在稳定地转弯：
+</p>
+
 <div class="drawer_container ratio_100" id="bike_force_cornering"></div>
-<p>Looking at this situation <a href="#" class="link_button" onclick="bike_force_cornering_f0();return false;">from behind</a>, we can see that the <span class="force6"><strong>side tire forces</strong></span> try to restore the bicycle to the vertical position by rotating clockwise around the center of mass <span class="cog"></span>. The moment <span class="force6"><strong>these forces</strong></span> generate helps to balance the <span class="force2"><strong>reaction forces</strong></span> trying to tilt the bicycle towards the ground. Although this bicycle is not vertical, it doesn&rsquo;t lean any further because the moments are balanced – this explains why the bike and rider tilt during a turn.</p>
-<p>If we look at this situation <a href="#" class="link_button" onclick="bike_force_cornering_f1();return false;">from above</a>, we can also notice that the <span class="force6"><strong>forces</strong></span> generated by the tires push the bicycle to the left. Since <span class="force6"><strong>these forces</strong></span> are tied to the bicycle, they continuously keep changing their direction, which makes the bicycle move in a circle.</p>
-<p>Throughout these examples you may have found it a little surprising that both tires generate a side force. That behavior is a consequence of a circular motion. In the demonstration below, you can witness that during a steady cornering, the current velocity of the <span class="force2"><strong>front wheel</strong></span> and of the <span class="force1"><strong>rear wheel</strong></span> is tangent to the circle that the rider is taking:</p>
+
+<p>
+    当我们从<a href="#" class="link_button" onclick="bike_force_cornering_f0();return false;">后方观察</a>的时候，我们可以看到<span class="force6"><strong>轮胎侧向力</strong></span>试图使自行车围绕质心 <span class="cog"></span> 顺时针旋转恢复到垂直位置。<span class="force6"><strong>这些力</strong></span>产生的力矩有助于平衡试图将自行车倒向地面的<span class="force2"><strong>反作用力</strong></span>。尽管自行车并没有垂直，但是也没有进一步倾斜 - 这也解释了为什么在转弯时自行车和骑手会倾斜。
+</p>
+<p>
+    如果我们从<a href="#" class="link_button" onclick="bike_force_cornering_f1();return false;">上方观察</a>，我们可以看到轮胎产生的<span class="force6"><strong>力</strong></span>将自行车推向左方。由于<span class="force6"><strong>这些力</strong></span>与自行车相连，它们不断改变方向，使得自行车在做圆周运动。
+</p>
+<p>
+    通过这些例子你可以会发现两个轮胎都产生了侧向力。这是因为圆周运动的结果。在下面的演示中，你可以看到在稳定的转弯过程中，<span class="force2"><strong>前轮</strong></span>与<span class="force1"><strong>后轮</strong></span>当前速度的方向与其圆形运动轨迹相切。
+</p>
+
 <div class="drawer_container ratio_100" id="bike_force_tangent"></div>
 <div id="bike_force_tangent_sl0"></div>
-<p>To straighten a bicycle that&rsquo;s turning left, the rider has to turn left even more, which will increase the slip angles and the forces that the tires generate. This is the exact same behavior that happens when the rider tries to remain stable:</p>
+
+<p>
+    要让左转的自行车变直，骑手需要再往左转，这将增加轮胎产生的偏滑角和力。这也是骑手在试图保持平衡时要做的：
+</p>
+
 <div class="drawer_container ratio_100" id="bike_force_cornering2"></div>
 <div class="long_slider" id="bike_force_cornering2_sl0"></div>
-<p>Finally, let&rsquo;s explore how a rider <em>enters</em> a turn. One could assume that to start turning left from a vertical position, the rider also has to turn the handlebars to the left. In the demonstration below, you can see what happens in that scenario:</p>
+
+<p>
+    最后让我们来探讨一下骑手如何<em>进入</em>转弯。人们可能会认为，要从垂直位置开始向左转弯，骑手也必须将车把向左转。在下面的演示中，你可以看到向左转动把手会发生什么：
+</p>
+
 <div class="drawer_container ratio_100" id="bike_force_cornering3"></div>
 <div class="long_slider" id="bike_force_cornering3_sl0"></div>
-<p>Notice that tires generate forces that lean the bicycle to the right. However, to turn left we need to lean to the left as well. To engage a left lean from a straight position, the rider must turn the handlebars to the right, and then, once the bicycle starts tilting to the left, the handlebars can be turned left:</p>
+
+<p>
+    自行车会向右倾倒。然而,要向左转弯,我们也需要向左倾斜。从直立位置开始向左倾斜，骑手需要先向右转动把手，当自行车开始向左倾斜，才会跟着向左转动把手。
+</p>
+
 <div class="drawer_container ratio_100" id="bike_force_cornering4"></div>
 <div class="long_slider" id="bike_force_cornering4_sl0"></div>
-<p>This may sound quite surprising, but this is exactly how a bicycle turns! This initial countersteer in the opposite direction is usually something that a rider does subconsciously. However, this explains why it&rsquo;s so uncomfortable to ride close to a curb, because getting away from the curb first requires getting a little closer to it. It&rsquo;s all very unintuitive, but some <a href="https://www.youtube.com/watch?v=9cNmUNHSBac&amp;vl=en">special bicycles show</a> that it&rsquo;s impossible to turn when we prevent that countersteer.</p>
-<p>This whole discussion brings us a step closer to understanding how a skilled rider can control a bicycle <em>without</em> touching the handlebars. In fact, we&rsquo;ll go one step further by looking into what causes many bicycles to <a href="https://www.youtube.com/watch?v=j0ilP8kb8dM">remain stable without a rider</a>, at least in a certain range of speeds.</p>
-<h1 id="stability">Stability<a href="https://ciechanow.ski/bicycle/#stability" class="hanchor" ariaLabel="Anchor"><img src="media/anchor.png" width="16px" height="8px"/></a> </h1>
+
+<p>
+    听起来有点奇怪，当这就是自行车转向的方式！最开始的反方向转向动作通常是骑行者下意识的行为。这也解释了靠近马路牙子骑车为什么感觉很难，因为要远离路牙首先要更靠近一点，这非常的反直觉。一些<a href="https://www.youtube.com/watch?v=9cNmUNHSBac">特别的自行车视频</a>也告诉了我们这一点。（译者注：<a href="https://www.youtube.com/watch?v=9cNmUNHSBac">这个视频</a>反向证明了这一点。）
+</p>
+<p>
+    这整个讨论使我们更接近理解一个熟练的骑手如何在不碰车把的情况下控制自行车。实际上，我们将进一步探讨是什么导致了<a href="https://www.youtube.com/watch?v=j0ilP8kb8dM">自行车可以在没有人骑的情况下依旧保持运动稳定的</a>，至少在一定的速度范围内。
+</p>
+
+<h1 id="stability">稳定<a href="https://ciechanow.ski/bicycle/#stability" class="hanchor" ariaLabel="Anchor"><img src="media/anchor.png" width="16px" height="8px"/></a> </h1>
+
+<p>
+    
+</p>
 <p>The self-stabilizing behavior of bicycles has fascinated researches for over hundred years, and over time, two explanations became popular, but as we&rsquo;ll see, the stability story is a bit more complicated.</p>
 <p>It is sometimes believed that what gives a <em>moving</em> bicycle its stability is the rotation of its wheels that could be causing some sort of gyroscope-related stabilization that prevents a bicycle from tilting to the sides, similarly to how a spinning top can maintain its balance without falling.</p>
 <p>While it&rsquo;s true that rotation of the wheels helps, this stabilizing effect is a little more subtle. In the demonstration below, a <span class="force"><strong>red string</strong></span> is tied to the handlebars to prevent the front wheel from steering. By dragging the slider you can see what happens to this bicycle after it is brought up to speed and let go:</p>
