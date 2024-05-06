@@ -29,36 +29,36 @@
     <script defer src="media/bicycle.js"></script>
 </head>
 <body>
-  <div id="main_container">
-    <div id="body">
-      <div id="banner">
-    <div id="banner_wrapper">
-        <div id="banner_content">
-            <div id="site_title">
-                <a href="https://ciechanow.ski/">Bartosz Ciechanowski</a>
-            </div>
-            <div id="navigation">
-                <a href="https://ciechanow.ski/">Blog</a>
-                <a href="https://ciechanow.ski/archives">Archives</a>
-            </div>
-            <div id="social">
-                <a class="patreon" href="https://www.patreon.com/ciechanowski" title="Patreon"><div class="patreonLogo">Patreon</div></a>
-                <a class="twitter" href="https://twitter.com/bciechanowski" title="X / Twitter"><div class="twitterLogo">X / Twitter</div></a>
-                <a class="instagram" href="https://www.instagram.com/bartoszciechanowski/" title="Instagram"><div class="igLogo">Instagram</div></a>
-                <a class="email" href="mailto:bartosz@ciechanow.ski" title="e-mail"><div class="emailLogo">e-mail</div></a>
-                <a class="rss" href="https://ciechanow.ski/atom.xml" title="RSS"><div class="rssLogo">RSS</div></a>
-            </div>
-        </div>
+<div id="main_container">
+<div id="body">
+    <div id="banner">
+                <div id="banner_wrapper">
+                    <div id="banner_content">
+                        <div id="site_title">
+                            <a href="https://ciechanow.ski/">Bartosz Ciechanowski</a>
+                        </div>
+                        <div id="navigation">
+                            <a href="https://ciechanow.ski/">Blog</a>
+                            <a href="https://ciechanow.ski/archives">Archives</a>
+                        </div>
+                        <div id="social">
+                            <a class="patreon" href="https://www.patreon.com/ciechanowski" title="Patreon"><div class="patreonLogo">Patreon</div></a>
+                            <a class="twitter" href="https://twitter.com/bciechanowski" title="X / Twitter"><div class="twitterLogo">X / Twitter</div></a>
+                            <a class="instagram" href="https://www.instagram.com/bartoszciechanowski/" title="Instagram"><div class="igLogo">Instagram</div></a>
+                            <a class="email" href="mailto:bartosz@ciechanow.ski" title="e-mail"><div class="emailLogo">e-mail</div></a>
+                            <a class="rss" href="https://ciechanow.ski/atom.xml" title="RSS"><div class="rssLogo">RSS</div></a>
+                        </div>
+                    </div>
+                </div>
     </div>
-  </div>
-<div id="content">        
-<div class="article">
-    <div class="post_date">3月 28, 2023</div>
-    <h1 class="post_title"><a href="https://ciechanow.ski/bicycle/">自行车</a></h1>
-    <div class="padding_wrapper">
-        <p>
-            骑自行车是一件令人愉悦的事情。掌握了骑车的诀窍后,通过踩踏来前进,转动车把来转向,使得骑车成为一种轻松自如的活动。在下面的示例中,你可以使用<span class="force6"><strong>滑块</strong></span>来引导骑手,也可以拖动视图来改变摄像机角度。
-        </p>
+    <div id="content">
+        <div class="article">
+<div class="post_date">3月 28, 2023</div>
+<h1 class="post_title"><a href="https://ciechanow.ski/bicycle/">自行车</a></h1>
+<div class="padding_wrapper">
+<p>
+    骑自行车是一件令人愉悦的事情。掌握了骑车的诀窍后,通过踩踏来前进,转动车把来转向,使得骑车成为一种轻松自如的活动。在下面的示例中,你可以使用<span class="force6"><strong>滑块</strong></span>来引导骑手,也可以拖动视图来改变摄像机角度。
+</p>
 <div class="drawer_container ratio_100" id="hero"></div>
 <div class="slider_rider" id="hero_sl0"></div>
 <p>
@@ -736,68 +736,159 @@ s = <span class="equation_frac">
 <h1 id="stability">稳定<a href="https://ciechanow.ski/bicycle/#stability" class="hanchor" ariaLabel="Anchor"><img src="media/anchor.png" width="16px" height="8px"/></a> </h1>
 
 <p>
-    
+    自行车的自稳定行为已经吸引了学者们超过了一个世纪的关注。随着时间的推移，有两种解释被普遍接受，正如我们所知道的，自行车如何保持稳定的故事有点复杂。
 </p>
-<p>The self-stabilizing behavior of bicycles has fascinated researches for over hundred years, and over time, two explanations became popular, but as we&rsquo;ll see, the stability story is a bit more complicated.</p>
-<p>It is sometimes believed that what gives a <em>moving</em> bicycle its stability is the rotation of its wheels that could be causing some sort of gyroscope-related stabilization that prevents a bicycle from tilting to the sides, similarly to how a spinning top can maintain its balance without falling.</p>
-<p>While it&rsquo;s true that rotation of the wheels helps, this stabilizing effect is a little more subtle. In the demonstration below, a <span class="force"><strong>red string</strong></span> is tied to the handlebars to prevent the front wheel from steering. By dragging the slider you can see what happens to this bicycle after it is brought up to speed and let go:</p>
+<p>
+    有些人认为，使移动的自行车具有稳定性的原因是车轮的旋转，旋转的车轮产生了某种与陀螺仪相关的稳定效应，防止自行车倾倒，就好像旋转的陀螺能够维持平衡而不倒。
+</p>
+<p>
+    轮胎的旋转效应或许有效，但可能还不够。在下面的演示中，我们用<span class="force"><strong>红色的绳子</strong></span>将车把固定住避免前轮转动。拖动滑块，你可以看到自行车向前运动后会发生什么：
+</p>
+
 <div class="drawer_container ratio_100" id="bike_force_stability"></div>
 <div class="long_slider" id="bike_force_stability_sl0"></div>
-<p>The bicycle still very easily falls to the side despite the rotational motion of its wheels. For a bicycle it&rsquo;s not the mere <em>presence</em> of spinning wheels that helps with balance, but it&rsquo;s the way a spinning object behaves when forced to rotate around some other axis. These effects are quite unintuitive so let&rsquo;s briefly run two experiments.</p>
-<p>In the demonstration below, you can see a stationary bicycle wheel visualized with its <span class="force"><strong>three</strong></span> <span class="force2"><strong>major</strong></span> <span class="force1"><strong>axes</strong></span>. By using the slider you can apply a torque that rotates the wheel around the <span class="force2"><strong>green axis</strong></span>:</p>
+
+<p>
+    For a bicycle it’s not the mere presence of spinning wheels that helps with balance, but it’s the way a spinning object behaves when forced to rotate around some other axis
+    尽管车轮有在旋转，但是自行车仍然倒向一边。仅凭轮子的旋转是不足以帮助自行车保持平衡的，而是依靠旋转的物体绕其他轴旋转。这些效应并不直观，让我们来看两个实验。
+</p>
+<p>
+    在下面的演示中，你可以看到一个静止的车轮，并给的轮子加上了<span class="force"><strong>三</strong></span><span class="force2"><strong>个</strong></span><span class="force1"><strong>轴</strong></span>。通过滑块你可以施加一个力矩使轮子围绕<span class="force2"><strong>绿色轴</strong></span>旋转：
+</p>
+
 <div class="drawer_container ratio_100" id="gyro"></div>
 <div class="slider_force2" id="gyro_sl0"></div>
-<p>This follows what we&rsquo;ve learned about torques creating angular acceleration, which then makes the wheel rotate faster and faster.</p>
-<p>In this next demonstration, the wheel is spinning around the <span class="force"><strong>red axis</strong></span>, and you can also apply a torque that rotates the wheel around the <span class="force2"><strong>green axis</strong></span>:</p>
+
+<p>
+    如我们所知，力矩产生角加速度，进而使轮子旋转的越来越快。
+</p>
+<p>
+    下面的演示中，轮子围绕<span class="force"><strong>红色轴</strong></span>旋转，你依旧可以施加一个力矩是轮子围绕<span class="force2"><strong>绿色轴</strong></span>旋转：
+</p>
+
 <div class="drawer_container ratio_100" id="gyro2"></div>
 <div class="slider_force2" id="gyro2_sl0"></div>
-<p>Unexpectedly, the wheel ends up rotating around the <span class="force1"><strong>blue axis</strong></span>! These three dimensional rotational motions of already spinning bodies are a bit <a href="https://www.youtube.com/watch?v=ty9QSiVC2g0&amp;t=55s">more complicated</a> than what we&rsquo;ve seen so far, but for our use it suffices to say that this <a href="https://en.wikipedia.org/wiki/Gyroscope"><em>gyroscopic effect</em></a> couples the three axes of rotation together.</p>
-<p>While that scenario may have seem a little abstract, the exact same situation happens in a moving bicycle as it leans. The front wheel spins around the <span class="force"><strong>red axis</strong></span>, the tilting induces rotation around the <span class="force2"><strong>green axis</strong></span>, and the gyroscopic effect wants to rotate that front wheel and the entire front assembly around the <span class="force1"><strong>blue axis</strong></span> <em>into</em> the turn:</p>
+
+<p>
+    出乎意料的是，轮子会围绕<span class="force1"><strong>蓝色轴</strong></span>旋转！能在<a href="https://www.youtube.com/watch?v=ty9QSiVC2g0&amp;t=55s">三个维度进行旋转运动</a>的物体对我们来说确实很复杂，但是我们会应用<a href="https://zh.wikipedia.org/wiki/%E9%99%80%E8%9E%BA%E5%84%80"><em>陀螺仪效应</em></a>就足够了。（译者注：这种旋转物体的奇怪效应让我想起了<a href="https://www.youtube.com/watch?v=1VPfZ_XzisU">“网球拍效应”</a>）
+</p>
+<p>
+    当移动的自行车发生倾倒的时候，上述的情况这时也会发生。转动的前轮绕<span class="force"><strong>红色轴</strong></span>运动，而倾倒会导致轮子绕<span class="force2"><strong>绿色轴</strong></span>旋转，根据陀螺仪效应，最终会使前轮围绕<span class="force1"><strong>蓝色轴</strong></span>旋转。（译者注：车辆倾倒时可以看成轮子围绕绿色轴旋转，轮子转向时围绕蓝色轴旋转）
+</p>
+
 <div class="drawer_container ratio_100" id="bike_force_stability2"></div>
 <div class="long_slider" id="bike_force_stability2_sl0"></div>
-<p>Naturally, the construction of the bicycle prevents the front from rotating <em>exactly</em> around the <span class="force1"><strong>blue axis</strong></span>, but it can freely rotate around the steering axis. As the front wheel steers into the turn, the bike&rsquo;s tires develop side forces, which straighten the bicycle up, similar to how it works when a rider does the steering.</p>
-<p>Given what we&rsquo;ve experimented with, one could assume that it&rsquo;s the gyroscopic effect that&rsquo;s responsible for stability, but it&rsquo;s possible to construct special bicycles that remove the gyroscopic effect by adding an <a href="http://www3.eng.cam.ac.uk/~hemh1/gyrobike2.jpg">additional wheel</a> that rotates in the opposite direction. A bicycle like this is still somewhat rideable without hands, so there must be some other factors contributing to stability.</p>
-<p>Let&rsquo;s take a closer look at the geometry of the bicycle from a side. If we draw a dashed line extending from the steering axis all the way to where <span class="dot" style="background-color: #777;border-color: #111;"></span> it intersects the ground we can notice that the place <span class="dot" style="background-color: #fff;border-color: #555;"></span> where the front wheel touches the ground is <em>behind</em> that point <span class="dot" style="background-color: #777;border-color: #111;"></span>:</p>
+
+<p>
+    实际上，自行车的前轮的结构不会让其精准的围绕<span class="force1"><strong>蓝色轴</strong></span>旋转，但是可以围绕转向轴旋转。当前轮转向时,自行车的轮胎产生侧向力，使自行车直立起来，类似于骑手操纵方向盘时的情况。
+</p>
+<p>
+    根据我们的实验，有人可能会认为正是陀螺仪效应提供了稳定性，但是可以通过给普通自行车增加反向旋转的<a href="http://www3.eng.cam.ac.uk/~hemh1/gyrobike2.jpg">辅助轮</a>用来抵消陀螺仪效应，这样的自行车依旧可以在保持自稳定。因此，一定是其他因素对稳定性起作用。
+</p>
+<p>
+    让我们从侧面仔细观察自行车的几何形状。黑点 <span class="dot" style="background-color: #777;border-color: #111;"></span> 是我们沿着转向轴伸展出的虚线与地面的交点，白点 <span class="dot" style="background-color: #fff;border-color: #555;"></span>是前轮实际与地面的接触点，你会发现白点 <span class="dot" style="background-color: #fff;border-color: #555;"></span> 在黑点 <span class="dot" style="background-color: #777;border-color: #111;"></span> 的后面。
+</p>
+
 <div class="drawer_container ratio_100" id="bike_trail"></div>
 <div class="slider_force1" id="bike_trail_sl0"></div>
 <div class="slider_force6" id="bike_trail_sl1"></div>
-<p>This <span class="force"><strong>distance</strong></span> is known as <a href="https://en.wikipedia.org/wiki/Bicycle_and_motorcycle_geometry#Trail"><em>trail</em></a> and it depends on the geometry of the front part of the bike – the <span class="force1"><strong>steering axis angle</strong></span> and the <span class="force6"><strong>fork offset</strong></span>. Notice that some combination of these parameters would require a more invasive redesign of the bicycle frame to make the front wheel fit.</p>
-<p>When a bicycle is falling to a side, an upwards-pointing ground reaction and sideways-pointing friction form <span class="force"><strong>combined reaction forces</strong></span> that are not pointing at the bike&rsquo;s center, but they&rsquo;re tilted at a small angle to the bicycle:</p>
+
+<p>
+    这个<span class="force"><strong>距离</strong></span>被称之为<a href="https://zh.wikipedia.org/wiki/%E8%87%AA%E8%A1%8C%E8%BB%8A%E5%8F%8A%E6%91%A9%E6%89%98%E8%BB%8A%E7%9A%84%E5%8B%95%E5%8A%9B%E5%AD%B8#%E6%9B%B3%E8%B7%9D"><em>曳距（前轮尾迹）</em></a>，其取决于自行车的<span class="force1"><strong>转向轴角度</strong></span>和<span class="force6"><strong>前叉偏移量</strong></span>。请注意，这些参数的调整可能需要整个车身框架的改造来适配。
+</p>
+<p>
+    当自行车向一边倾倒时，指向上方的地面反作用力和指向侧面的摩擦力形成的<span class="force"><strong>合力</strong></span>并不指向自行车的中心，而是与自行车有一个小角度：（译者注：红色平面所指的就是合力的方向）
+</p>
+
 <div class="drawer_container ratio_100" id="bike_force_stability3"></div>
 <div id="bike_force_stability3_sl0"></div>
-<p>Let&rsquo;s take a closer look at the <span class="force"><strong>reaction force</strong></span> acting on the front wheel. In the demonstration below, you can track its direction as the bicycle leans to a side:</p>
+
+<p>
+    让我们仔细观察作用在前轮的反作用力。在下面的演示你可以跟踪自行车倾斜时它的方向：
+</p>
+
 <div class="drawer_container ratio_100" id="bike_caster"></div>
 <div id="bike_caster_sl0"></div>
-<p>Notice that we can decompose this <span class="force"><strong>force</strong></span> into the component acting <span style="color:#555"><strong>in the plane</strong></span> of the wheel and into the component acting <span class="force6"><strong>perpendicular to the plane</strong></span> of the wheel. It&rsquo;s that <span class="force6"><strong>perpendicular component</strong></span> that acts at a trail-related arm relative to the <span class="force1"><strong>steering axis</strong></span>, causing the front wheel to steer.</p>
-<p>Similarly to the gyroscopic effect, this trail effect makes the front wheel steer into the fall, which creates tire side forces that straighten the bicycle up. This may all sound convincing, but notice that once the tire develops a <span class="force2"><strong>side force</strong></span>, the trail also acts as an arm that helps to <em>straighten</em> a turned wheel:</p>
+
+<p>
+    注意，我们可以将这股<span class="force"><strong>力</strong></span>分解成作用于<span style="color:#555"><strong>轮子平面</strong></span>和<span class="force6"><strong>垂直于轮子平面</strong></span>的分量。<span class="force6"><strong>垂直于轮子平面</strong></span>的分量与转向轴相关力臂的作用下，导致前轮转向。
+</p>
+<p>
+    与陀螺效应类似，前轮尾迹效应在车轮沿着倾斜方向转向时产生的侧向力使得自行车回正。听起来很有说服力，请注意，当轮胎产生了侧向力，前轮尾迹也充当帮助车轮回正的力臂。
+</p>
+
 <div class="drawer_container ratio_100" id="bike_caster2"></div>
 <div id="bike_caster2_sl0"></div>
-<p>For typical bicycles gyroscopic and trail effects are important, but one can&rsquo;t explain the influence of these actions with individual examples – both effects form a dynamic system that evolves as the bicycle leans to a side. Moreover, it&rsquo;s possible to create <a href="https://www.youtube.com/watch?v=YdtE3aIUhbU">very unique bicycles</a> that are self-stable without gyroscopic effects <em>and</em> without any trail.</p>
-<p>Bicycle stability can&rsquo;t be explained using just one or two mechanisms. It&rsquo;s a combination of many different intertwined factors, like the mass distribution of individual components, size of the tires, geometry of the frame, and others.</p>
-<p>For hands-free riding, the rider can tilt his body to gently change the position of the center of mass, which then induces a lean to a side. As the bicycle starts leaning, the effects we&rsquo;ve just explored kick in – the front wheel steers into the turn, and the bicycle straightens up or enters a gentle turn.</p>
-<p>Stability also heavily depends on the bicycle&rsquo;s speed – a bicycle that moves too slow <em>or</em> too fast can become unstable. What keeps bicycles balanced with or without a rider is still an active area of research, and even the seemingly basic idea that, for a bicycle to be self-stable, it needs to turn the handlebars into the fall, has not yet been proven.</p>
-<p>At this point we&rsquo;re done describing how forces and moments affect the motion and stability of a bicycle. In the next two sections of this article, we&rsquo;ll look into the forces transferred <em>inside</em> the components of a bicycle, starting with the parts that give bicycle its name – the two wheels.</p>
-<h1 id="wheels">Wheels<a href="https://ciechanow.ski/bicycle/#wheels" class="hanchor" ariaLabel="Anchor"><img src="media/anchor.png" width="16px" height="8px"/></a> </h1>
-<p>In our discussions so far we&rsquo;ve only focused on external forces acting on the entire bicycle and the rider. For example, when we looked at gravity, all we cared about was that their weight gets distributed between the <span class="force1"><strong>rear</strong></span> and <span class="force5"><strong>front</strong></span> wheel and then it&rsquo;s countered by the <span class="force"><strong>reaction</strong></span> <span class="force4"><strong>forces</strong></span> from the ground:</p>
+
+<p>
+    对于普通的自行车来说陀螺仪效应和前轮尾迹效应都很重要，不能仅用单独的例子来解释这些效应的影响 - 这两种效应构成一个动态系统，在自行车倾斜的过程中不断相互作用、影响。另外，一个<a href="https://www.youtube.com/watch?v=YdtE3aIUhbU">不受陀螺仪和前轮尾迹效应影响也能保持自我稳定的自行车</a>也是有的。
+</p>
+<p>
+    自行车的自稳定性不能仅用一两个机制来解释，是由很多不同因素共同构成的，比如各个部件的质量分布、轮胎尺寸、车架的机构等等。
+</p>
+<p>
+    对于脱把骑行，骑手可以通过倾斜身体改变质心的位置从而向一边倾斜，当自行车开始倾斜，上面我们探讨的效应开始起作用。
+</p>
+<p>
+    稳定性也在很大程度上取决于速度 - 自行车速度太慢或者太快都会变的不稳定。不论是有人骑还是无人操作的自行车如何去保持平衡都还是一个活跃的研究领域。即便是一些基本的想法，为了保持自行车稳定需要把车把转向倾斜的方向，都尚未得到证实。
+</p>
+<p>
+    至此,我们已经完成了力和力矩如何影响自行车运动和稳定性的部分。下面的章节中我们将探索自行车各个零部件间传递的力，我们首先从两个轮子开始。
+</p>
+
+<h1 id="wheels">轮子<a href="https://ciechanow.ski/bicycle/#wheels" class="hanchor" ariaLabel="Anchor"><img src="media/anchor.png" width="16px" height="8px"/></a> </h1>
+
+<p>
+    到目前为止，我们的讨论集中在外部力量作用于整个自行车及骑手身上。例如，在重力的作用下，整个重力是如何在<span class="force1"><strong>前</strong></span>轮与<span class="force5"><strong>后</strong></span>轮之间分配的，以及如何被地面的<span class="force"><strong>反作用</strong></span><span class="force4"><strong>力</strong></span>抵消的：
+</p>
+
 <div class="drawer_container ratio_100" id="bike_force_wheels"></div>
 <div class="slider_rider" id="bike_force_wheels_sl0"></div>
-<p>While this level of detail was useful for analyzing what happens to the bike and rider as a single unit, it unfortunately hides the interactions between the individual components of the bike. It&rsquo;s time we start looking at these <em>internal</em> forces.</p>
-<p>If we pay a close attention to how this bicycle is constructed, we can notice that the weight of the rider and the bicycle frame actually rests on the axles of the wheels, and it&rsquo;s those axles that push back on the frame and the rider to prevent them from falling down. Let&rsquo;s separate these components to visualize these inner forces:</p>
+
+<p>
+    隐藏掉一些细节对于分析自行车和骑手作为一个整体是很有帮助的，但是这也隐藏了自行车各个部件之间的相互作用。现在是时候去研究这部分了。
+</p>
+<p>
+    如果我们仔细观察这辆自行车的结构，你会发现自行车和骑手的重量是作用在轮轴上的，轮轴支撑住了上面的重量。我们将这些部件分开来看：
+</p>
+
 <div class="drawer_container ratio_100" id="bike_force_wheels2"></div>
 <div class="slider_rider" id="bike_force_wheels2_sl0"></div>
-<p>Both wheels experience similar loads, just of a different magnitude, so let&rsquo;s focus on the rear wheel. It&rsquo;s worth pointing out that while the <span class="force"><strong>red</strong></span> and <span class="force1"><strong>blue</strong></span> forces have the same magnitude, and the <span class="force2"><strong>green</strong></span> and <span style="color:#aaa"><strong>white</strong></span> forces are also equal, but the <span class="force"><strong>red</strong></span> <em>and</em> <span class="force2"><strong>green</strong></span> forces are <em>not</em> equal, because the wheel <span class="force2"><strong>carries</strong></span> part of the weight of the frame and the rider, but the ground also has to <span class="force"><strong>support</strong></span> the weight of that wheel. Thankfully, that difference is quite small as wheels are quite light.</p>
-<p>With these forces exposed we can now see that a bicycle wheel is <em>compressed</em> between the <span class="force2"><strong>force</strong></span> acting on that wheel&rsquo;s axle and the <span class="force"><strong>reaction force</strong></span> from the ground. In three dimensions we can now show that each end of the axle <span class="force2"><strong>carries half</strong></span> of the total load we put on that wheel:</p>
+
+<p>
+    前后轮受力方式基本相同，只是受力大小不同，所以让我们先关注后轮的情况。需要指出的是，<span class="force"><strong>红色</strong></span>和<span class="force1"><strong>蓝色</strong></span>的力大小是相同的，<span class="force2"><strong>绿色</strong></span>和<span style="color:#aaa"><strong>白色</strong></span>的力也一样，但是红色和绿色的力大小不同，因为地面比轮轴多<span class="force2"><strong>承载</strong></span>了轮子的重量，好在这个差异很小，因为轮子很轻。
+</p>
+<p>
+    这样看来，车轮被来自地面的<span class="force"><strong>反作用力</strong></span>和轮轴的<span class="force2"><strong>力</strong></span>所<em>压缩</em>。在三维模型中，我能清楚的看到轮轴的每一端各<span class="force2"><strong>承载了一半</strong></span>的负荷：
+</p>
+
 <div class="drawer_container ratio_100" id="wheel"></div>
-<p>Notice that most of the wheel is completely empty, and it&rsquo;s only the thin spokes that connect the outer and inner part of the wheel together. The position of the spokes and their attachment points may seem arbitrary, but they&rsquo;re carefully designed to make the wheel sturdy, reliable, and lightweight.</p>
-<p>To understand the design and construction of this modern bicycle wheel we first have to go back in history and look at the wheels used in some of the <a href="https://en.wikipedia.org/wiki/Dandy_horse">early precursors</a> of bicycles. In the demonstration below, you can assemble a simple wheel one could find in vehicles built in a bygone era:</p>
+
+<p>
+    大部分车轮的内部是完全空心的，只有细薄的辐条将外圈和内圈连接在一起。辐条的位置和连接点可能看起来很随意，但它们经过精心设计，使车轮坚固、可靠且轻便。
+</p>
+<p>
+    为了理解现代自行车轮的设计和构造，我们首先要回顾历史，看看<a href="https://en.wikipedia.org/wiki/Dandy_horse">早期自行车</a>所采用的轮子。下面的演示中，你可以观察古代载具车轮的结构及如何组装的：
+</p>
+
 <div class="drawer_container ratio_100" id="wheel_carriage_assembly"></div>
 <div id="wheel_carriage_assembly_sl0"></div>
-<p>This wheel consists of the central <span class="hub_wood"><strong>hub</strong></span>, eight rounded <span  class="spoke_wood"><strong>spokes</strong></span>, and four arched <span style="color:#AB8E6F"><strong>felloes</strong></span>. These wooden parts are then wrapped with an <span style="color:#222222"><strong>iron rim</strong></span>. In its normal state, that <span style="color:#222222"><strong>rim</strong></span> is a little undersized and it has to be heated before assembly – after cooling down it shrinks to keep all the pieces tightly together. The <span class="hub_wood"><strong>hub</strong></span> rests and rotates on the <span style="color:#D4B595"><strong>central axle</strong></span>.</p>
-<p>When a wheel like this is <span class="force6"><strong>loaded with weight</strong></span>, the <span class="hub_wood"><strong>hub</strong></span> presses down on the <span  class="spoke_wood"><strong>spokes</strong></span> in the bottom part of the wheel, and each <span  class="spoke_wood"><strong>spoke</strong></span> gets <span class="force"><strong>compressed</strong></span>. As the wheel rotates, different <span  class="spoke_wood"><strong>spokes</strong></span> become loaded and unloaded:</p>
+
+<p>
+    轮子由轮毂、八根圆柱辐条和四根拱形轮辐组成。这些木制组件被铁圈包裹。铁圈在正常状态下会小一圈，通过加热后再组装，因为冷却后会收缩这样可以保持所有部件紧密的结合在一起。轮毂围绕中心轴旋转。
+</p>
+<p>
+    当轮子<span class="force6"><strong>承载负荷</strong></span>时，轮毂会向下压轮子底部的<span class="spoke_wood"><strong>辐条</strong></span>，随着轮子的旋转每根辐条都被压缩然后释放。
+</p>
+
 <div class="drawer_container ratio_100" id="wheel_carriage_load"></div>
 <div id="wheel_carriage_load_sl0"></div>
-<p>Notice that in this wheel, the top <span class="spoke_wood"><strong>spokes</strong></span> don&rsquo;t carry any load because they are only loosely inserted into the holes in the <span class="hub_wood"><strong>hub</strong></span> – the spokes can slide out with any pulling force.</p>
-<p>These spokes work like little columns that resist the <span class="force"><strong>compressive forces</strong></span>. Intuitively, the thicker the spoke, the bigger force it can handle before breaking. To compare loads on differently sized objects we use the concept of <a href="https://en.wikipedia.org/wiki/Stress_(mechanics)"><em>stress</em></a> denoted with lowercase Greek letter sigma <strong>σ</strong>. For pure compressive loads that stress is simply equal to the pushing force <strong>F</strong> divided by the cross section area <strong>A</strong>:</p>
+
+<p>
+    这些辐条就像柱子一样抵抗着<span class="force"><strong>压缩力</strong></span>。直观点来说，辐条越粗，它能承受的力越大。
+    为了比较不同尺寸的物体的载荷能力，我们采用“<a href="https://zh.wikipedia.org/wiki/%E6%87%89%E5%8A%9B">应力</a>”的概率，用小写希腊字母西格玛 <strong>σ</strong> 表示。对于纯压缩载荷,这个应力就等于推力 <strong>F</strong> 除以横截面积 <strong>A</strong>:
+</p>
+
 <div class="equation">
 &sigma; = <span class="equation_frac">
     <span>F</span>
@@ -805,25 +896,53 @@ s = <span class="equation_frac">
     <span class="equation_div_bottom">A</span> 
 </span>
 </div>
-<p>Let&rsquo;s experience this directly. In the demonstration below, you can control the <span style="color:#C19C76"><strong>cross section</strong></span> of a solid wooden cylinder and the magnitude of a <span class="force"><strong>compressive force</strong></span> applied to its ends.</p>
+
+<p>
+    在下面的演示中，你可以控制实心木制圆柱体的<span style="color:#C19C76"><strong>横截面积</strong></span>及施加在两端<span class="force"><strong>压力</strong></span>的大小。
+</p>
+
 <div class="drawer_container ratio_30 full_width" id="spoke_pushing"></div>
 <div class="slider_force" id="spoke_pushing_sl0"></div>
 <div class="slider_wood" id="spoke_pushing_sl1"></div>
-<p>You&rsquo;ve probably noticed that, when compressed, the cylinder gets a little shorter. That shrinkage is proportional to the <a href="https://en.wikipedia.org/wiki/Young%27s_modulus">properties of the material</a> and the stress <strong>σ</strong> the rod experiences. That&rsquo;s why a <a href="#" class="link_button" onclick="spoke_pushing_f0();return false;">thicker rod</a> shrinks less than a <a href="#" class="link_button" onclick="spoke_pushing_f1();return false;">thinner rod</a> with the same <span class="force"><strong>compressive force</strong></span> – its <span style="color:#C19C76"><strong>cross section</strong></span> is bigger, so the stress is lower, which results in a smaller size change. As a side note, the stress is expressed in units of <a href="https://ciechanow.ski/naval-architecture/#pressure">pressure</a>, so we&rsquo;ll use <span class="imperial_word"><em>pound per square inch</em> or psi</span><span class="metric_word"><em>megapascals</em> or MPa</span> for short.</p>
-<p>With a fixed amount of <span class="force"><strong>force</strong></span>, the smaller the cross section the bigger the stress. Every material has a certain limit of stress after which it will either <a href="https://en.wikipedia.org/wiki/Yield_(engineering)"><em>yield</em></a> and deform irreversibly or downright break. However, this also means that all stresses that are kept at a safe margin <em>below</em> these critical limits are permissible to use. As a result, as long as we stay away from the danger zone, we can actually make the spokes thinner and <em>increase</em> the stresses in them for the purpose of saving weight.</p>
-<p>Unfortunately, if we make spokes in our wooden wheel too thin we&rsquo;ll open ourselves up to a nasty surprise. In the demonstration below, you can witness what would happen to a wheel with thin wooden spokes as the hub is <span class="force6"><strong>loaded</strong></span>:</p>
+
+<p>
+    你可能会注意到，当圆柱体被压缩的时会缩短。这种收缩与<a href="https://en.wikipedia.org/wiki/Young%27s_modulus">材料的性质</a>和和杆所受应力 <strong>σ</strong> 成正比。这也是为什么<a href="#" class="link_button" onclick="spoke_pushing_f0();return false;">较粗</a>的杠比<a href="#" class="link_button" onclick="spoke_pushing_f1();return false;">较细</a>的杠在受到相同<span class="force"><strong>压力</strong></span>的情况下收缩更小 - 横截面越大，应力越小。顺便说一下，应力以<a href="https://ciechanow.ski/naval-architecture/#pressure">压强</a>单位 <em>兆帕斯卡</em> 来表示，简称 MPa 。
+</p>
+<p>
+    对于固定大小的<span class="force"><strong>力</strong></span>来说，横截面越小应力越大。对于超过材料应力极限的力，材料要么产生不可逆的<a href="https://zh.wikipedia.org/wiki/%E5%B1%88%E6%9C%8D">形变</a>要么破裂。对于我们来说保持在临界值以下的应力都是安全的可用的。所以在远离临界值的情况下，我们可以使辐条变的更细提高应力，以达到减轻重量的目的。
+</p>
+<p>
+    不幸的是，如果我们将木制车轮的辐条做的太细，一些我们不希望的失去会发生。下面的演示中，在重压下你会见到辐条太细会发生什么：
+</p>
+
 <div class="drawer_container ratio_100" id="wheel_carriage_buckle"></div>
 <div class="slider_force6" id="wheel_carriage_buckle_sl0"></div>
-<p>The thin <span  class="spoke_wood"><strong>spokes</strong></span> <em>buckle</em> under compressive load and the axis drops down a lot – a further increase in the pressing force could cause the <span  class="spoke_wood"><strong>spokes</strong></span> to break completely.</p>
-<p>This buckling behavior is not restricted to wood. Any slender column, even one made from steel, would buckle when compressed with a large enough <span class="force"><strong>force</strong></span>:</p>
+
+<p>
+    细辐条在压力下会弯曲，轮轴的位置也会下降 - 如果持续增加压力，辐条可能会完全断裂。
+</p>
+<p>
+    这种弯曲行为并不仅限于木头，任何细长的柱体，包括钢铁，如果受到足够大的压力也会发生弯曲：
+</p>
+
 <div class="drawer_container ratio_20 full_width" id="spoke_buckling"></div>
 <div class="slider_force" id="spoke_buckling_sl0"></div>
-<p>While thin and long objects aren&rsquo;t effective at resisting forces pushing them on both ends, they&rsquo;re typically much better at handling forces that want to stretch them. You can easily experience this yourself – a single strand of uncooked spaghetti provides little resistance when gently pressed at its ends, but it&rsquo;s fairly difficult to break it by just <em>pulling</em> its ends apart.</p>
-<p>Thin metal rods are no different. In the demonstration, below you can apply a <span class="force"><strong>pulling force</strong></span> on a rod and see how it reacts to that <span class="force"><strong>force</strong></span>, depending on the rod&rsquo;s <span style="color:#777"><strong>cross section</strong></span>:</p>
+
+<p>
+    细长的物体不太能抵抗来自两端的压力，但通常更能承受来自两端的拉力。你的生活经验可以告诉你 - 一根细细的意大利面条很容易从两端就给压断了，但是你却很难将其拉断。
+</p>
+<p>
+    金属细杆也一样。下面的演示中，你可以观察你的施加不同的<span class="force"><strong>拉力</strong></span>在不同<span style="color:#777"><strong>截面积</strong></span>下的反应：
+</p>
+
 <div class="drawer_container ratio_30 full_width" id="spoke_pulling"></div>
 <div class="slider_force" id="spoke_pulling_sl0"></div>
 <div id="spoke_pulling_sl1"></div>
-<p>When this thin rod is <span class="force"><strong>pulled</strong></span> like a string, its tension increases and we say that it is experiencing a <em>tensile</em> load. These forces also create stress <strong>σ</strong> that, just like compression, depends on the magnitude of this force <strong>F</strong> and the cross section <strong>A</strong> of the stretched rod:</p>
+
+<p>
+    当像拉绳一样<span class="force"><strong>拉</strong></span>一根细棍，其张力会增加,我们称它正在承受拉力载荷。这也会产生应力 <strong>σ</strong> ，与受压类似，也取决于力 <strong>F</strong> 的大小和其截面积 <strong>A</strong> ：
+</p>
+
 <div class="equation">
 &sigma; = <span class="equation_frac">
     <span>F</span>
@@ -831,249 +950,591 @@ s = <span class="equation_frac">
     <span class="equation_div_bottom">A</span> 
 </span>
 </div>
-<p>In the previous demonstration we&rsquo;ve used relatively small loads, and the rod effectively acted like a very stiff spring that returns to its original shape when unloaded, but when the stresses grow too high, these rods would also eventually yield and break. More importantly, however, that critical tensile load is <em>significantly</em> larger than a compressive load at which this rod buckles.</p>
-<p>Let&rsquo;s try to exploit the pulling resistance of metal rods by building a lighter, modern bicycle wheel. Firstly, instead of thick wooden spokes, we&rsquo;ll use thin steel spokes. Each spoke has a little <span class="force1"><strong>bent knee with a flat cap</strong></span> at one end, and a <span class="force"><strong>screw-like thread</strong></span> on the other end:</p>
+
+<p>
+    前面的演示中，我们使用了较小的压力，棍子像一个硬弹簧一样，负荷消失时恢复原状，但是当压力过大时，棍子会弯曲并折断。重要的是，棍子很够承受的拉力载荷要比受压载荷大得多。
+</p>
+<p>
+    让我们利用金属棒的拉伸抗性制造一个更轻便的现代自行车轮。首先，我们用金属替代木头制作辐条。辐条一端的末尾是<span class="force1"><strong>弯曲</strong></span>的，且带有一个<span class="force1"><strong>平头</strong></span>，另一端则带有<span class="force"><strong>螺纹</strong></span>。
+</p>
+
 <div class="drawer_container ratio_20 full_width" id="wheel_spoke"></div>
-<p>We also need a new <span class="hub"><strong>hub</strong></span> that will be the central part of the wheel. The <span class="spoke"><strong>spokes</strong></span> can be guided through the holes in the new hub, with the little knees acting like little hooks and the caps preventing spokes from going completely through:</p>
+
+<p>
+    我们需要一个新的<span class="hub"><strong>轮毂</strong></span>作为轮子的中心部分。辐条穿过轮毂上的洞，一边的弯头可以钩住轮毂，末端的平头可以防止辐条从洞中完全穿过：
+</p>
+
 <div class="drawer_container ratio_100" id="wheel_spokes_assembly"></div>
 <div id="wheel_spokes_assembly_sl0"></div>
-<p>The aluminum <span class="rim"><strong>rim</strong></span> forms the outer part of the wheel. It has a set of openings through which the threaded ends of the <span class="spoke"><strong>spokes</strong></span> can go. Notice that the spokes are so thin that they can be easily bent by hand to get into a hole:</p>
+
+<p>
+    铝合金轮圈构成了车轮的外部部分。轮圈上有开口，辐条可以插入，因为辐条很细，用手就可以很轻松将其弯曲并插入孔洞中：
+</p>
+
 <div class="drawer_container ratio_100" id="wheel_spokes_assembly2"></div>
 <div id="wheel_spokes_assembly2_sl0"></div>
-<p>The threaded end of a <span class="spoke"><strong>spoke</strong></span> is capped with a so-called <span class="nipple"><strong>nipple</strong></span>, which also has a thread inside. In the demonstration below, I made the <span class="rim"><strong>rim</strong></span> semitransparent, so that you can see how these parts interact. At first, let&rsquo;s just loosely screw the <span class="nipple"><strong>nipples</strong></span> onto the <span class="spoke"><strong>spokes</strong></span> right until the point where the <span class="nipple"><strong>nipples</strong></span> meet the <span class="rim"><strong>rim</strong></span>:</p>
+
+<p>
+    辐条的螺纹端装配有<span class="nipple"><strong>螺帽</strong></span>。在下面的演示中，我将轮圈设置为半透明，这样你可以清楚的看到如何装配的。我们将<span class="nipple"><strong>螺帽</strong></span>拧到辐条上直到与轮圈接触的位置。
+</p>
+
 <div class="drawer_container ratio_100" id="wheel_spokes_assembly3"></div>
- <div class="long_slider" id="wheel_spokes_assembly3_sl0"></div>
-<p>Let&rsquo;s see what happens if we now put a <span class="force2"><strong>vertical load</strong></span> on this wheel with <span class="nipple"><strong>nipples</strong></span> just loosely tightened:</p>
+<div class="long_slider" id="wheel_spokes_assembly3_sl0"></div>
+
+<p>
+    这时，当给车轮施加一个垂直载荷会发生什么：
+</p>
+
 <div class="drawer_container ratio_100" id="wheel_spokes_1"></div>
 <div class="slider_force2" id="wheel_spokes_1_sl0"></div>
-<p>When we increase the <span class="force2"><strong>load</strong></span>, the <span class="hub"><strong>hub</strong></span> is mostly <span class="force"><strong>pulling</strong></span> on the spokes in the top part of the wheel. As the <span class="rim"><strong>rim</strong></span> deforms and flattens in its bottom part, the <span class="spoke"><strong>spokes</strong></span> and <span class="nipple"><strong>nipples</strong></span> in that area just fall through the holes in the <span class="rim"><strong>rim</strong></span>. Those bottom <span class="spoke"><strong>spokes</strong></span> are simply dangling from the <span class="hub"><strong>hub</strong></span> without supporting any of the <span class="force2"><strong>load</strong></span>, but even if the <span class="nipple"><strong>nipples</strong></span> were somehow locked to the <span class="rim"><strong>rim</strong></span>, these <span class="spoke"><strong>spokes</strong></span> would just buckle.</p>
-<p>While seemingly functional, a wheel like this wouldn&rsquo;t be very useful – the axis of the wheel drops a lot, and the deformation of the <span class="rim"><strong>rim</strong></span> is quite severe. With large enough load, the <span class="rim"><strong>rim</strong></span> <em>itself</em> could buckle. We could make the <span class="rim"><strong>rim</strong></span> sturdier and thicker to limit these deformations, but that would also increase its weight.</p>
-<p>Notice, however, that the large number of <span class="spoke"><strong>spokes</strong></span> doesn&rsquo;t participate in the load bearing at all. If we could make sure that these spokes are working too, we&rsquo;d potentially distribute the <span class="force"><strong>pulling forces</strong></span> more evenly, which would help the <span class="rim"><strong>rim</strong></span> maintain its circular shape.</p>
-<p>To understand how we can achieve that, let&rsquo;s take look at the cross section of the parts to see the interaction between a <span class="spoke"><strong>spoke</strong></span>, a <span class="nipple"><strong>nipple</strong></span>, and the <span class="rim"><strong>rim</strong></span>, as the <span class="nipple"><strong>nipple</strong></span> is screwed with the slider:</p>
+
+<p>
+    当我们增加<span class="force2"><strong>载荷</strong></span>时，轮毂主要是<span class="force"><strong>拉扯</strong></span>车轮里上半部分的辐条。<span class="rim"><strong>轮圈</strong></span>的下半部分变的扁平，其中的辐条和螺帽会从<span class="rim"><strong>轮圈</strong></span>的孔洞中穿过而不承担任何载荷，即使让<span class="nipple"><strong>螺帽</strong></span>锁定在轮圈上，辐条也会因此弯曲。
+</p>
+<p>
+    这样的轮子看起来很正常，但是实际上并不 - 轮轴会下降，<span class="rim"><strong>轮圈</strong></span>会变形。我们可以让<span class="rim"><strong>轮圈</strong></span>更加坚固结实，当这会增加重量。
+</p>
+<p>
+    请注意，大量的辐条并没有参与承重，如果能够让这些的辐条也参与承重，就能更加均匀分散<span class="force"><strong>拉力</strong></span>，这样有助于让轮圈保持圆形。
+</p>
+<p>
+    为了帮助我们理解，让我们观察一下这些部件的横截面，辐条、螺帽与轮圈之间的连接方式，随着滑块移动螺帽逐渐被拧紧：
+</p>
+
 <div class="drawer_container ratio_40 full_width" id="wheel_spokes_action"></div>
 <div class="slider_nipple long_slider" id="wheel_spokes_action_sl0"></div>
-<p>As we turn the <span class="nipple"><strong>nipple</strong></span>, it initially moves further down onto the <span class="spoke"><strong>spoke</strong></span>, but it eventually gets stopped by the <span class="rim"><strong>rim</strong></span>. At that point the <span class="nipple"><strong>nipple</strong></span> braces against the <span class="rim"><strong>rim</strong></span> and it starts pulling on the <span class="spoke"><strong>spoke</strong></span>, trying to screw it into itself. The <span class="spoke"><strong>spoke</strong></span> gets pulled <em>into</em> the <span class="nipple"><strong>nipple</strong></span>.</p>
-<p>If we just turn a single <span class="nipple"><strong>nipple</strong></span>, its <span class="spoke"><strong>spoke</strong></span> will simply move the <span class="hub"><strong>hub</strong></span> with it, but if we turn <em>all</em> the <span class="nipple"><strong>nipples</strong></span> we can cause all the <span class="spoke"><strong>spokes</strong></span> to be under tension and pull with more or less the same <span class="force"><strong>force</strong></span>:</p>
+
+<p>
+    当我们旋转<span class="nipple"><strong>螺帽</strong></span>时，它会朝<span class="spoke"><strong>辐条</strong></span>的方向移动最终会被<span class="rim"><strong>轮圈</strong></span>所阻挡，<span class="nipple"><strong>螺帽</strong></span>被<span class="rim"><strong>轮圈</strong></span>所固定并开始拉扯辐条，最终将<span class="spoke"><strong>辐条</strong></span>拧入螺帽内。
+</p>
+<p>
+    如果我们只是拧紧一个<span class="nipple"><strong>螺帽</strong></span>只会使<span class="hub"><strong>轮毂</strong></span>移动，如果我们将所有的<span class="nipple"><strong>螺帽</strong></span>拧紧，所有的<span class="spoke"><strong>辐条</strong></span>会被相同大小的拉力所绷紧。
+</p>
+
 <div class="drawer_container ratio_100" id="wheel_spokes_6"></div>
 <div class="slider_nipple" id="wheel_spokes_6_sl0"></div>
-<p>The <span class="rim"><strong>rim</strong></span> stays rounded because the <span class="force"><strong>tension</strong></span> of the <span class="spoke"><strong>spokes</strong></span> is well balanced across the entire circumference, which keeps the whole structure tightly together. Even without any external forces every spoke is already under tension, because it&rsquo;s <span class="force"><strong>pulled</strong></span> between the <span class="hub"><strong>hub</strong></span> and the <span class="rim"><strong>rim</strong></span>. By principle of reaction, it&rsquo;s also pulling back on these parts – this is all similar to how in a game of tug of war the rope&rsquo;s ends are pulled away from each other, but the rope also pulls the players <em>towards</em> each other.</p>
-<p>For the sake of clarity, let&rsquo;s visualize these <span class="force"><strong>internal forces</strong></span>, because sometimes we&rsquo;ll care about the forces on the <span class="spoke"><strong>spokes</strong></span>, and sometimes the forces on the <span class="rim"><strong>rim</strong></span> and the <span class="hub"><strong>hub</strong></span> will be important to us:</p>
+
+<p>
+    轮圈保持圆形使因为辐条上的<span class="force"><strong>拉力</strong></span>在整个圆周上保持平衡，这也使得整个结构结合的更加紧密。即便没有外力作用，每根辐条也已处于张力状态，因为他被轮毂和轮圈所<span class="force"><strong>拉扯</strong></span>。根据反作用原理，它也在向这些部件施加拉力 - 就像拔河游戏一样，绳子被两端的玩家拉扯，同时绳子也将玩家拉向彼此。
+</p>
+<p>
+    为了清晰起见，让我们将这些内部力可视化，因为我们有时需要专注于辐条上的力，有时需要专注于<span class="hub"><strong>轮毂</strong></span>和<span class="rim"><strong>轮圈</strong></span>上的力。
+</p>
+
 <div class="drawer_container ratio_30 full_width" id="wheel_spoke_forces"></div>
 <div class="slider_nipple" id="wheel_spoke_forces_sl0"></div>
-<p>Because a <span class="spoke"><strong>spoke</strong></span> can freely rotate in its hole in the <span class="hub"><strong>hub</strong></span>, and a <span class="nipple"><strong>nipple</strong></span> can freely rotate like a ball in the <span class="rim"><strong>rim</strong></span>, these tensile loads are the only forces that the <span class="spoke"><strong>spokes</strong></span> can carry.</p>
-<p>Let&rsquo;s see what happens when we then <span class="force2"><strong>load</strong></span> this wheel. In the demonstration below, you can witness how a <span class="force2"><strong>weight</strong></span> applied on the <span class="hub"><strong>hub</strong></span> ends up distributing over the <span class="spoke"><strong>spokes</strong></span> as the wheel rotates. Note that I&rsquo;m only visualizing the <em>additional</em> <span class="force"><strong>forces</strong></span> induced by the <span class="force2"><strong>weight</strong></span> <em>without</em> showing you any of the preexisting tension:</p>
+
+<p>
+    由于辐条的弯头可以在轮毂的孔中自由旋转，螺帽可以在轮圈中转动，这些张力使辐条唯一承载的力.
+</p>
+<p>
+    当我们给车轮增加负荷会发生什么？下面的演示中你可以看到当车轮转动的时候，施加在轮毂上的重量如何分布到辐条上。请注意，我只显示了重力的影响，没有显示辐条的张力。
+</p>
+
 <div class="drawer_container ratio_100" id="wheel_spokes_7"></div>
 <div id="wheel_spokes_7_sl0"></div>
-<p>A <span class="force2"><strong>vertical load</strong></span> put on a wheel primarily tries to <span class="force"><strong>compress</strong></span> the few <span class="spoke"><strong>spokes</strong></span> under the <span class="hub"><strong>hub</strong></span>. It&rsquo;s almost impossible to see, but the other <span class="spoke"><strong>spokes</strong></span> are also gently pulled on as the <span class="hub"><strong>hub</strong></span> is pushed downwards.</p>
-<p>To see the <em>total</em> forces that the spokes experience, we need to add these weight-induced forces to the tension forces already present in the spokes:</p>
+
+<p>
+    施加在轮子上负荷压缩了轮毂下的少数辐条。其他辐条受到的影响很难看见。
+</p>
+<p>
+    为了观察辐条完整的受力，我们需要将重力影响的力和辐条上原本的张力叠加。
+</p>
+
 <div class="drawer_container ratio_100" id="wheel_spokes_8"></div>
 <div id="wheel_spokes_8_sl0"></div>
-<p>Notice, that although the bottom spokes are compressed by the <span class="force2"><strong>load</strong></span>, that compression just reduces the initial tension that we applied by turning the nipples. All the spokes are still <span class="force"><strong>getting pulled</strong></span>, but as the wheel turns, some of the spokes experience <em>less</em> tension.</p>
-<p>It&rsquo;s mostly the few spokes directly under the <span class="hub"><strong>hub</strong></span> that carry most of the load through a decrease in their tension – all the other spokes just very gently increase their tension. Naturally, without the spokes in the upper part of the wheel the lower ones couldn&rsquo;t do their work, so ultimately <em>all</em> the spokes serve an important role in keeping a bicycle wheel functional.</p>
-<p>You may have noticed that we&rsquo;ve been rolling the <span class="rim"><strong>rim</strong></span> directly on the ground without the tire present. A pressurized tire will deform much more easily than a <span class="rim"><strong>rim</strong></span>, but ultimately all the forces acting on a tire are carried onto the <span class="rim"><strong>rim</strong></span> too. By removing the tire, we can just focus on the rim and spokes themselves.</p>
-<p>In principle, the wheel we&rsquo;ve built could handle <em>pure</em> vertical loads just fine, but when biking there are also other forces at play. As we&rsquo;ve seen, when a bicycle is turning, it&rsquo;s the <span class="force2"><strong>side forces</strong></span> generated by the tires that make the bicycle change its direction:</p>
+
+<p>
+    请注意，尽管底部辐条受到负荷的压缩，但是这种压缩只是减少了我们拧紧螺帽施加的初始张力。所有的辐条依然受到<span class="force"><strong>拉力作用</strong></span>，随着车轮转动，一些辐条的张力减少了。
+</p>
+<p>
+    大部分的负荷由轮毂下方的几根辐条承担，这几根辐条的张力减少 - 其他的辐条的张力则略微增加。没有上半部分的辐条下半部分的辐条也无法发挥作用，所用的辐条都在保证轮子正常工作中发挥了作用。
+</p>
+<p>
+    你可能已经注意倒，我们在地面上的滚动的车轮一直没有车胎。加压的轮胎比轮圈更容易变形，但是最终所有的力还是会传递到轮圈上。所以我们通过移出轮胎，可以专注于轮圈和辐条本身。
+</p>
+<p>
+    设计上我们的车轮可以很好的承受垂直负荷，但是骑车时车轮还会受到其他力的所用。如我们所见，当自行车转弯时，由轮胎产生的<span class="force2"><strong>侧向力</strong></span>使得自行车改变方向。
+</p>
+
 <div class="drawer_container ratio_100" id="bike_force_cornering5"></div>
 <div class="long_slider" id="bike_force_cornering5_sl0"></div>
-<p>In a wheel, that force ends up pushing sideways on the tire, which then transfers that load onto the <span class="rim"><strong>rim</strong></span>. Let&rsquo;s see what happens if we apply a <span class="force2"><strong>side force</strong></span> to the wheel that we&rsquo;ve assembled so far:</p>
+
+<p>
+    对于轮子来说，这个力作用于轮胎上，同时也会带动轮圈。让我们看看对于我们目前的轮子来说会发生什么：
+</p>
+
 <div class="drawer_container ratio_100" id="wheel_spokes_lat1"></div>
 <div class="slider_force2" id="wheel_spokes_lat1_sl0"></div>
-<p>While the <span class="hub"><strong>hub</strong></span> doesn&rsquo;t move relative to the rest of the bike, the <span class="rim"><strong>rim</strong></span> quite easily deflects from its original plane, which I&rsquo;m showing with the semi-transparent circle. While some amount of deflection is always expected, if the <span class="rim"><strong>rim</strong></span> tilts too much, it can start rubbing on the other parts of the bicycle, which could prevent the wheel from rotating.</p>
-<p>To remedy this we first have to see what happens to the spokes as the <span class="rim"><strong>rim</strong></span> gets deflected. In the demonstration below, you can see a side view of two <span class="force4"><strong>neighboring</strong></span> <span class="force5"><strong>spokes</strong></span> attached to the <span class="rim"><strong>rim</strong></span> and the <span class="hub"><strong>hub</strong></span>. In the bottom part of the demonstration I&rsquo;m drawing the same <span class="force4"><strong>two</strong></span> <span class="force5"><strong>spokes</strong></span> side be side letting you can compare their lengths as the <span class="rim"><strong>rim</strong></span> gets <span style="color:#666"><strong>deflected</strong></span> with the first slider:</p>
+
+<p>
+    轮毂相对于自行车其他部分并没有移动，但是轮圈很容易就偏离了原本的平面，原本的平面我们使用透明的圆形来表示。虽然总会有一定程度的偏转，但如果轮圈偏转过多，可能会与自行车其他部件产生摩擦，从而阻止车轮旋转。
+</p>
+
+<p>
+    为了解决这个问题，我们首先要去看看当轮圈发生偏离时辐条发生了什么变化。下面的演示中，你可以看到连接到轮毂和轮圈的两根<span class="force4"><strong>相邻</strong></span> <span class="force5"><strong>辐条</strong></span>的侧视图。在演示的底部有<span class="force4"><strong>两根</strong></span>相同的<span class="force5"><strong>辐条</strong></span>，你可以通过第一个滑块来控制轮圈的偏转从而比较其辐条的长度变化：
+</p>
+
 <div class="drawer_container ratio_40 full_width" id="wheel_spokes_lat_length"></div>
 <div id="wheel_spokes_lat_length_sl0"></div>
 <div class="slider_hub" id="wheel_spokes_lat_length_sl1"></div>
-<p>The second slider controls the <span class="hub"><strong>&ldquo;thickness&rdquo; of the hub</strong></span>, which affects the distance between the spokes' attachment points. To allow the <span class="rim"><strong>rim</strong></span> to deflect by a certain amount, the <span class="force4"><strong>two</strong></span> <span class="force5"><strong>spokes</strong></span> have to change their lengths much more when the <a href="#" class="link_button" onclick="wheel_spokes_lat_length_f0();return false;">hub is wide</a> than when the <a href="#" class="link_button" onclick="wheel_spokes_lat_length_f1();return false;">hub is narrow</a>.</p>
-<p>By elongating a spoke we make its pull on the <span class="rim"><strong>rim</strong></span> stronger, and by shrinking it we reduce the pretension, which makes its pull on the <span class="rim"><strong>rim</strong></span> weaker. When we tilt the <span class="rim"><strong>rim</strong></span>, the force imbalance in the spokes makes them want to prevent that deflection by pulling the <span class="rim"><strong>rim</strong></span> back in place. Overall, the bigger the difference in lengths of the spokes, the more strongly they resist the deflection of the <span class="rim"><strong>rim</strong></span>.</p>
-<p>For a <a href="#" class="link_button" onclick="wheel_spokes_lat_length_f1();return false;">narrow hub</a> the spokes' lengths don&rsquo;t change that much as the <span class="rim"><strong>rim</strong></span> tilts, so even a small side force can easily deflect the <span class="rim"><strong>rim</strong></span> pretty far, before the forces in spokes prevent any further displacement. For a <a href="#" class="link_button" onclick="wheel_spokes_lat_length_f0();return false;">wide hub</a>, the spokes change their lengths much more quickly as the <span class="rim"><strong>rim</strong></span> deflects, so they will be able to resist the force pushing on the <span class="rim"><strong>rim</strong></span> at much smaller <span class="rim"><strong>rim</strong></span> displacement.</p>
-<p>We can experience these effects in the demonstration below, where you can adjust the <span class="hub"><strong>thickness of the hub</strong></span> and see how it affects the deflection of the <span class="rim"><strong>rim</strong></span> for a given <span class="force2"><strong>side force</strong></span>. Notice that in practice we&rsquo;re adding thickness by offsetting a second <em>flange</em> onto which the spokes on the other side of the wheel are attached – we now have <span class="force4"><strong>left</strong></span> and <span class="force5"><strong>right</strong></span> set of spokes:</p>
+
+<p>
+    第二个滑块控制<span class="hub"><strong>轮毂的“厚度”</strong></span>，其影响着辐条连接点之间的距离。为了允许轮圈在一定范围内偏转，当<a href="#" class="link_button" onclick="wheel_spokes_lat_length_f0();return false;">轮毂宽</a>时，辐条长度的变化要比<a href="#" class="link_button" onclick="wheel_spokes_lat_length_f1();return false;">轮毂窄</a>时大得多。
+</p>
+<p>
+    拉长一根辐条增强了其对轮圈的拉力，缩短辐条则减弱了其对轮圈的拉力。当轮圈偏转时，辐条上的力不平衡试图阻止这种偏转。总之，辐条长度差异越大，它们抵抗轮圈偏转的力越强。
+</p>
+<p>
+    对于<a href="#" class="link_button" onclick="wheel_spokes_lat_length_f1();return false;">窄轮毂</a>来说，辐条长度在轮圈倾斜时变化不大，因此较小的侧向力也会使轮圈产生较大偏转。对于<a href="#" class="link_button" onclick="wheel_spokes_lat_length_f0();return false;">宽轮毂</a>来说，随着轮圈的偏转辐条长度会更快的发生变化，即使轮圈的的倾斜很小，辐条也能抵抗轮圈继续偏转。
+</p>
+<p>
+    在下面的演示中，你可以通过调整<span class="hub"><strong>轮毂的宽度</strong></span>去观察侧向力对轮圈偏转的影响。请注意，我们现在有了<span class="force4"><strong>左</strong></span><span class="force5"><strong>右</strong></span>两组辐条：
+</p>
+
 <div class="drawer_container ratio_100" id="wheel_spokes_lat2"></div>
 <div class="slider_force2" id="wheel_spokes_lat2_sl0"></div>
 <div class="slider_hub" id="wheel_spokes_lat2_sl1"></div>
-<p>As you can see, by keeping the spokes at the hub <a href="#" class="link_button" onclick="wheel_spokes_lat2_f0();return false;">further apart</a> we make the wheel significantly more resistant to <span class="force2"><strong>side loads</strong></span>. By making the <span class="hub"><strong>hub</strong></span> wide enough we end up with a modern wheel, with spokes arranged in a so-called <em>radial</em> configuration.</p>
-<p>One could hope that this was the final step of building a bicycle wheel. If we were to use our creation as a front wheel of a bike with typical caliper brakes, we&rsquo;d indeed be done. However, to get a fully robust <em>rear</em> wheel we still have one more improvement to make.</p>
-<p>To understand the problem we need to solve let&rsquo;s look at what it takes to make this wheel rotate. In the demonstration below, you can grab one of the <span style="color:#aaa"><strong>gray points</strong></span> on the rim of the wheel and then drag it in any direction. Once you let go, I&rsquo;ll apply a short-lasting force that pulls on the wheel in that direction. The longer the dragging distance, the bigger the force:</p>
+
+<p>
+    如你所见，<a href="#" class="link_button" onclick="wheel_spokes_lat2_f0();return false;">更宽</a>的轮毂提高了车轮对侧向力的抵抗能力。足够宽的轮毂使我们得到了一个现代化的轮毂，其辐条呈所谓的径向布局。
+</p>
+<p>
+    你认为这或许是我们制造自行车车轮的最后一步，或许是，如果只是作为前轮来说的化。然而，为了得到更加稳定可靠的后轮，还需要一点改进。
+</p>
+<p>
+    为了理解我们需要解决的问题,让我们看看需要做些什么才能使这个车轮转动。在下面的演示中,你可以抓住车轮车圈上的一个<span style="color:#aaa"><strong>灰点</strong></span>,然后沿任意方向拖动。一旦你放手,我将施加一个短暂的力,沿你拖动的方向拉动车轮。拖动距离越长,施加的力就越大:
+</p>
+
 <div class="drawer_container ratio_100" id="wheel_grabber"></div>
-<p>Notice that when you apply the <span class="force"><strong>pulling force</strong></span> directly towards the axis of rotation in the middle of the <span class="hub"><strong>hub</strong></span>, the wheel starts turning very slowly, even when the applied <span class="force"><strong>force</strong></span> is very big. However, when you pull in the tangent, or perpendicular to the &ldquo;towards-center&rdquo; direction, it&rsquo;s much easier to make this wheel rotate.</p>
-<p>The difference in that behavior can be easily explained when we look at the effective radius at which the <span class="force"><strong>pulling force</strong></span> acts. In the demonstration below, you can observe how the angle of the applied force changes that <span class="force2"><strong>radius</strong></span>:</p>
+
+<p>
+    注意,当你直接向轮毂中心轴方向施加拉力时,即使施加的力很大,车轮也只会缓慢转动。然而,当你沿切线方向或垂直于"轮毂中心轴"方向拉动时,转动车轮就容易得多。
+</p>
+<p>
+    我们可以通过观察<span class="force"><strong>拉力</strong></span>作用的半径来解释这种行为的差异。在下面的演示中,你可以观察拉力的不同角度是如何改变这个<span class="force2"><strong>半径</strong></span>的:
+</p>
+
 <div class="drawer_container ratio_100" id="wheel_spokes_force_radius1"></div>
 <div class="slider_force" id="wheel_spokes_force_radius1_sl0"></div>
-<p>The smaller that <span class="force2"><strong>radius</strong></span>, the smaller the arm force and thus the resulting torque on the rim, which makes the wheel rotate more slowly. Let&rsquo;s look at how these concepts translate to the rear wheel of a bike.</p>
-<p>When a rider pedals, the chain pulls the sprocket attached to the <span class="hub"><strong>hub</strong></span>, which exerts a torque on that <span class="hub"><strong>hub</strong></span>. The <span class="hub"><strong>hub</strong></span> will rotate a little relative to the <span class="rim"><strong>rim</strong></span>, which changes the location of the inner ends of the <span class="spoke"><strong>spokes</strong></span>. This makes the <span class="spoke"><strong>spokes</strong></span> a little longer, which increases their tension, but it also creates a tiny <span class="force2"><strong>arm</strong></span> on which the <span class="spoke"><strong>spokes</strong></span> can act to turn the <span class="rim"><strong>rim</strong></span>. Let&rsquo;s visualize that <span class="force"><strong>force</strong></span> exerted by one of the <span class="spoke"><strong>spokes</strong></span> on the <span class="rim"><strong>rim</strong></span>:</p>
+
+<p>
+    <span class="force2"><strong>半径</strong></span>越小，力臂就越小，因此轮毂上的扭矩也越小，车轮也转动的更慢。让我们看看这些概念如何应用到自行车的后轮上。
+</p>
+<p>
+    当骑手踩踏板时，链条拉动飞轮，飞轮带动轮毂转动，这对轮毂施加了一个扭矩,轮毂会相对于轮圈轻微旋转。这改变了辐条内侧连接处的位置，拉长了辐条，增加了张力，同时也产生了一个作用于轮圈的小力臂。如下图所示：
+</p>
+
 <div class="drawer_container ratio_40 full_width" id="wheel_spokes_force_radius2"></div>
 <div class="slider_hub" id="wheel_spokes_force_radius2_sl0"></div>
-<p>Recall, that the <span class="spoke"><strong>spokes</strong></span> can rotate in their holes, so they can only apply forces along the length of the spoke itself. Here, however, lies the problem. As we&rsquo;ve already seen in the wheel turning demonstration, because of that tiny <span class="force2"><strong>arm</strong></span>, these new forces will have a very hard time rotating the <span class="rim"><strong>rim</strong></span>.</p>
-<p>If we only cared about rotating the <span class="rim"><strong>rim</strong></span> itself then our existing arrangement of <span class="spoke"><strong>spokes</strong></span> would be good enough as the <span class="rim"><strong>rim</strong></span> is quite light. However, when the <span class="hub"><strong>hub</strong></span> is forcibly turned by the pedaling action, the <span class="spoke"><strong>spokes</strong></span> attached to that <span class="hub"><strong>hub</strong></span> have to pull and accelerate not only the relatively light <span class="rim"><strong>rim</strong></span>, but that wheel also has to accelerate the entire bike <em>and</em> rider, which is a significantly harder task. That difficulty manifests in an increased spoke tension and <a href="https://www.comsol.com/blogs/why-do-road-and-mountain-bikes-have-different-spoke-patterns/">rim stresses</a>, so radial spokes are very rarely used on a rear wheel.</p>
-<p>To make it easier for the <span class="hub"><strong>hub</strong></span> and the <span class="spoke"><strong>spokes</strong></span> to rotate the <span class="rim"><strong>rim</strong></span>, we have to make sure that the effective arm length at which the <span class="spoke"><strong>spokes</strong></span> pull the <span class="rim"><strong>rim</strong></span> is larger. We can easily do that by using longer <span class="spoke"><strong>spokes</strong></span> that are positioned away from the radial direction by applying some twist to the <span class="hub"><strong>hub</strong></span>. Firstly, let&rsquo;s just set things up using bare long spokes:</p>
+
+<p>
+    因为辐条可以在轮毂连接处的孔洞里旋转，它们只能沿着辐条本身的长度方向施加力。然而,这里就存在一个问题。正如我们在车轮转动演示中看到的,由于这个很小的力臂,这些力将极难转动车圈。
+</p>
+<p>
+    如果我们只关心转动轮圈，那么现有的辐条也弯曲够用了，因为轮圈很轻。然而对于轮毂要带动整个自行车和骑手，对于连接轮毂和轮圈的辐条来说是个巨大的调整。这种挑战体现在辐条张力和<a href="https://cn.comsol.com/blogs/why-do-road-and-mountain-bikes-have-different-spoke-patterns/">轮圈应力</a>的增加上，因此径向辐条在后轮上很少使用。
+</p>
+<p>
+    为了让轮毂和辐条更容易带动轮圈，我们需要保证辐条带动轮圈的力臂更长。我们可以使用较长的辐条，并将它们远离径向方向，通过对轮毂施加一些扭转来实现这一点。首先，让我们不用螺帽固定看看：
+</p>
+
 <div class="drawer_container ratio_100" id="wheel_spokes_9"></div>
 <div class="slider_hub" id="wheel_spokes_9_sl0"></div>
-<p>Unfortunately, if we then screw on the <span class="nipple"><strong>nipples</strong></span> and try to build up tension in the <span class="spoke"><strong>spokes</strong></span>, that pulling force would just rotate the <span class="hub"><strong>hub</strong></span> back, preventing any tension from building up until the spokes are back at the radial configuration:</p>
+
+<p>
+    当我们拧上螺帽看看，不幸的是拉力由将辐条回正了，又回到了径向辐条的布局：
+</p>
+
 <div class="drawer_container ratio_100" id="wheel_spokes_10"></div>
 <div class="slider_nipple" id="wheel_spokes_10_sl0"></div>
-<p>The brilliant solution that bicycle wheel designers came up with is to <em>flip</em> the orientation of every other spoke. Let&rsquo;s remove the <span class="nipple"><strong>nipples</strong></span> and rearrange half of the spokes to point in the other direction:</p>
+
+<p>
+    聪明的自行车设计师想出了一个解决方案，那就是翻转辐条的方向。让我们取下螺帽并重新排列其中一半的辐条，使其指向另一个方向：
+</p>
+
 <div class="drawer_container ratio_100" id="wheel_spokes_11"></div>
 <div class="long_slider" id="wheel_spokes_11_sl0"></div>
-<p>If we now put the <span class="nipple"><strong>nipples</strong></span> back in and we tighten them, one half of the spokes wants to rotate the <span class="hub"><strong>hub</strong></span> clockwise, and the other half wants to rotate the <span class="hub"><strong>hub</strong></span> counterclockwise, keeping everything in balance and allowing the <span class="force"><strong>tension</strong></span> in the spokes to build up:</p>
+
+<p>
+    现在，我们重新拧上<span class="nipple"><strong>螺帽</strong></span>看看，因为辐条张力的缘故一半的辐条会使轮圈顺时针旋转，另一半会使其逆时针旋转，在保持辐条<span class="force"><strong>张力</strong></span>的同时保持平衡：
+</p>
+
 <div class="drawer_container ratio_100" id="wheel_spokes_12"></div>
 <div class="slider_nipple" id="wheel_spokes_12_sl0"></div>
-<p>This configuration uses a so-called &ldquo;3 cross&rdquo; because each spoke crosses three other spokes on its way from the <span class="hub"><strong>hub</strong></span> to the <span class="rim"><strong>rim</strong></span>. This and other patterns form a family of <em>tangential</em> lacing, because the spokes are, more or less, tangent to the <span class="hub"><strong>hub</strong></span> circle instead of coming out of it radially.</p>
-<p>With all the pieces in place, let&rsquo;s see how external loads end up affecting the <span class="force"><strong>tension</strong></span> in the spokes. With just the <span class="force2"><strong>weight load</strong></span>, these spokes behave very similarly to radial spokes, with the spokes close to ground contact carrying the vast majority of the <span class="force2"><strong>load</strong></span>:</p>
+
+<p>
+    这样的布局被称之为“三交叉”，因为每根辐条从轮毂到轮圈要与其他三根辐条交叉。这些组成了切线编织图案，辐条或多或少地与轮毂相切，而不是从轮毂径向伸出。
+</p>
+<p>
+    现在所有部件都就位了，让我们看看外部载荷如何影响辐条的张力。只有重量负载时，这些辐条的行为与径向辐条非常相似，靠近地面的辐条承载了绝大部分负载：
+</p>
+
 <div class="drawer_container ratio_100" id="wheel_spokes_13"></div>
 <div id="wheel_spokes_13_sl0"></div>
-<p>With every turn, each spoke passing under the axle gets loaded and unloaded. This contributes to <a href="https://en.wikipedia.org/wiki/Fatigue_(material)">mechanical fatigue</a> of spokes, which over a long period of time can eventually cause the spokes to snap.</p>
-<p>When the rider is pedaling and a torque gets applied on the <span class="hub"><strong>hub</strong></span>, the <span class="force4"><strong>&ldquo;trailing&rdquo; spokes</strong></span>, which are pulled by the <span class="hub"><strong>hub</strong></span> increase their tension, and the <span class="force5"><strong>leading spokes</strong></span> decrease their tension:</p>
+
+<p>
+    每一次转动，辐条都会经过拉伸和收缩。这会导致辐条的<a href="https://zh.wikipedia.org/wiki/%E9%87%91%E5%B1%AC%E7%96%B2%E5%8B%9E">金属疲劳</a>，长期下来最终可能导致辐条断裂。
+</p>
+<p>
+    当骑手踩踏踏板对轮毂施加扭矩时，<span class="force4"><strong>“落后”</strong></span>的辐条会增加张力，而<span class="force5"><strong>“领先”</strong></span>的辐条则会减小张力:（译者注：<span class="force4"><strong>橙色</strong></span>的是“落后”，<span class="force5"><strong>蓝色</strong></span>的是“领先”）
+</p>
+
 <div class="drawer_container ratio_100" id="wheel_spokes_14"></div>
 <div class="slider_hub" id="wheel_spokes_14_sl0"></div>
-<p>Our bicycle is using the traditional caliper brakes that squeeze the <span class="rim"><strong>rim</strong></span>, which results in friction that applies torque to that <span class="rim"><strong>rim</strong></span>. Some bicycles use <a href="https://en.wikipedia.org/wiki/Bicycle_brake#Disc_brakes">disc brakes</a>, which work by applying torque directly on the <span class="hub"><strong>hub</strong></span>. These braking systems apply forces similar to pedaling, just in the other direction, which also prevents use of radial spokes in those bicycles.</p>
-<p>Finally, let&rsquo;s explore how a <span class="force2"><strong>side force</strong></span> that a wheel experiences during turns affects the <span class="force"><strong>tension</strong></span> in the spokes:</p>
+
+<p>
+    我们的自行车采用传统的夹式制动器，它们通过夹住轮圈产生摩擦，从而施加力矩于轮圈上。一些自行车采用<a href="https://en.wikipedia.org/wiki/Bicycle_brake#Disc_brakes">盘式制动器</a>，通过直接在轮毂上施加力矩来工作。这些制动系统施加的力类似于踩踏，只是方向相反，这也阻止了在这些自行车上使用径向布局的辐条。
+</p>
+<p>
+    最后，让我们探讨一下轮子在转弯时所受到的<span class="force2"><strong>侧向力</strong></span>对辐条<span class="force"><strong>张力</strong></span>的影响：
+</p>
+
 <div class="drawer_container ratio_100" id="wheel_spokes_15"></div>
 <div class="slider_force2" id="wheel_spokes_15_sl0"></div>
-<p>During a ride the spokes experience a mix of all of these loads, many of them happening at the same time. Spokes are typically pretensioned strongly enough so that none of them lose tension when riding, but during an accident the damaging loads can exceed the safe limits and the wheel can collapse and bend under radially unbalanced tension. Interestingly enough, tightening the spokes too much is also unsafe, as they can snap under too much load or cause the <span class="rim"><strong>rim</strong></span> to buckle.</p>
-<p>Some high-end bicycle wheels abandon the traditional tensioned spokes and instead use a <a href="https://en.wikipedia.org/wiki/Bicycle_wheel#/media/File:Carbon_composite_MTB_wheel.JPG">shell-like structure</a> – these rims work similar to the traditional wagon wheels, but the carbon composites used for their construction allows them to be very lightweight.</p>
-<p>As we&rsquo;ve seen, the spokes in a modern bicycle wheel are always being pulled, so the stresses they experience are of a tensile nature. In the last part of this article we&rsquo;ll look into bicycle frames to see how they handle a whole range of other kinds of stresses.</p>
-<h1 id="simple-frame">Simple Frame<a href="https://ciechanow.ski/bicycle/#simple-frame" class="hanchor" ariaLabel="Anchor"><img src="media/anchor.png" width="16px" height="8px"/></a> </h1>
-<p>Let&rsquo;s take a look at the shape of a typical bicycle frame:</p>
+
+<p>
+    在实际骑行中辐条会经受各种不同的负荷。通常辐条需要拉的足够紧而不会在骑行中失去张力，但是当事故发生时，产生的损坏可能超过安全极限，轮子可能在不平衡的张力下弯曲折叠。不过需要注意的是，过度紧张的辐条也是不安全的，因为一旦负荷过大就容易超过极限导致辐条断裂或轮圈变形。
+</p>
+<p>
+    一些高端自行车轮毂放弃了传统的张力辐条，而是采用<a href="https://en.wikipedia.org/wiki/Bicycle_wheel#/media/File:Carbon_composite_MTB_wheel.JPG">壳状结构</a> - 这些轮毂的工作方式类似于传统的马车车轮，但其构造中使用的碳复合材料使其非常轻盈。
+</p>
+<p>
+    正如我们所看到的，现代自行车轮毂中的辐条始终受到拉力，因此它们所经历的应力是拉伸性质的。在本文的最后部分，我们将探讨自行车车架是如何处理各种其他类型的应力的。
+</p>
+
+<h1 id="simple-frame">简单 车架<a href="https://ciechanow.ski/bicycle/#simple-frame" class="hanchor" ariaLabel="Anchor"><img src="media/anchor.png" width="16px" height="8px"/></a> </h1>
+
+<p>
+    让我们看一下典型自行车车架的形状：
+</p>
+
 <div class="drawer_container ratio_60 full_width" id="bike_frame"></div>
-<p>A frame like this is commonly made from steel or aluminum tubes of different lengths and diameters that are welded together to form a single, rigid structure.</p>
-<p>Fundamentally, a bicycle frame has to provide support and mounting place for four major points of interest: <span class="force"><strong>the seat</strong></span>, <span class="force4"><strong>the rear axle</strong></span>, <span class="force2"><strong>the crankset</strong></span>, and <span class="force6"><strong>the rotation axis</strong></span> of the fork:</p>
+
+<p>
+    一个由不同长度和直径的钢管或铝管焊接在一起的单一、刚性结构。
+</p>
+<p>
+    从根本上来说，一个车架需要为<span class="force"><strong>车座</strong></span>、<span class="force4"><strong>后轴</strong></span>、<span class="force2"><strong>曲柄</strong></span>和前叉的<span class="force6"><strong>旋转轴</strong></span>这是个主要部件提供支撑和安装位置。
+</p>
+
 <div class="drawer_container ratio_60 full_width" id="bike_frame2"></div>
-<p>It may be then a little puzzling why a typical frame connects these four locations with two triangular patterns. After all, there are many other ways one could join these points to form a frame:</p>
+
+<p>
+    一个典型的车架以两个三角形的结构连接这四个位置可能会让人有些费解。毕竟,还有许多其他方式可以将这些点连接成一个车架:
+</p>
+
 <div class="drawer_container ratio_60 full_width" id="bike_frame3"></div>
-<p>Moreover, it may be unclear why the tubes forming the frame are hollow, and why their diameter varies across different sections of the frame.</p>
-<p>Let&rsquo;s try to understand what factors influence the design of a bicycle frame by trying to build one from scratch. We&rsquo;ll keep the wheels, pedals, seat, and the entire front assembly as is – the shape and placement of these components have been perfected over the years to ensure that the bike is stable and that they fit the human anatomy well.</p>
-<p>We&rsquo;ll start with a very simple idea of a cross-like frame shape constructed from solid steel rods. The slider controls the <span class="tube"><strong>diameter</strong></span> of these rods – you can see their cross section in the bottom right corner:</p>
+
+<p>
+    此外,构成车架的管子为什么是空心的,以及为什么不同部位管子的直径也不同？
+</p>
+<p>
+    让我们试着从头建造一个自行车车架,看看有哪些因素影响了车架的设计。我们将保留车轮、踏板、车座和车把部分 - 这些部件的形状和位置已经经过多年完善，以确保自行车稳定并适合人体工程学。
+</p>
+<p>
+    我们从一个非常简单的十字形框架开始，框架由实心钢管组成。下面的滑块控制实心钢管的<span class="tube"><strong>直径</strong></span> - 右下角你可以看到钢管的横截面：
+</p>
+
 <div class="drawer_container ratio_60 full_width" id="fem1"></div>
 <div class="slider_tube"  id="fem1_sl0"></div>
-<p>In the bottom part of the demonstration you can see the total weight of the frame as constructed. The thinner the rods in the frame, the lighter the bike and the easier it is to accelerate and slow down, so we definitely want to keep the rods as thin as possible.</p>
-<p>This simple frame joins all the important parts we care about, so it would appear that it could work just fine, but this scenario doesn&rsquo;t consider any loads one can put on a bike. Let&rsquo;s see what happens to this frame when we load it up with the <span class="force"><strong>weight of the rider</strong></span> on the seat:</p>
+
+<p>
+    在演示的下半部分，你可以看到整个车架的总重量。钢管越细，自行车就越轻，加速和减速就越轻松，所谓我们需要保证钢管尽可能的细。
+</p>
+<p>
+    这种简单的车架看似可以很好的工作，但是并没有考虑施加在自行车上的负载。让我们看看在车座上施加 <span class="force"><strong>骑行者的重量</strong></span>时车架会发生什么吧：
+</p>
+
 <div class="drawer_container ratio_60 full_width" id="fem2"></div>
 <div class="slider_force" id="fem2_sl0"></div>
 <div class="slider_tube" id="fem2_sl1"></div>
-<p>Even though the frame is made from steel, it&rsquo;s not perfectly rigid and it bends when <span class="force"><strong>loaded</strong></span>. Although <em>some</em> amount of deflection is unavoidable in any frame, there are also hard limits that we can&rsquo;t cross. For example, if the frame sinks too much, it may prevent the pedals from rotating without hitting the ground.</p>
-<p>Unfortunately, the amount of deflection under typical load is not the only concern we have when designing a bicycle frame, but to understand these other considerations we need talk about bending.</p>
-<h1 id="bending">Bending<a href="https://ciechanow.ski/bicycle/#bending" class="hanchor" ariaLabel="Anchor"><img src="media/anchor.png" width="16px" height="8px"/></a> </h1>
-<p>Let&rsquo;s start with a simple example. In the following demonstration you can use the slider to apply a <span class="force"><strong>moment of force</strong></span> at the two ends of a <span class="beam"><strong>beam</strong></span> made of metal – you can choose <em>which</em> metal using the control below:</p>
+
+<p>
+    尽管车架是由钢制的，但是免不了在受力时发生弯曲。虽然任何车架都不可能完全避免形变，但是有些情况时需要避免的，例如：车架下陷太多会导致踏板转动时碰到地面。
+</p>
+<p>
+    不幸的时，一定负载的情况下引起的形变并不是我们在设计车价中唯一需要考虑的因素，但要理解其他的考虑因素，我们需要去讨论一下弯曲。
+</p>
+
+<h1 id="bending">弯 曲<a href="https://ciechanow.ski/bicycle/#bending" class="hanchor" ariaLabel="Anchor"><img src="media/anchor.png" width="16px" height="8px"/></a> </h1>
+
+<p>
+    让我们从一个简单的例子开始。下面的演示中，你可以使用滑块调整作用在金属柱两端的<span class="force"><strong>力矩</strong></span> - 你还可以选择金属的种类：
+</p>
+
 <div class="drawer_container ratio_40 full_width" id="bending1"></div>
 <div class="slider_force" id="bending1_sl0"></div>
 <div id="bending1_seg0"></div>
-<p>The <span class="force"><strong>applied moment</strong></span> bends the <span class="beam"><strong>beam</strong></span>  – it becomes curved. While the material from which the <span class="beam"><strong>beam</strong></span>  is made affects <em>how much</em> it bends, the nature of the bending behavior is identical, so we&rsquo;ll just focus on simple steel elements.</p>
-<p>Let&rsquo;s take a closer look at what happens to different sections of a beam when they&rsquo;re bent. In the demonstration below, you can once more apply a <span class="force"><strong>bending moment</strong></span> to the beam to see it deform, but I&rsquo;m also drawing colored lines on its side. The bottom part shows the same lines that have been straightened out, but kept at the same length as the lines in the top part. Notice that when we bend this beam its <span class="compression"><strong>top sections</strong></span> become shorter and its <span class="tension"><strong>bottom sections</strong></span> become longer.</p>
+
+<p>
+    施加的力矩使金属柱弯曲，虽然不同材料的弯曲程度不同，但是都发生了弯曲形变。接下来我们将重点放在钢这一种材料。
+</p>
+<p>
+    让我们仔细观察当我们弯曲金属柱时不同的部分会有什么变化。在下面的演示中，你可以通过对金属柱施加<span class="force"><strong>弯曲力矩</strong></span>使其变形。同时我也在侧面画了几根平行的线条，线条都是相同的长度。但是当我们弯曲金属柱时，其<span class="compression"><strong>顶部</strong></span>变的更短，<span class="tension"><strong>底部</strong></span>变的更长。
+</p>
+
 <div class="drawer_container ratio_30 full_width" id="bending2"></div>
 <div class="slider_force" id="bending2_sl0"></div>
-<p>The upper parts are shortened so they&rsquo;re under <span class="compression"><strong>compression</strong></span> – bending squeezes these areas. The lower sections of the beam are getting longer so they&rsquo;re under <span class="tension"><strong>tension</strong></span>  – bending stretches these sections of the beam.</p>
-<p>Notice, that there is also a <span class="dashed">dashed</span> <em>neutral</em> line that doesn&rsquo;t change its length as we bend the beam. For this simple rectangular cross section the neutral axis goes right through the middle of the beam, but in more complicated forms the different distribution of pushing and pulling sections may shift this neutral line away from the midpoint.</p>
-<p>In our discussion of wooden and steel spokes we&rsquo;ve witnessed how <span class="compression"><strong>compression</strong></span> and <span class="tension"><strong>tension</strong></span> create stresses in a material and these beams are no different. In the demonstration below, you can bend the same beam using an adjustable <span class="force"><strong>bending moment</strong></span>. Different sections of this beam are colored accordingly to the stresses they experience – either <strong><span class="gradient_word" data-color0="#aaaaaa" data-color1="#297CDE">increasing tension</span></strong>, or <strong><span class="gradient_word" data-color0="#aaaaaa" data-color1="#FF951E">increasing compression</span></strong>:</p>
+
+<p>
+    金属柱的上半部分因为<span class="compression"><strong>压缩</strong></span>而变短，下半部分因为<span class="tension"><strong>拉伸</strong></span>而变长。
+</p>
+<p>
+    请注意，随着柱子的弯曲，中间的那条<span class="dashed">虚线</span>长度没有改变。对于这种简单的矩形横截面,中性轴正好穿过柱子的中心,但在更复杂的形状中,由于受力和受拉区域的分布不同,这条中性轴可能会偏离中心。
+</p>
+<p>
+    在我们讨论木制和钢制车轮辐条时,已经见识到<span class="compression"><strong>压缩</strong></span>和<span class="tension"><strong>拉力</strong></span>会在材料内产生应力,这些柱子也不例外。在下面的演示中,你可以调节的扭矩来弯曲柱子。根据它们所受的应力，柱子的不同部分被相应地着色——<strong><span class="gradient_word" data-color0="#aaaaaa" data-color1="#297CDE">要么增加拉力</span></strong>，<strong><span class="gradient_word" data-color0="#aaaaaa" data-color1="#FF951E">要么增加压力</span></strong>：
+</p>
+
 <div class="drawer_container ratio_40 full_width" id="bending4"></div>
 <div class="slider_force" id="bending4_sl0"></div>
-<p>As we&rsquo;ve seen, the further away from the neutral axis a slice of the beam is, the more it changes its length, so the forces it exerts are larger, and so are the stresses. If these stresses grow too big, the beam can deform permanently, or even break completely.</p>
-<p>At first glance, it may appear that we should change the cross section of our beam to move the material closer to the neutral axis to make sure it&rsquo;s not overstressed. In fact, we want to do the exact <em>opposite</em>.</p>
-<p>In the demonstration below, you can see a closeup of a small part of a beam and the forces exerted by a slice of it – you can control the location of the <span style="color:#777"><strong>investigated slice</strong></span> with the slider. Notice that the <strong><span class="gradient_word" data-color0="#2870C2" data-color1="#DF6C52">forces</span></strong> that a slice exerts act at a <strong><span class="gradient_word" data-color0="#1c5391" data-color1="#9c4936">small arm</span></strong>, thus creating a counter-moment that opposes the <span class="force"><strong>bending moment</strong></span>:</p>
+
+<p>
+    如你所见，越是远离中性轴其长度的变化就越大，因此应力就越大。如果应力过大，柱子会永久变形甚至完全断裂。
+</p>
+<p>
+    乍一看，似乎我们应该改变柱子的横截面，使材料靠近中性轴，以确保不会过度受力。事实上，我们要做的正好相反。
+</p>
+<p>
+    下面的演示中，你可以看到其一小部分的特写及受力情况 - 你可以使用滑块控制想要研究的横截面位置。注意，横截面所受的<strong><span class="gradient_word" data-color0="#2870C2" data-color1="#DF6C52">力矩臂</span></strong>很小，因此产生了一个与整体扭矩相反的力矩:
+</p>
+
 <div class="drawer_container ratio_30" id="bending_moment"></div>
 <div id="bending_moment_sl0"></div>
-<p>The sum of the moments exerted by <span style="color:#777"><strong>every slice</strong></span> of the beam is what balances the <span class="force"><strong>external bending moment</strong></span>. If we were to move one of these slices further away from the neutral axis, we would not only increase the arm length at which this slice exerts its force, but that force would also grow larger since the slice would get stretched more, as it would have to fit a longer arc.</p>
-<p>Both the arc length and the force arm are proportional to the distance from the neutral line, so the moment that a slice exerts grows with a <em>square</em> of that distance. A beam slice placed further away from the neutral axis is more effective at countering the <span class="force"><strong>bending moment</strong></span>, so by moving it away, the overall curvature and the elongation of individual slices would decrease too.</p>
-<p>Let&rsquo;s see this behavior in practice. In the demonstration below, you can change the <span class="tube"><strong>proportions</strong></span> of the beam to make its cross section shorter or taller. Throughout these changes I&rsquo;m keeping the area of that cross section the same, which means that the beam&rsquo;s mass doesn&rsquo;t change, we&rsquo;re just redistributing that mass around:</p>
+
+<p>
+    其所有横截面产生的力矩之和,正是用来平衡外部扭矩的。如果我们将其中一个横截面移离中性轴，不仅会增加这个横截面所受力矩臂的长度，由于横截面会被拉伸得更长，所受的力也会增大。
+</p>
+<p>
+    横截面长度和力臂都与距离中性轴的距离成正比，因此横截面所产生的力矩随着该距离的平方而增长。远离中性轴的位置更有效地抵消弯曲力矩，因此整体横截面越大，整体曲率和单个横截面的延展也会减少。
+</p>
+<p>
+    在下面的演示中,您可以改变柱子的<span class="tube"><strong>比例</strong></span>使其横截面变宽或变高，但同时保持了其面积不变，这意味着柱子整体的质量没有改变，只是重新分布了:
+</p>
+
 <div class="drawer_container ratio_40 full_width" id="bending3"></div>
 <div class="slider_force" id="bending3_sl0"></div>
 <div class="slider_tube" id="bending3_sl1"></div>
-<p>Notice that a <a href="#" class="link_button" onclick="bending3_f0();return false;"> wide and flat</a> slab bends very easily and experiences <span class="compression"><strong>high</strong></span> <span class="tension"><strong>stresses</strong></span>, but a <a href="#" class="link_button" onclick="bending3_f1();return false;">narrow and tall</a> one barely changes shape and is also <span style="color:#E4C3A0"><strong>lightly</strong></span> <span style="color:#A3BCDA"><strong>stressed</strong></span>. You&rsquo;ve probably experienced this yourself trying to bend a school ruler – it&rsquo;s much easier to do it in one direction than the other.</p>
-<p>While these tall shapes are great at resisting bending in one direction, they&rsquo;re naturally weak in the perpendicular direction. A turning bicycle undergoes side loads too, so the elements we use for building a frame have to be capable of handling forces in multiple directions, which requires a more proportional shape. We also don&rsquo;t want our bicycle frame to have sharp edges, which brings us back to the solid round rods we&rsquo;ve initially used for our frame. Let&rsquo;s see the stresses and deformation in rods of different <span class="tube"><strong>diameters</strong></span> as we apply a <span class="force"><strong>bending moment</strong></span>:</p>
+
+<p>
+    请注意，<a href="#" class="link_button" onclick="bending3_f0();return false;">宽且扁</a>的板子很容易弯曲并经受<span class="compression"><strong>很高</strong></span>的<span class="tension"><strong>应力</strong></span>，但<a href="#" class="link_button" onclick="bending3_f1();return false;">窄且高</a>的板子几乎不会改变形状并只受到<span style="color:#E4C3A0"><strong>较轻</strong></span>的<span style="color:#A3BCDA"><strong>应力</strong></span>。您可能也曾试着弯曲过学校的尺子，它在一个方向上很容易弯曲，而在另一个方向上就很困难。
+</p>
+<p>
+    尽管高且窄的形状在抵抗某一方向的弯曲时表现出色，自然在其另一垂直方向上就很脆弱。转弯的自行车也会受到侧向载荷的影响，因此我们的车架必须能够承受来自多个方向的力，这需要一种更加合理的形状。我们也不希望车架有尖锐的边缘，这就让我们回到了最初用于车架的实心圆杆。让我们看看当我们施加<span class="force"><strong>弯曲力矩</strong></span>时，不同<span class="tube"><strong>直径</strong></span>的杆所受的应力和形变：
+</p>
+
 <div class="drawer_container ratio_30 full_width" id="bending5"></div>
 <div class="slider_force" id="bending5_sl0"></div>
 <div class="slider_tube" id="bending5_sl1"></div>
-<p>These rods are no different than the square beams we&rsquo;ve seen before – the sections furthest away from the neutral axis carry the most load. Conversely, the sections closest to center carry the <em>least</em> load. In fact, we can completely remove these central sections of the rod and move that material more to the outside – instead of solid rods, we&rsquo;ll use hollow tubes.</p>
-<p>In the demonstration below you can control the <span class="tube"><strong>hollowness</strong></span> of a simple rounded rod. I&rsquo;m keeping the area of the rod&rsquo;s cross section constant so that as the radius of the tube grows, the walls get thinner. This also means that all the tubes used in this demonstration have the same mass:</p>
+
+<p>
+    这些实心圆柱与我们之前看到的方形柱相同 - 离中性轴最远的部分承受的载荷最大。相反,最靠近中心的部分承受的载荷最小。事实上,我们可以完全移除这些中心部分的材料，并将这些材料用作外侧 - 我们将使用空心管代替实心圆柱。
+</p>
+<p>
+    在下面的演示中,您可以控制这个圆形实心杆的<span class="tube"><strong>空心程度</strong></span>。我将保持杆的横截面积不变，因此当管的半径增大时，壁厚就会变薄。这也意味着本演示中的所有管材质量相同:
+</p>
+
 <div class="drawer_container ratio_30 full_width" id="bending6"></div>
 <div class="slider_force" id="bending6_sl0"></div>
 <div class="slider_tube" id="bending6_sl1"></div>
-<p>By increasing the tube&rsquo;s diameter and thinning its walls, we&rsquo;re making it more resistant to bending. It may seem that by making the walls very thin and the tube diameter very large we could make this cylinder arbitrarily strong, but if the walls are <em>too</em> thin they&rsquo;ll simply buckle on the compressed side – you can easily test this by trying to bend an empty aluminum can.</p>
-<p>We&rsquo;ve already seen that the way a beam bends depends on the <a href="https://en.wikipedia.org/wiki/Second_moment_of_area">geometrical properties</a> of its cross section, the <a href="https://en.wikipedia.org/wiki/Young%27s_modulus">mechanical properties</a> of the material used, and on the applied loads. That last aspect deserves a little more attention.</p>
-<p>In our examples we&rsquo;ve been bending the rods with a simple moment of force, but the loads on a bicycle frame are a little more complicated, with various forces applied at many different locations. These forces and the moments they create are carried through all the particles in the frame, and each section of the frame ends up experiencing a slightly different load.</p>
-<p>Let&rsquo;s experiment with a simple rod that is loaded with <span class="force2"><strong>three balanced forces</strong></span>. You can change their magnitude using the slider:</p>
+
+<p>
+    通过增大管的直径并使其壁变薄，就能使其更加抗弯曲。看起来好像只要壁足够薄、直径足够大，这个圆柱就能足够坚固，但事实并非如此 - 如果壁太薄,在受压一侧就会直接弯曲变形。你可以试着弯曲一个空的铝罐，就能亲身体会到这种情况。
+</p>
+<p>
+    我们已经看到一个柱体的弯曲取决于其横截面的<a href="https://zh.wikipedia.org/wiki/%E6%88%AA%E9%9D%A2%E4%BA%8C%E6%AC%A1%E8%BD%B4%E7%9F%A9">几何性质</a>、所用材料的<a href="https://en.wikipedia.org/wiki/Young%27s_modulus">机械性能</a>以及施加的力。其中最后一个方面值得更多关注。
+</p>
+<p>
+    在我们的例子中，一直使用简单的力矩来弯曲杆，但自行车车架上的载荷要复杂一些，有各种力量作用于许多不同位置。这些力和它们产生的力矩通过车架中所有部件传递，车架中的每个部分最终都会承受不同的载荷。
+</p>
+<p>
+    这是一个<span class="force2"><strong>平衡</strong></span>受力的杠，其受到<span class="force2"><strong>三处力</strong></span>的作用，你可以调节其力的大小：
+</p>
+
 <div class="drawer_container ratio_60" id="bending_force"></div>
 <div class="slider_force2" id="bending_force_sl0"></div>
-<p>Notice that the <span class="tension"><strong>tensile</strong></span> and <span class="compression"><strong>compressive</strong></span> stresses are no longer uniform across the rod&rsquo;s length. To understand why this happens, we need to draw a diagram of forces acting on that beam, which you can see in the next demonstration. The bottom part shows the same rod, but this time we&rsquo;re virtually slicing it at the location determined by the second slider, letting us see the forces that the cut part feels:</p>
+
+<p>
+    你可能注意到了<span class="tension"><strong>拉伸应力</strong></span>和<span class="compression"><strong>压缩应力</strong></span>在整个横杠中不再均匀分布。要理解这是为什么，下面的演示中我将画出其受力示意图。下半部分和上半部分是同样的一个杠，第二个滑块决定从哪个位置将其切割，从而可以看到切口部分所受到的力：
+</p>
+
 <div class="drawer_container ratio_50 full_width" id="beam_forces"></div>
 <div class="slider_force2" id="beam_forces_sl0"></div>
 <div id="beam_forces_sl1"></div>
-<p>Notice that neither the whole rod nor any of its parts are moving, which implies that the forces and moments on every section have to be perfectly balanced. This lets us calculate the <span class="force6"><strong>internal force</strong></span> and the <span class="force"><strong>internal moment</strong></span> that the particles at the sliced location have to exert to keep the remaining section of the beam static.</p>
-<p>As you can see, the <span class="force"><strong>bending moment</strong></span> varies across the length. Since the bending-related stresses are proportional to that <span class="force"><strong>moment</strong></span>, different sections of the beam experience different amounts of stress.</p>
-<p>In general, the forces that a tube in a frame experiences will be quite varied, and every load may cause that tube to be bent and stretched or compressed at the same time. These stresses will combine to form a more complicated distribution. From this point on I&rsquo;ll stop separating compressive and tensile stresses, and instead I&rsquo;ll combine them into a single <a href="https://en.wikipedia.org/wiki/Von_Mises_yield_criterion">equivalent stress</a>:</p>
+
+<p>
+    注意，整个横杠没有任何部分发生运动，这意味着每个部分的力和力矩必须完全平衡。这让我们能够计算出让横杠剩余部分保持静止时在切割位置的<span class="force6"><strong>内部力</strong></span>和<span class="force"><strong>力矩</strong></span>。
+</p>
+<p>
+    如你所见，<span class="force"><strong>弯曲力矩</strong></span>在整个横杠上是变化的。由于与弯曲有关的应力与该力矩成正比，因此横杠不同部分所承受的应力大小也不同。
+</p>
+<p>
+    通常情况下，车架所受到的力是相当多变的，每一个载荷都可能导致车架同时发生弯曲、拉伸或压缩。这些应力会组合形成更加复杂的分布。从现在开始，我将不再将压缩应力和拉伸应力分开，而是将它们合并为一个<a href="https://en.wikipedia.org/wiki/Von_Mises_yield_criterion">等效应力</a>：
+</p>
+
 <div class="drawer_container ratio_60" id="fem8"></div>
 <div class="slider_force2" id="fem8_sl0"></div>
-<p>The <strong><span style="color:#010004">b</span><span style="color:#241151">r</span><span style="color:#5f1780">i</span><span style="color:#982d80">g</span><span style="color:#d3436e">h</span><span style="color:#f7765b">t</span><span style="color:#ffba7f">e</span><span style="color:#F5DB84">r</span></strong> the element the higher the stress. Once more, when these stresses get too high, they can permanently deform or break the material. Let&rsquo;s see how the concepts we&rsquo;ve explored here apply to our simple bicycle frame.</p>
-<h1 id="stresses-in-the-frame">Stresses in the Frame<a href="https://ciechanow.ski/bicycle/#stresses-in-the-frame" class="hanchor" ariaLabel="Anchor"><img src="media/anchor.png" width="16px" height="8px"/></a> </h1>
-<p>In the demonstration below, you can revisit the previous frame constructed from solid rods with <span class="tube"><strong>controllable diameter</strong></span>. This time, however, I&rsquo;m also visualizing the stresses in the rods:</p>
+
+<p>
+    其中<span style="color: rgb(1 0 4);">越</span><span style="color: rgb(36 17 81);">亮</span><span style="color: rgb(65 33 108);">的</span><span style="color: rgb(95 23 128);">部</span><span style="color: rgb(152 45 128);">分</span><span style="color: rgb(181 56 119);">代</span><span style="color: rgb(211 67 110);">表</span><span style="color: rgb(247 118 91);">其</span><span style="color: rgb(251 151 119);">应</span><span style="color: rgb(255 186 127);">力</span><span style="color: rgb(245 219 132);">越</span><span style="color: rgb(255 235 132);">高</span>。
+    再次重申，一旦应力过高，就会导致材料永久变形或断裂。让我们看看在这里探讨的这些概念如何应用于简单的自行车车架上。
+</p>
+
+<h1 id="stresses-in-the-frame">车架中的应力<a href="https://ciechanow.ski/bicycle/#stresses-in-the-frame" class="hanchor" ariaLabel="Anchor"><img src="media/anchor.png" width="16px" height="8px"/></a> </h1>
+
+<p>
+    在下面的演示中,您可以重新查看之前由<span class="tube"><strong>可调整直径</strong></span>实心杆构成的车架。不过这一次,我还将可视化车架上的应力分布:
+</p>
+
 <div class="drawer_container ratio_60 full_width" id="fem3"></div>
 <div class="slider_force" id="fem3_sl0"></div>
 <div class="slider_tube" id="fem3_sl1"></div>
-<p>I need to note that this analysis is simplified, as we&rsquo;re only analyzing the stresses within the tubular sections of the frame – we&rsquo;re ignoring more complicated stress distributions in the joints between these elements. However, it&rsquo;s still useful for doing the first pass analysis of a frame.</p>
-<p>Notice that for a <a href="#" class="link_button" onclick="fem3_f0();return false;">fully loaded seat</a> we need to increase the <span class="tube"><strong>diameter of the rods</strong></span> quite a lot before we <a href="#" class="link_button" onclick="fem3_f1();return false;">get rid of the bright spots</a> – they indicate areas of higher stress. Unfortunately, this makes the frame quite heavy.</p>
-<p>To reduce this weight we can make the tubes hollow – we&rsquo;ve seen how this mass redistribution can actually reduce the stresses. In the demonstration below, we&rsquo;re once again starting with solid rods, but this time we can increase their <span class="tube"><strong>diameter</strong></span>, while also making the walls thinner. I&rsquo;m keeping the area of the cross section of the pipes constant, which fixes the weight of the frame:</p>
+
+<p>
+    需要指出的是，这种分析是简化了的，因为我们只分析了车架管材部分的应力 - 而忽略了这些管材连接处更复杂的应力分布。然而，它仍然有助于对整个车架进行初步分析。
+</p>
+<p>
+    请注意，为了在<a href="#" class="link_button" onclick="fem3_f0();return false;">大载荷</a>的情况下<a href="#" class="link_button" onclick="fem3_f1();return false;">消除高亮的区域</a> - 这表示高应力区域，我们需要增加管材的直径。不过，这样会让整个车架变的沉重。
+</p>
+<p>
+    为了减轻这种重量，我们可以使管子中空 - 我们已经看到这种质量重新分布实际上可以减小应力。在下面的演示中，我们再次从实心管开始，但这次我们可以增加其<span class="tube"><strong>直径</strong></span>，同时使管壁变薄，这样保持了管的截面积不变，也就固定了整个车架的重量：
+</p>
+
 <div class="drawer_container ratio_60 full_width" id="fem4"></div>
 <div class="slider_force" id="fem4_sl0"></div>
 <div class="slider_tube" id="fem4_sl1"></div>
-<p>If we make the tube cross sections <a href="#" class="link_button" onclick="fem4_f0();return false;">large enough</a> we can make this frame handle vertical <span class="force"><strong>seat loads</strong></span> with little deflection and within the limits of acceptable stress.</p>
-<p>However, as we get ready to ride this bike, new problems emerge. In the demonstration below, you can witness what happens to the frame when the rider starts to vigorously pedal by shifting all his weight from the seat to standing on the right pedal:</p>
+
+<p>
+    只要管子<a href="#" class="link_button" onclick="fem4_f0();return false;">足够粗</a>，就可以保证车架在受到<span class="force"><strong>垂直负载</strong></span>时的形变很小且应力在可接受的范围内。
+</p>
+<p>
+    然而，当我们开始骑这辆自行车的时候新的问题又出现了。在下面的演示中，你可以看到当骑手开始用力蹬踏板并将重量从车座转移到右侧踏板上时，车架会发生什么变化：
+</p>
+
 <div class="drawer_container ratio_60 full_width" id="fem5"></div>
 <div class="slider_force"  id="fem5_sl0"></div>
-<p>The pedals are positioned at a certain distance from the frame, so when a pedal is pressed, that distance acts as a lever that tries to twist the frame out of its position, making many of the tubes become more stressed again.</p>
-<p>This time, however, the stresses are a little different as the tubes also undergo a <em>torsional</em> deformation. Let&rsquo;s explore this concept a little closer. In the demonstration below, we&rsquo;re once again encountering a solid steel rod. Instead of <em>bending</em> it with a force or a moment, we&rsquo;re applying a <span class="force"><strong>twisting moment</strong></span> to it:</p>
+
+<p>
+    因为踏板位于车架的一侧且有一定的距离，因此当踏板被踩下时，会像杠杆一样试图扭转车架的位置，从而使管材承受更大的应力。
+</p>
+<p>
+    然而这次应力的情况又有些不同，因为管材还经历了扭转变形。让我们再仔细探讨一下这个概念。在下面的演示中，我们再次看到一根实心钢杆。不过这次，我们不是去弯曲它,而是使它<span class="force"><strong>扭转</strong></span>:
+</p>
+
 <div class="drawer_container ratio_40" id="torsion1"></div>
 <div class="slider_force" id="torsion1_sl0"></div>
-<p>With a solid rod like this, it&rsquo;s a little hard to see whats going on inside of it, so let&rsquo;s focus on a short section of that rod and employ a magic see-through vision to let us observe how the ring sections of this rod behave. The second slider lets you choose which ring of this rod we&rsquo;re looking at:</p>
+
+<p>
+    对于这样的实心杠，很难看清内部发生了什么，所以让我们用透视视野去观察其中一小节的环状横截面是如何变形的。第二个滑块用来选择不同的环状横截面：
+</p>
+
 <div class="drawer_container ratio_80" id="torsion4"></div>
 <div class="slider_force" id="torsion4_sl0"></div>
 <div id="torsion4_sl1"></div>
-<p>As we <span class="force"><strong>twist</strong></span> this beam, its different sections become deformed, which you can see by observing the horizontal lines I drew on each ring. Notice that lines in the center are <a href="#" class="link_button" onclick="torsion4_f0();return false;"> barely angled</a>, but the ones close to the surface are <a href="#" class="link_button" onclick="torsion4_f1();return false;">fairly skewed</a>.</p>
-<p>The further away from the central axis a part of the rod is, the more deformed it becomes, as it has to sweep a longer arc as it gets twisted. The bigger the deformation, the larger the stress that section experiences:</p>
+
+<p>
+    当我们<span class="force"><strong>扭曲</strong></span>这根棍时，你可以通过观察环状截面上的水平线条来观察形变情况。请注意，越靠近中心位置的线条<a href="#" class="link_button" onclick="torsion4_f0();return false;">几乎没有倾斜</a>，越靠近表面的线条<a href="#" class="link_button" onclick="torsion4_f1();return false;">倾斜越明显</a>。
+</p>
+<p>
+    越是远离中心轴越的部分形变越大，形变越大，该部分所承受的应力也越大：
+</p>
+
 <div class="drawer_container ratio_40" id="torsion2"></div>
 <div class="slider_force" id="torsion2_sl0"></div>
-<p>This stress is a little different than the ones we&rsquo;ve explored before, as these elements gets <a href="https://en.wikipedia.org/wiki/Shear_stress"><em>sheared</em></a>. These shearing stresses add another contribution to the total stress that frame elements experience.</p>
-<p>Notice that the central parts of this solid rod barely get deformed and stressed. This is yet another reason why hollow pipes are practical for reducing mass of a bicycle frame without compromising its load carrying capabilities. You can experience these loads for pipes with the same mass, but <span class="tube"><strong>different hollowness</strong></span> in the demonstration below:</p>
+
+<p>
+    这种应力与我们之前探讨的有所不同，称之为<a href="https://zh.wikipedia.org/wiki/%E5%89%AA%E6%87%89%E5%8A%9B"><em>剪切应力</em></a>，也是整个车架所受应力的一部分。
+</p>
+<p>
+    请注意，这根实心杆的中心部分几乎不变形和受力。这是为什么中空管道实际上可以减轻自车架质量而不损害其承载能力的又一个原因。您可以在下面的演示中看到具有相同质量但<span class="tube"><strong>不同直径</strong></span>管道所承受应力的情况：
+</p>
+
 <div class="drawer_container ratio_40" id="torsion3"></div>
 <div class="slider_force" id="torsion3_sl0"></div>
 <div class="slider_tube" id="torsion3_sl1"></div>
-<p>Let&rsquo;s go back to our bicycle frame. As we&rsquo;ve seen, despite our clever attempts to use hollow tubes, the frame we&rsquo;ve built still was experiencing high stresses. If we kept trying to redistribute the mass inside individual tubes, we could eventually end up with a cross-like frame that&rsquo;s quite robust, but unfortunately heavy.</p>
-<p>However, instead of shifting the mass inside the rods, we can shift the mass inside the <em>frame</em> itself. Let&rsquo;s start by adding three new tubes at the bottom of the frame. To reduce weight we&rsquo;ll use hollow tubes across the board, so now we can just control their <span class="tube"><strong>diameter</strong></span>:</p>
- <div class="drawer_container ratio_60 full_width" id="fem6"></div>
- <div class="slider_force" id="fem6_sl0"></div>
- <div class="slider_tube"  id="fem6_sl1"></div>
-<p>Conceptually, these new tubes redistribute the mass further away from the neutral bending axis. For <a href="#" class="link_button" onclick="fem6_f0();return false;">vertical loads</a>, the central part of this frame now acts similarly to a very tall element as the upper and lower tubes are quite far apart. For <a href="#" class="link_button" onclick="fem6_f1();return false;">pedaling loads</a>, this new distribution also helps by bracing the sprocket area and preventing bending stresses from accumulating in the central part.</p>
-<p>This new design lets us use thinner and lighter tubes, but there are still a few things we can improve. Notice that the tube that supports the seat still can get pretty stressed because the bending moment inside it can grow quite large. Let&rsquo;s see if we can improve it by changing the location of the central joints using the third slider:</p>
+
+<p>
+    让我们回到自行车车架上来。尽管我们采用了空心的管材，但整个车架依然承受了很高的应力。如果依然通过增大增粗管材来达到目的，最终我们得到的会是一个十字形的车架，虽然结实但是非常沉重。
+</p>
+<p>
+    然而，我们还可以在车架底部增加三根新的管材。为了减轻重量，我们将全部使用空心管材，因此现在我们只需控制其<span class="tube"><strong>直径</strong></span>:
+</p>
+
+<div class="drawer_container ratio_60 full_width" id="fem6"></div>
+<div class="slider_force" id="fem6_sl0"></div>
+<div class="slider_tube"  id="fem6_sl1"></div>
+
+<p>
+    从概念上讲，增加的新管材将质量进一步重新分派到远离中性弯曲轴的位置。对于<a href="#" class="link_button" onclick="fem6_f0();return false;">垂直载荷</a>,这个车架的中心部分现在的作用类似于一个超长元件，因为上下管材相隔很远。对于<a href="#" class="link_button" onclick="fem6_f1();return false;">踏踏产生的载荷</a>，这种新的分布也有帮助，通过支撑牙盘区域,防止弯曲应力在中心部分累积。
+</p>
+<p>
+    这种新设计让我们可以使用更薄更轻的管材，但仍然有一些可以改进的地方。请注意，支撑座位的管材仍然可能会受到相当大的应力，因为其内部的弯曲力矩可能会变得相当大。让我们通过使用第三个滑块改变中心节点位置看看是否可以改善这一点:
+</p>
+
 <div class="drawer_container ratio_60 full_width" id="fem7"></div>
 <div class="slider_force" id="fem7_sl0"></div>
 <div class="slider_tube" id="fem7_sl1"></div>
 <div id="fem7_sl2"></div>
-<p>Notice that in the <a href="#" class="link_button" onclick="fem7_f0();return false;">&ldquo;classic&rdquo; configuration</a> we&rsquo;ve almost completely minimized the stresses from the <a href="#" class="link_button" onclick="fem7_f2();return false;">weight on the seat</a>. While the area close to the sprocket is still somewhat stressed <a href="#" class="link_button" onclick="fem7_f1();return false;">when pedaling</a>, many of the tubes are now <em>too</em> strong for their purpose. Let&rsquo;s tweak the size of the individual tubes by thinning the ones that are underutilized, and thickening the more stressed ones:</p>
+
+<p>
+    在<a href="#" class="link_button" onclick="fem7_f0();return false;">“经典”的车架设计</a>中我们将<a href="#" class="link_button" onclick="fem7_f2();return false;">来自车座</a>的应力最小化。靠近牙盘的区域在<a href="#" class="link_button" onclick="fem7_f1();return false;">踏板被踩踏</a>时仍然会承受一些应力，但是我们的管材足够坚固。接下来我们可以通过调整各个管材的尺寸、粗细，将利用率低的管材变细，而使承力较大的管材变粗:
+</p>
+
 <div class="drawer_container ratio_60 full_width" id="fem9"></div>
 <div class="slider_force" id="fem9_sl0"></div>
 <div id="fem9_sl1"></div>
-<p>We&rsquo;ve more or less arrived at the modern bicycle frame. One could take things even further by making the tubes oval to make them more rigid for bending with vertical forces, or by <em>butting</em> the tubes by making them thinner in the central part, while maintaining thicker walls close to joints, where the stresses are larger.</p>
-<p>I need to emphasize that we&rsquo;ve only conducted a very simplified investigation of a bicycle frame. A more rigorous mechanical analysis requires calculation of all the stresses caused by the bending, torsional, and normal loads to make sure that the materials used will not fail with these and other acting forces a bicycle is required to handle. We also haven&rsquo;t looked at loads in welds connecting the frame elements – these are often one of the more stressed parts of the frame.</p>
-<p>While the classic two-triangle &ldquo;diamond&rdquo; frame is mostly commonly used, many bicycles tweak that timeless construction by changing position or even removing some of the tubes. All of these changes have to consider the stresses in the final design to ensure that the bike is safe.</p>
-<p>Thankfully, the use of computer aided design tools and modern composite materials lets bicycle manufacturers create much fancier frames with different shapes and thicknesses of individual tubes with varied location of their connection points.</p>
-<h1 id="further-reading-and-watching">Further Reading and Watching<a href="https://ciechanow.ski/bicycle/#further-reading-and-watching" class="hanchor" ariaLabel="Anchor"><img src="media/anchor.png" width="16px" height="8px"/></a> </h1>
-<p>Bicycle stability is an actively researched topic, with new <a href="http://bicycle.tudelft.nl/stablebicycle/StableBicyclev34Revised.pdf">discoveries</a> being made in the last two decades. <a href="https://www.youtube.com/watch?v=XmDTTVvmm5M">Andy Ruina&rsquo;s lecture</a> serves as a gentle introduction into the topic before diving into the <a href="http://ruina.tam.cornell.edu/research/topics/bicycle_mechanics/*FinalBicyclePaperv45wAppendix.pdf">canonical paper</a> on the subject written by a <a href="http://bicycle.tudelft.nl/schwab/Bicycle/">group of bicycle researchers</a>. These collaborators also took a <a href="http://bicycle.tudelft.nl/stablebicycle/StableHistoryv32Arend.pdf">closer look into some mistakes</a> made by previous inquirers in this area. For a very long but enjoyable and down-to-earth read, I highly recommend Jason Moore&rsquo;s <a href="https://moorepants.github.io/dissertation/index.html">PhD thesis</a> on human control of bicycles.</p>
-<p><a href="https://dashdotrobot.com">Matthew Ford</a> did extensive research of bicycle wheels, which culminated in his <a href="https://arch.library.northwestern.edu/downloads/fb4948624">great PhD thesis</a> that thoroughly covers theoretical background and experimental results of what happens to spoked wheels under load. Additionally, Matthew wrote a few more <a href="https://bicyclewheel.info/articles/">entry level articles on his blog</a> and also made a <a href="https://bicyclewheel.info/wheel-simulator/">wheel simulator</a> that lets you see forces in spokes under different types of loads.</p>
-<p>While <em>exhaustive</em> resources on the influence of forces on the motion of bicycles are relatively scarce, in the sibling field of <em>motorcycle</em> physics, Vittore Cossalter&rsquo;s <a href="https://www.amazon.com/Motorcycle-Dynamics-Second-Vittore-Cossalter/dp/1430308613">Motorcycle Dynamics</a> serves as a good stand-in. While some of the topics in the book aren&rsquo;t directly applicable to bicycles, the publication still covers a lot of phenomena relevant to all single-track vehicles.</p>
-<p>Finally, <a href="https://mitpress.mit.edu/9780262538404/bicycling-science/">Bicycling Science</a> by David Gordon Wilson covers many of other bicycle-related topics like human power generation, rolling resistances, and a deeper dive into aerodynamics, all written in a very approachable style.</p>
-<h1 id="final-words">Final Words<a href="https://ciechanow.ski/bicycle/#final-words" class="hanchor" ariaLabel="Anchor"><img src="media/anchor.png" width="16px" height="8px"/></a> </h1>
-<p>In the real world, the forces that we have conveniently been visualizing with arrows are not directly visible, but their <em>effects</em> are very tangible. Sometimes that action is, quite literally, straightforward, like when we pedal to propel the bicycle forwards. On the other hand, the interplay of forces that keeps a bicycle stable is much more complicated.</p>
-<p>All of these forces are ultimately exerted and carried out by individual atoms that move around to affect their neighbors. The interactions of a single particle in the ground, a tire, or a frame, are completely insignificant, but once we accumulate the effects of all the molecules in these bodies, they end up forming a visible manifestation that makes bicycles rideable.</p>
-<p>Perhaps the next time you&rsquo;re on a bicycle, you&rsquo;ll be able to conceptualize some of those invisible forces that make the ride so enjoyable.</p>
 
+<p>
+    我们或多或少已经达到了现代自行车车架的设计。甚至可以进一步使管材横截面加工为椭圆形，以使其对垂直载荷产生的弯曲更加刚性，或者对管材进行"锥形加工",使中部变薄，而靠近节点处的壁厚保持较大，因为那里的应力更大。
+</p>
+<p>
+    我需要强调一点的是，我们对自行车车架只进行了非常简化的研究。更为严格的力学分析需要计算弯曲、扭转和法向载荷所造成的各种应力，以确保所用材料能够承受自行车所需承受的这些载荷和其他作用力而不发生失效。我们也没有研究连接车架各个构件焊缝处的应力情况 - 这些往往是车架上应力较大的部位之一。
+</p>
+<p>
+    虽然经典的由两个三角形组成的“菱形”框架是最常用的，但许多自行车通过改变位置甚至去除一些管材来调整这种经典的构造。当然所有的这些变化都必须考虑到最终所承受的应力，以确保自行车是安全的。
+</p>
+<p>
+    值得庆幸的是，借助计算机辅助设计和现代复合材料，自行车制造商能够制造出更复杂的车架，这些车架具有不同形状和厚度的管材，其连接点的位置也各不相同。
+</p>
+
+<h1 id="further-reading-and-watching">推荐阅读<a href="https://ciechanow.ski/bicycle/#further-reading-and-watching" class="hanchor" ariaLabel="Anchor"><img src="media/anchor.png" width="16px" height="8px"/></a> </h1>
+
+<p>
+    目前自行车的稳定性仍是一门活跃的研究课题，在过去的二十年依然有<a href="http://bicycle.tudelft.nl/stablebicycle/StableBicyclev34Revised.pdf">新的发现</a>。在学习由<a href="http://bicycle.tudelft.nl/schwab/Bicycle/">一组自行车研究人员</a>撰写的关于该主题<a href="http://ruina.tam.cornell.edu/research/topics/bicycle_mechanics/*FinalBicyclePaperv45wAppendix.pdf">经典论文</a>之前，<a href="https://www.youtube.com/watch?v=XmDTTVvmm5M">Andy Ruina 的课程</a>可以作为这方面研究的入门。这些合作者还审视了前人在这一领域的一些<a href="http://bicycle.tudelft.nl/stablebicycle/StableHistoryv32Arend.pdf">错误认知</a>。我强烈推荐杰森·摩尔关于人类控制自行车的<a href="https://moorepants.github.io/dissertation/index.html">博士论文</a>，虽然篇幅很长，但非常有趣且脚踏实地。
+</p>
+<p>
+    <a href="https://dashdotrobot.com/">Matthew Ford</a> 对自行车轮进行了大量的研究，最终完成了他的<a href="https://arch.library.northwestern.edu/downloads/fb4948624">博士论文</a>，其中阐述了辐条车轮在负载下的理论背景和实验结果。另外，Matthew 还在他的博客上写了几篇<a href="https://bicyclewheel.info/articles/">入门文章</a>，并制作了一个<a href="https://bicyclewheel.info/wheel-simulator/">轮毂模拟器</a>，让您可以在不同类型的载荷下查看辐条受力情况。
+</p>
+<p>
+    虽然关于力对自行车运动影响的详尽资源相对较少，但在其相关的摩托车物理学方面，Vittore Cossalter的<a href="https://www.amazon.com/Motorcycle-Dynamics-Second-Vittore-Cossalter/dp/1430308613">《Motorcycle Dynamics》</a>可以作为一个很好的替代品。尽管该书中有些主题并不直接适用于自行车，但它仍然涵盖了许多与单轨道车辆相关的现象。
+</p>
+<p>
+    最后，David Gordon Wilson 的<a href="https://mitpress.mit.edu/9780262538404/bicycling-science/">《
+Bicycling Science》</a>涵盖了许多其他与自行车相关的主题，如人力发电、滚动阻力，以及更深入地探讨了空气动力学，全书采用了平易近人的写作风格。
+</p>
+
+<h1 id="final-words">最终语<a href="https://ciechanow.ski/bicycle/#final-words" class="hanchor" ariaLabel="Anchor"><img src="media/anchor.png" width="16px" height="8px"/></a> </h1>
+
+<p>
+    在现实世界中，我们用箭头可视化的力并不直接可见，但它们造成的影响却是明显的。有时，这种作用是非常直接的，比如当我们蹬踏板去推动自行车前进。另一方面，保持自行车稳定的力之间相互作用要复杂得多。
+</p>
+<p>
+    所有这些力都是由单个原子产生和传递的，原子四处移动去影响它们的邻居。地面、轮胎或车架上单个粒子的相互作用是完全微不足道的，但一旦我们累积了这些物体中所有分子的效应，它们就会形成一种可见的现象,使自行车能够骑行。
+</p>
+<p>
+    也许下次当你骑自行车时，你就能从概念上理解那些让骑车变得如此惬意的无形力量了。
+</p>
+
+</div>
+</div>
+</div>
+</div>
+    <div id="footer">  
+        <div class="article_footer">如果你喜欢这篇文章, 可以去 <a href="https://www.patreon.com/ciechanowski">Patreon</a> 上支持作者.
+        </div>
+        Copyright &copy; 2024 Bartosz Ciechanowski
     </div>
 </div>
-      </div>
-    </div>
-    <div id="footer">
-        
-<div class="article_footer">
-If you enjoy these articles, consider supporting on <a href="https://www.patreon.com/ciechanowski">Patreon</a>.
-</div>
-Copyright &copy; 2024 Bartosz Ciechanowski
-    </div>
-  </div>
 </body>
 
 </html>
