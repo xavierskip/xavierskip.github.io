@@ -11,14 +11,14 @@
     <meta property="og:title" content="Bicycle – Bartosz Ciechanowski" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="https://ciechanow.ski/bicycle/" />
-    <meta property="og:description" content="Interactive article explaining the physics of a bicycle." />
+    <meta property="og:description" content="Interactive article explaining the physics of a bicycle.一篇交互式文章，解释自行车的物理原理。" />
     <meta property="og:image" content="https://ciechanow.ski/images/og/bicycle.png" />
     <meta name="twitter:title" content="Bicycle – Bartosz Ciechanowski" />
     <meta name="twitter:site" content="@BCiechanowski" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image" content="https://ciechanow.ski/images/og/bicycle.png" />
-    <meta property="og:locale" content="en_US">
-    <meta name="keywords" content="bicycle,forces,stability,trail,fem,frame">
+    <meta property="og:locale" content="zh_cn">
+    <meta name="keywords" content="bicycle，forces,stability,trail,fem,frame,自行车,工作原理,平衡,稳定性,原理,轮毂,车架,物理,3D,交互">
     <link href="media/base.css" rel="stylesheet" type="text/css"/>
     <link href="media/font1.css" rel="stylesheet" type="text/css" async>
     <link href="media/font2.css" rel="stylesheet" async>
@@ -53,49 +53,49 @@
     </div>
     <div id="content">
         <div class="article">
-<div class="post_date">3月 28, 2023</div>
+<div class="post_date">3月 28， 2023</div>
 <h1 class="post_title"><a href="https://ciechanow.ski/bicycle/">自行车</a></h1>
 <div class="padding_wrapper">
 <p>
-    骑自行车是一件令人愉悦的事情。掌握了骑车的诀窍后,通过踩踏来前进,转动车把来转向,使得骑车成为一种轻松自如的活动。在下面的示例中,你可以使用<span class="force6"><strong>滑块</strong></span>来引导骑手,也可以拖动视图来改变摄像机角度。
+    骑自行车是一件令人愉悦的事情。掌握了骑车的诀窍后，通过踩踏来前进，转动车把来转向，使得骑车成为一种轻松自如的活动。在下面的示例中，你可以使用<span class="force6"><strong>滑块</strong></span>来引导骑手，也可以拖动视图来改变视角。
 </p>
 <div class="drawer_container ratio_100" id="hero"></div>
 <div class="slider_rider" id="hero_sl0"></div>
 <p>
-    相比较<a href="https://ciechanow.ski/internal-combustion-engine/">内燃机</a>或<a href="https://ciechanow.ski/mechanical-watch/">机械手表</a>,自行车是一种相当简单的机器 - 它的大部分部件都可以直接看到。至于不直接可见的力量，这种力量在不影响其组件的结构完整性的情况下使得骑行和控制自行车成为可能。
+    相比较<a href="https://ciechanow.ski/internal-combustion-engine/">内燃机</a>或<a href="https://ciechanow.ski/mechanical-watch/">机械手表</a>，自行车是一种相当简单的机器 - 它的大部分零件都可以直接看到。至于不可见的力量，这些力量在不影响自行车结构完整性的情况下使得骑行和控制自行车成为可能。
 </p>
 <p>
-    在本文中,我将关注骑车时自行车及其零件种许多力量之间微妙的相互作用。我们将看到轮胎施加的力如何使自行车加速、制动和转弯,并探讨车轮和车架在承受这些不同力量时为何不会破损。
+    在本文中，我将关注骑车时自行车及其零件中多种力量之间微妙的相互作用。还将看到轮胎施加的力如何使自行车加速、制动和转弯，并探讨车轮和车架在承受这些力量时为何不会破损。
 </p>
 <p>
-    在理解这些更复杂的相互作用之前,我们将利用一些更简单的模型并探索最基本的场景将帮助我们对真实自行车的行为形成直观认知。
+    在理解这些复杂的相互作用之前，我们将利用一些更简单的模型并探索最基本的场景以帮助我们对真实自行车的行为形成直观认知。
 </p>
 
 
 <h1 id="forces">力<a href="#forces" class="hanchor" ariaLabel="Anchor"><img src="media/anchor.png" width="16px" height="8px"/></a> </h1>
 
 <p>
-    让我们介绍这一部分的主角 - 一个简单的木箱。在下面的示例中,你可以使用滑块对这个箱子施加一个<span class="force"><strong>力</strong></span>。底部的小速度计跟踪箱子的速度。你可以使用 <span class="restart_inline"></span>按钮重新启动模拟:
+    让我们介绍这一部分的主角 - 一个简单的木箱。在下面的示例中，你可以使用滑块对这个箱子施加一个<span class="force"><strong>力</strong></span>。底部的小速度计记录箱子的速度。你可以使用 <span class="restart_inline"></span>按钮重新启动模拟:
 </p>
 
 <div class="drawer_container ratio_30 full_width" id="force1"></div>
 <div class="slider_force" id="force1_sl0"></div>
 
 <p>
-    <span class="force"><strong>红色箭头</strong></span>代表推力，可以通过手推或一阵强风施加。该<span class="force"><strong>箭头</strong></span>的大小反映了力的大小 - 箭头越大，推力越强。
+    <span class="force"><strong>红色箭头</strong></span>代表推力，可以由手推或一阵强风施加。该<span class="force"><strong>箭头</strong></span>的大小反映了力的大小 - 箭头越大，推力越强。
 </p>
 <p>
-    请注意，一旦箱子开始运动，即使您停止施加<span class="force"><strong>力</strong></span>，它也会以相同的速度继续移动。在这些模拟的神奇世界中，我去除了所有摩擦或空气阻力 - 唯一存在的力是我们所看到的那个。
+    请注意，箱子一旦开始运动，即使您停止施加<span class="force"><strong>力</strong></span>，它也会以相同的速度继续移动。在这个模拟的神奇世界中，我去除了所有摩擦或空气阻力 - 唯一存在的力即是我们所看到的那个。
 </p>
 <p>
-    当你对箱子施加<span class="force"><strong>力</strong></span>时,它的速度会增加 - 力越大,加速度越快。此外,对于施加相同的力,箱子越重,其加速度就越慢。你可以在下面的示例中体验这一点,其中较大的箱子重量是较小箱子的两倍,但<span class="force"><strong>施加的力</strong></span>是相同的:
+    当你对箱子施加<span class="force"><strong>力</strong></span>时，它的速度会增加 - 力越大，加速度越快。此外，对于施加相同的力，箱子越重，其加速度就越慢。你可以在下面的示例中体验这一点，其中较大的箱子重量是较小箱子的两倍，但<span class="force"><strong>施加的力</strong></span>是相同的:
 </p>
 
 <div class="drawer_container ratio_60 full_width" id="force2"></div>
 <div class="slider_force" id="force2_sl0"></div>
 
 <p>
-    虽然在本文中我将避免深入讨论数学细节,但是关于物体的质量<strong>m</strong>、所施加的力<strong>F</strong>和物体的加速度<strong>a</strong>三者之间的关系有一个最基本的物理方程式值得被提出:
+    虽然在本文中我将避免深入讨论数学细节，但是关于物体的质量<strong> m </strong>、所施加的力<strong> F </strong>和物体的加速度<strong> a </strong>三者之间的关系有一个最基本的物理方程式:
 </p>
 
 <div class="equation">
@@ -103,35 +103,35 @@ F = m &middot; a
 </div>
 
 <p>
-    让我们稍微复杂化一下，添加第一个试图将箱子<span class="force1"><strong>向左推的力</strong></span>。您仍然可以使用滑块控制<span class="force"><strong>右推力</strong></span>的大小，但为了使我们的实验变得稍微简单一些，我会在您松开后将该<span class="force"><strong>力</strong></span>恢复到其初始大小：
+    让我们稍微复杂化一点，添加第一个试图将箱子<span class="force1"><strong>向左推的力</strong></span>。您仍然可以使用滑块控制<span class="force"><strong>右推力</strong></span>的大小，但为了使我们的实验变得稍微简单一些，我会在您松开后将该<span class="force"><strong>力</strong></span>恢复到其初始大小：
 </p>
 
 <div class="drawer_container ratio_30 full_width" id="force3"></div>
 <div class="slider_force" id="force3_sl0"></div>
 
 <p>
-    需要注意的是,并不是单纯存在力就会导致物体加速 - 只有当这些力不平衡时,速度才会改变。请记住,我们使用不同大小的箭头来表示力的大小,所以只要<span class="force"><strong>右侧箭头</strong></span>的长度等于<span class="force1"><strong>左侧箭头</strong></span>的长度,箱子就不会改变速度。
+    需要注意的是，并不是单纯存在力就会导致物体加速 - 只有当这些力不平衡时，速度才会改变。请记住，我们使用不同大小的箭头来表示力的大小，所以只要<span class="force"><strong>右侧箭头</strong></span>的长度等于<span class="force1"><strong>左侧箭头</strong></span>的长度，箱子就不会改变速度。
 </p>
 
 <p>
-    另外得指出的是，当箱子由于力的不平衡而开始移动时,仅仅松开滑块使<span class="force"><strong>力</strong></span><span class="force1"><strong>平衡</strong></span>并不会停止箱子 - 它会继续以某个速度移动。要减慢箱子的速度,我们需要改变力的平衡,以抵消当前的运动,并且要小心操作，以避免过度调节。
+    另外得指出的是，当箱子由于力的不平衡而开始移动时，仅仅松开滑块使<span class="force"><strong>力</strong></span><span class="force1"><strong>平衡</strong></span>并不会停止箱子 - 它会继续以某个速度移动。要减慢箱子的速度，我们需要改变力的平衡，以抵消当前的运动，并且要小心操作，以避免过度调节。
 </p>
 <p>
-    让我们再看看力相关的另一个概念。在下面的示例中,箱子靠在<span class="wall"><strong>墙</strong></span>上,你仍然可以控制推动箱子向右的<span class="force"><strong>力</strong></span>:
+    让我们再看看与力相关的另一个概念。在下面的示例中，箱子靠在<span class="wall"><strong>墙</strong></span>上，你仍然可以控制推动箱子向右的<span class="force"><strong>力</strong></span>:
 </p>
 
 <div class="drawer_container ratio_30 full_width" id="force4"></div>
 <div class="slider_force" id="force4_sl0"></div>
 
 <p>
-    与先前的例子类似，当我们对箱子<span class="force"><strong>施加力</strong></span>时，我们期望它会移动，但它根本不动，这意味着必然有其他力作用于它来平衡<span class="force"><strong>推力</strong></span>。让我们将此情景中存在的所有其他力可视化：
+    与先前的例子类似，当我们对箱子<span class="force"><strong>施加力</strong></span>时，我们期望它会移动，但它根本不动，这意味着必然有其他力的作用来平衡<span class="force"><strong>推力</strong></span>。让我们将此情景中存在的所有其他力可视化：
 </p>
 
 <div class="drawer_container ratio_30 full_width" id="force5"></div>
 <div class="slider_force" id="force5_sl0"></div>
 
 <p>
-    请注意，当我们<span class="force"><strong>推</strong></span>箱子时，箱子会对墙施加<span class="force1"><strong>压力</strong></span>，同时墙也会将箱子<span  class="force2"><strong>推</strong></span>回来。正是这种<span  class="force2"><strong>力量</strong></span>平衡了<span class="force"><strong>推动的力量</strong></span>，使得箱子保持静止。让我们分开画出箱子和墙壁，以展示作用在它们上面的力量。
+    请注意，当我们<span class="force"><strong>推</strong></span>箱子时，箱子会对墙施加<span class="force1"><strong>压力</strong></span>，同时墙也会将箱子<span  class="force2"><strong>推</strong></span>回来。正是这种<span  class="force2"><strong>力量</strong></span>平衡了<span class="force"><strong>推动的力量</strong></span>，使得箱子保持静止。让我们分开画出箱子和墙壁，以展示作用在它们上的力量。
 </p>
 
 <div class="drawer_container ratio_30 full_width" id="force5b"></div>
@@ -148,20 +148,20 @@ F = m &middot; a
 <div class="slider_force" id="force5a_sl0"></div>
 
 <p>
-    当箱子向右移动时,它压缩了墙壁中的分子，这会产生一种弹簧般的<span class="force2"><strong>力</strong></span>将箱子推回。如果这个<span class="force2"><strong>力</strong></span>太小,不足以平衡<span class="force"><strong>推力</strong></span>,箱子将继续向右移动,这将进一步压缩墙壁,产生更大的<span class="force2"><strong>反推力</strong></span>。
+    当箱子向右移动时，它压缩了墙壁中的分子，这会产生一种弹簧般的<span class="force2"><strong>力</strong></span>将箱子推回。如果这个<span class="force2"><strong>力</strong></span>太小，不足以平衡<span class="force"><strong>推力</strong></span>，箱子将继续向右移动，这将进一步压缩墙壁，产生更大的<span class="force2"><strong>反推力</strong></span>。
 </p>
 <p>
-    如果这个<span class="force2"><strong>力</strong></span>变得太大，超过了<span class="force"><strong>推力</strong></span>，它就会开始向左加速箱子,这将减慢它的速度,甚至将其向左移动。然后，这将减少墙壁的压缩，从而减小<span class="force2"><strong>阻力</strong></span>。整个系统很快就会找到平衡,而且由于墙壁和箱子都非常坚硬,最终的位移是感知不到的。
+    如果这个<span class="force2"><strong>力</strong></span>变得太大，超过了<span class="force"><strong>推力</strong></span>，它就会开始向左加速箱子，这将减慢它的速度，甚至将其向左移动。然后，这将减少墙壁的压缩，从而减小<span class="force2"><strong>阻力</strong></span>。整个系统很快就会找到平衡，而且由于墙壁和箱子都非常坚硬，最终的位移是感知不到的。
 </p>
 <p>
-    在接下来的演示中，我们将通过施加一个倾斜的<span class="force"><strong>力</strong></span>使箱子被推到角落里来增加了一些复杂性
+    在接下来的演示中我们将增加一些复杂性，通过施加一个倾斜的<span class="force"><strong>力</strong></span>使箱子被推到角落里：
 </p>
 
 <div class="drawer_container ratio_40 full_width" id="force13"></div>
 <div class="slider_force" id="force13_sl0"></div>
 
 <p>
-    由于箱子没有移动，作用在它上面的力必定平衡，右侧我们可以看到，我已经把代表作用在箱子上所有力的箭头首尾相连，以显示它们形成了一个闭合回路。我们还可以将倾斜<span class="force"><strong>推力</strong></span>分解为其<span class="force5"><strong>水平</strong></span>和<span class="force4"><strong>垂直</strong></span>分量 - 这些分量由墙壁的<span class="force1"><strong>水平</strong></span>和<span class="force6"><strong>垂直</strong></span>反作用力平衡。
+    由于箱子没有移动，作用在它上面的力必定平衡，从右侧我们可以看到，我已经把代表作用在箱子上所有力的箭头首尾相连，以显示它们形成了一个闭合回路。我们还可以将倾斜<span class="force"><strong>推力</strong></span>分解为其<span class="force5"><strong>水平</strong></span>和<span class="force4"><strong>垂直</strong></span>分量 - 这些分量由墙壁的<span class="force1"><strong>水平</strong></span>和<span class="force6"><strong>垂直</strong></span>反作用力平衡。
 </p>
 <p>
     在我们结束这些简单例子之前，让我们探讨一下当我们将两个箱子并排放置并尝试将左边的箱子<span class="force"><strong>推</strong></span>向墙壁时会发生什么：
@@ -200,10 +200,10 @@ F = m &middot; a
     如你所见，箱子在向右运动的过程中同时也开始了旋转，哪怕停止受力后依旧继续在旋转。请注意，我用一个小的黑白符号<span class="cog"></span>标记了箱子，这个符号代表了这个物体的<a href="https://zh.wikipedia.org/wiki/%E8%B3%AA%E5%BF%83"><em>质心</em></a>。
 </p>
 <p>
-    我还画了一条虚线，表示力作用的方向。在这个例子中，该线并不穿过箱子的质心，而是放置在离质心一定距离的位置。这就创造了一个力臂,通过它<span class="force"><strong>力</strong></span>会使物体旋转。
+    我还画了一条虚线，表示力作用的方向。在这个例子中，该线并不穿过箱子的质心，而是放置在离质心一定距离的位置。这就创造了一个力臂，通过它<span class="force"><strong>力</strong></span>会使物体旋转。
 </p>
 <p>
-    在接下来的演示中,你会发现，虚线距离质心越远，力量就越容易旋转物体。我们将相同大小的<span class="force"><strong>两个力</strong></span>应用于两个相同的箱子。唯一的区别是这些力作用于质心<span class="cog"></span>的<span style="color:#9B3B3F"><strong>距离</strong></span>：
+    在接下来的演示中，你会发现，虚线距离质心越远，力量就越容易旋转物体。我们将相同大小的<span class="force"><strong>两个力</strong></span>应用于两个相同的箱子。唯一的区别是这些力作用于质心<span class="cog"></span>的<span style="color:#9B3B3F"><strong>距离</strong></span>：
 </p>
 
 <div class="drawer_container ratio_50 full_width" id="force9"></div>
@@ -224,17 +224,17 @@ M = r &times; F
     在三维空间中，力矩可以使物体围绕任意轴旋转，但在这些简单的二维情景中，我们只关心力矩是顺时针还是逆时针旋转物体。
 </p>
 <p>
-    自然地,施加在物体上的任何偏离中心的力都会产生力矩。在下面的演示中,你可以改变<span class="force"><strong>两</strong></span>个<span class="force1"><strong>力</strong></span>作用在箱子上的位置:
+    自然地，施加在物体上的任何偏离中心的力都会产生力矩。在下面的演示中，你可以改变<span class="force"><strong>两</strong></span>个<span class="force1"><strong>力</strong></span>作用在箱子上的位置:
 </p>
 
 <div class="drawer_container ratio_30 full_width" id="force10"></div>
 <div id="force10_sl0"></div>
 
 <p>
-    力仍然平衡,物体的质心保持不动,但力矩不平衡,物体的角速度发生了改变。
+    力仍然平衡，物体的质心保持不动，但力矩不平衡，物体的角速度发生了改变。
 </p>
 <p>
-    虽然平衡的力矩很难可视化,但我们仍然可以通过绘制跨越作用力箭头和力臂长度的彩色矩形来做到:
+    虽然平衡的力矩很难可视化，但我们仍然可以通过绘制跨越作用力箭头和力臂长度的彩色矩形来做到:
 </p>
 
 <div class="drawer_container ratio_30 full_width" id="force11"></div>
@@ -259,7 +259,7 @@ M = r &times; F
     我们可以将所有地面产生的力及力矩用<span class="force1"><strong>一个箭头</strong></span>来表示。对于重力，我们可以用<em>重心</em>上受到的<span class="force"><strong>力</strong></span>来表示，大多数情况下重心相当于质心<span class="cog"></span>的位置。
 </p>
 <p>
-    我们在这里探讨的规则是普适的 - 不平衡的力改变物体的线速度，不平衡的力矩改变物体的角速度。我们终于准备好去理解这些思想如何适用于自行车和骑手。让我们绘制一些在稳定转弯过程中作用在它们上面的力：
+    我们在这里探讨的规则是普适的 - 不平衡的力改变物体的线速度，不平衡的力矩改变物体的角速度。我们终于准备好去理解这些思想如何适用于自行车和骑手。让我们绘制一些在稳定转弯过程中作用在它们上的力：
 </p>
 
 <div class="drawer_container ratio_100" id="bike_force_cornering_intro"></div>
@@ -271,23 +271,23 @@ M = r &times; F
     与其在整个图中分析所有复杂的三维相互作用，我们应该首先将关注一些可以轻松在平面图中呈现的简单情况。我们还会将自行车和骑手的运动分解为三个主要方向，只有这样，我们才能看到它们是如何相互作用的。
 </p>
 <p>
-    事实上,我们将从探索通常没有任何运动的垂直方向开始。
+    事实上，我们将从探索通常没有任何运动的垂直方向开始。
 </p>
 
 <h1 id="up-and-down">上 下<a href="https://ciechanow.ski/bicycle/#up-and-down" class="hanchor" ariaLabel="Anchor"><img src="media/anchor.png" width="16px" height="8px"/></a> </h1>
 
 <p>
-    让我们看看一辆自行车和骑手在滑行路段时垂直方向上力的示意图。<span class="force2"><strong>骑手的重量</strong></span>一部分作用在座位上，同时踏板和把手也<span class="force3"><strong>支撑</strong></span>了部分<span class="force2"><strong>重量</strong></span>。骑手和自行车的<strong><span class="gradient_word" data-color0="#2970C2" data-color1="#85D3E6">重量</span></strong>通过轮子下的两个接触点<strong><span class="gradient_word" data-color0="#EB515C" data-color1="#DF6C52">传递</span></strong>到地面。
+    让我们看看一辆自行车和骑手在滑行路段时垂直方向上力的示意图。<span class="force2"><strong>骑手的重量</strong></span>一部分作用在座位上，同时踏板和把手也<span class="force3"><strong>支撑</strong></span>了部分<span class="force2"><strong>重量</strong></span>。骑手和自行车的<strong><span class="gradient_word" data-color0="#2970C2" data-color1="#85D3E6">重量</span></strong>通过车轮下的两个接触点<strong><span class="gradient_word" data-color0="#EB515C" data-color1="#DF6C52">传递</span></strong>到地面。
 </p>
 
 <div class="drawer_container ratio_100" id="bike_force1"></div>
 <div class="slider_rider" id="bike_force1_sl0"></div>
 
 <p>
-    你能注意到，<span class="rider"><strong>黄色滑块</strong></span>允许你改变骑手的姿势。请注意，同时地面的<span class="force"><strong>反作用</strong></span><span class="force4"><strong>力</strong></span>在两个车轮之间发生转移。
+    你能注意到，<span class="rider"><strong>黄色滑块</strong></span>允许你改变骑手的姿势。请注意，同时地面的<span class="force"><strong>反作用</strong></span><span class="force4"><strong>力</strong></span>的大小也在两个车轮上发生变化。
 </p>
 <p>
-    看起来地面似乎能感受到骑手躯干和四肢的<span class="force2"><strong>重量</strong></span>，其实地面只能受到<span class="force1"><strong>两个</strong></span>轮子的<span class="force5"><strong>力</strong></span>。尽管在骑手改变姿态的整个动态过程中，两个轮子的负荷略有不同，但是一旦稳定下来，这<span class="force1"><strong>两股</strong></span><span class="force5"><strong>力</strong></span>加起来等于自行车和骑手的总重量，毕竟自行车和骑手既不会飞起来也不会陷入地下。
+    看起来地面似乎能感受到骑手躯干和四肢的<span class="force2"><strong>重量</strong></span>，其实地面只能受到<span class="force1"><strong>两个</strong></span>车轮的<span class="force5"><strong>力</strong></span>。尽管在骑手改变姿态的整个动态过程中，两个车轮的负荷略有不同，但是一旦稳定下来，这<span class="force1"><strong>两股</strong></span><span class="force5"><strong>力</strong></span>加起来等于自行车和骑手的总重量，毕竟自行车和骑手既不会飞起来也不会陷入地下。
 </p>
 <p>
     要理解为什么作用于<span class="force"><strong>地面</strong></span>的<span class="force4"><strong>力</strong></span>会随着骑手倾斜而改变它们的分布，我们必须先创建自行车的质心<span class="cog_bike"></span>、骑手的质心<span class="cog_rider"></span>以及自行车和骑手作为一个整体的质心<span class="cog"></span>。骑手的重量要比自行车重得多，所以它主导了这个共同的质心<span class="cog"></span>:
@@ -304,10 +304,10 @@ M = r &times; F
 <div id="bike_force_normal_rotation_sl0"></div>
 
 <p>
-    当骑手的重心位置发生变化时,地面反作用力的力臂也会改变,这会产生一个使自行车逆时针旋转的扭矩。实际上，这种旋转非常微小，但就在这个过程中，其中一个车轮会稍微抬起来，这会减小那个区域的<span class="force4"><strong>地面反作用力</strong></span>。与此同时,另一个车轮会更多地陷入地面,从而增加那个车轮下的<span class="force"><strong>反作用力</strong></span>。
+    当骑手的重心位置发生变化时，地面反作用力的力臂也会改变，这会产生一个使自行车逆时针旋转的扭矩。实际上，这种旋转非常微小，但就在这个过程中，其中一个车轮会稍微抬起来，这会减小那个区域的<span class="force4"><strong>地面反作用力</strong></span>。与此同时，另一个车轮会更多地陷入地面，从而增加那个车轮下的<span class="force"><strong>反作用力</strong></span>。
 </p>
 <p>
-    地面知道如何向每个车轮分配多少力量可能再次让你感觉有些神奇，不过这是源于地面弹性的精细平衡，与我们之前看到的墙壁抵抗推力的情况非常类似。在下面的演示中,你可以再次<span class="rider"><strong>改变</strong></span>骑手的位置,但这次我们将近距离以慢动作观察<strong>轮胎</strong>与<span style="color:#888"><strong>道路</strong></span>之间的接触区域:
+    地面如何知道向每个车轮分配多少力量可能会让你感觉有些神奇，不过这是源于地面弹性的精细平衡，与我们之前看到的墙壁抵抗推力的情况非常类似。在下面的演示中，你可以再次<span class="rider"><strong>改变</strong></span>骑手的位置，但这次我们将近距离以慢动作观察<strong>轮胎</strong>与<span style="color:#888"><strong>道路</strong></span>之间的接触区域:
 </p>
 
 <div class="drawer_container ratio_100" id="bike_force3"></div>
@@ -317,7 +317,7 @@ M = r &times; F
     整个系统很快就找到了平衡，使两个扭矩的平衡，同时<span class="force"><strong>地面</strong></span><span class="force4"><strong>力量</strong></span>也确保在垂直方向保持平衡 - 它们抵消了来自<strong><span class="gradient_word" data-color0="#2970C2" data-color1="#85D3E6">自行车和骑手的重量</span></strong>。
 </p>
 <p>
-    到目前为止,我们完全忽略了前后方向的任何力,这使得骑手可以无需踩踏板就永远滑行。当然，这是一个简化的假设，在平地骑行时骑手需要踩踏板才能继续向前移动:
+    到目前为止，我们完全忽略了前后方向的任何力，这使得骑手可以无需蹬踏板就永远滑行。当然，这是一个简化的假设，在平地骑行时骑手需要蹬踏板才能继续向前移动:
 </p>
 
 <div class="drawer_container ratio_100" id="bike_force4"></div>
@@ -327,7 +327,7 @@ M = r &times; F
     单独来看，骑手腿部施加的这些动态力量几乎不会影响地面反作用力的分布 - 只是通过更加用力地压地面并不能让自己变得更重。
 </p>
 <p>
-    但是,通过曲柄、链条和后轮,踩踏的动作产生了一股向前推动自行车的力量。我们将看到,这些水平力量也会影响垂直方向的平衡,不过让我们先了解踩踏动作是如何推动自行车前进的。
+    但是，通过曲柄、链条和后轮，踩踏的动作产生了一股向前推动自行车的力量。我们将看到，这些水平力量也会影响垂直方向的平衡，不过让我们先了解踩踏动作是如何推动自行车前进的。
 </p>
 
 <h1 id="forwards-and-backwards">前进 后退<a href="https://ciechanow.ski/bicycle/#forwards-and-backwards" class="hanchor" ariaLabel="Anchor"><img src="media/anchor.png" width="16px" height="8px"/></a> </h1>
@@ -340,10 +340,10 @@ M = r &times; F
 <div id="bike_pedal_sl0"></div>
 
 <p>
-    <span class="force"><strong>踩踏板的力</strong></span>产生的<span class="force4"><strong>力矩</strong></span>作用于牙盘上，牙盘<span class="force6"><strong>带动</strong></span>了链条，链条再<span class="force6"><strong>带动</strong></span>飞轮，飞轮在后轮上产生了<span class="force1"><strong>扭矩</strong></span>，后轮上<span class="force1"><strong>扭矩</strong></span>产生的<span class="force2"><strong>力</strong></span>试图去向后推动地面。
+    <span class="force"><strong>蹬踏板的力</strong></span>产生的<span class="force4"><strong>力矩</strong></span>作用于牙盘上，牙盘<span class="force6"><strong>带动</strong></span>了链条，链条再<span class="force6"><strong>带动</strong></span>飞轮，飞轮在后轮上产生了<span class="force1"><strong>扭矩</strong></span>，后轮上<span class="force1"><strong>扭矩</strong></span>产生的<span class="force2"><strong>力</strong></span>试图去向后推动地面。
 </p>
 <p>
-    请注意,这些力和力矩在经过各个部件时,它们的大小会发生变化。由于整个过程涉及到的不同半径及杠杆因素造成了这些变化。例如,曲柄运动就构成了一个简单的杠杆:
+    请注意，这些力和力矩在经过各个部件时，它们的大小会发生变化。由于整个过程涉及到的不同半径及杠杆因素造成了这些变化。例如，曲柄运动就构成了一个简单的杠杆:
 </p>
 
 <div class="drawer_container ratio_70" id="bike_pedal2"></div>
@@ -362,7 +362,7 @@ M = r &times; F
     我们自行车上的飞轮较小，受到同样的<span class="force6"><strong>链条拉力</strong></span>因此产生的<span class="force1"><strong>后轮扭矩</strong></span>小于前面<span class="force4"><strong>牙盘上的扭矩</strong></span>，不过有些高级的自行车允许骑手通过改变<a href="https://ciechanow.ski/gears/">传动比</a>来达到控制<span class="force4"><strong>踩踏扭矩</strong></span>的效果。
 </p>
 <p>
-    通过轮胎与地面之间的摩擦,轮子底部保持与地面接触,因此当轮子旋转时,它会向左<span class="force2"><strong>推</strong></span>地面。作为这个<span class="force2"><strong>力</strong></span>的反作用,地面向右<span class="force3"><strong>推回</strong></span>轮子,从而推动自行车和骑手向前移动:
+    通过轮胎与地面之间的摩擦，车轮底部保持与地面接触，因此当车轮旋转时，它会向左<span class="force2"><strong>推</strong></span>地面。作为这个<span class="force2"><strong>力</strong></span>的反作用，地面向右<span class="force3"><strong>推回</strong></span>车轮，从而推动自行车和骑手向前移动:
 </p>
 
 <div class="drawer_container ratio_100" id="bike_force_pedal"></div>
@@ -377,10 +377,10 @@ M = r &times; F
     请注意，骑手的<span class="force"><strong>踩踏</strong></span><span class="force1"><strong>力</strong></span>大小在整个旋转过程中会有所变化。此外，这些作用力的杠杆长度在每个旋转周期内也会发生变化，因此由骑手最终产生的扭矩和<span class="force3"><strong>推动力</strong></span>推动力大小也具有周期性。
 </p>
 <p>
-    从速度计上可以观察到，尽管自行车被不停的踩踏动作推动向前，但是车速保持着在大致不变。是由其他的力量使它减速，阻止了速度的增加，在探讨这个之前，我们先去讨论一种更直接减速自行车的方法。
+    从速度计上可以观察到，尽管自行车被不停的踩踏动作推动向前，但是车速保持着在大致不变。是有其他的力量使它减速，阻止了速度的增加，在探讨这个之前，我们先去讨论一种更直接减速自行车的方法。
 </p>
 <p>
-    一个向前推动车轮的力会加速自行车，类似地，一个向后推动车轮的力会减速自行车。这个就是刹车原理的基础：
+    一个向前推动车轮的力会加速自行车，类似地，一个向后推动车轮的力会减速自行车。这就是刹车原理的基础：
 </p>
 
 <div class="drawer_container ratio_60 full_width" id="bike_brake"></div>
@@ -400,10 +400,10 @@ M = r &times; F
 <div class="slider_force6" id="bike_force_brake_front2_sl0"></div>
 
 <p>
-    很明显,加速和制动都需要轮胎和地面之间的某种相互作用。让我们仔细看看轮胎究竟是如何产生这些力的。
+    很明显，加速和制动都需要轮胎和地面之间的某种相互作用。让我们仔细看看轮胎究竟是如何产生这些力的。
 </p>
 <p>
-    典型的自行车轮胎通过充气加压具有类似<a href="https://en.wikipedia.org/wiki/Toroid"><em>圆环</em></a>的形状，但在<span class="force"><strong>承受</strong></span>自行车和骑手的重量时会发生变形，因此它与路面接触的区域大致呈椭圆形。您可以在以下演示的右侧看到该形状，这个视图是轮胎与地面接触面的截面图：(译者注：)
+    典型的自行车轮胎通过充气加压具有类似<a href="https://en.wikipedia.org/wiki/Toroid"><em>圆环</em></a>的形状，但在<span class="force"><strong>承受</strong></span>自行车和骑手的重量时会发生变形，因此它与路面接触的区域大致呈椭圆形。您可以在以下演示的右侧看到该形状，这个视图是轮胎与地面接触面的截面图：
 </p>
 
 <div class="drawer_container ratio_50 full_width" id="contact_patch"></div>
@@ -413,7 +413,7 @@ M = r &times; F
     这个区域就是<a href="https://en.wikipedia.org/wiki/Contact_patch"><em>接触面</em></a>，很明显两个轮胎与地面接触的这些椭圆形区域就是自行车和骑手与地面产生力的交互的区域。
 </p>
 <p>
-    为了理解在加速和减速时接触面内力是如何产生的，我们要先去了解<em>滚动运动</em>，在下面的演示中，你可以操纵一个单独的轮子在路上滚动。轮胎上涂有白色油漆，所以会在路上留下痕迹。滑块可以控制两种力量，一种是向前的<span class="force6"><strong>线速度</strong></span>，一种是控制旋转的<span class="force1"><strong>角速度</strong></span>。
+    为了理解在加速和减速时接触面内力是如何产生的，我们要先去了解<em>滚动运动</em>，在下面的演示中，你可以操纵一个单独的车轮在路上滚动。轮胎上涂有白色油漆，所以会在路上留下痕迹。滑块可以控制两种力量，一种是向前的<span class="force6"><strong>线速度</strong></span>，一种是控制旋转的<span class="force1"><strong>角速度</strong></span>。
 </p>
 
 <div class="drawer_container ratio_100" id="wheel_velocity1"></div>
@@ -421,10 +421,10 @@ M = r &times; F
 <div class="slider_force1" id="wheel_velocity1_sl1"></div>
 
 <p>
-    你可能已经注意到调整滑块在<a href="#" class="link_button" onclick="wheel_velocity1_f0();return false;">一些位置</a>会使轮子看起来相对于地面更像是在滑动，而调整到<a href="#" class="link_button" onclick="wheel_velocity1_f1();return false;">另外的位置</a>轮子看起来相对于地面更像是在滚动（译者注：注意观察地面留下的痕迹）。这些情况看起来不同寻常，但是实际生活经验告诉我们车轮在急刹车的时候会抱死，或在加速过快的时候轮子会空转。当我们设置这两个速度在<a href="#" class="link_button" onclick="wheel_velocity1_f2();return false;"> 合适</a> <a href="#" class="link_button" onclick="wheel_velocity1_f3();return false;"> 位置</a> 的时候，轮胎看起来滚动的更加丝滑了，且路面上留下的油漆痕迹长度也与轮胎上的差不多。
+    你可能已经注意到调整滑块在<a href="#" class="link_button" onclick="wheel_velocity1_f0();return false;">一些位置</a>会使车轮相对于地面看起来更像是在滑动，而调整到<a href="#" class="link_button" onclick="wheel_velocity1_f1();return false;">另外的位置</a>车轮相对于地面看起来更像是在滚动（译者注：注意观察地面留下的痕迹）。这些情况看起来不同寻常，但是实际生活经验告诉我们车轮在急刹车的时候会抱死，或在加速过快的时候车轮会空转。当我们设置这两个速度在<a href="#" class="link_button" onclick="wheel_velocity1_f2();return false;"> 合适</a> <a href="#" class="link_button" onclick="wheel_velocity1_f3();return false;"> 位置</a> 的时候，轮胎看起来滚动的更加丝滑了，且路面上留下的油漆痕迹长度也与轮胎上的差不多。
 </p>
 <p>
-    当轮子以一个"恰到好处"的速度旋转时,它的角速度（用希腊字母欧米伽 <strong>ω</strong> 表示）与其线速度 <strong>v</strong> 及该轮子的有效半径 <strong>r</strong> 之间有一个简单的等式关系，该有效半径略小于轮子的外半径，因为负荷会将其略微压缩：
+    当车轮以一个“恰到好处”的速度旋转时，它的角速度（用希腊字母欧米伽 <strong>ω</strong> 表示）与其线速度 <strong>v</strong> 及该车轮的有效半径 <strong>r</strong> 之间有一个简单的等式关系，该有效半径略小于车轮的外半径，因为负荷会将其略微压缩：
 </p>
 
 <div class="equation">
@@ -436,52 +436,52 @@ M = r &times; F
 </div>
 
 <p>
-    由于轮子连接到自行车上，所以轮子的前进线速度<strong> v </strong>始终等于自行车的速度。当外部力平衡且自行车自由滚动时，轮子的角速度<strong> ω </strong>将等于该速度<strong> v </strong>的自然滚动角速度。
+    由于车轮连接到自行车上，所以车轮的前进线速度<strong> v </strong>始终等于自行车的速度。当外部力平衡且自行车自由滚动时，车轮的角速度<strong> ω </strong>将等于该速度<strong> v </strong>的自然滚动角速度。
 </p>
 <p>
-    在下面的演示中，你可以观察到在自由滚动的状态下接触面发生了什么。我在轮胎的<span class="force1"><strong>内部</strong></span>和<span class="force"><strong>外部</strong></span>放置了一些标记用来显示它们之间的相对运动。滑块可以让你向前向后调整时间。
+    在下面的演示中，你可以观察到在自由滚动的状态下接触面发生了什么。我在轮胎的<span class="force1"><strong>内部</strong></span>和<span class="force"><strong>外部</strong></span>放置了一些标记用来显示它们之间的相对运动。滑块可以让你向前向后调整时间进度。
 </p>
 
 <div class="drawer_container ratio_40 full_width" id="tire_force"></div>
 <div id="tire_force_sl0"></div>
 
 <p>
-    在自由滚动的场景下，轮子平稳地滚动在路面上，轮胎的<span class="force1"><strong>内部</strong></span>和<span class="force"><strong>外部</strong></span>保持同步。
+    在自由滚动的场景下，车轮平稳地滚动在路面上，轮胎的<span class="force1"><strong>内部</strong></span>和<span class="force"><strong>外部</strong></span>保持同步。
 </p>
 <p>
-    当骑手开始蹬车时，情况会发生变化。链条对飞轮施加的扭矩会使后轮旋转的更快 - 后轮的角速度会略有增加，但是前进的速度还保持不变，因为自行车本身尚未加速
+    当骑手开始蹬车时，情况会发生变化。链条对飞轮施加的扭矩会使后轮旋转的更快 - 后轮的角速度会略有增加，但是前进的速度还保持不变，因为自行车本身尚未加速。
 </p>
 <p>
-    在下面的演示中,您可以看到当轮子的角速度略有增加时,轮胎和路面之间会发生什么:
+    在下面的演示中，您可以看到当车轮的角速度略有增加时，轮胎和路面之间会发生什么:
 </p>
 
 <div class="drawer_container ratio_40 full_width" id="tire_force3"></div>
 <div id="tire_force3_sl0"></div>
 
 <p>
-    当轮子旋转时，路面与轮胎橡胶外表面之间的高摩擦力使得轮胎<span class="force"><strong>外部</strong></span>粘附在地面上，而<span class="force1"><strong>内部</strong></span>继续随着轮子旋转。由于车轮的旋转速度略快于其自由滚动速度，它会将<span class="force1"><strong>内部</strong></span>部分从粘附的<span class="force"><strong>外部</strong></span>部分拉开。
+    当车轮旋转时，路面与轮胎橡胶外表面之间的高摩擦力使得轮胎<span class="force"><strong>外部</strong></span>粘附在地面上，而<span class="force1"><strong>内部</strong></span>继续随着车轮旋转。由于车轮的旋转速度略快于其自由滚动速度，它会将<span class="force1"><strong>内部</strong></span>部分从粘附的<span class="force"><strong>外部</strong></span>部分拉开。
 </p>
 <p>
-    这会导致轮胎在接触区域附近变形。正是这种形变使得轮胎想要把地面向后推 - 你可以看到它试图向左扫地面。地面则是向前推动轮胎和整个自行车作为反应。
+    这会导致轮胎在接触区域附近变形。正是这种形变使得轮胎想要把地面向后推 - 你可以看到它试图向左扫地面。地面则是向前推动轮胎和整个自行车。
 </p>
 <p>
-    这种力来自于轮子自由滚动角速度和实际加速度的差异 - 后者来自于蹬车动作。这股推力加速了自行车，直到自由滚动速度增加到与实际轮子速度达到匹配，此时轮胎的形变恢复，也不会产生额外的力。
+    这种力来自于车轮自由滚动角速度和实际加速度的差异 - 后者来自于蹬车动作。这股推力加速了自行车，直到自由滚动速度增加到与实际车轮速度达到匹配，此时轮胎的形变恢复，也不会产生额外的力。
 </p>
 <p>
-    同样地,当骑手刹车时,导致轮子的旋转速度低于自由滚动速度,轮胎的<span class="force1"><strong>内侧</strong></span>也开始相对于粘附在地面的<span class="force"><strong>外侧</strong></span>移动。这会使轮胎产生相反方向的变形:
+    同样地，当骑手刹车时，导致车轮的旋转速度低于自由滚动速度，轮胎的<span class="force1"><strong>内侧</strong></span>也开始相对于粘附在地面的<span class="force"><strong>外侧</strong></span>移动。这会使轮胎产生相反方向的变形:
 </p>
 
 <div class="drawer_container ratio_40 full_width" id="tire_force4"></div>
 <div id="tire_force4_sl0"></div>
 
 <p>
-    这种变形会产生一股向后的力,减慢自行车的速度,从而降低了轮子的自由滚动速度。
+    这种变形会产生一股向后的力，减慢自行车的速度，从而降低了车轮的自由滚动速度。
 </p>
 <p>
     不幸的是，轮胎可承受的形变是有限的，如果超过限度，轮胎的局部会失去与地面的接触从而开始打滑 - 你可能已经注意到了轮胎的轮胎外侧的后部区域最终脱离路面并开始打滑。
 </p>
 <p>
-    让我们更仔细地探究一下轮胎施加的力量大小。直观的说，轮胎形变越大代表受力越大，大小取决于轮子实际的角速度 <strong>ω</strong> 和 自由滚动角速度 <strong>ω<sub>0</sub></strong> 之间的差异，我们称之为<a href="https://en.wikipedia.org/wiki/Slip_ratio"><em>滑移率</em></a> <strong>s</strong>。
+    让我们更仔细地探究一下轮胎施加的力量大小。直观的说，轮胎形变越大代表受力越大，大小取决于车轮实际的角速度 <strong>ω</strong> 和 自由滚动角速度 <strong>ω<sub>0</sub></strong> 之间的差异，我们称之为<a href="https://en.wikipedia.org/wiki/Slip_ratio"><em>滑移率</em></a><strong> s</strong>。
 </p>
 
 <div class="equation">
@@ -497,7 +497,7 @@ s = <span class="equation_frac">
 </div>
 
 <p>
-    让我们在实践中讨论这其中的关系。在下面的演示中，自由滚动角速度 <strong>ω<sub>0</sub></strong> 取决于轮子的<span class="force6"><strong>前进速度</strong></span><strong> v </strong>。和之前一样，你可以调节轮子的<span class="force1"><strong>实际角速度</strong></span> <strong>ω</strong>：（译者注：你也可调节轮子的线速度<strong> v </strong>从而改变其自由滚动角速度 ω<sub>0</sub>）：
+    让我们在实践中讨论这其中的关系。在下面的演示中，自由滚动角速度 <strong>ω<sub>0</sub></strong> 取决于车轮的<span class="force6"><strong>前进速度</strong></span><strong> v </strong>。和之前一样，你可以调节车轮的<span class="force1"><strong>实际角速度</strong></span> <strong>ω</strong>：（译者注：你也可调节车轮的线速度<strong> v </strong>从而改变其自由滚动角速度 ω<sub>0</sub>）：
 </p>
 
 <div class="drawer_container ratio_100" id="wheel_velocity2"></div>
@@ -505,29 +505,29 @@ s = <span class="equation_frac">
 <div class="slider_force1" id="wheel_velocity2_sl1"></div>
 
 <p>
-    当轮子在初始速度下以<a href="#" class="link_button" onclick="wheel_velocity2_f0();return false;">自由滚动</a><span class="force1"><strong>旋转</strong></span>时，其滑移率为0。当我们蹬车使轮子<a href="#" class="link_button" onclick="wheel_velocity2_f1();return false;">旋转速度大于</a>自由滚动速度时，滑移率大于零。当我们刹车使轮子的<a href="#" class="link_button" onclick="wheel_velocity2_f2();return false;">旋转速度小于</a>自由滚动速度时，滑移率小于零。在刚<a href="#" class="link_button" onclick="wheel_velocity2_f3();return false;">起步阶段</a>，理论上滑移率为无限大，但是实际上，当后轮开始转动时力量会马上推动自行车前进。
+    当车轮在初始速度下以<a href="#" class="link_button" onclick="wheel_velocity2_f0();return false;">自由滚动</a><span class="force1"><strong>旋转</strong></span>时，其滑移率为0。当我们蹬车使车轮<a href="#" class="link_button" onclick="wheel_velocity2_f1();return false;">旋转速度大于</a>自由滚动速度时，滑移率大于零。当我们刹车使车轮的<a href="#" class="link_button" onclick="wheel_velocity2_f2();return false;">旋转速度小于</a>自由滚动速度时，滑移率小于零。在刚<a href="#" class="link_button" onclick="wheel_velocity2_f3();return false;">起步阶段</a>，理论上滑移率为无限大，但是实际上，当后轮开始转动时力量会马上推动自行车前进。
 </p>
 <p>
-    除了滑移率，轮胎能够施加的力大小还取决于路面条件、速度、轮胎的气压和磨损程度等因素，最重要的因素是轮胎的<span class="force"><strong>垂直载荷</strong></span>，下面的图表大致演示了轮胎在不同<span class="force"><strong>载荷</strong></span>的情况下输出力量和滑移率之间的关系，你通过调整不同的载荷来观察：（译者注：滑块调整的是载荷大小）
+    除了滑移率，轮胎能够施加的力大小还取决于路面条件、速度、轮胎的气压和磨损程度等因素，其中最重要的因素是轮胎的<span class="force"><strong>垂直载荷</strong></span>，下面的图表大致演示了轮胎在不同<span class="force"><strong>载荷</strong></span>的情况下输出力量和滑移率之间的关系，你通过调整不同的载荷来观察：（译者注：滑块调整的是载荷大小）
 </p>
 
 <div class="drawer_container ratio_60 full_width" id="pacejka"></div>
 <div class="slider_force" id="pacejka_sl0"></div>
 
 <p>
-    当轮子的旋转速度大于其自由滚动速度则滑移率为正值时，<strong><span class="gradient_word" data-color0="#bbbbbb" data-color1="#5582CD"> 产生的力向前推进自行车</span></strong>。尽管初始阶段力量的增长与滑移率成正比，但很快就达到了最大值并开始下降。
+    当车轮的旋转速度大于其自由滚动速度则滑移率为正值时，<strong><span class="gradient_word" data-color0="#bbbbbb" data-color1="#5582CD"> 产生的力向前推进自行车</span></strong>。尽管初始阶段力量的增长与滑移率成正比，但很快就达到了最大值并开始下降。
 </p>
 <p>
-    同样的，刹车时轮子的的旋转速度小于其自由滚动速度则滑移率为负值时，<strong><span class="gradient_word" data-color0="#bbbbbb" data-color1="#E18670">产生的力向后推动自行车</span></strong>产生的力向后推动自行车。值得指出的是轮胎产生最大的制动力是在较小的滑移率下 - 当轮子完全被锁住并在路面上滑动时，制动的效率反而降低了。（译者注：所以知道刹车为什么要使用<a href="https://zh.wikipedia.org/zh-cn/%E9%98%B2%E9%8E%96%E6%AD%BB%E7%85%9E%E8%BB%8A%E7%B3%BB%E7%B5%B1">ABS系统</a>了吧）
+    同样的，刹车时车轮的的旋转速度小于其自由滚动速度则滑移率为负值时，<strong><span class="gradient_word" data-color0="#bbbbbb" data-color1="#E18670">产生的力向后推动自行车</span></strong>。得指出的是轮胎产生最大的制动力是在较小的滑移率下 - 当车轮完全被锁住并在路面上滑动时，制动的效率反而降低了。（译者注：所以知道刹车为什么要使用<a href="https://zh.wikipedia.org/zh-cn/%E9%98%B2%E9%8E%96%E6%AD%BB%E7%85%9E%E8%BB%8A%E7%B3%BB%E7%B5%B1">ABS系统</a>了吧）
 </p>
 <p>
-    我们得明白轮胎对地面产生的力也会作用于轮胎本身。例如，当车轮的旋转速度小于其自由滚动速度时产生的力不仅仅会减慢自行车的速度，还会使轮子旋转。这也是自行车开始移动时前轮开始旋转的原因，尽管动力只是后轮提供的。
+    我们得明白轮胎对地面产生的力也会作用于轮胎本身。例如，当车轮的旋转速度小于其自由滚动速度时产生的力不仅仅会减慢自行车的速度，还会使车轮旋转。这也是自行车开始移动时前轮开始旋转的原因，尽管动力只是后轮提供的。
 </p>
 <p>
-    轮子上的载荷越大，制动或加速的力越大。我们已经了解了骑手的位置如何影响作用在轮子上的垂直负荷，但是这些垂直力也受制动和加速力本身的影响。后者通常受影响较小，让我们关注在刹车上。
+    车轮上的载荷越大，制动或加速的力越大。我们已经了解了骑手的位置如何影响车轮上的垂直负荷，但是这些垂直力也受制动和加速力本身的影响。后者通常受影响较小，让我们继续关注在刹车上。
 </p>
 <p>
-    在下面的演示中，滑块控制着后刹的<span class="force6"><strong>力量</strong></span>。刹车片与轮子摩擦产生的<span class="force4"><strong>摩擦力</strong></span>使后轮旋转减慢，从而带来<span class="force5"><strong>制动力</strong></span>。左上角的速度计显示了自行车当前速度：
+    在下面的演示中，滑块控制着后刹的<span class="force6"><strong>力量</strong></span>。刹车片与车轮摩擦产生的<span class="force4"><strong>摩擦力</strong></span>使后轮旋转减慢，从而带来<span class="force5"><strong>制动力</strong></span>。左上角的速度计显示了自行车当前速度：
 </p>
 
 <div class="drawer_container ratio_100" id="bike_force_brake_rear"></div>
@@ -537,7 +537,7 @@ s = <span class="equation_frac">
      请注意，作用在后轮上的<span class="force5"><strong>制动力</strong></span>不仅会减慢车速，还会使自行车和骑手围绕其质心<span class="cog"></span>顺时针旋转。如同我们上面的提到例子，地面的反作用力会增加<span class="force2"><strong>前轮的负荷</strong></span>和减少<span class="force"><strong>后轮的负荷</strong></span>来补偿这增加的力矩。
 </p>
 <p>
-    请记住轮胎产生的制动力与其垂直负荷有关，当<span class="force5"><strong>制动力</strong></span>达到最大值的时候，任何进一步增加<span class="force5"><strong>制动力</strong></span>的举措都将减轻<span class="force"><strong>后轮</strong></span>的负荷，负荷减少的同时也会减少轮胎的<span class="force5"><strong>制动力</strong></span>。此外，后轮很容易锁死，因为刹车片的的<span class="force4"><strong>压力摩擦</strong></span>要远大于让车轮转动的<span class="force5"><strong>制动力</strong></span>。
+    请记住轮胎产生的制动力与其垂直负荷有关，当<span class="force5"><strong>制动力</strong></span>达到最大值的时候，任何进一步增加<span class="force5"><strong>制动力</strong></span>的措施都将减轻<span class="force"><strong>后轮</strong></span>的负荷，负荷减少的同时也会减少轮胎的<span class="force5"><strong>制动力</strong></span>。此外，后轮很容易锁死，因为刹车片的的<span class="force4"><strong>压力摩擦</strong></span>要远大于让车轮转动的<span class="force5"><strong>制动力</strong></span>。
 </p>
 <p>
     好了，后轮只能施加有限的制动力，让我们来探讨一下使用前刹会发生什么：
@@ -573,7 +573,7 @@ s = <span class="equation_frac">
     尽管<span class="force1"><strong>空气阻力</strong></span>作用于自行车和骑手前方的每一个部分，但是我们可以将其视作一股作用于<a href="https://en.wikipedia.org/wiki/Center_of_pressure_(fluid_mechanics)"><em>压力中心</em></a>的力，我用一个<span style="color:#7EADC0"><strong>蓝点</strong></span>来表示。
 </p>
 <p>
-    尽管<a href="#" class="link_button" onclick="bike_force_longitudinal_f0();return false;">更快的踏频</a>能够加速自行车，但是这种努力很快会被由于速度增加而导致更大的<span class="force1"><strong>空气阻力</strong></span>所抵消。自行车还会因为轮胎的滚动阻力和旋转部件的摩擦损失而减速。为了保持稳定的前进速度，骑手必须保持踩踏来持续提供<span class="force2"><strong>推力</strong></span>来抵消减速。
+    尽管<a href="#" class="link_button" onclick="bike_force_longitudinal_f0();return false;">更快的踏频</a>能够加速自行车，但是这种努力很快会被由于速度增加而导致更大的<span class="force1"><strong>空气阻力</strong></span>所抵消。自行车还会因为轮胎的滚动阻力和旋转部件的摩擦损失而减速。为了保持稳定的前进速度，骑手必须保持踩踏来持续提供<span class="force2"><strong>推力</strong></span>以抵消减速。
 </p>
 <p>
     我们知道，同样大小的力作用在越重的物体上，物体的加速度越小。因此降低自行车的重量对于更快的加速及刹车至关重要。在爬坡路段尤其重要：
@@ -595,7 +595,7 @@ s = <span class="equation_frac">
 <h1 id="left-and-right">左 右<a href="https://ciechanow.ski/bicycle/#left-and-right" class="hanchor" ariaLabel="Anchor"><img src="media/anchor.png" width="16px" height="8px"/></a> </h1>
 
 <p>
-    在下面的演示中，你可以看到只知道直直握着车把的骑手和自行车会发生什么，一点点的倾斜也会让他们在垂直方向失去平衡。通过拖动滑块，你可以直接控制<span class="force6"><strong>倾斜角度</strong></span>，但一旦你松手，一切就控制不住了：
+    在下面的演示中，你可以看到只知道死死握着车把的骑手和自行车会发生什么，一点点的倾斜也会让他们在垂直方向上失去平衡。通过拖动滑块，你可以直接控制<span class="force6"><strong>倾斜角度</strong></span>，但一旦你松手，一切就控制不住了：
 </p>
 
 <div class="drawer_container ratio_100" id="bike_force_lateral"></div>
@@ -605,10 +605,10 @@ s = <span class="equation_frac">
     轮胎与地面之间的接触区因为<span class="force1"><strong>摩擦力</strong></span>的作用我们可以直观的将其视为一个铰链，自行车可以围绕其旋转。在<span class="force"><strong>重力</strong></span>的作用下，自行车最终只会摔倒。
 </p>
 <p>
-    请注意，一旦<span class="force"><strong>重力</strong></span>产生一个力臂，自行车就会倾斜的越来越快，因为倾斜会进一步增加该力臂和旋转力矩。从前后方向上来看，两个轮子提供的两个支撑点能够均衡负载使自行车保持平衡，但是从左右方向上来看，轮胎下的接触面实在是太窄了，无法提供足够的支撑，整个系统很容易倾倒。
+    请注意，一旦<span class="force"><strong>重力</strong></span>产生一个力臂，自行车就会倾斜的越来越快，因为倾斜会进一步增加该力臂和旋转力矩。从前后方向上来看，两个车轮提供的两个支撑点能够均衡负载使自行车保持平衡，但是从左右方向上来看，轮胎下的接触面实在是太窄了，无法提供足够的支撑，整个系统很容易倾倒。
 </p>
 <p>
-    这种情况在刚学习骑自行车时经常发生，但是大多数人都不会被如何保持自行车直立给难倒。有人可能会假设骑手只是通过左右平衡身体让质心保持在轮胎上方减小<span class="force"><strong>重力</strong></span>的力臂从而保持车身平衡。毕竟，骑行高手可以轻松的双手脱把骑行，只是通过身体动作来保持自行车自行。
+    这种情况在刚学习骑自行车时经常发生，但是大多数人都不会被如何保持自行车直立给难倒。有人可能会假设骑手只是通过左右平衡身体让质心保持在轮胎上方减小<span class="force"><strong>重力</strong></span>的力臂从而保持车身平衡。毕竟，骑行高手可以轻松的双手脱把骑行，只是通过身体动作来保持自行车平衡。
 </p>
 <p>
     你一定尝试过在不移动的自行车上保持平衡，不幸的是仅仅通过倾斜身体调整质心位置通常来说是不够的。在下面的模拟中，你可以尝试通过调整滑块来<span class="force6"><strong>倾斜骑手的身体</strong></span>以保持这辆静止自行车的平衡。一旦你点击 <span class="restart_inline"></span> 按钮就要马上采取行动：
@@ -643,10 +643,10 @@ s = <span class="equation_frac">
     通常来说，当自行车向一个方向倾斜时，骑手可以向倾斜的这一侧小幅度的转向，这会产生一种力使自行车恢复直立，当车辆直立时，骑手也会重新调整车把的位置。
 </p>
 <p>
-    即使自行车恢复到完全平衡的位置，也会很快被打乱，所以在骑行过程中，骑手会下意识的根据自行车和身体状态的变化不停做出调整反应。
+    即使自行车恢复到完全平衡的位置，也会很快被打乱，所以在骑行过程中，骑手会下意识的根据自行车和身体状态的变化不停做出调整。
 </p>
 <p>
-    这个侧向力的产生看起来有些神秘，所以让我们更仔细的观察在骑手转动把手后轮子和地面之间发生了什么。首先，请注意，轮子的<span class="force1"><strong>前进方向</strong></span>可能和轮子当前<span class="force6"><strong>指向的方向</strong></span>不同：
+    这个侧向力的产生看起来有些神秘，所以让我们更仔细的观察在骑手转动把手后车轮和地面之间发生了什么。首先，请注意，车轮的<span class="force1"><strong>前进方向</strong></span>可能和车轮当前<span class="force6"><strong>指向的方向</strong></span>不同：
 </p>
 
 <div class="drawer_container ratio_100" id="slip_angle2"></div>
@@ -665,10 +665,10 @@ s = <span class="equation_frac">
 <div class="slider_force6" id="slip_angle_sl1"></div>
 
 <p>
-    回想一下接触面是个长椭圆形。当轮胎以一个不为零的<span class="force6"><strong>偏滑角</strong></span>滚动，其与地面的第一个接触点在<span class="force1"><strong>细蓝色</strong></span>中心轴之外。由于摩擦力的作用，轮胎在那个区域与地面紧密接触，所以这部分并不完全跟随轮子的运动，而是在轮子向前滚动时被<span class="force"><strong>拉扯变形</strong></span>。
+    回想一下接触面是个长椭圆形。当轮胎以一个不为零的<span class="force6"><strong>偏滑角</strong></span>滚动，其与地面的第一个接触点在<span class="force1"><strong>细蓝色</strong></span>中心轴之外。由于摩擦力的作用，轮胎在那个区域与地面紧密接触，所以这部分并不完全跟随车轮运动，而是在车轮向前滚动时被<span class="force"><strong>拉扯变形</strong></span>。
 </p>
 <p>
-    <span class="force"><strong>变形</strong></span>产生的<span class="force2"><strong>力</strong></span>推动轮子向另外一侧以减小这种<span class="force"><strong>形变</strong></span>。最终，这股形变力变大到足够克服摩擦力，轮胎后部就会在地面上滑动。
+    <span class="force"><strong>变形</strong></span>产生的<span class="force2"><strong>力</strong></span>推动车轮向另外一侧以减小这种<span class="force"><strong>形变</strong></span>。最终，这股形变力变大到足够克服摩擦力，轮胎后部就会在地面上滑动。
 </p>
 <p>
     我需要指出的是，在演示中当你改变<span class="force6"><strong>偏滑角</strong></span>时，我向你展示的轮胎已是充分形变的状态，在真实的物理世界里，发生这一切还需要<a href="https://en.wikipedia.org/wiki/Relaxation_length">一点点过程</a>。
@@ -684,7 +684,7 @@ s = <span class="equation_frac">
     偏滑角越大，形变越大，自然产生的力也越大，但是力大到某种程度，轮胎过度变形开始打滑限制了力量继续变大。
 </p>
 <p>
-    关于轮胎形变还有两个值得提到的点。首先，轮胎在任何方向上都只能承受一定量的变形否则会与地面脱离接触，因此在同时刹车和转弯时更容易开始打滑。其次，指向行驶方向的倾斜轮胎仍会通过一种称为<a href="https://en.wikipedia.org/wiki/Camber_thrust">外倾推力</a>的效应产生一些侧向力，但通常比普通偏滑角力小几倍，至少在典型的侧倾角度下是如此。
+    关于轮胎形变还有两个值得提到的点。首先，轮胎在任何方向上都只能承受一定量的变形否则会与地面脱离接触，因此在同时刹车和转弯时更容易开始打滑。其次，指向行驶方向的倾斜轮胎仍会通过一种称为<a href="https://en.wikipedia.org/wiki/Camber_thrust">外倾推力</a>的效应产生一些侧向力，但通常比普通偏滑角力小几倍，至少在典型的侧倾角度下是如此。（译者注：“外倾推力”这个名词来自于<a href="https://zh.wikipedia.org/wiki/%E8%BD%A6%E8%BE%86%E5%8A%A8%E5%8A%9B%E5%AD%A6#%E8%BD%AE%E8%83%8E%E6%96%B9%E9%9D%A2">车辆动力学的中文维基百科页面</a>）
 </p>
 <p>
     尽管轮胎产生的侧向力对自行车的稳定性至关重要，但也能让自行车转弯。在下面的演示中，您可以看到一辆自行车和骑手在稳定地转弯：
@@ -713,24 +713,24 @@ s = <span class="equation_frac">
 <div class="long_slider" id="bike_force_cornering2_sl0"></div>
 
 <p>
-    最后让我们来探讨一下骑手如何<em>进入</em>转弯。人们可能会认为，要从垂直位置开始向左转弯，骑手也必须将车把向左转。在下面的演示中，你可以看到向左转动把手会发生什么：
+    最后让我们来探讨一下骑手如何<em>进入</em>转弯。人们可能会认为，要从垂直位置开始向左转弯，骑手也必须向左转车把。在下面的演示中，你可以看到向左转动把手会发生什么：
 </p>
 
 <div class="drawer_container ratio_100" id="bike_force_cornering3"></div>
 <div class="long_slider" id="bike_force_cornering3_sl0"></div>
 
 <p>
-    自行车会向右倾倒。然而,要向左转弯,我们也需要向左倾斜。从直立位置开始向左倾斜，骑手需要先向右转动把手，当自行车开始向左倾斜，才会跟着向左转动把手。
+    自行车会向右倾倒。然而，要向左转弯，我们也需要向左倾斜。从直立位置开始向左倾斜，骑手需要先向右转动把手，当自行车开始向左倾斜，才会跟着向左转动把手。
 </p>
 
 <div class="drawer_container ratio_100" id="bike_force_cornering4"></div>
 <div class="long_slider" id="bike_force_cornering4_sl0"></div>
 
 <p>
-    听起来有点奇怪，当这就是自行车转向的方式！最开始的反方向转向动作通常是骑行者下意识的行为。这也解释了靠近马路牙子骑车为什么感觉很难，因为要远离路牙首先要更靠近一点，这非常的反直觉。一些<a href="https://www.youtube.com/watch?v=9cNmUNHSBac">特别的自行车视频</a>也告诉了我们这一点。（译者注：<a href="https://www.youtube.com/watch?v=9cNmUNHSBac">这个视频</a>反向证明了这一点。）
+    听起来有点奇怪，但这就是自行车转向的方式！最开始的反方向转向动作通常是骑行者下意识的行为。这也解释了在马路牙子边边骑车为什么感觉很难，因为要远离路牙首先要更靠近一点，这非常的反直觉。一些<a href="https://www.youtube.com/watch?v=9cNmUNHSBac">特别的自行车视频</a>也告诉了我们这一点。（译者注：<a href="https://www.youtube.com/watch?v=MFzDaBzBlL0">这个视频</a>反向证明了这一点。）
 </p>
 <p>
-    这整个讨论使我们更接近理解一个熟练的骑手如何在不碰车把的情况下控制自行车。实际上，我们将进一步探讨是什么导致了<a href="https://www.youtube.com/watch?v=j0ilP8kb8dM">自行车可以在没有人骑的情况下依旧保持运动稳定的</a>，至少在一定的速度范围内。
+    整个讨论让我们更进一步理解了一个熟练的骑手如何在不碰车把的情况下控制自行车。实际上，我们将进一步探讨是什么导致了<a href="https://www.youtube.com/watch?v=j0ilP8kb8dM">自行车可以在没有人骑的情况下依旧保持运动稳定的</a>，至少在一定的速度范围内。
 </p>
 
 <h1 id="stability">稳定<a href="https://ciechanow.ski/bicycle/#stability" class="hanchor" ariaLabel="Anchor"><img src="media/anchor.png" width="16px" height="8px"/></a> </h1>
@@ -739,7 +739,7 @@ s = <span class="equation_frac">
     自行车的自稳定行为已经吸引了学者们超过了一个世纪的关注。随着时间的推移，有两种解释被普遍接受，正如我们所知道的，自行车如何保持稳定的故事有点复杂。
 </p>
 <p>
-    有些人认为，使移动的自行车具有稳定性的原因是车轮的旋转，旋转的车轮产生了某种与陀螺仪相关的稳定效应，防止自行车倾倒，就好像旋转的陀螺能够维持平衡而不倒。
+    有些人认为，使移动的自行车具有稳定性的原因是车轮的旋转，旋转的车轮产生了某种与陀螺仪相关的稳定效应，防止自行车倾倒，就好像旋转的陀螺能够保持平衡而不倒。
 </p>
 <p>
     轮胎的旋转效应或许有效，但可能还不够。在下面的演示中，我们用<span class="force"><strong>红色的绳子</strong></span>将车把固定住避免前轮转动。拖动滑块，你可以看到自行车向前运动后会发生什么：
@@ -749,41 +749,40 @@ s = <span class="equation_frac">
 <div class="long_slider" id="bike_force_stability_sl0"></div>
 
 <p>
-    For a bicycle it’s not the mere presence of spinning wheels that helps with balance, but it’s the way a spinning object behaves when forced to rotate around some other axis
-    尽管车轮有在旋转，但是自行车仍然倒向一边。仅凭轮子的旋转是不足以帮助自行车保持平衡的，而是依靠旋转的物体绕其他轴旋转。这些效应并不直观，让我们来看两个实验。
+    尽管车轮有在旋转，但是自行车仍倒向一边。仅凭旋转的车轮是不足以帮助自行车保持平衡的，而是旋转的物体在被迫绕其他轴线旋转时的表现。这些效应并不直观，让我们来看两个实验。
 </p>
 <p>
-    在下面的演示中，你可以看到一个静止的车轮，并给的轮子加上了<span class="force"><strong>三</strong></span><span class="force2"><strong>个</strong></span><span class="force1"><strong>轴</strong></span>。通过滑块你可以施加一个力矩使轮子围绕<span class="force2"><strong>绿色轴</strong></span>旋转：
+    在下面的演示中，你可以看到一个静止的车轮，并给的车轮加上了<span class="force"><strong>三</strong></span><span class="force2"><strong>个</strong></span><span class="force1"><strong>轴</strong></span>。通过滑块你可以施加一个力矩使车轮围绕<span class="force2"><strong>绿色轴</strong></span>旋转：
 </p>
 
 <div class="drawer_container ratio_100" id="gyro"></div>
 <div class="slider_force2" id="gyro_sl0"></div>
 
 <p>
-    如我们所知，力矩产生角加速度，进而使轮子旋转的越来越快。
+    如我们所知，力矩产生角加速度，进而使车轮旋转的越来越快。
 </p>
 <p>
-    下面的演示中，轮子围绕<span class="force"><strong>红色轴</strong></span>旋转，你依旧可以施加一个力矩是轮子围绕<span class="force2"><strong>绿色轴</strong></span>旋转：
+    下面的演示中，车轮围绕<span class="force"><strong>红色轴</strong></span>旋转，你依旧可以施加一个力矩是车轮围绕<span class="force2"><strong>绿色轴</strong></span>旋转：
 </p>
 
 <div class="drawer_container ratio_100" id="gyro2"></div>
 <div class="slider_force2" id="gyro2_sl0"></div>
 
 <p>
-    出乎意料的是，轮子会围绕<span class="force1"><strong>蓝色轴</strong></span>旋转！能在<a href="https://www.youtube.com/watch?v=ty9QSiVC2g0&amp;t=55s">三个维度进行旋转运动</a>的物体对我们来说确实很复杂，但是我们会应用<a href="https://zh.wikipedia.org/wiki/%E9%99%80%E8%9E%BA%E5%84%80"><em>陀螺仪效应</em></a>就足够了。（译者注：这种旋转物体的奇怪效应让我想起了<a href="https://www.youtube.com/watch?v=1VPfZ_XzisU">“网球拍效应”</a>）
+    出乎意料的是，车轮会围绕<span class="force1"><strong>蓝色轴</strong></span>旋转！能在<a href="https://www.youtube.com/watch?v=ty9QSiVC2g0&amp;t=55s">三个维度进行旋转运动</a>的物体对我们来说确实很复杂，但是我们会应用<a href="https://zh.wikipedia.org/wiki/%E9%99%80%E8%9E%BA%E5%84%80"><em>陀螺仪效应</em></a>就足够了。（译者注：这种旋转物体的奇怪效应让我想起了<a href="https://www.youtube.com/watch?v=1VPfZ_XzisU">“网球拍效应”</a>）
 </p>
 <p>
-    当移动的自行车发生倾倒的时候，上述的情况这时也会发生。转动的前轮绕<span class="force"><strong>红色轴</strong></span>运动，而倾倒会导致轮子绕<span class="force2"><strong>绿色轴</strong></span>旋转，根据陀螺仪效应，最终会使前轮围绕<span class="force1"><strong>蓝色轴</strong></span>旋转。（译者注：车辆倾倒时可以看成轮子围绕绿色轴旋转，轮子转向时围绕蓝色轴旋转）
+    当运动的自行车发生倾倒的时候，上述的情况也会发生。转动的前轮绕<span class="force"><strong>红色轴</strong></span>运动，而倾倒会导致车轮绕<span class="force2"><strong>绿色轴</strong></span>旋转，根据陀螺仪效应，最终会使前轮围绕<span class="force1"><strong>蓝色轴</strong></span>旋转。（译者注：车辆倾倒时可以看成车轮围绕绿色轴旋转，车轮转向时可以看成围绕蓝色轴旋转）
 </p>
 
 <div class="drawer_container ratio_100" id="bike_force_stability2"></div>
 <div class="long_slider" id="bike_force_stability2_sl0"></div>
 
 <p>
-    实际上，自行车的前轮的结构不会让其精准的围绕<span class="force1"><strong>蓝色轴</strong></span>旋转，但是可以围绕转向轴旋转。当前轮转向时,自行车的轮胎产生侧向力，使自行车直立起来，类似于骑手操纵方向盘时的情况。
+    实际上，自行车的前轮的结构不会让其精准的围绕<span class="force1"><strong>蓝色轴</strong></span>旋转，但是可以围绕转向轴旋转。当前轮转向时，自行车的轮胎产生侧向力，使自行车直立起来，类似于骑手操纵方向盘时的情况。
 </p>
 <p>
-    根据我们的实验，有人可能会认为正是陀螺仪效应提供了稳定性，但是可以通过给普通自行车增加反向旋转的<a href="http://www3.eng.cam.ac.uk/~hemh1/gyrobike2.jpg">辅助轮</a>用来抵消陀螺仪效应，这样的自行车依旧可以在保持自稳定。因此，一定是其他因素对稳定性起作用。
+    根据我们的实验，有人可能会认为正是陀螺仪效应提供了稳定性，但是可以通过给普通自行车增加反向旋转的<a href="http://www3.eng.cam.ac.uk/~hemh1/gyrobike2.jpg">辅助轮</a>用来抵消陀螺仪效应，这样的自行车依旧可以保持自稳定。因此，一定是其他因素对稳定性在起作用。
 </p>
 <p>
     让我们从侧面仔细观察自行车的几何形状。黑点 <span class="dot" style="background-color: #777;border-color: #111;"></span> 是我们沿着转向轴伸展出的虚线与地面的交点，白点 <span class="dot" style="background-color: #fff;border-color: #555;"></span>是前轮实际与地面的接触点，你会发现白点 <span class="dot" style="background-color: #fff;border-color: #555;"></span> 在黑点 <span class="dot" style="background-color: #777;border-color: #111;"></span> 的后面。
@@ -797,7 +796,7 @@ s = <span class="equation_frac">
     这个<span class="force"><strong>距离</strong></span>被称之为<a href="https://zh.wikipedia.org/wiki/%E8%87%AA%E8%A1%8C%E8%BB%8A%E5%8F%8A%E6%91%A9%E6%89%98%E8%BB%8A%E7%9A%84%E5%8B%95%E5%8A%9B%E5%AD%B8#%E6%9B%B3%E8%B7%9D"><em>曳距（前轮尾迹）</em></a>，其取决于自行车的<span class="force1"><strong>转向轴角度</strong></span>和<span class="force6"><strong>前叉偏移量</strong></span>。请注意，这些参数的调整可能需要整个车身框架的改造来适配。
 </p>
 <p>
-    当自行车向一边倾倒时，指向上方的地面反作用力和指向侧面的摩擦力形成的<span class="force"><strong>合力</strong></span>并不指向自行车的中心，而是与自行车有一个小角度：（译者注：红色平面所指的就是合力的方向）
+    当自行车向一边倾倒时，指向上方的地面反作用力和指向侧面的摩擦力形成的<span class="force"><strong>合力</strong></span>并不指向自行车的中心，而是与自行车有一个小角度：（译者注：红色平面所在的就是合力的方向）
 </p>
 
 <div class="drawer_container ratio_100" id="bike_force_stability3"></div>
@@ -811,7 +810,7 @@ s = <span class="equation_frac">
 <div id="bike_caster_sl0"></div>
 
 <p>
-    注意，我们可以将这股<span class="force"><strong>力</strong></span>分解成作用于<span style="color:#555"><strong>轮子平面</strong></span>和<span class="force6"><strong>垂直于轮子平面</strong></span>的分量。<span class="force6"><strong>垂直于轮子平面</strong></span>的分量与转向轴相关力臂的作用下，导致前轮转向。
+    注意，我们可以将这股<span class="force"><strong>力</strong></span>分解成作用于<span style="color:#555"><strong>车轮平面</strong></span>和<span class="force6"><strong>垂直于车轮平面</strong></span>的分量。<span class="force6"><strong>垂直于车轮平面</strong></span>的分量与转向轴相关力臂的作用下，导致前轮转向。
 </p>
 <p>
     与陀螺效应类似，前轮尾迹效应在车轮沿着倾斜方向转向时产生的侧向力使得自行车回正。听起来很有说服力，请注意，当轮胎产生了侧向力，前轮尾迹也充当帮助车轮回正的力臂。
@@ -821,22 +820,22 @@ s = <span class="equation_frac">
 <div id="bike_caster2_sl0"></div>
 
 <p>
-    对于普通的自行车来说陀螺仪效应和前轮尾迹效应都很重要，不能仅用单独的例子来解释这些效应的影响 - 这两种效应构成一个动态系统，在自行车倾斜的过程中不断相互作用、影响。另外，一个<a href="https://www.youtube.com/watch?v=YdtE3aIUhbU">不受陀螺仪和前轮尾迹效应影响也能保持自我稳定的自行车</a>也是有的。
+    对于普通的自行车来说陀螺仪效应和前轮尾迹效应都很重要，不能仅用单独的例子来解释这些效应的影响 - 这两种效应构成一个动态系统，在自行车倾斜的过程中不断相互作用、影响。另外，<a href="https://www.youtube.com/watch?v=YdtE3aIUhbU">不受陀螺仪和前轮尾迹效应影响也能保持自我稳定的自行车</a>也是有的。
 </p>
 <p>
-    自行车的自稳定性不能仅用一两个机制来解释，是由很多不同因素共同构成的，比如各个部件的质量分布、轮胎尺寸、车架的机构等等。
+    自行车的自稳定性不能仅用一两个机制来解释，是由很多不同因素共同构成的，比如各个部件的质量分布、轮胎尺寸、车架的构造等等。
 </p>
 <p>
     对于脱把骑行，骑手可以通过倾斜身体改变质心的位置从而向一边倾斜，当自行车开始倾斜，上面我们探讨的效应开始起作用。
 </p>
 <p>
-    稳定性也在很大程度上取决于速度 - 自行车速度太慢或者太快都会变的不稳定。不论是有人骑还是无人操作的自行车如何去保持平衡都还是一个活跃的研究领域。即便是一些基本的想法，为了保持自行车稳定需要把车把转向倾斜的方向，都尚未得到证实。
+    稳定性也在很大程度上取决于速度 - 自行车速度太慢或者太快都会变的不稳定。不论是有人骑还是无人操作的自行车如何去保持平衡都还是一个活跃的研究领域。即便是一些基本的想法，比如为了保持自行车稳定需要把车把转向自行车倾斜方向都尚未得到证明。
 </p>
 <p>
-    至此,我们已经完成了力和力矩如何影响自行车运动和稳定性的部分。下面的章节中我们将探索自行车各个零部件间传递的力，我们首先从两个轮子开始。
+    至此，我们已经完成了力和力矩如何影响自行车运动和稳定性的部分。下面的章节中我们首先从车轮开始去探索自行车各个零部件间的力。
 </p>
 
-<h1 id="wheels">轮子<a href="https://ciechanow.ski/bicycle/#wheels" class="hanchor" ariaLabel="Anchor"><img src="media/anchor.png" width="16px" height="8px"/></a> </h1>
+<h1 id="wheels">车轮<a href="https://ciechanow.ski/bicycle/#wheels" class="hanchor" ariaLabel="Anchor"><img src="media/anchor.png" width="16px" height="8px"/></a> </h1>
 
 <p>
     到目前为止，我们的讨论集中在外部力量作用于整个自行车及骑手身上。例如，在重力的作用下，整个重力是如何在<span class="force1"><strong>前</strong></span>轮与<span class="force5"><strong>后</strong></span>轮之间分配的，以及如何被地面的<span class="force"><strong>反作用</strong></span><span class="force4"><strong>力</strong></span>抵消的：
@@ -846,7 +845,7 @@ s = <span class="equation_frac">
 <div class="slider_rider" id="bike_force_wheels_sl0"></div>
 
 <p>
-    隐藏掉一些细节对于分析自行车和骑手作为一个整体是很有帮助的，但是这也隐藏了自行车各个部件之间的相互作用。现在是时候去研究这部分了。
+    隐藏掉一些细节对于分析自行车和骑手这个整体是很有帮助的，但是这也隐藏了自行车各个零部件之间的相互作用。现在是时候去研究这部分了。
 </p>
 <p>
     如果我们仔细观察这辆自行车的结构，你会发现自行车和骑手的重量是作用在轮轴上的，轮轴支撑住了上面的重量。我们将这些部件分开来看：
@@ -856,7 +855,7 @@ s = <span class="equation_frac">
 <div class="slider_rider" id="bike_force_wheels2_sl0"></div>
 
 <p>
-    前后轮受力方式基本相同，只是受力大小不同，所以让我们先关注后轮的情况。需要指出的是，<span class="force"><strong>红色</strong></span>和<span class="force1"><strong>蓝色</strong></span>的力大小是相同的，<span class="force2"><strong>绿色</strong></span>和<span style="color:#aaa"><strong>白色</strong></span>的力也一样，但是红色和绿色的力大小不同，因为地面比轮轴多<span class="force2"><strong>承载</strong></span>了轮子的重量，好在这个差异很小，因为轮子很轻。
+    前后轮受力方式基本相同，只是受力大小不同，所以让我们先关注后轮的情况。需要指出的是，<span class="force"><strong>红色</strong></span>和<span class="force1"><strong>蓝色</strong></span>的力大小是相同的，<span class="force2"><strong>绿色</strong></span>和<span style="color:#aaa"><strong>白色</strong></span>的力也一样，但是红色和绿色的力大小不同，因为地面比轮轴多<span class="force2"><strong>承载</strong></span>了车轮的重量，好在这个差异很小，因为车轮很轻。
 </p>
 <p>
     这样看来，车轮被来自地面的<span class="force"><strong>反作用力</strong></span>和轮轴的<span class="force2"><strong>力</strong></span>所<em>压缩</em>。在三维模型中，我能清楚的看到轮轴的每一端各<span class="force2"><strong>承载了一半</strong></span>的负荷：
@@ -868,17 +867,17 @@ s = <span class="equation_frac">
     大部分车轮的内部是完全空心的，只有细薄的辐条将外圈和内圈连接在一起。辐条的位置和连接点可能看起来很随意，但它们经过精心设计，使车轮坚固、可靠且轻便。
 </p>
 <p>
-    为了理解现代自行车轮的设计和构造，我们首先要回顾历史，看看<a href="https://en.wikipedia.org/wiki/Dandy_horse">早期自行车</a>所采用的轮子。下面的演示中，你可以观察古代载具车轮的结构及如何组装的：
+    为了理解现代自行车轮的设计和构造，我们首先要回顾历史，看看<a href="https://en.wikipedia.org/wiki/Dandy_horse">早期自行车</a>所采用的车轮。下面的演示中，你可以观察古代载具车轮的结构及如何组装的：
 </p>
 
 <div class="drawer_container ratio_100" id="wheel_carriage_assembly"></div>
 <div id="wheel_carriage_assembly_sl0"></div>
 
 <p>
-    轮子由轮毂、八根圆柱辐条和四根拱形轮辐组成。这些木制组件被铁圈包裹。铁圈在正常状态下会小一圈，通过加热后再组装，因为冷却后会收缩这样可以保持所有部件紧密的结合在一起。轮毂围绕中心轴旋转。
+    车轮由轮毂、八根圆柱辐条和四根拱形轮辐组成。这些木制组件被铁圈包裹。铁圈在正常状态下会小一圈，通过加热后再组装，因为冷却后会收缩这样可以保持所有部件紧密的结合在一起。轮毂围绕中心轴旋转。
 </p>
 <p>
-    当轮子<span class="force6"><strong>承载负荷</strong></span>时，轮毂会向下压轮子底部的<span class="spoke_wood"><strong>辐条</strong></span>，随着轮子的旋转每根辐条都被压缩然后释放。
+    当车轮<span class="force6"><strong>承载负荷</strong></span>时，轮毂会向下压车轮底部的<span class="spoke_wood"><strong>辐条</strong></span>，随着车轮的旋转每根辐条都被压缩然后释放。
 </p>
 
 <div class="drawer_container ratio_100" id="wheel_carriage_load"></div>
@@ -886,7 +885,7 @@ s = <span class="equation_frac">
 
 <p>
     这些辐条就像柱子一样抵抗着<span class="force"><strong>压缩力</strong></span>。直观点来说，辐条越粗，它能承受的力越大。
-    为了比较不同尺寸的物体的载荷能力，我们采用“<a href="https://zh.wikipedia.org/wiki/%E6%87%89%E5%8A%9B">应力</a>”的概率，用小写希腊字母西格玛 <strong>σ</strong> 表示。对于纯压缩载荷,这个应力就等于推力 <strong>F</strong> 除以横截面积 <strong>A</strong>:
+    为了比较不同尺寸的物体的载荷能力，我们采用“<a href="https://zh.wikipedia.org/wiki/%E6%87%89%E5%8A%9B">应力</a>”的概率，用小写希腊字母西格玛 <strong>σ</strong> 表示。对于纯压缩载荷，这个应力就等于压力 <strong>F</strong> 除以横截面积 <strong>A</strong>:
 </p>
 
 <div class="equation">
@@ -906,10 +905,10 @@ s = <span class="equation_frac">
 <div class="slider_wood" id="spoke_pushing_sl1"></div>
 
 <p>
-    你可能会注意到，当圆柱体被压缩的时会缩短。这种收缩与<a href="https://en.wikipedia.org/wiki/Young%27s_modulus">材料的性质</a>和和杆所受应力 <strong>σ</strong> 成正比。这也是为什么<a href="#" class="link_button" onclick="spoke_pushing_f0();return false;">较粗</a>的杠比<a href="#" class="link_button" onclick="spoke_pushing_f1();return false;">较细</a>的杠在受到相同<span class="force"><strong>压力</strong></span>的情况下收缩更小 - 横截面越大，应力越小。顺便说一下，应力以<a href="https://ciechanow.ski/naval-architecture/#pressure">压强</a>单位 <em>兆帕斯卡</em> 来表示，简称 MPa 。
+    你可能会注意到，当圆柱体被压缩的时会缩短。这种收缩与<a href="https://zh.wikipedia.org/wiki/%E6%9D%A8%E6%B0%8F%E6%A8%A1%E9%87%8F">材料的性质</a>和和杆所受应力 <strong>σ</strong> 成正比。这也是为什么<a href="#" class="link_button" onclick="spoke_pushing_f0();return false;">较粗</a>的杠比<a href="#" class="link_button" onclick="spoke_pushing_f1();return false;">较细</a>的杠在受到相同<span class="force"><strong>压力</strong></span>的情况下收缩更小 - 横截面越大，应力越小。顺便说一下，应力以<a href="https://ciechanow.ski/naval-architecture/#pressure">压强</a>单位 <em>兆帕斯卡</em> 来表示，简称 MPa 。
 </p>
 <p>
-    对于固定大小的<span class="force"><strong>力</strong></span>来说，横截面越小应力越大。对于超过材料应力极限的力，材料要么产生不可逆的<a href="https://zh.wikipedia.org/wiki/%E5%B1%88%E6%9C%8D">形变</a>要么破裂。对于我们来说保持在临界值以下的应力都是安全的可用的。所以在远离临界值的情况下，我们可以使辐条变的更细提高应力，以达到减轻重量的目的。
+    对于固定大小的<span class="force"><strong>力</strong></span>来说，横截面越小应力越大。对于超过材料应力极限的力，材料要么产生不可逆的<a href="https://zh.wikipedia.org/wiki/%E5%B1%88%E6%9C%8D">形变</a>要么破裂。对于我们来说保持在临界值以下的应力都是安全的可用的。所以在远离临界值的情况下，我们可以使辐条变的更细，以达到减轻重量的目的。
 </p>
 <p>
     不幸的是，如果我们将木制车轮的辐条做的太细，一些我们不希望的失去会发生。下面的演示中，在重压下你会见到辐条太细会发生什么：
@@ -932,7 +931,7 @@ s = <span class="equation_frac">
     细长的物体不太能抵抗来自两端的压力，但通常更能承受来自两端的拉力。你的生活经验可以告诉你 - 一根细细的意大利面条很容易从两端就给压断了，但是你却很难将其拉断。
 </p>
 <p>
-    金属细杆也一样。下面的演示中，你可以观察你的施加不同的<span class="force"><strong>拉力</strong></span>在不同<span style="color:#777"><strong>截面积</strong></span>下的反应：
+    金属细杆也一样。下面的演示中，你可以观察施加不同的<span class="force"><strong>拉力</strong></span>在不同<span style="color:#777"><strong>截面积</strong></span>下细杆的反应：
 </p>
 
 <div class="drawer_container ratio_30 full_width" id="spoke_pulling"></div>
@@ -940,7 +939,7 @@ s = <span class="equation_frac">
 <div id="spoke_pulling_sl1"></div>
 
 <p>
-    当像拉绳一样<span class="force"><strong>拉</strong></span>一根细棍，其张力会增加,我们称它正在承受拉力载荷。这也会产生应力 <strong>σ</strong> ，与受压类似，也取决于力 <strong>F</strong> 的大小和其截面积 <strong>A</strong> ：
+    当像拉绳一样<span class="force"><strong>拉</strong></span>一根细杆，其张力会增加，我们称它正在承受拉力载荷。这也会产生应力 <strong>σ</strong> ，与受压类似，也取决于力 <strong>F</strong> 的大小和其截面积 <strong>A</strong> ：
 </p>
 
 <div class="equation">
@@ -952,7 +951,7 @@ s = <span class="equation_frac">
 </div>
 
 <p>
-    前面的演示中，我们使用了较小的压力，棍子像一个硬弹簧一样，负荷消失时恢复原状，但是当压力过大时，棍子会弯曲并折断。重要的是，棍子很够承受的拉力载荷要比受压载荷大得多。
+    前面的演示中，我们使用了较小的压力，棍子像个硬弹簧一样，当负荷消失时恢复原状，但是当压力过大时，棍子会弯曲并折断。重要的是，棍子能够承受的拉力要比压力大得多。
 </p>
 <p>
     让我们利用金属棒的拉伸抗性制造一个更轻便的现代自行车轮。首先，我们用金属替代木头制作辐条。辐条一端的末尾是<span class="force1"><strong>弯曲</strong></span>的，且带有一个<span class="force1"><strong>平头</strong></span>，另一端则带有<span class="force"><strong>螺纹</strong></span>。
@@ -961,7 +960,7 @@ s = <span class="equation_frac">
 <div class="drawer_container ratio_20 full_width" id="wheel_spoke"></div>
 
 <p>
-    我们需要一个新的<span class="hub"><strong>轮毂</strong></span>作为轮子的中心部分。辐条穿过轮毂上的洞，一边的弯头可以钩住轮毂，末端的平头可以防止辐条从洞中完全穿过：
+    我们需要一个新的<span class="hub"><strong>轮毂</strong></span>作为车轮的中心部分。辐条穿过轮毂上的洞，一边的弯头可以钩住轮毂，末端的平头可以防止辐条从洞中完全穿过：
 </p>
 
 <div class="drawer_container ratio_100" id="wheel_spokes_assembly"></div>
@@ -975,14 +974,14 @@ s = <span class="equation_frac">
 <div id="wheel_spokes_assembly2_sl0"></div>
 
 <p>
-    辐条的螺纹端装配有<span class="nipple"><strong>螺帽</strong></span>。在下面的演示中，我将轮圈设置为半透明，这样你可以清楚的看到如何装配的。我们将<span class="nipple"><strong>螺帽</strong></span>拧到辐条上直到与轮圈接触的位置。
+    辐条的螺纹端装配有<span class="nipple"><strong>螺帽</strong></span>。在下面的演示中，我将轮圈设置为半透明，这样你可以清楚的看到是如何装配的。我们将<span class="nipple"><strong>螺帽</strong></span>拧到辐条上直到与轮圈接触的位置。
 </p>
 
 <div class="drawer_container ratio_100" id="wheel_spokes_assembly3"></div>
 <div class="long_slider" id="wheel_spokes_assembly3_sl0"></div>
 
 <p>
-    这时，当给车轮施加一个垂直载荷会发生什么：
+    这时，给车轮施加一个垂直载荷会发生什么：
 </p>
 
 <div class="drawer_container ratio_100" id="wheel_spokes_1"></div>
@@ -992,10 +991,10 @@ s = <span class="equation_frac">
     当我们增加<span class="force2"><strong>载荷</strong></span>时，轮毂主要是<span class="force"><strong>拉扯</strong></span>车轮里上半部分的辐条。<span class="rim"><strong>轮圈</strong></span>的下半部分变的扁平，其中的辐条和螺帽会从<span class="rim"><strong>轮圈</strong></span>的孔洞中穿过而不承担任何载荷，即使让<span class="nipple"><strong>螺帽</strong></span>锁定在轮圈上，辐条也会因此弯曲。
 </p>
 <p>
-    这样的轮子看起来很正常，但是实际上并不 - 轮轴会下降，<span class="rim"><strong>轮圈</strong></span>会变形。我们可以让<span class="rim"><strong>轮圈</strong></span>更加坚固结实，当这会增加重量。
+    这样的车轮看起来很正常，但是实际上并不 - 轮轴会下降，<span class="rim"><strong>轮圈</strong></span>会变形。我们可以让<span class="rim"><strong>轮圈</strong></span>更加坚固结实，但这会增加重量。
 </p>
 <p>
-    请注意，大量的辐条并没有参与承重，如果能够让这些的辐条也参与承重，就能更加均匀分散<span class="force"><strong>拉力</strong></span>，这样有助于让轮圈保持圆形。
+    请注意，大量的辐条并没有参与承重，如果能够让这些的辐条也参与承重，就能更加均匀分散<span class="force"><strong>拉力</strong></span>，这样有助于让轮圈保持原形。
 </p>
 <p>
     为了帮助我们理解，让我们观察一下这些部件的横截面，辐条、螺帽与轮圈之间的连接方式，随着滑块移动螺帽逐渐被拧紧：
@@ -1008,37 +1007,37 @@ s = <span class="equation_frac">
     当我们旋转<span class="nipple"><strong>螺帽</strong></span>时，它会朝<span class="spoke"><strong>辐条</strong></span>的方向移动最终会被<span class="rim"><strong>轮圈</strong></span>所阻挡，<span class="nipple"><strong>螺帽</strong></span>被<span class="rim"><strong>轮圈</strong></span>所固定并开始拉扯辐条，最终将<span class="spoke"><strong>辐条</strong></span>拧入螺帽内。
 </p>
 <p>
-    如果我们只是拧紧一个<span class="nipple"><strong>螺帽</strong></span>只会使<span class="hub"><strong>轮毂</strong></span>移动，如果我们将所有的<span class="nipple"><strong>螺帽</strong></span>拧紧，所有的<span class="spoke"><strong>辐条</strong></span>会被相同大小的拉力所绷紧。
+    如果我们只是拧紧一个<span class="nipple"><strong>螺帽</strong></span>只会使<span class="hub"><strong>轮毂</strong></span>移动，如果我们将所有的<span class="nipple"><strong>螺帽</strong></span>拧紧，所有的<span class="spoke"><strong>辐条</strong></span>会被相同大小的拉力绷紧。
 </p>
 
 <div class="drawer_container ratio_100" id="wheel_spokes_6"></div>
 <div class="slider_nipple" id="wheel_spokes_6_sl0"></div>
 
 <p>
-    轮圈保持圆形使因为辐条上的<span class="force"><strong>拉力</strong></span>在整个圆周上保持平衡，这也使得整个结构结合的更加紧密。即便没有外力作用，每根辐条也已处于张力状态，因为他被轮毂和轮圈所<span class="force"><strong>拉扯</strong></span>。根据反作用原理，它也在向这些部件施加拉力 - 就像拔河游戏一样，绳子被两端的玩家拉扯，同时绳子也将玩家拉向彼此。
+    轮圈保持圆形使得辐条上的<span class="force"><strong>拉力</strong></span>在整个圆周上保持平衡，这也使得整个结构结合的更加紧密。即便没有外力作用，每根辐条也已处于张力状态，因为他被轮毂和轮圈所<span class="force"><strong>拉扯</strong></span>。根据反作用原理，它也在向这些部件施加拉力 - 就像拔河游戏一样，绳子被两端的玩家拉扯，同时绳子也将玩家拉向彼此。
 </p>
 <p>
-    为了清晰起见，让我们将这些内部力可视化，因为我们有时需要专注于辐条上的力，有时需要专注于<span class="hub"><strong>轮毂</strong></span>和<span class="rim"><strong>轮圈</strong></span>上的力。
+    为了清晰起见，让我们将这些内部力量可视化，因为我们有时需要专注于辐条上的力，有时需要专注于<span class="hub"><strong>轮毂</strong></span>和<span class="rim"><strong>轮圈</strong></span>上的力。
 </p>
 
 <div class="drawer_container ratio_30 full_width" id="wheel_spoke_forces"></div>
 <div class="slider_nipple" id="wheel_spoke_forces_sl0"></div>
 
 <p>
-    由于辐条的弯头可以在轮毂的孔中自由旋转，螺帽可以在轮圈中转动，这些张力使辐条唯一承载的力.
+    由于辐条的弯头可以在轮毂的孔中自由旋转，螺帽可以在轮圈中转动，这些张力是辐条唯一承载的力.
 </p>
 <p>
-    当我们给车轮增加负荷会发生什么？下面的演示中你可以看到当车轮转动的时候，施加在轮毂上的重量如何分布到辐条上。请注意，我只显示了重力的影响，没有显示辐条的张力。
+    当我们给车轮增加负荷会发生什么？下面的演示中你可以看到当车轮转动的时候，施加在轮毂上的负荷如何分布到辐条上。请注意，我只显示了重力的影响，没有显示辐条的张力。
 </p>
 
 <div class="drawer_container ratio_100" id="wheel_spokes_7"></div>
 <div id="wheel_spokes_7_sl0"></div>
 
 <p>
-    施加在轮子上负荷压缩了轮毂下的少数辐条。其他辐条受到的影响很难看见。
+    施加在车轮上的负荷压缩了轮毂下的少数辐条。其他辐条受到的影响很难观察到。
 </p>
 <p>
-    为了观察辐条完整的受力，我们需要将重力影响的力和辐条上原本的张力叠加。
+    为了观察辐条完整的受力，我们需要将受重力产生的力和辐条上原本的张力叠加。
 </p>
 
 <div class="drawer_container ratio_100" id="wheel_spokes_8"></div>
@@ -1048,20 +1047,20 @@ s = <span class="equation_frac">
     请注意，尽管底部辐条受到负荷的压缩，但是这种压缩只是减少了我们拧紧螺帽施加的初始张力。所有的辐条依然受到<span class="force"><strong>拉力作用</strong></span>，随着车轮转动，一些辐条的张力减少了。
 </p>
 <p>
-    大部分的负荷由轮毂下方的几根辐条承担，这几根辐条的张力减少 - 其他的辐条的张力则略微增加。没有上半部分的辐条下半部分的辐条也无法发挥作用，所用的辐条都在保证轮子正常工作中发挥了作用。
+    大部分的负荷由轮毂下方的几根辐条承担，这几根辐条的张力减少 - 其他的辐条的张力则略微增加。没有上半部分的辐条下半部分的辐条也无法发挥作用，所有的辐条都在保证车轮正常工作中发挥了作用。
 </p>
 <p>
-    你可能已经注意倒，我们在地面上的滚动的车轮一直没有车胎。加压的轮胎比轮圈更容易变形，但是最终所有的力还是会传递到轮圈上。所以我们通过移出轮胎，可以专注于轮圈和辐条本身。
+    你可能已经注意到，我们在地面上的滚动的车轮一直没有车胎。加压的轮胎比轮圈更容易变形，但是最终所有的力还是会传递到轮圈上。所以我们移除轮胎，可以专注于轮圈和辐条本身。
 </p>
 <p>
-    设计上我们的车轮可以很好的承受垂直负荷，但是骑车时车轮还会受到其他力的所用。如我们所见，当自行车转弯时，由轮胎产生的<span class="force2"><strong>侧向力</strong></span>使得自行车改变方向。
+    在设计上我们的车轮可以很好的承受垂直负荷，但是骑车时车轮还会受到其他力的作用。如我们所见，当自行车转弯时，由轮胎产生的<span class="force2"><strong>侧向力</strong></span>使得自行车改变方向。
 </p>
 
 <div class="drawer_container ratio_100" id="bike_force_cornering5"></div>
 <div class="long_slider" id="bike_force_cornering5_sl0"></div>
 
 <p>
-    对于轮子来说，这个力作用于轮胎上，同时也会带动轮圈。让我们看看对于我们目前的轮子来说会发生什么：
+    对于车轮来说，这个力作用于轮胎上，同时也会带动轮圈。让我们看看对于我们目前的车轮来说会发生什么：
 </p>
 
 <div class="drawer_container ratio_100" id="wheel_spokes_lat1"></div>
@@ -1072,7 +1071,7 @@ s = <span class="equation_frac">
 </p>
 
 <p>
-    为了解决这个问题，我们首先要去看看当轮圈发生偏离时辐条发生了什么变化。下面的演示中，你可以看到连接到轮毂和轮圈的两根<span class="force4"><strong>相邻</strong></span> <span class="force5"><strong>辐条</strong></span>的侧视图。在演示的底部有<span class="force4"><strong>两根</strong></span>相同的<span class="force5"><strong>辐条</strong></span>，你可以通过第一个滑块来控制轮圈的偏转从而比较其辐条的长度变化：
+    为了解决这个问题，我们首先要去看看当轮圈发生偏离时辐条发生了什么变化。下面的演示中，你可以看到连接到轮毂和轮圈的两根<span class="force4"><strong>相邻</strong></span><span class="force5"><strong>辐条</strong></span>的侧视图。在演示的底部有<span class="force4"><strong>两根</strong></span>相同的<span class="force5"><strong>辐条</strong></span>，你可以通过第一个滑块来控制轮圈的偏转从而比较其辐条的长度变化：
 </p>
 
 <div class="drawer_container ratio_40 full_width" id="wheel_spokes_lat_length"></div>
@@ -1083,7 +1082,7 @@ s = <span class="equation_frac">
     第二个滑块控制<span class="hub"><strong>轮毂的“厚度”</strong></span>，其影响着辐条连接点之间的距离。为了允许轮圈在一定范围内偏转，当<a href="#" class="link_button" onclick="wheel_spokes_lat_length_f0();return false;">轮毂宽</a>时，辐条长度的变化要比<a href="#" class="link_button" onclick="wheel_spokes_lat_length_f1();return false;">轮毂窄</a>时大得多。
 </p>
 <p>
-    拉长一根辐条增强了其对轮圈的拉力，缩短辐条则减弱了其对轮圈的拉力。当轮圈偏转时，辐条上的力不平衡试图阻止这种偏转。总之，辐条长度差异越大，它们抵抗轮圈偏转的力越强。
+    拉长辐条增强了其对轮圈的拉力，缩短辐条则减弱了其对轮圈的拉力。当轮圈偏转时，辐条上的力不平衡试图阻止这种偏转。总之，辐条长度差异越大，它们抵抗轮圈偏转的力越强。
 </p>
 <p>
     对于<a href="#" class="link_button" onclick="wheel_spokes_lat_length_f1();return false;">窄轮毂</a>来说，辐条长度在轮圈倾斜时变化不大，因此较小的侧向力也会使轮圈产生较大偏转。对于<a href="#" class="link_button" onclick="wheel_spokes_lat_length_f0();return false;">宽轮毂</a>来说，随着轮圈的偏转辐条长度会更快的发生变化，即使轮圈的的倾斜很小，辐条也能抵抗轮圈继续偏转。
@@ -1097,22 +1096,22 @@ s = <span class="equation_frac">
 <div class="slider_hub" id="wheel_spokes_lat2_sl1"></div>
 
 <p>
-    如你所见，<a href="#" class="link_button" onclick="wheel_spokes_lat2_f0();return false;">更宽</a>的轮毂提高了车轮对侧向力的抵抗能力。足够宽的轮毂使我们得到了一个现代化的轮毂，其辐条呈所谓的径向布局。
+    如你所见，<a href="#" class="link_button" onclick="wheel_spokes_lat2_f0();return false;">更宽</a>的轮毂提高了车轮对侧向力的抵抗能力。足够宽的轮毂使我们得到了一个更加现代化的轮毂，其辐条呈所谓的径向布局。
 </p>
 <p>
-    你认为这或许是我们制造自行车车轮的最后一步，或许是，如果只是作为前轮来说的化。然而，为了得到更加稳定可靠的后轮，还需要一点改进。
+    或许你认为这是我们制造自行车车轮的最后一步，如果只是作为前轮来说的化或许是。然而，为了得到更加稳定可靠的后轮，还需要一点改进。
 </p>
 <p>
-    为了理解我们需要解决的问题,让我们看看需要做些什么才能使这个车轮转动。在下面的演示中,你可以抓住车轮车圈上的一个<span style="color:#aaa"><strong>灰点</strong></span>,然后沿任意方向拖动。一旦你放手,我将施加一个短暂的力,沿你拖动的方向拉动车轮。拖动距离越长,施加的力就越大:
+    为了理解我们需要解决的问题，让我们看看需要做些什么才能使这个车轮转动。在下面的演示中，你可以抓住车轮车圈上的一个<span style="color:#aaa"><strong>灰点</strong></span>，然后沿任意方向拖动。一旦你放手，我将施加一个短暂的力，沿你拖动的方向拉动车轮。拖动距离越长，施加的力就越大:
 </p>
 
 <div class="drawer_container ratio_100" id="wheel_grabber"></div>
 
 <p>
-    注意,当你直接向轮毂中心轴方向施加拉力时,即使施加的力很大,车轮也只会缓慢转动。然而,当你沿切线方向或垂直于"轮毂中心轴"方向拉动时,转动车轮就容易得多。
+    注意，当你直接向轮毂转动轴方向施加拉力时，即使施加的力很大，车轮也只会缓慢转动。然而，当你沿切线方向或垂直于"轮毂转动轴"方向拉动时，转动车轮就容易得多。
 </p>
 <p>
-    我们可以通过观察<span class="force"><strong>拉力</strong></span>作用的半径来解释这种行为的差异。在下面的演示中,你可以观察拉力的不同角度是如何改变这个<span class="force2"><strong>半径</strong></span>的:
+    我们可以通过观察<span class="force"><strong>拉力</strong></span>作用的半径来解释这种行为的差异。在下面的演示中，你可以观察拉力的不同角度是如何改变这个<span class="force2"><strong>半径</strong></span>的:
 </p>
 
 <div class="drawer_container ratio_100" id="wheel_spokes_force_radius1"></div>
@@ -1122,17 +1121,17 @@ s = <span class="equation_frac">
     <span class="force2"><strong>半径</strong></span>越小，力臂就越小，因此轮毂上的扭矩也越小，车轮也转动的更慢。让我们看看这些概念如何应用到自行车的后轮上。
 </p>
 <p>
-    当骑手踩踏板时，链条拉动飞轮，飞轮带动轮毂转动，这对轮毂施加了一个扭矩,轮毂会相对于轮圈轻微旋转。这改变了辐条内侧连接处的位置，拉长了辐条，增加了张力，同时也产生了一个作用于轮圈的小力臂。如下图所示：
+    当骑手蹬踏板时，链条拉动飞轮，飞轮带动轮毂转动，这对轮毂施加了一个扭矩，轮毂会相对于轮圈轻微旋转。这改变了辐条内侧连接处的位置，拉长了辐条，增加了张力，同时也产生了一个作用于轮圈的小力臂。如下图所示：
 </p>
 
 <div class="drawer_container ratio_40 full_width" id="wheel_spokes_force_radius2"></div>
 <div class="slider_hub" id="wheel_spokes_force_radius2_sl0"></div>
 
 <p>
-    因为辐条可以在轮毂连接处的孔洞里旋转，它们只能沿着辐条本身的长度方向施加力。然而,这里就存在一个问题。正如我们在车轮转动演示中看到的,由于这个很小的力臂,这些力将极难转动车圈。
+    因为辐条可以在与轮毂连接处的孔洞里旋转，它们就只能沿着辐条本身的长度方向施加力。然而，这里就存在一个问题。正如我们在车轮转动演示中看到的，由于这个很小的力臂，这些力将极难转动车圈。
 </p>
 <p>
-    如果我们只关心转动轮圈，那么现有的辐条也弯曲够用了，因为轮圈很轻。然而对于轮毂要带动整个自行车和骑手，对于连接轮毂和轮圈的辐条来说是个巨大的调整。这种挑战体现在辐条张力和<a href="https://cn.comsol.com/blogs/why-do-road-and-mountain-bikes-have-different-spoke-patterns/">轮圈应力</a>的增加上，因此径向辐条在后轮上很少使用。
+    如果我们只关心如何让轮圈转动，那么现有的辐条也完全够用了，因为轮圈很轻。然而对于轮毂要带动整个自行车和骑手，对于连接轮毂和轮圈的辐条来说是个巨大的调整。这种挑战体现在辐条张力和<a href="https://cn.comsol.com/blogs/why-do-road-and-mountain-bikes-have-different-spoke-patterns/">轮圈应力</a>的增加上，因此径向辐条在后轮上很少使用。
 </p>
 <p>
     为了让轮毂和辐条更容易带动轮圈，我们需要保证辐条带动轮圈的力臂更长。我们可以使用较长的辐条，并将它们远离径向方向，通过对轮毂施加一些扭转来实现这一点。首先，让我们不用螺帽固定看看：
@@ -1142,7 +1141,7 @@ s = <span class="equation_frac">
 <div class="slider_hub" id="wheel_spokes_9_sl0"></div>
 
 <p>
-    当我们拧上螺帽看看，不幸的是拉力由将辐条回正了，又回到了径向辐条的布局：
+    当我们拧上螺帽看看，不幸的是拉力又将辐条回正了，又回到了径向辐条的布局：
 </p>
 
 <div class="drawer_container ratio_100" id="wheel_spokes_10"></div>
@@ -1156,14 +1155,14 @@ s = <span class="equation_frac">
 <div class="long_slider" id="wheel_spokes_11_sl0"></div>
 
 <p>
-    现在，我们重新拧上<span class="nipple"><strong>螺帽</strong></span>看看，因为辐条张力的缘故一半的辐条会使轮圈顺时针旋转，另一半会使其逆时针旋转，在保持辐条<span class="force"><strong>张力</strong></span>的同时保持平衡：
+    现在，我们重新拧上<span class="nipple"><strong>螺帽</strong></span>看看，因为辐条张力的缘故一半的辐条会拉着轮圈顺时针旋转，另一半会拉着使其逆时针旋转，在保持辐条<span class="force"><strong>张力</strong></span>的同时保持平衡：
 </p>
 
 <div class="drawer_container ratio_100" id="wheel_spokes_12"></div>
 <div class="slider_nipple" id="wheel_spokes_12_sl0"></div>
 
 <p>
-    这样的布局被称之为“三交叉”，因为每根辐条从轮毂到轮圈要与其他三根辐条交叉。这些组成了切线编织图案，辐条或多或少地与轮毂相切，而不是从轮毂径向伸出。
+    这样的布局被称之为“三交叉”，因为每根辐条从轮毂到轮圈要与其他三根辐条交叉。其组成了切线编织图案，辐条或多或少地与轮毂相切，而不是从轮毂径直伸出。
 </p>
 <p>
     现在所有部件都就位了，让我们看看外部载荷如何影响辐条的张力。只有重量负载时，这些辐条的行为与径向辐条非常相似，靠近地面的辐条承载了绝大部分负载：
@@ -1176,30 +1175,30 @@ s = <span class="equation_frac">
     每一次转动，辐条都会经过拉伸和收缩。这会导致辐条的<a href="https://zh.wikipedia.org/wiki/%E9%87%91%E5%B1%AC%E7%96%B2%E5%8B%9E">金属疲劳</a>，长期下来最终可能导致辐条断裂。
 </p>
 <p>
-    当骑手踩踏踏板对轮毂施加扭矩时，<span class="force4"><strong>“落后”</strong></span>的辐条会增加张力，而<span class="force5"><strong>“领先”</strong></span>的辐条则会减小张力:（译者注：<span class="force4"><strong>橙色</strong></span>的是“落后”，<span class="force5"><strong>蓝色</strong></span>的是“领先”）
+    当骑手蹬踏板对轮毂施加扭矩时，<span class="force4"><strong>“落后”</strong></span>的辐条会增加张力，而<span class="force5"><strong>“领先”</strong></span>的辐条则会减小张力:（译者注：<span class="force4"><strong>橙色</strong></span>的是“落后”，<span class="force5"><strong>蓝色</strong></span>的是“领先”）
 </p>
 
 <div class="drawer_container ratio_100" id="wheel_spokes_14"></div>
 <div class="slider_hub" id="wheel_spokes_14_sl0"></div>
 
 <p>
-    我们的自行车采用传统的夹式制动器，它们通过夹住轮圈产生摩擦，从而施加力矩于轮圈上。一些自行车采用<a href="https://en.wikipedia.org/wiki/Bicycle_brake#Disc_brakes">盘式制动器</a>，通过直接在轮毂上施加力矩来工作。这些制动系统施加的力类似于踩踏，只是方向相反，这也阻止了在这些自行车上使用径向布局的辐条。
+    我们的自行车采用传统的夹式制动器，它们通过夹住轮圈产生摩擦，从而施加力矩在轮圈上。一些自行车采用<a href="https://en.wikipedia.org/wiki/Bicycle_brake#Disc_brakes">盘式制动器</a>，通过直接在轮毂上施加力矩来工作。这种制动系统施加的力类似于来自骑手蹬踏板带来的力，只是方向相反，这也阻止了在这些自行车上使用径向布局的辐条。
 </p>
 <p>
-    最后，让我们探讨一下轮子在转弯时所受到的<span class="force2"><strong>侧向力</strong></span>对辐条<span class="force"><strong>张力</strong></span>的影响：
+    最后，让我们探讨一下车轮在转弯时所受到的<span class="force2"><strong>侧向力</strong></span>对辐条<span class="force"><strong>张力</strong></span>的影响：
 </p>
 
 <div class="drawer_container ratio_100" id="wheel_spokes_15"></div>
 <div class="slider_force2" id="wheel_spokes_15_sl0"></div>
 
 <p>
-    在实际骑行中辐条会经受各种不同的负荷。通常辐条需要拉的足够紧而不会在骑行中失去张力，但是当事故发生时，产生的损坏可能超过安全极限，轮子可能在不平衡的张力下弯曲折叠。不过需要注意的是，过度紧张的辐条也是不安全的，因为一旦负荷过大就容易超过极限导致辐条断裂或轮圈变形。
+    在实际的骑行中辐条会经受各种不同的负荷。通常辐条需要拉的足够紧而不会在骑行中失去张力，但是当事故发生时，产生的损坏可能超过安全极限，车轮可能在不平衡的张力下弯曲折叠。不过需要注意的是，过度紧张的辐条也是不安全的，因为一旦负荷过大就容易超过极限导致辐条断裂或轮圈变形。
 </p>
 <p>
     一些高端自行车轮毂放弃了传统的张力辐条，而是采用<a href="https://en.wikipedia.org/wiki/Bicycle_wheel#/media/File:Carbon_composite_MTB_wheel.JPG">壳状结构</a> - 这些轮毂的工作方式类似于传统的马车车轮，但其构造中使用的碳复合材料使其非常轻盈。
 </p>
 <p>
-    正如我们所看到的，现代自行车轮毂中的辐条始终受到拉力，因此它们所经历的应力是拉伸性质的。在本文的最后部分，我们将探讨自行车车架是如何处理各种其他类型的应力的。
+    正如我们所看到的，现代自行车轮毂中的辐条始终受到拉力，因此它们所经历的应力是拉伸性质的。在本文的最后部分，我们将探讨自行车车架是如何处理其他各种类型的应力。
 </p>
 
 <h1 id="simple-frame">简单 车架<a href="https://ciechanow.ski/bicycle/#simple-frame" class="hanchor" ariaLabel="Anchor"><img src="media/anchor.png" width="16px" height="8px"/></a> </h1>
@@ -1214,22 +1213,22 @@ s = <span class="equation_frac">
     一个由不同长度和直径的钢管或铝管焊接在一起的单一、刚性结构。
 </p>
 <p>
-    从根本上来说，一个车架需要为<span class="force"><strong>车座</strong></span>、<span class="force4"><strong>后轴</strong></span>、<span class="force2"><strong>曲柄</strong></span>和前叉的<span class="force6"><strong>旋转轴</strong></span>这是个主要部件提供支撑和安装位置。
+    从根本上来说，一个车架需要为<span class="force"><strong>车座</strong></span>、<span class="force4"><strong>后轴</strong></span>、<span class="force2"><strong>曲柄</strong></span>和前叉的<span class="force6"><strong>旋转轴</strong></span>这些主要部件提供支撑和安装位置。
 </p>
 
 <div class="drawer_container ratio_60 full_width" id="bike_frame2"></div>
 
 <p>
-    一个典型的车架以两个三角形的结构连接这四个位置可能会让人有些费解。毕竟,还有许多其他方式可以将这些点连接成一个车架:
+    一个典型的车架以两个三角形的结构连接这四个位置可能会让人有些费解。毕竟，还有许多其他方式可以将这些点连接成一个车架:
 </p>
 
 <div class="drawer_container ratio_60 full_width" id="bike_frame3"></div>
 
 <p>
-    此外,构成车架的管子为什么是空心的,以及为什么不同部位管子的直径也不同？
+    此外，构成车架的管子为什么是空心的，以及为什么不同部位管子的直径也不同？
 </p>
 <p>
-    让我们试着从头建造一个自行车车架,看看有哪些因素影响了车架的设计。我们将保留车轮、踏板、车座和车把部分 - 这些部件的形状和位置已经经过多年完善，以确保自行车稳定并适合人体工程学。
+    让我们试着从头建造一个自行车车架，看看有哪些因素影响了车架的设计。我们将保留车轮、踏板、车座和车把部分 - 这些部件的形状和位置已经经过多年完善，以确保自行车稳定并适合人体工程学。
 </p>
 <p>
     我们从一个非常简单的十字形框架开始，框架由实心钢管组成。下面的滑块控制实心钢管的<span class="tube"><strong>直径</strong></span> - 右下角你可以看到钢管的横截面：
@@ -1239,10 +1238,10 @@ s = <span class="equation_frac">
 <div class="slider_tube"  id="fem1_sl0"></div>
 
 <p>
-    在演示的下半部分，你可以看到整个车架的总重量。钢管越细，自行车就越轻，加速和减速就越轻松，所谓我们需要保证钢管尽可能的细。
+    在演示的下半部分，你可以看到整个车架的总重量。钢管越细，自行车就越轻，加速和减速就越轻松，所以我们需要保证钢管尽可能的细。
 </p>
 <p>
-    这种简单的车架看似可以很好的工作，但是并没有考虑施加在自行车上的负载。让我们看看在车座上施加 <span class="force"><strong>骑行者的重量</strong></span>时车架会发生什么吧：
+    这种简单的车架看似可以很好的工作，但是并没有考虑施加在自行车上的负载。让我们看看在车座上施加<span class="force"><strong>骑行者的重量</strong></span>时车架会发生什么吧：
 </p>
 
 <div class="drawer_container ratio_60 full_width" id="fem2"></div>
@@ -1250,16 +1249,16 @@ s = <span class="equation_frac">
 <div class="slider_tube" id="fem2_sl1"></div>
 
 <p>
-    尽管车架是由钢制的，但是免不了在受力时发生弯曲。虽然任何车架都不可能完全避免形变，但是有些情况时需要避免的，例如：车架下陷太多会导致踏板转动时碰到地面。
+    尽管车架是钢制的，但是免不了在受力时发生弯曲。虽然任何车架都不可能完全避免形变，但是有些情况是需要避免的，例如：车架下陷太多会导致踏板转动时碰到地面。
 </p>
 <p>
-    不幸的时，一定负载的情况下引起的形变并不是我们在设计车价中唯一需要考虑的因素，但要理解其他的考虑因素，我们需要去讨论一下弯曲。
+    不幸的是，一定负载的情况下引起的形变并不是我们在设计车价中唯一需要考虑的因素，但要理解其他的因素，我们需要去讨论一下弯曲。
 </p>
 
 <h1 id="bending">弯 曲<a href="https://ciechanow.ski/bicycle/#bending" class="hanchor" ariaLabel="Anchor"><img src="media/anchor.png" width="16px" height="8px"/></a> </h1>
 
 <p>
-    让我们从一个简单的例子开始。下面的演示中，你可以使用滑块调整作用在金属柱两端的<span class="force"><strong>力矩</strong></span> - 你还可以选择金属的种类：
+    让我们从一个简单的例子开始。下面的演示中，你可以使用滑块调整作用在金属杠两端的<span class="force"><strong>力矩</strong></span> - 你还可以选择金属的种类：
 </p>
 
 <div class="drawer_container ratio_40 full_width" id="bending1"></div>
@@ -1267,33 +1266,33 @@ s = <span class="equation_frac">
 <div id="bending1_seg0"></div>
 
 <p>
-    施加的力矩使金属柱弯曲，虽然不同材料的弯曲程度不同，但是都发生了弯曲形变。接下来我们将重点放在钢这一种材料。
+    施加的力矩使金属杠弯曲，虽然不同材料的弯曲程度不同，但是都发生了弯曲形变。接下来我们将重点放在钢这一种材料。
 </p>
 <p>
-    让我们仔细观察当我们弯曲金属柱时不同的部分会有什么变化。在下面的演示中，你可以通过对金属柱施加<span class="force"><strong>弯曲力矩</strong></span>使其变形。同时我也在侧面画了几根平行的线条，线条都是相同的长度。但是当我们弯曲金属柱时，其<span class="compression"><strong>顶部</strong></span>变的更短，<span class="tension"><strong>底部</strong></span>变的更长。
+    让我们仔细观察当金属杠时弯曲不同的部位会有什么变化。在下面的演示中，你可以通过对金属杠施加<span class="force"><strong>弯曲力矩</strong></span>使其变形。同时我也在侧面画了几根平行的线条，线条都是相同的长度。但是当我们弯曲金属杠时，其<span class="compression"><strong>顶部</strong></span>变的更短，<span class="tension"><strong>底部</strong></span>变的更长。
 </p>
 
 <div class="drawer_container ratio_30 full_width" id="bending2"></div>
 <div class="slider_force" id="bending2_sl0"></div>
 
 <p>
-    金属柱的上半部分因为<span class="compression"><strong>压缩</strong></span>而变短，下半部分因为<span class="tension"><strong>拉伸</strong></span>而变长。
+    金属杠的上半部分因为<span class="compression"><strong>压缩</strong></span>而变短，下半部分因为<span class="tension"><strong>拉伸</strong></span>而变长。
 </p>
 <p>
-    请注意，随着柱子的弯曲，中间的那条<span class="dashed">虚线</span>长度没有改变。对于这种简单的矩形横截面,中性轴正好穿过柱子的中心,但在更复杂的形状中,由于受力和受拉区域的分布不同,这条中性轴可能会偏离中心。
+    请注意，随着杠的弯曲，中间的那条<span class="dashed">虚线</span>长度没有改变。对于这种简单的矩形横截面，中性轴正好穿过杠的中心，但在更复杂的形状中，由于受压和受拉区域的分布不同，这条中性轴可能会偏离中心。
 </p>
 <p>
-    在我们讨论木制和钢制车轮辐条时,已经见识到<span class="compression"><strong>压缩</strong></span>和<span class="tension"><strong>拉力</strong></span>会在材料内产生应力,这些柱子也不例外。在下面的演示中,你可以调节的扭矩来弯曲柱子。根据它们所受的应力，柱子的不同部分被相应地着色——<strong><span class="gradient_word" data-color0="#aaaaaa" data-color1="#297CDE">要么增加拉力</span></strong>，<strong><span class="gradient_word" data-color0="#aaaaaa" data-color1="#FF951E">要么增加压力</span></strong>：
+    在我们讨论木制和钢制车轮辐条时，已经见识到<span class="compression"><strong>压缩</strong></span>和<span class="tension"><strong>拉力</strong></span>会在材料内产生应力，这些杠也不例外。在下面的演示中，你可以调节的扭矩来弯曲杠。根据它们所受的应力，杠的不同部分被相应地着色——<strong><span class="gradient_word" data-color0="#aaaaaa" data-color1="#297CDE">要么增加拉力</span></strong>，<strong><span class="gradient_word" data-color0="#aaaaaa" data-color1="#FF951E">要么增加压力</span></strong>：
 </p>
 
 <div class="drawer_container ratio_40 full_width" id="bending4"></div>
 <div class="slider_force" id="bending4_sl0"></div>
 
 <p>
-    如你所见，越是远离中性轴其长度的变化就越大，因此应力就越大。如果应力过大，柱子会永久变形甚至完全断裂。
+    如你所见，越是远离中性轴其长度的变化就越大，因此应力就越大。如果应力过大，杠会永久变形甚至完全断裂。
 </p>
 <p>
-    乍一看，似乎我们应该改变柱子的横截面，使材料靠近中性轴，以确保不会过度受力。事实上，我们要做的正好相反。
+    乍一看，似乎我们应该改变杠的横截面，使材料更靠近中性轴，以确保不会过度受力。事实上，我们要做的正好相反。
 </p>
 <p>
     下面的演示中，你可以看到其一小部分的特写及受力情况 - 你可以使用滑块控制想要研究的横截面位置。注意，横截面所受的<strong><span class="gradient_word" data-color0="#2870C2" data-color1="#DF6C52">力矩臂</span></strong>很小，因此产生了一个与整体扭矩相反的力矩:
@@ -1303,13 +1302,13 @@ s = <span class="equation_frac">
 <div id="bending_moment_sl0"></div>
 
 <p>
-    其所有横截面产生的力矩之和,正是用来平衡外部扭矩的。如果我们将其中一个横截面移离中性轴，不仅会增加这个横截面所受力矩臂的长度，由于横截面会被拉伸得更长，所受的力也会增大。
+    其所有横截面产生的力矩之和，正是用来平衡外部扭矩的。如果我们将其中一个横截面移离中性轴，不仅会增加这个横截面所受力矩臂的长度，由于横截面会被拉伸得更长，所受的力也会增大。
 </p>
 <p>
     横截面长度和力臂都与距离中性轴的距离成正比，因此横截面所产生的力矩随着该距离的平方而增长。远离中性轴的位置更有效地抵消弯曲力矩，因此整体横截面越大，整体曲率和单个横截面的延展也会减少。
 </p>
 <p>
-    在下面的演示中,您可以改变柱子的<span class="tube"><strong>比例</strong></span>使其横截面变宽或变高，但同时保持了其面积不变，这意味着柱子整体的质量没有改变，只是重新分布了:
+    在下面的演示中，您可以改变杠的<span class="tube"><strong>比例</strong></span>使其横截面变宽或变高，但同时保持了其面积不变，这意味着杠整体的质量没有改变，只是重新分布了:
 </p>
 
 <div class="drawer_container ratio_40 full_width" id="bending3"></div>
@@ -1328,10 +1327,10 @@ s = <span class="equation_frac">
 <div class="slider_tube" id="bending5_sl1"></div>
 
 <p>
-    这些实心圆柱与我们之前看到的方形柱相同 - 离中性轴最远的部分承受的载荷最大。相反,最靠近中心的部分承受的载荷最小。事实上,我们可以完全移除这些中心部分的材料，并将这些材料用作外侧 - 我们将使用空心管代替实心圆柱。
+    这些实心圆柱与我们之前看到的方形柱相同 - 离中性轴最远的部分承受的载荷最大。相反，最靠近中心的部分承受的载荷最小。事实上，我们可以完全移除这些中心部分的材料，并将这些材料用作外侧 - 我们将使用空心管代替实心圆柱。
 </p>
 <p>
-    在下面的演示中,您可以控制这个圆形实心杆的<span class="tube"><strong>空心程度</strong></span>。我将保持杆的横截面积不变，因此当管的半径增大时，壁厚就会变薄。这也意味着本演示中的所有管材质量相同:
+    在下面的演示中，您可以控制这个圆形实心杆的<span class="tube"><strong>空心程度</strong></span>。我将保持杆的横截面积不变，因此当管的半径增大时，壁厚就会变薄。这也意味着本演示中的所有管材质量相同:
 </p>
 
 <div class="drawer_container ratio_30 full_width" id="bending6"></div>
@@ -1339,10 +1338,10 @@ s = <span class="equation_frac">
 <div class="slider_tube" id="bending6_sl1"></div>
 
 <p>
-    通过增大管的直径并使其壁变薄，就能使其更加抗弯曲。看起来好像只要壁足够薄、直径足够大，这个圆柱就能足够坚固，但事实并非如此 - 如果壁太薄,在受压一侧就会直接弯曲变形。你可以试着弯曲一个空的铝罐，就能亲身体会到这种情况。
+    通过增大管的直径并使其壁变薄，就能使其更加抗弯曲。看起来好像只要壁足够薄、直径足够大，这个圆柱就能足够坚固，但事实并非如此 - 如果壁太薄，在受压一侧就会直接弯曲变形。你可以试着弯曲一个空的铝罐，就能亲身体会到这种情况。
 </p>
 <p>
-    我们已经看到一个柱体的弯曲取决于其横截面的<a href="https://zh.wikipedia.org/wiki/%E6%88%AA%E9%9D%A2%E4%BA%8C%E6%AC%A1%E8%BD%B4%E7%9F%A9">几何性质</a>、所用材料的<a href="https://en.wikipedia.org/wiki/Young%27s_modulus">机械性能</a>以及施加的力。其中最后一个方面值得更多关注。
+    我们已经看到一个柱体的弯曲取决于其横截面的<a href="https://zh.wikipedia.org/wiki/%E6%88%AA%E9%9D%A2%E4%BA%8C%E6%AC%A1%E8%BD%B4%E7%9F%A9">几何性质</a>、所用材料的<a href="https://zh.wikipedia.org/wiki/%E6%9D%A8%E6%B0%8F%E6%A8%A1%E9%87%8F">机械性能</a>以及施加的力。其中最后一个方面值得更多关注。
 </p>
 <p>
     在我们的例子中，一直使用简单的力矩来弯曲杆，但自行车车架上的载荷要复杂一些，有各种力量作用于许多不同位置。这些力和它们产生的力矩通过车架中所有部件传递，车架中的每个部分最终都会承受不同的载荷。
@@ -1383,7 +1382,7 @@ s = <span class="equation_frac">
 <h1 id="stresses-in-the-frame">车架中的应力<a href="https://ciechanow.ski/bicycle/#stresses-in-the-frame" class="hanchor" ariaLabel="Anchor"><img src="media/anchor.png" width="16px" height="8px"/></a> </h1>
 
 <p>
-    在下面的演示中,您可以重新查看之前由<span class="tube"><strong>可调整直径</strong></span>实心杆构成的车架。不过这一次,我还将可视化车架上的应力分布:
+    在下面的演示中，您可以重新查看之前由<span class="tube"><strong>可调整直径</strong></span>实心杆构成的车架。不过这一次，我还将可视化车架上的应力分布:
 </p>
 
 <div class="drawer_container ratio_60 full_width" id="fem3"></div>
@@ -1391,7 +1390,7 @@ s = <span class="equation_frac">
 <div class="slider_tube" id="fem3_sl1"></div>
 
 <p>
-    需要指出的是，这种分析是简化了的，因为我们只分析了车架管材部分的应力 - 而忽略了这些管材连接处更复杂的应力分布。然而，它仍然有助于对整个车架进行初步分析。
+    需要指出的是，这种分析是简化了的，因为我们只分析了车架管材部分的应力 - 而忽略了这些管材连接处更复杂的应力分布。然而，这仍然有助于对整个车架进行初步分析。
 </p>
 <p>
     请注意，为了在<a href="#" class="link_button" onclick="fem3_f0();return false;">大载荷</a>的情况下<a href="#" class="link_button" onclick="fem3_f1();return false;">消除高亮的区域</a> - 这表示高应力区域，我们需要增加管材的直径。不过，这样会让整个车架变的沉重。
@@ -1418,14 +1417,14 @@ s = <span class="equation_frac">
     因为踏板位于车架的一侧且有一定的距离，因此当踏板被踩下时，会像杠杆一样试图扭转车架的位置，从而使管材承受更大的应力。
 </p>
 <p>
-    然而这次应力的情况又有些不同，因为管材还经历了扭转变形。让我们再仔细探讨一下这个概念。在下面的演示中，我们再次看到一根实心钢杆。不过这次，我们不是去弯曲它,而是使它<span class="force"><strong>扭转</strong></span>:
+    然而这次应力的情况又有些不同，因为管材还经历了扭转变形。让我们再仔细探讨一下这个概念。在下面的演示中，我们再次看到一根实心钢杆。不过这次，我们不是去弯曲它，而是使它<span class="force"><strong>扭转</strong></span>:
 </p>
 
 <div class="drawer_container ratio_40" id="torsion1"></div>
 <div class="slider_force" id="torsion1_sl0"></div>
 
 <p>
-    对于这样的实心杠，很难看清内部发生了什么，所以让我们用透视视野去观察其中一小节的环状横截面是如何变形的。第二个滑块用来选择不同的环状横截面：
+    对于这样的实心杠，很难知道内部发生了什么，所以让我们用透视视野去观察其中一小节的环状横截面是如何变形的。第二个滑块用来选择不同的环状横截面：
 </p>
 
 <div class="drawer_container ratio_80" id="torsion4"></div>
@@ -1457,7 +1456,7 @@ s = <span class="equation_frac">
     让我们回到自行车车架上来。尽管我们采用了空心的管材，但整个车架依然承受了很高的应力。如果依然通过增大增粗管材来达到目的，最终我们得到的会是一个十字形的车架，虽然结实但是非常沉重。
 </p>
 <p>
-    然而，我们还可以在车架底部增加三根新的管材。为了减轻重量，我们将全部使用空心管材，因此现在我们只需控制其<span class="tube"><strong>直径</strong></span>:
+    然而，我们还可以在车架底部增加三根新的管材。为了减轻重量，我们将全部使用空心管材，因此现在我们只需控制其<span class="tube"><strong>粗细</strong></span>:
 </p>
 
 <div class="drawer_container ratio_60 full_width" id="fem6"></div>
@@ -1465,7 +1464,7 @@ s = <span class="equation_frac">
 <div class="slider_tube"  id="fem6_sl1"></div>
 
 <p>
-    从概念上讲，增加的新管材将质量进一步重新分派到远离中性弯曲轴的位置。对于<a href="#" class="link_button" onclick="fem6_f0();return false;">垂直载荷</a>,这个车架的中心部分现在的作用类似于一个超长元件，因为上下管材相隔很远。对于<a href="#" class="link_button" onclick="fem6_f1();return false;">踏踏产生的载荷</a>，这种新的分布也有帮助，通过支撑牙盘区域,防止弯曲应力在中心部分累积。
+    从概念上讲，增加的新管材将质量进一步重新分派到远离中性弯曲轴的位置。对于<a href="#" class="link_button" onclick="fem6_f0();return false;">垂直载荷</a>，这个车架的中心部分现在的作用类似于一个超长元件，因为上下管材相隔很远。对于<a href="#" class="link_button" onclick="fem6_f1();return false;">踏踏产生的载荷</a>，这种新的分布也有帮助，通过支撑牙盘区域，防止弯曲应力在中心部分累积。
 </p>
 <p>
     这种新设计让我们可以使用更薄更轻的管材，但仍然有一些可以改进的地方。请注意，支撑座位的管材仍然可能会受到相当大的应力，因为其内部的弯曲力矩可能会变得相当大。让我们通过使用第三个滑块改变中心节点位置看看是否可以改善这一点:
@@ -1477,7 +1476,7 @@ s = <span class="equation_frac">
 <div id="fem7_sl2"></div>
 
 <p>
-    在<a href="#" class="link_button" onclick="fem7_f0();return false;">“经典”的车架设计</a>中我们将<a href="#" class="link_button" onclick="fem7_f2();return false;">来自车座</a>的应力最小化。靠近牙盘的区域在<a href="#" class="link_button" onclick="fem7_f1();return false;">踏板被踩踏</a>时仍然会承受一些应力，但是我们的管材足够坚固。接下来我们可以通过调整各个管材的尺寸、粗细，将利用率低的管材变细，而使承力较大的管材变粗:
+    在<a href="#" class="link_button" onclick="fem7_f0();return false;">“经典”的车架设计</a>中我们将<a href="#" class="link_button" onclick="fem7_f2();return false;">来自车座</a>的应力最小化。靠近牙盘的区域在<a href="#" class="link_button" onclick="fem7_f1();return false;">踏板被踩踏</a>时仍然会承受一些应力，但是我们的管材足够坚固。接下来我们可以通过调整各个管材的尺寸、粗细，将利用率低的管材变细，而使受力较大的管材变粗:
 </p>
 
 <div class="drawer_container ratio_60 full_width" id="fem9"></div>
@@ -1485,13 +1484,13 @@ s = <span class="equation_frac">
 <div id="fem9_sl1"></div>
 
 <p>
-    我们或多或少已经达到了现代自行车车架的设计。甚至可以进一步使管材横截面加工为椭圆形，以使其对垂直载荷产生的弯曲更加刚性，或者对管材进行"锥形加工",使中部变薄，而靠近节点处的壁厚保持较大，因为那里的应力更大。
+    我们或多或少已经达到了现代自行车车架的设计的标准。甚至可以进一步使管材横截面加工为椭圆形，以使其更好抵抗来自对垂直载荷产生的弯曲，或者对管材进行"锥形加工"，使中部变薄，而靠近节点处的管壁增厚，因为那里的应力更大。
 </p>
 <p>
-    我需要强调一点的是，我们对自行车车架只进行了非常简化的研究。更为严格的力学分析需要计算弯曲、扭转和法向载荷所造成的各种应力，以确保所用材料能够承受自行车所需承受的这些载荷和其他作用力而不发生失效。我们也没有研究连接车架各个构件焊缝处的应力情况 - 这些往往是车架上应力较大的部位之一。
+    需要强调一点的是，我们对自行车车架只进行了非常简化的研究。更为严格的力学分析需要计算弯曲、扭转和法向载荷所造成的各种应力，以确保所用材料能够承受相应的载荷和其他作用力而不会失效。我们也没有研究连接车架各个构件焊缝处的应力情况 - 这些往往是车架上应力较大的部位。
 </p>
 <p>
-    虽然经典的由两个三角形组成的“菱形”框架是最常用的，但许多自行车通过改变位置甚至去除一些管材来调整这种经典的构造。当然所有的这些变化都必须考虑到最终所承受的应力，以确保自行车是安全的。
+    虽然经典的由两个三角形组成的“菱形”框架是最常用的，但许多自行车通过改变布局甚至去除一些管材来调整这种经典的构造。当然所有的这些变化都必须考虑到最终所承受的应力，以确保自行车是安全的。
 </p>
 <p>
     值得庆幸的是，借助计算机辅助设计和现代复合材料，自行车制造商能够制造出更复杂的车架，这些车架具有不同形状和厚度的管材，其连接点的位置也各不相同。
@@ -1500,7 +1499,7 @@ s = <span class="equation_frac">
 <h1 id="further-reading-and-watching">推荐阅读<a href="https://ciechanow.ski/bicycle/#further-reading-and-watching" class="hanchor" ariaLabel="Anchor"><img src="media/anchor.png" width="16px" height="8px"/></a> </h1>
 
 <p>
-    目前自行车的稳定性仍是一门活跃的研究课题，在过去的二十年依然有<a href="http://bicycle.tudelft.nl/stablebicycle/StableBicyclev34Revised.pdf">新的发现</a>。在学习由<a href="http://bicycle.tudelft.nl/schwab/Bicycle/">一组自行车研究人员</a>撰写的关于该主题<a href="http://ruina.tam.cornell.edu/research/topics/bicycle_mechanics/*FinalBicyclePaperv45wAppendix.pdf">经典论文</a>之前，<a href="https://www.youtube.com/watch?v=XmDTTVvmm5M">Andy Ruina 的课程</a>可以作为这方面研究的入门。这些合作者还审视了前人在这一领域的一些<a href="http://bicycle.tudelft.nl/stablebicycle/StableHistoryv32Arend.pdf">错误认知</a>。我强烈推荐杰森·摩尔关于人类控制自行车的<a href="https://moorepants.github.io/dissertation/index.html">博士论文</a>，虽然篇幅很长，但非常有趣且脚踏实地。
+    目前自行车的稳定性仍是一门活跃的研究课题，在过去的二十年来依然有<a href="http://bicycle.tudelft.nl/stablebicycle/StableBicyclev34Revised.pdf">新的发现</a>。在学习由<a href="http://bicycle.tudelft.nl/schwab/Bicycle/">一组自行车研究人员</a>撰写的关于该主题<a href="http://ruina.tam.cornell.edu/research/topics/bicycle_mechanics/*FinalBicyclePaperv45wAppendix.pdf">经典论文</a>之前，<a href="https://www.youtube.com/watch?v=XmDTTVvmm5M">Andy Ruina 的课程</a>可以作为这方面研究的入门。这些合作者还审视了前人在这一领域的一些<a href="http://bicycle.tudelft.nl/stablebicycle/StableHistoryv32Arend.pdf">错误认知</a>。我强烈推荐 Jason Moore 关于人类控制自行车的<a href="https://moorepants.github.io/dissertation/index.html">博士论文</a>，虽然篇幅很长，但非常有趣且脚踏实地。
 </p>
 <p>
     <a href="https://dashdotrobot.com/">Matthew Ford</a> 对自行车轮进行了大量的研究，最终完成了他的<a href="https://arch.library.northwestern.edu/downloads/fb4948624">博士论文</a>，其中阐述了辐条车轮在负载下的理论背景和实验结果。另外，Matthew 还在他的博客上写了几篇<a href="https://bicyclewheel.info/articles/">入门文章</a>，并制作了一个<a href="https://bicyclewheel.info/wheel-simulator/">轮毂模拟器</a>，让您可以在不同类型的载荷下查看辐条受力情况。
@@ -1519,7 +1518,7 @@ Bicycling Science》</a>涵盖了许多其他与自行车相关的主题，如�
     在现实世界中，我们用箭头可视化的力并不直接可见，但它们造成的影响却是明显的。有时，这种作用是非常直接的，比如当我们蹬踏板去推动自行车前进。另一方面，保持自行车稳定的力之间相互作用要复杂得多。
 </p>
 <p>
-    所有这些力都是由单个原子产生和传递的，原子四处移动去影响它们的邻居。地面、轮胎或车架上单个粒子的相互作用是完全微不足道的，但一旦我们累积了这些物体中所有分子的效应，它们就会形成一种可见的现象,使自行车能够骑行。
+    所有这些力都是由单个原子产生和传递的，原子四处移动去影响它们的邻居。地面、轮胎或车架上单个粒子的相互作用是完全微不足道的，但一旦我们累积了这些物体中所有分子的效应，它们就会形成一种可见的现象，使自行车能够骑行。
 </p>
 <p>
     也许下次当你骑自行车时，你就能从概念上理解那些让骑车变得如此惬意的无形力量了。
@@ -1530,7 +1529,7 @@ Bicycling Science》</a>涵盖了许多其他与自行车相关的主题，如�
 </div>
 </div>
     <div id="footer">  
-        <div class="article_footer">如果你喜欢这篇文章, 可以去 <a href="https://www.patreon.com/ciechanowski">Patreon</a> 上支持作者.
+        <div class="article_footer">如果你喜欢这篇文章，可以去 <a href="https://www.patreon.com/ciechanowski">Patreon</a> 上支持作者.
         </div>
         Copyright &copy; 2024 Bartosz Ciechanowski
     </div>
