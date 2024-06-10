@@ -47,3 +47,7 @@ rsync error: syntax or usage error (code 1) at main.c(1428) [Receiver=3.2.7]
 export MSYS_NO_PATHCONV=1
 wsl rsync -azhP  raspi:/home/pi/www/    /mnt/z/backup/www
 ```
+
+📬 后续更新：
+
+没有再使用 rsync 这工具来同步文件了，换成了 [rclone](https://rclone.org/)。也就是说不用来 wsl 中执行了，直接执行 rclone.exe 可执行文件，然后就[直接在 git hook 脚本中执行批处理](https://stackoverflow.com/a/7402697/1265727)。
