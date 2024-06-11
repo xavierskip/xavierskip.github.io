@@ -52,6 +52,8 @@ comments: true
   </li>
   {% endif %}
 </ul>
-{% include comments.md %}
+{% if page.comments %}
+{% include remark42.html %}
+{% endif %}
 <script defer src="/media/js/pages.js"></script>
 
