@@ -17,6 +17,6 @@ tags: video
 >于是我以为我的世界安静了　  
 >只是这世上总有那么一人哪怕她不曾对我讲过一言一语 但我却听得到她的声音   
 
-<iframe src="//player.bilibili.com/player.html?aid=369832&cid=566560&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="720" height="560"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=369832&cid=566560&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="720" height="560"> </iframe>
 
 
