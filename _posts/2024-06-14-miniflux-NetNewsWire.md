@@ -23,8 +23,8 @@ tags:
 
 ![Google Reader API](https://f.xavierskip.com:42049/i/e055c1f6a4540c2248fe4960fb30a660e40eb1482d8e8c6cd763774f980b59c6.jpg)
 
-填入上面你设定好的信息
+在 NetNewsWire 添加账户中选择 FreshRSS 并填入上面你设定好的信息。
 
 ![self-hosted](https://f.xavierskip.com:42049/i/3655e20a4ba75a9d0723b1d7b974c839c9331a2514f771c8268d32d0ccefb126.jpg)
 
-相关 issue: [# Add Miniflux to available account types #3593](https://github.com/Ranchero-Software/NetNewsWire/issues/3593)
+相关 issue: [Add Miniflux to available account types #3593](https://github.com/Ranchero-Software/NetNewsWire/issues/3593)
