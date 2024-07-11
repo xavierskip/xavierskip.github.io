@@ -15,6 +15,9 @@ layout:
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <link>{{ site.url }}{{ post.url }}</link>
         <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+        {% for tag in page.tags %}
+          <category term="{{ tag }}" scheme="{{ site.url }}/tags/#{{ tag }}"/>
+        {% endfor %}
       </item>
     {% endfor %}
   </channel>
