@@ -64,7 +64,7 @@ However, this hypothesis seems inconsistent with the lack of observational evide
 
 ### 黑暗森林
 
-有外星文明，且距离我们不远，但是基于文明存续的理性考虑，不仅不与其他文明沟通，甚至隐藏自己不让其他文明发现。作为一个文学作品的设定，基础在于“猜疑链”和“技术爆炸”。
+有外星文明[^2]，且距离我们不远，但是基于文明存续的理性考虑，不仅不与其他文明沟通，甚至隐藏自己不让其他文明发现。作为一个文学作品的设定，基础在于“猜疑链”和“技术爆炸”。
 
 因为，文明之间距离太远，沟通一次的时间足以让对方产生”技术爆炸“，上一次对话可能还是小蚂蚁，下一次对话就成霸王龙了，这无疑是对自身的巨大威胁和风险。
 
@@ -146,3 +146,4 @@ However, this hypothesis seems inconsistent with the lack of observational evide
 <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=430703922&bvid=BV11G411u7bf&cid=837826559&p=1&autoplay=0&poster=1&t=3428" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="720" height="405"></iframe>
 
 [^1]: [人喜欢宅完全是一场外星人的阴谋！](/2011-12-20-why-otaku/)
+[^2]: [电影《黑衣人》结尾](https://www.bilibili.com/video/BV19a4y1J7gq/)
