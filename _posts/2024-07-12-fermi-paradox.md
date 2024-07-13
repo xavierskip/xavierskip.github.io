@@ -143,6 +143,6 @@ However, this hypothesis seems inconsistent with the lack of observational evide
 
 以上引用文字内容来自：微信公众号文章《 大问题：外星人存在吗？》[https://mp.weixin.qq.com/s/jLqhK1FKvO3ERjYtQH9BZA](https://web.archive.org/web/20240713090528/https://mp.weixin.qq.com/s/jLqhK1FKvO3ERjYtQH9BZA)
 
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=430703922&bvid=BV11G411u7bf&cid=837826559&p=1&autoplay=0&poster=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="720" height="405"></iframe>
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=430703922&bvid=BV11G411u7bf&cid=837826559&p=1&autoplay=0&poster=1&t=3428" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="720" height="405"></iframe>
 
 [^1]: [人喜欢宅完全是一场外星人的阴谋！](/2011-12-20-why-otaku/)
