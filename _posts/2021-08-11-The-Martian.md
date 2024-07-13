@@ -3,6 +3,7 @@ layout: post
 title: 当一个人说想去火星的时候实际想说的是
 tags:
 - 碎碎念
+- video
 ---
 
 ![Blade Runner 2049](https://f.xavierskip.com:42049/i/c0e7f9c8c12d5565cafdfe7af90757ba99f6ed5e44a9577d12e044def2dc4cb0.jpg)
