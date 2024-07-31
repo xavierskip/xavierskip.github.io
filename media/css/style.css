@@ -251,8 +251,8 @@ table tr th :last-child, table tr td :last-child {
   nav {
   	position: absolute;
     top: 8px;
-    left: 13em;
-    width: 100%;
+    left: 35px;
+/*    width: 100%;*/
     margin: 0;
     float: none;
     display: flex;
