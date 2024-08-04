@@ -27,4 +27,4 @@ tags: video
 
 via: [胥瑞琦 ](https://weibo.com/1917885853/IcpIuuurQ?type=comment)
 
-​	"If people are free, they are not equal. If they are equal, they are not free.” Alexander Solzhenitsyn"
+>“Human beings are born with different capacities. If they are free, they are not equal. And if they are equal, they are not free.” ― Aleksandr Solzhenitsyn
