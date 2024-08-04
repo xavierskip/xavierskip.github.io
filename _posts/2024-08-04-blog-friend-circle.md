@@ -5,6 +5,8 @@ tags:
  - blog
 ---
 
+相信眼尖的观众已经发现此博客多了个[博友圈](https://blog.xavierskip.com/blog-friend-circle/)的玩意。
+
 缘起，前段时间看到了有个博客使用的这样的一个东西：[重构博客友链页面 & 友链朋友圈开源](https://prin.pw/building-blog-friend-circle/)。
 
 传统上，博主之间会相互交换各自博客的链接，因为独立博客就像一个个信息孤岛，很难拥有流量，所以通过 URL 链接作为博客之间的纽带，给访客看也是给各大搜索引擎的 bot 看。这种原始的做法在如今是否还有用，有多少效果，其实我也不知道，所以称之为“传统”。
@@ -51,9 +53,7 @@ npm run deploy
 <script data-category-id="11" async src="https://circle.example.workers.dev/app.js"></script>
 ```
 
-会在你的博客页面插入一个`<iframe>`并加载其内容。
-
-[博友圈](https://blog.xavierskip.com/blog-friend-circle/)大功告成。
+会在你的博客页面插入一个`<iframe>`并加载其内容，大功告成。
 
 但是这其中也遇到了几点问题。
 
