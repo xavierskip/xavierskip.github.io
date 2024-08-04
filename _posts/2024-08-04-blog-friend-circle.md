@@ -2,7 +2,7 @@
 layout: post
 title: 博友圈从何而来
 tags:
-	- blog
+ - blog
 ---
 
 缘起，前段时间看到了有个博客使用的这样的一个东西：[重构博客友链页面 & 友链朋友圈开源](https://prin.pw/building-blog-friend-circle/)。
