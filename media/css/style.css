@@ -26,15 +26,27 @@ modify by xavirskip
   --link-hover-bg: #333333;
   --link-color: #E7350F;
   --nav-hover-color: #f9f9f9;
+  --code-color: #ffffff;
+  --tag-bg: #0087F7;
+  --tag-color: #FFF;
+  --tag-shadow: #C4C4C4;
+  --foot-color: #B9221F;
+  --quote-color: #545454;
 }
 @media (prefers-color-scheme: dark) {
   :root {
     --body-bg: #331055;
     --text-color: #8b63b2;
-    --post-color: #8b63b2;
+    --post-color: #b89ed3;
     --link-hover-bg: #ffff9b;
-    --link-color: #429d46;
-    --nav-hover-color: #87689f;
+    --link-color: #57d35d;
+    --nav-hover-color: #8f00ff;
+    --code-color: #ccc;
+    --tag-bg: #ffff8b;
+    --tag-color: #239529;
+    --tag-shadow: #fffc92;
+    --foot-color: #57d35d;
+    --quote-color: #b39ac5;
   }
 }
 body{font-size:14px;margin-left:auto;margin-right:auto;font-family: "Times New Roman","Consolas", "LXGW WenKai","Microsoft YaHei";color:var(--text-color);background-color:var(--body-bg);}
@@ -48,7 +60,7 @@ li{padding:.2em 0;}
 /* ol,ul{list-style-position:inside;} */
 ol ul, ul ol, ul ul, ol ol {margin-left:1em;}
 pre code{margin:1em 0;font-size:13px;line-height:1.6;display:block;overflow:auto;}
-blockquote{color:#545454;}
+blockquote{color:var(--quote-color);}
 blockquote::before{
   content: "“";
   font-size: 42px;
@@ -71,7 +83,7 @@ blockquote p{margin:0.5em;padding:0 0 0 0.7em;}
 .listing-seperator{font-weight:bold;}
 .meta{text-align:right;font-size:13px;}
 .tag {float: left;}
-.tag a{background-color: #0087F7;color: #FFF;padding: 3px;margin: 2px;border-radius: 3px;box-shadow: 1px 1px 2px #C4C4C4;}
+.tag a{background-color:var(--tag-bg);color:var(--tag-color);padding: 3px;margin: 2px;border-radius: 3px;box-shadow: 1px 1px 2px var(--tag-shadow);}
 .tag a:hover{border-bottom: 0;}
 header{padding:0.5em 0 0.7em 0;border-bottom: 2px solid #E0E0E0;}
 nav{font-family: 'Oswald', sans-serif;font-size:1.1em;text-transform:uppercase;float:left;margin-left:-12em;margin-top:2em;width:9em;text-align:right;white-space: nowrap;}
@@ -90,27 +102,20 @@ h2{font-family: 'Oswald',"Microsoft YaHei",sans-serif;font-size:1.4em;}
 h3{font-family: 'Oswald',"Microsoft YaHei",sans-serif;font-size:1.2em;margin: 1em 0;}
 h4{font-family: 'Oswald',"Microsoft YaHei",sans-serif;font-size:1em;}
 pre,code{font-family: Menlo,"Andale Mono",Consolas,"Courier New",Monaco,monospace;font-size:13px;}
-code{padding: 3px 4px;color:#fff;background-color:#272822;border-radius: 3px;}
+code{padding: 3px 4px;color:var(--code-color);background-color:#272822;border-radius: 3px;}
 embed,object,iframe,video{display:block;margin:4px auto;}
 .gist{font-size: 12px;line-height:1.6;}
 
-footer{
-display:block;
-}
-footer p{
-  text-align:right;
-}
-small {
-font-size: 13px;
-color: #999;
-}
+footer{display:block;}
+footer p{text-align:right;}
+small {font-size: 13px;color: #999;}
 
 footer a {
-margin: 1px;
-border: 1px solid rgba(1,1,1,0);
-border-bottom: 1px dashed #BBB;
-color: #B9221F;
-text-decoration: none;
+  margin: 1px;
+  border: 1px solid rgba(1,1,1,0);
+  border-bottom: 1px dashed #BBB;
+  color: var(--foot-color);
+  text-decoration: none;
 }
 
 footer a:hover {
