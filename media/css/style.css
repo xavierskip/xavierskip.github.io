@@ -28,7 +28,7 @@ modify by xavirskip
   --nav-hover-color: #f9f9f9;
 }
 
-body{font-size:14px;margin-left:auto;margin-right:auto;font-family: "Times New Roman","Consolas", "LXGW WenKai","Microsoft YaHei";color:var(--text-color);background-color:var(--bg-color);}
+body{font-size:14px;margin-left:auto;margin-right:auto;font-family: "Times New Roman","Consolas", "LXGW WenKai","Microsoft YaHei";color:var(--text-color);background-color:var(--body-bg);}
 *{padding:0;margin: 0;border:none;outline:none;}
 a{color:var(--link-color);text-decoration:none;}
 a:hover{color:var(--link-hover-bg);border-bottom: 1px dashed var(--link-color);}
