@@ -23,7 +23,7 @@ modify by xavirskip
   --body-bg: #fbfbfb;
   --text-color: #000000;
   --post-color: #363636;
-  --link-hover-bg: #333333;
+  --link-hover-bg: #E7350F;
   --link-color: #E7350F;
   --nav-hover-color: #f9f9f9;
   --code-color: #ffffff;
@@ -32,6 +32,10 @@ modify by xavirskip
   --tag-shadow: #C4C4C4;
   --foot-color: #B9221F;
   --quote-color: #545454;
+  --page-bg: #ff0000;
+  --page-color: #fff;
+  --page-hover-bg: #0087F7;
+  --page-hover-color: #fff;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -46,7 +50,11 @@ modify by xavirskip
     --tag-color: #239529;
     --tag-shadow: #fffc92;
     --foot-color: #57d35d;
-    --quote-color: #b39ac5;
+    --quote-color: #df7bd9;
+    --page-bg: #178a1d;
+    --page-color: #239529;
+    --page-hover-bg: #ffff9b;
+    --page-hover-color: #8f00ff;
   }
 }
 body{font-size:14px;margin-left:auto;margin-right:auto;font-family: "Times New Roman","Consolas", "LXGW WenKai","Microsoft YaHei";color:var(--text-color);background-color:var(--body-bg);}
@@ -171,14 +179,14 @@ text-decoration: none;
 }
 
 .paginator .current-page {
-color: white;
-background: #ff0000;
+  color: var(--page-color);
+  background: var(--page-bg);
 }
 
 .paginator a:hover{
-color: white;
-background: #0087F7;
-border: 0;
+  color: white;
+  background: #0087F7;
+  border: 0;
 }
 
 
