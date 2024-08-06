@@ -25,6 +25,7 @@ modify by xavirskip
   --post-color: #363636;
   --link-hover-bg: #E7350F;
   --link-color: #E7350F;
+  --nav-color: #000000;
   --nav-hover-color: #f9f9f9;
   --code-color: #ffffff;
   --tag-bg: #0087F7;
@@ -44,6 +45,7 @@ modify by xavirskip
     --post-color: #b89ed3;
     --link-hover-bg: #ffff9b;
     --link-color: #57d35d;
+    --nav-color: #57d35d;
     --nav-hover-color: #8f00ff;
     --code-color: #ccc;
     --tag-bg: #ffff8b;
@@ -95,7 +97,7 @@ blockquote p{margin:0.5em;padding:0 0 0 0.7em;}
 .tag a:hover{border-bottom: 0;}
 header{padding:0.5em 0 0.7em 0;border-bottom: 2px solid #E0E0E0;}
 nav{font-family: 'Oswald', sans-serif;font-size:1.1em;text-transform:uppercase;float:left;margin-left:-12em;margin-top:2em;width:9em;text-align:right;white-space: nowrap;}
-nav a{display:block;padding:.7em 1em;color:var(--link-color);}
+nav a{display:block;padding:.7em 1em;color:var(--nav-color);}
 nav a:hover{background-color: var(--link-hover-bg);text-decoration:none;color:var(--nav-hover-color);border: 0;-webkit-transition:color .2s linear;}
 .post{margin: .5em 0 1em 0;font-size: 21px;color:var(--post-color);}
 .post h2{margin: 21px 0 13px 0;}
