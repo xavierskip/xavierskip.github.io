@@ -27,7 +27,16 @@ modify by xavirskip
   --link-color: #E7350F;
   --nav-hover-color: #f9f9f9;
 }
-
+@media (prefers-color-scheme: dark) {
+  :root {
+    --body-bg: #331055;
+    --text-color: #8b63b2;
+    --post-color: #8b63b2;
+    --link-hover-bg: #ffff9b;
+    --link-color: #429d46;
+    --nav-hover-color: #87689f;
+  }
+}
 body{font-size:14px;margin-left:auto;margin-right:auto;font-family: "Times New Roman","Consolas", "LXGW WenKai","Microsoft YaHei";color:var(--text-color);background-color:var(--body-bg);}
 *{padding:0;margin: 0;border:none;outline:none;}
 a{color:var(--link-color);text-decoration:none;}
@@ -66,8 +75,8 @@ blockquote p{margin:0.5em;padding:0 0 0 0.7em;}
 .tag a:hover{border-bottom: 0;}
 header{padding:0.5em 0 0.7em 0;border-bottom: 2px solid #E0E0E0;}
 nav{font-family: 'Oswald', sans-serif;font-size:1.1em;text-transform:uppercase;float:left;margin-left:-12em;margin-top:2em;width:9em;text-align:right;white-space: nowrap;}
-nav a{display:block;padding:.7em 1em;color:var(--text-color);}
-nav a:hover{background-color: var(--link-color);text-decoration:none;color:var(--nav-hover-color);border: 0;-webkit-transition:color .2s linear;}
+nav a{display:block;padding:.7em 1em;color:var(--link-color);}
+nav a:hover{background-color: var(--link-hover-bg);text-decoration:none;color:var(--nav-hover-color);border: 0;-webkit-transition:color .2s linear;}
 .post{margin: .5em 0 1em 0;font-size: 21px;color:var(--post-color);}
 .post h2{margin: 21px 0 13px 0;}
 .post p {
@@ -263,15 +272,5 @@ table tr th :last-child, table tr td :last-child {
     justify-content: center;
     align-items: flex-end;
     padding: 10px;
-  }
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --body-bg: #331055;
-    --text-color: #8b63b2;
-    --post-color: #8b63b2;
-    --link-hover-bg: #ffff9b;
-    --link-color: #429d46;
-    --nav-hover-color: #f9f9f9;
   }
 }
