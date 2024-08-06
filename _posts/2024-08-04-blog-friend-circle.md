@@ -59,10 +59,26 @@ npm run deploy
 
 1、在创建 kv 之前，模板配置文件中的 id 不能为空，先随便设置为任何值，才能成功执行`npx wrangler kv:namespace create API_CACHE_KV`[^1]
 
-2、由于友圈在设计上会根据系统主题来调整配色[^3]，但是我的博客页面未根据系统深浅主题色来做任何适配，导致在系统深色配色的情况下，我的博客页面和友圈文字同为浅色，导致难以阅读，我尝试通过添加`color-scheme`[^4]来固定颜色方案，却发现只有 Firefox 浏览器支持从父级继承的颜色方案。[^2]
+2、由于友圈在设计上会根据系统主题来调整配色，但是我的博客页面未根据系统深浅主题色来做任何适配，导致在系统深色配色的情况下，我的博客页面和友圈文字同为浅色，导致难以阅读[^2]，我尝试通过添加`color-scheme`[^3]来固定颜色方案，却发现只有 Firefox 浏览器支持从父级继承的颜色方案[^4]。
 
+一开始我也被 css 属性`color-scheme` 和 `prefers-color-scheme` 媒体查询搞的晕头转向。
+
+`color-scheme`用来设定元素采用的配色，元素样式由浏览器深、浅色模式提供的的默认样式决定。
+
+`prefers-color-scheme`根据系统采用的深浅模式来决定采用的css样式。
+
+也就是说你给整个 html 页面通过 `color-scheme` 设定为暗色模式，并不会让`@media (prefers-color-scheme: dark)` 生效，想要让`@media (prefers-color-scheme: dark)`生效需要将系统设定成暗色模式，而不是某个html元素的`color-scheme`。
+
+有疑问的可以自己亲手尝试一下：[https://codepen.io/sulkmascot/pen/abgwpOP](https://codepen.io/sulkmascot/pen/abgwpOP)
+
+>切换整个操作系统的配色方案可能会让人厌烦，但是 chrome 开发者工具允许你以仅影响当前显示的标签页的方式模拟用户的首选配色方案。F12 打开开发者工具，ctrl + shift + p 运行命令，输入“渲染”，选择“显示渲染工具”。你就可以在其中更改`模拟CSS媒体功能 prefers-color-scheme`。
+
+推荐阅读：
+
+- [Improved dark mode default styling with the color-scheme CSS property and the corresponding meta tag](https://web.dev/articles/color-scheme)
+- [prefers-color-scheme: Hello darkness, my old friend](https://web.dev/articles/prefers-color-scheme)
 
 [^1]: [/prinsss/blog-friend-circle/issues/3](https://github.com/prinsss/blog-friend-circle/issues/3)
 [^2]: [/prinsss/blog-friend-circle/issues/4](https://github.com/prinsss/blog-friend-circle/issues/4)
-[^3]: [prefers-color-scheme](https://developer.mozilla.org/zh-CN/docs/Web/CSS/@media/prefers-color-scheme)
-[^4]: [color-scheme](https://developer.mozilla.org/zh-CN/docs/Web/CSS/color-scheme)
+[^3]: [color-scheme](https://developer.mozilla.org/zh-CN/docs/Web/CSS/color-scheme)
+[^4]: [Respects `color-scheme` inherited from parent](https://developer.mozilla.org/zh-CN/docs/Web/CSS/@media/prefers-color-scheme#%E6%B5%8F%E8%A7%88%E5%99%A8%E5%85%BC%E5%AE%B9%E6%80%A7)
