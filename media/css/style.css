@@ -26,7 +26,7 @@ modify by xavirskip
   --link-color: #E7350F;
   --link-hover: #363636;
   --nav-color: #000000;
-  --nav-hover-bg: #ffff9b;
+  --nav-hover-bg: #E7350F;
   --nav-hover-color: #f9f9f9;
   --code-color: #ffffff;
   --tag-bg: #0087F7;
@@ -56,7 +56,7 @@ modify by xavirskip
     --foot-color: #57d35d;
     --quote-color: #df7bd9;
     --page-bg: #178a1d;
-    --page-color: #239529;
+    --page-color: #fffdcc;
     --page-hover-bg: #ffff9b;
     --page-hover-color: #8f00ff;
   }
@@ -188,8 +188,8 @@ text-decoration: none;
 }
 
 .paginator a:hover{
-  color: white;
-  background: #0087F7;
+  color: var(--page-hover-color);
+  background: var(--page-hover-bg);
   border: 0;
 }
 
