@@ -7,11 +7,9 @@
 * 
 * |/ | (~ (~
 * |\.|._)._)
-* --------------------------------- */
-
-/*
+* --------------------------------- 
 modify by xavirskip 
-@2012-9-24
+@2024-08-06
 */
 
 /* FONT 
@@ -21,15 +19,20 @@ modify by xavirskip
 */
 
 @import url(/media/css/font.css?family=Oswald);
-
-body{font-size:14px;margin-left:auto;margin-right:auto;font-family: "Times New Roman","Consolas", "LXGW WenKai","Microsoft YaHei";color:#000000;background-color:#FBFBFB;}
-*{padding:0;margin: 0;border:none;outline:none;}
-a{color:#E7350F;text-decoration:none;}
-a:hover{color:#333333;border-bottom: 1px dashed #E7350F;}
-a:active {
-position: relative;
-top: 1px;
+:root {
+  --body-bg: #fbfbfb;
+  --text-color: #000000;
+  --post-color: #363636;
+  --link-hover-bg: #333333;
+  --link-color: #E7350F;
+  --nav-hover-color: #f9f9f9;
 }
+
+body{font-size:14px;margin-left:auto;margin-right:auto;font-family: "Times New Roman","Consolas", "LXGW WenKai","Microsoft YaHei";color:var(--text-color);background-color:var(--bg-color);}
+*{padding:0;margin: 0;border:none;outline:none;}
+a{color:var(--link-color);text-decoration:none;}
+a:hover{color:var(--link-hover-bg);border-bottom: 1px dashed var(--link-color);}
+a:active {position: relative;top: 1px;}
 hr{margin:.7em 0;border-top:1px dashed #d0d0d0;border-bottom:1px dashed #f9f9f9;}
 p{padding:.5em 0;}
 li{padding:.2em 0;}
@@ -38,11 +41,11 @@ ol ul, ul ol, ul ul, ol ol {margin-left:1em;}
 pre code{margin:1em 0;font-size:13px;line-height:1.6;display:block;overflow:auto;}
 blockquote{color:#545454;}
 blockquote::before{
-	content: "“";
-	font-size: 42px;
-	font-family: "Inconsolata",georgia,serif;
-	color: #ccc;
-	position: relative;
+  content: "“";
+  font-size: 42px;
+  font-family: "Inconsolata",georgia,serif;
+  color: #ccc;
+  position: relative;
     top:0.7em;
 }
 blockquote p{margin:0.5em;padding:0 0 0 0.7em;}
@@ -63,15 +66,15 @@ blockquote p{margin:0.5em;padding:0 0 0 0.7em;}
 .tag a:hover{border-bottom: 0;}
 header{padding:0.5em 0 0.7em 0;border-bottom: 2px solid #E0E0E0;}
 nav{font-family: 'Oswald', sans-serif;font-size:1.1em;text-transform:uppercase;float:left;margin-left:-12em;margin-top:2em;width:9em;text-align:right;white-space: nowrap;}
-nav a{display:block;padding:.7em 1em;color:#000000;}
-nav a:hover{background-color: #E7350F;text-decoration:none;color:#f9f9f9;border: 0;-webkit-transition:color .2s linear;}
-.post{margin: .5em 0 1em 0;font-size: 21px;color: #363636;}
+nav a{display:block;padding:.7em 1em;color:var(--text-color);}
+nav a:hover{background-color: var(--link-color);text-decoration:none;color:var(--nav-hover-color);border: 0;-webkit-transition:color .2s linear;}
+.post{margin: .5em 0 1em 0;font-size: 21px;color:var(--post-color);}
 .post h2{margin: 21px 0 13px 0;}
 .post p {
-	margin: 6px;
-	line-height: 1.6em;
-	word-wrap: break-word;
-	overflow: hidden;    
+  margin: 6px;
+  line-height: 1.6em;
+  word-wrap: break-word;
+  overflow: hidden;    
 }
 h1{font-family: 'Oswald',"Microsoft YaHei",sans-serif;font-size:1.6em;}
 h2{font-family: 'Oswald',"Microsoft YaHei",sans-serif;font-size:1.4em;}
@@ -86,7 +89,7 @@ footer{
 display:block;
 }
 footer p{
-	text-align:right;
+  text-align:right;
 }
 small {
 font-size: 13px;
@@ -102,13 +105,13 @@ text-decoration: none;
 }
 
 footer a:hover {
-	color: rgba(250,250,250,1.0) !important; 
+  color: rgba(250,250,250,1.0) !important; 
     -webkit-border-radius: 4px;
     border: 1px solid rgba(0,0,0,0.45);
     text-shadow: rgba(0,0,0,0.6) 0px -1px 0px;
-	background: -webkit-gradient(linear, left top, left bottom, from(rgba(110,110,110,1.0)), to(rgba(100,100,100,1.0)));
-	-webkit-box-shadow: rgba(0,0,0,1.0) 0px 0px 2px,rgba(255,255,255,0.15) 0px 1px 1px inset;
-	text-decoration: none;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(110,110,110,1.0)), to(rgba(100,100,100,1.0)));
+  -webkit-box-shadow: rgba(0,0,0,1.0) 0px 0px 2px,rgba(255,255,255,0.15) 0px 1px 1px inset;
+  text-decoration: none;
 }
 
 .label {
@@ -167,46 +170,46 @@ border: 0;
 
 /* add */
 .excerpt{
-	color: #999;
-	margin: 0 auto;
-	padding: 0px;
+  color: #999;
+  margin: 0 auto;
+  padding: 0px;
 }
 ::selection {
   background: rgba(65,131,196,0.4);
 }
 #quote{
-	border-top: 1px dashed #CCC;
-	text-align:center;
+  border-top: 1px dashed #CCC;
+  text-align:center;
 }
 .pager {
-	margin: 1em 0;
-	list-style: none;
-	text-align: center;
-	padding: 7px;
-	background: transparent url(/media/img/tiny_dots.png) bottom left repeat-x;
+  margin: 1em 0;
+  list-style: none;
+  text-align: center;
+  padding: 7px;
+  background: transparent url(/media/img/tiny_dots.png) bottom left repeat-x;
 }
 .pager li{
-	display: inline;
+  display: inline;
 }
 .pager .previous span {
-	float: right;
+  float: right;
 }
 .pager .next span {
-	float: left;
+  float: left;
 }
 
 .hiddendel {
-	color: transparent;
+  color: transparent;
 }
 
 .hiddendel:hover {
-	color: #fff;
-	background-color: bisque;
+  color: #fff;
+  background-color: bisque;
 }
 
 /* table */
 table {
-	margin: auto;padding: 0;border-collapse: collapse;
+  margin: auto;padding: 0;border-collapse: collapse;
 }
 table tr {
   border-top: 1px solid #cccccc;
@@ -236,20 +239,20 @@ table tr th :last-child, table tr td :last-child {
 }
 /* toc */
 #toc {
-	float: right;
+  float: right;
   margin-right: -12em;
   margin-top: 2em;
   width: 9em;
 }
 .fix {
-	position: fixed;
-	max-width: 16em;
+  position: fixed;
+  max-width: 16em;
 }
 
 /* 媒体查询 */
 @media (max-width: 960px) {
   nav {
-  	position: absolute;
+    position: absolute;
     top: 8px;
     left: 350px;
 /*    width: 100%;*/
@@ -260,5 +263,15 @@ table tr th :last-child, table tr td :last-child {
     justify-content: center;
     align-items: flex-end;
     padding: 10px;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --body-bg: #331055;
+    --text-color: #8b63b2;
+    --post-color: #8b63b2;
+    --link-hover-bg: #ffff9b;
+    --link-color: #429d46;
+    --nav-hover-color: #f9f9f9;
   }
 }
