@@ -41,6 +41,7 @@ modify by xavirskip
   --table-color: #363636;
   --table-tr-bg1: white;
   --table-tr-bg2: #f8f8f8;
+  --table-border: #cccccc;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -65,6 +66,7 @@ modify by xavirskip
     --table-color: #ddd;
     --table-tr-bg1: #22182b;
     --table-tr-bg2: #292336;
+    --table-border: #646464;
   }
 }
 body{font-size:14px;margin-left:auto;margin-right:auto;font-family: "Times New Roman","Consolas", "LXGW WenKai","Microsoft YaHei";color:var(--text-color);background-color:var(--body-bg);}
@@ -245,7 +247,7 @@ table {
   
 }
 table tr {
-  border-top: 1px solid #cccccc;
+  border-top: 1px solid var(table-border);
   background-color: var(--table-tr-bg1);
   margin: 0;
   padding: 0; 
@@ -255,12 +257,12 @@ table tr:nth-child(2n) {
 }
 table tr th {
   font-weight: bold;
-  border: 1px solid #cccccc;
+  border: 1px solid var(table-border);
   margin: 0;
   padding: 6px 13px; 
 }
 table tr td {
-  border: 1px solid #cccccc;
+  border: 1px solid var(table-border);
   margin: 0;
   padding: 6px 13px; 
 }
