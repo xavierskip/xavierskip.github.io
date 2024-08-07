@@ -70,7 +70,7 @@ modify by xavirskip
     --table-border: #646464;
     --img-shadow: #000;
   }
-  img .flip {
+  img.flip {
     filter: invert(100%);
   }
 }
