@@ -242,8 +242,7 @@ text-decoration: none;
 
 /* table */
 table {
-  margin: auto;padding: 0;border-collapse: collapse;
-  
+  margin: auto;padding: 0;border-collapse: collapse;color:var(--table-color);
 }
 table tr {
   border-top: 1px solid var(table-border);
