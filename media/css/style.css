@@ -95,6 +95,7 @@ blockquote p{margin:0.5em;padding:0 0 0 0.7em;}
 .content h1{padding:.5em 0;}
 .content img{max-width:600px;display:block;margin:auto;box-shadow:#999 1px 1px 4px;}
 #tag_cloud{margin-bottom: 1em;}
+#tag_cloud a{font-weight: bolder;}
 #tag_cloud a:hover{color:var(--link-hover)!important;text-decoration:none;}
 .listing-item,.listing-seperator{list-style-type:none;}
 .items {margin-bottom: 1.3em;border-bottom: 1px #F2F2F2 solid; padding-bottom: 10px;}

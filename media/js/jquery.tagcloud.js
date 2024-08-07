@@ -86,7 +86,7 @@ const dark = window.matchMedia('(prefers-color-scheme: dark)');
 var start = '#f8e0e6';
 var end   = '#ff3333';
 if(dark.matches){
-  start = '#9cffa1';
+  start = '#075209';
   end   = '#00ff0c';
 };
 // 
