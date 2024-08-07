@@ -82,11 +82,12 @@
 
 // config and run
 const dark = window.matchMedia('(prefers-color-scheme: dark)');
-var start = '#9cffa1';
-var end   = '#00ff0c';
+
+var start = '#f8e0e6';
+var end   = '#ff3333';
 if(dark.matches){
-  start = '#f8e0e6';
-  end   = '#ff3333';
+  start = '#9cffa1';
+  end   = '#00ff0c';
 };
 // 
 $.fn.tagcloud.defaults = {
