@@ -93,7 +93,7 @@ blockquote p{margin:0.5em;padding:0 0 0 0.7em;}
 #container{width:720px;margin:1em auto;display:block;padding:0 2em;}
 .content{font-size:15px;line-height:25px;}
 .content h1{padding:.5em 0;}
-.content img{max-width:600px;display:block;margin:auto;-webkit-box-shadow:#999 1px 1px 4px;-moz-box-shadow:#999 1px 1px 4px;box-shadow:#999 1px 1px 4px;}
+.content img{max-width:600px;display:block;margin:auto;box-shadow:#999 1px 1px 4px;}
 #tag_cloud{margin-bottom: 1em;}
 #tag_cloud a:hover{color:#333333 !important;text-decoration:none;}
 .listing-item,.listing-seperator{list-style-type:none;}
@@ -108,7 +108,7 @@ blockquote p{margin:0.5em;padding:0 0 0 0.7em;}
 header{padding:0.5em 0 0.7em 0;border-bottom: 2px solid #E0E0E0;}
 nav{font-family: 'Oswald', sans-serif;font-size:1.1em;text-transform:uppercase;float:left;margin-left:-12em;margin-top:2em;width:9em;text-align:right;white-space: nowrap;}
 nav a{display:block;padding:.7em 1em;color:var(--nav-color);}
-nav a:hover{background-color: var(--nav-hover-bg);text-decoration:none;color:var(--nav-hover-color);border: 0;-webkit-transition:color .2s linear;}
+nav a:hover{background-color: var(--nav-hover-bg);text-decoration:none;color:var(--nav-hover-color);border: 0;transition:color .2s linear;}
 .post{margin: .5em 0 1em 0;font-size: 21px;color:var(--post-color);}
 .post h2{margin: 21px 0 13px 0;}
 .post p {
@@ -140,11 +140,11 @@ footer a {
 
 footer a:hover {
   color: rgba(250,250,250,1.0) !important; 
-    -webkit-border-radius: 4px;
+    border-radius: 4px;
     border: 1px solid rgba(0,0,0,0.45);
     text-shadow: rgba(0,0,0,0.6) 0px -1px 0px;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(110,110,110,1.0)), to(rgba(100,100,100,1.0)));
-  -webkit-box-shadow: rgba(0,0,0,1.0) 0px 0px 2px,rgba(255,255,255,0.15) 0px 1px 1px inset;
+  background: gradient(linear, left top, left bottom, from(rgba(110,110,110,1.0)), to(rgba(100,100,100,1.0)));
+  box-shadow: rgba(0,0,0,1.0) 0px 0px 2px,rgba(255,255,255,0.15) 0px 1px 1px inset;
   text-decoration: none;
 }
 
@@ -154,8 +154,6 @@ font-weight:700;
 color:#fff;
 text-transform:uppercase;
 background-color:#999;
--webkit-border-radius:3px;
--moz-border-radius:3px;
 border-radius:3px;
 padding:1px 3px 2px;
 }
