@@ -119,4 +119,5 @@ nat filter-mode endpoint-independent
 
 [Bash Shortcuts](https://gist.github.com/tuxfight3r/60051ac67c5f0445efee)
 
-![https://github.com/fliptheweb/bash-shortcuts-cheat-sheet](https://raw.githubusercontent.com/fliptheweb/bash-shortcuts-cheat-sheet/master/moving_cli.png) 
+
+<img class="flip" src="https://raw.githubusercontent.com/fliptheweb/bash-shortcuts-cheat-sheet/master/moving_cli.png" alt="https://github.com/fliptheweb/bash-shortcuts-cheat-sheet">
