@@ -82,8 +82,8 @@
 
 // config and run
 const dark = window.matchMedia('(prefers-color-scheme: dark)');
-const start = '#9cffa1';
-const end   = '#00ff0c';
+var start = '#9cffa1';
+var end   = '#00ff0c';
 if(dark.matches){
   start = '#f8e0e6';
   end   = '#ff3333';
