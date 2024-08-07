@@ -221,6 +221,9 @@ text-decoration: none;
   list-style: none;
   text-align: center;
   padding: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background: transparent url(/media/img/tiny_dots.png) bottom left repeat-x;
 }
 .pager li{
