@@ -22,19 +22,3 @@ layout: page
 </ul>
 
 <script defer src="/media/js/jquery.tagcloud.js"></script>
-<script>
-const dark = window.matchMedia('(prefers-color-scheme: dark)');
-if(dark.matches){
-  const start = '#f8e0e6';
-  const end   = '#ff3333';
-}else{
-  const start = '#9cffa1';
-  const end   = '#00ff0c';
-}
-// config and run
-$.fn.tagcloud.defaults = {
-    size: {start: 10, end: 24, unit: "pt"},
-      color: {start: start, end: end}
-};
-$('#tag_cloud a').tagcloud();
-</script>

@@ -79,3 +79,20 @@
   }
 
 })(jQuery);
+
+// config and run
+const dark = window.matchMedia('(prefers-color-scheme: dark)');
+const start = '#9cffa1';
+const end   = '#00ff0c';
+if(dark.matches){
+  start = '#f8e0e6';
+  end   = '#ff3333';
+};
+// 
+$.fn.tagcloud.defaults = {
+    size: {start: 10, end: 24, unit: "pt"},
+      color: {start: start, end: end}
+};
+$(function () {
+    $('#tag_cloud a').tagcloud();
+});
