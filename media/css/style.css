@@ -300,9 +300,11 @@ table tr th :last-child, table tr td :last-child {
     padding: 10px;
   }
 }
+img.png{
+  box-shadow: none;
+}
 @media (prefers-color-scheme: dark) {
   img.flip {
     filter: invert(100%);
-    box-shadow: none;
   }
 }
