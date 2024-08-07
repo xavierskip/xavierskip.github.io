@@ -22,6 +22,9 @@ tags:
 
 这样就是可以正常运行游戏了！！！
 
+2024-08-08 更新：
+
+如果你使用 Windows 10 还是不能打开游戏，可以尝试一下 [cnc-ddraw](https://github.com/FunkyFr3sh/cnc-ddraw)，或许能够解决老旧2D游戏运行问题的工具。
 
 相关：
 * [Game won't launch on Windows 10?](http://steamcommunity.com/app/6830/discussions/0/135511757693937462/)
