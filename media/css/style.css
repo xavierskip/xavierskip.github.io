@@ -234,10 +234,10 @@ text-decoration: none;
   display: inline;
 }
 .pager .previous span {
-  /* float: right; */
+  float: right;
 }
 .pager .next span {
-  /* float: left; */
+  float: left;
 }
 
 .hiddendel {
