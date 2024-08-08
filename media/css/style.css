@@ -310,6 +310,9 @@ table tr th :last-child, table tr td :last-child {
 img.png{
   box-shadow: none;
 }
+.ghillie{
+  color:var(--body-bg);
+}
 @media (prefers-color-scheme: dark) {
   img.flip {
     filter: invert(100%);
