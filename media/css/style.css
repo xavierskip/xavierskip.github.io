@@ -222,18 +222,22 @@ text-decoration: none;
   text-align: center;
   padding: 7px;
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   background: transparent url(/media/img/tiny_dots.png) bottom left repeat-x;
+}
+.vertical {
+  flex-direction: column;
+  align-items: stretch;
 }
 .pager li{
   display: inline;
 }
 .pager .previous span {
-  float: right;
+  /* float: right; */
 }
 .pager .next span {
-  float: left;
+  /* float: left; */
 }
 
 .hiddendel {

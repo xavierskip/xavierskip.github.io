@@ -52,6 +52,28 @@ comments: true
   </li>
   {% endif %}
 </ul>
+<script>
+function isTextWrapped(element) {
+  const range = document.createRange();
+  range.selectNodeContents(element);
+  const rects = range.getClientRects();
+  return rects.length > 1;
+}
+function updateContent() {
+  const container = document.querySelector('.pager');
+  const children = document.querySelectorAll('.pager li a');
+  // 检查是否有元素发生了换行
+  const needsVerticalLayout = Array.from(children).some(isTextWrapped);
+  // 根据需要调整布局
+  if (needsVerticalLayout) {
+    container.classList.add('vertical');
+  } else {
+    container.classList.remove('vertical');
+  }
+}
+// 初始调用以设置正确的布局
+updateContent();  
+</script>
 {% include remark42.html %}
 <script defer src="/media/js/pages.js"></script>
 
