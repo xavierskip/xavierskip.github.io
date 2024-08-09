@@ -56,7 +56,7 @@ However, this hypothesis seems inconsistent with the lack of observational evide
 
 ### 孤岛论
 
-宇宙比想象的要空旷的多得多。外星文明与我们的距离太远，以至于无法沟通，甚至无法观察。
+宇宙比想象的要空旷的多得多。外星文明与我们的距离太远，以至于无法沟通，甚至无法观察。(甚至在太阳系内各个行星之间随意进行星际航行，火箭及飞船所需携带的燃料因为所需速度变化量 Delta-V 呈指数增长，以现有技术来看在工程上来看很可能无法完成。外星生命也完全有可能被所在行星强大的引力给锁定在地面上[^2])
 
 这之间的距离以光的传播速度来看甚至大于一个文明所存在的时间。
 
@@ -107,7 +107,7 @@ However, this hypothesis seems inconsistent with the lack of observational evide
 
 为什么人们总是对于外星人的话题津津乐道，除了人类本身的好奇心、对于孤独的恐惧，那么对于庞大宇宙的想象是必不可少的。
 
-是的，宇宙之大超乎你的想象[^2]，同时宇宙之空旷也超乎你的想象（别光看哪些群星璀璨的深空摄影照片）
+是的，宇宙之大超乎你的想象[^3]，同时宇宙之空旷也超乎你的想象（别光看哪些群星璀璨的深空摄影照片）
 
 有没有一种可能，诞生智慧生命并发展出文明的概率，以我们现有的可观测宇宙这个样本还是太小了。
 
@@ -146,4 +146,5 @@ However, this hypothesis seems inconsistent with the lack of observational evide
 <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=430703922&bvid=BV11G411u7bf&cid=837826559&p=1&autoplay=0&poster=1&t=3428" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="720" height="405"></iframe>
 
 [^1]: [人喜欢宅完全是一场外星人的阴谋！](/2011-12-20-why-otaku/)
-[^2]: [电影《黑衣人》结尾](https://www.bilibili.com/video/BV19a4y1J7gq/)
+[^2]: [太空探索需要的燃料太多了](https://01.me/2024/07/space-exploration-and-digital-life/)
+[^3]: [电影《黑衣人》结尾](https://www.bilibili.com/video/BV19a4y1J7gq/)
