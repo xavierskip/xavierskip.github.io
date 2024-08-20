@@ -20,7 +20,7 @@ modify by xavirskip
 
 @import url(/media/css/font.css?family=Oswald);
 :root {
-  --body-bg: #fbfbfb;
+  --body-bg: #F0EFEB;
   --text-color: #000000;
   --post-color: #363636;
   --link-color: #E7350F;
@@ -100,7 +100,7 @@ blockquote p{margin:0.5em;padding:0 0 0 0.7em;}
 #tag_cloud a{font-weight: bolder;}
 #tag_cloud a:hover{color:var(--link-hover)!important;text-decoration:none;}
 .listing-item,.listing-seperator{list-style-type:none;}
-.items {margin-bottom: 1.3em;border-bottom: 1px #F2F2F2 solid; padding-bottom: 10px;}
+.items {margin-bottom: 1.3em;border-bottom: 1px #E7E7E7 solid; padding-bottom: 10px;}
 .listing-item a{font-size: 1.2em;line-height: 1.2em;;padding-bottom: 2px;}
 .listing-item time{color:#999999;float: right;}
 .listing-seperator{font-weight:bold;}
@@ -179,7 +179,7 @@ background-color:#3a87ad;
 
 .paginator {
 font: 14px Arial,Helvetica,sans-serif;
-color: #777;
+color: #78716C;
 margin: 20px 0;
 line-height: 150%;
 display: block;
