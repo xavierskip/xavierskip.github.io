@@ -34,6 +34,8 @@ tags:
 为什么内网用户不能用公网地址访问映射到公网的服务呢？
 
 ```
+# https://asciiflow.com/
+
               [request]                                                    
              src-ip:192.168.1.100                                          
              src-port:5656                                                 
@@ -71,6 +73,6 @@ tags:
 [^3]:[公网 IP 的服务，只能从「非本机地址」访问，求解](https://v2ex.com/t/936873)
 [^4]:[小白对OpenWrt防火墙IPv4 NAT环回 (NAT Loopback) 的一点研究理解](https://www.right.com.cn/forum/thread-8203412-1-1.html)
 [^5]:[用RouterOS做端口映射时遇到的回流问题](https://huwencai.com/2023/04/yong-routeros-zuo-duan-kou-ying-she-shi-yu-dao-de-hui-liu/)
-[^6]:[# MikroTik RouterOS 7 回流問題解決方案](https://kingtam.win/archives/hairpin.html)
+[^6]:[MikroTik RouterOS 7 回流問題解決方案](https://kingtam.win/archives/hairpin.html)
 
 
