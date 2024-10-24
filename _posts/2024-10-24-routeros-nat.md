@@ -65,6 +65,16 @@ tags:
 
 如果你没有这方面的需求和担心，那么确实有相应的解决方案，在 RouterOS 中名词叫做 [Hairpin NAT](https://help.mikrotik.com/docs/spaces/ROS/pages/3211299/NAT#NAT-HairpinNAT)[^6]
 
+```
+;;; 目的地址转换
+/ip firewall nat add chain=dstnat action=dst-nat to-addresses=192.168.1.2 to-ports=7777 protocol=tcp dst-port=7777,7788 
+
+;;; 源地址转换
+/ip firewall nat add chain=srcnat action=masquerade protocol=tcp src-address=192.168.1.0/24 dst-address=192.168.1.2 out-interface-list=LAN
+```
+
+上面两条规则配合才能生效，对于外部访问，源地址ip得以保留，对于内部访问，所有的源地址ip都为路由器地址`192.168.1.1`。
+
 对于 iptables 防火墙的工作流程，什么四表五链看着就头大，完全没有实际的认知，[Packet Flow in RouterOS](https://help.mikrotik.com/docs/spaces/ROS/pages/328227/Packet+Flow+in+RouterOS) 😵😵😵
 
 
