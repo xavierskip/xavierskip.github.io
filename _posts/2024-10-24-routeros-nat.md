@@ -17,7 +17,7 @@ tags:
 
 * * *
 
-原有的路由器每隔一段时间就发生网络故障，但我又找不到导致故障的原因更无法解决，只能靠重启大法解决。最终选择了 [Mikrotik RB750Gr3](https://mikrotik.com/product/RB750Gr3) 这款5口有线路由器，也就用上了 RouterOS。（当然你嫌此款路由器的价格也有便宜的方法[^[1]][^[2]]）
+原有的路由器每隔一段时间就发生网络故障，但我又找不到导致故障的原因更无法解决，只能靠重启大法解决。最终选择了 [Mikrotik RB750Gr3](https://mikrotik.com/product/RB750Gr3) 这款5口有线路由器，也就用上了 RouterOS。（当然你嫌此款路由器的价格也有便宜的方法[^1][^2]）
 
 接下来就要把[之前路由器的配置](https://blog.xavierskip.com/2023-02-19-nat-config/)在此款路由器上也配置一遍。
 
@@ -78,8 +78,8 @@ tags:
 对于 iptables 防火墙的工作流程，什么四表五链看着就头大，完全没有实际的认知，[Packet Flow in RouterOS](https://help.mikrotik.com/docs/spaces/ROS/pages/328227/Packet+Flow+in+RouterOS) 😵😵😵
 
 
-[^[1]]:[不到50元上手RouterOS千兆RB750Gr3路由器](https://huwencai.com/2023/03/bu-dao-yuan-shang-shou-routeros-qian-zhao-rbgr-lu-you-qi/)
-[^[2]]:[友华wr330直接刷成mikrotik rb750gr3](https://www.right.com.cn/forum/thread-5303754-1-1.html)
+[^1]:[不到50元上手RouterOS千兆RB750Gr3路由器](https://huwencai.com/2023/03/bu-dao-yuan-shang-shou-routeros-qian-zhao-rbgr-lu-you-qi/)
+[^2]:[友华wr330直接刷成mikrotik rb750gr3](https://www.right.com.cn/forum/thread-5303754-1-1.html)
 [^3]:[公网 IP 的服务，只能从「非本机地址」访问，求解](https://v2ex.com/t/936873)
 [^4]:[小白对OpenWrt防火墙IPv4 NAT环回 (NAT Loopback) 的一点研究理解](https://www.right.com.cn/forum/thread-8203412-1-1.html)
 [^5]:[用RouterOS做端口映射时遇到的回流问题](https://huwencai.com/2023/04/yong-routeros-zuo-duan-kou-ying-she-shi-yu-dao-de-hui-liu/)
