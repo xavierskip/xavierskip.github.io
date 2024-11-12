@@ -1,9 +1,10 @@
 ---
 layout: post
-title: 2024 GeekGame 2024 writeup
+title: 2024 GeekGame
 tags:
  - ctf
  - geekgame
+ - writeups
 ---
 
 又到了每年的 GeekGame 时间了。这一届由北京大学和清华大学共同举办[^1]。根据签到题的完成情况，大概有1386人参加的比赛。相比上届的1012人[^2]，略有增加。
