@@ -36,7 +36,7 @@ tags:
 我以 edge 浏览器举例。这里需要用到`--host-rules`、`--host-resolver-rules`这两个参数。
 
 ```powershell
-$ C:\Program Files (x86)\Microsoft\Edge\Application\131.0.2903.51 > .\msedge.exe --host-rules="MAP v2ex.com V,MAP cdn.v2ex.com V" --host-resolver-rules="MAP V 172.67.35.211" --ignore-certificate-errors
+$ C:\Program Files (x86)\Microsoft\Edge\Application\131.0.2903.51 > .\msedge.exe  --host-rules="MAP v2ex.com V,MAP cdn.v2ex.com V" --host-resolver-rules="MAP V 172.67.35.211" --ignore-certificate-errors
 ```
 
 你可以进入浏览器可执行文件根目录执行命令行来运行浏览器（上面命令参数里的`V`就是伪造的SNI，你可以修改成其他），也可以在快捷方式中添加参数。
@@ -46,6 +46,10 @@ $ C:\Program Files (x86)\Microsoft\Edge\Application\131.0.2903.51 > .\msedge.exe
 ```bash
 # 访问Google的参数
 chromium --host-rules="MAP www.google.com g.cn" --host-resolver-rules="MAP g.cn 109.185.236.240"
+# mega.nz
+--host-rules="MAP mega.nz NZ,MAP g.api.mega.co.nz api" 
+--host-resolver-rules="MAP NZ 31.216.145.5,MAP api 66.203.125.15" 
+--ignore-certificate-errors
 ```
 
 相信聪明的你一定会举一反三。。。
