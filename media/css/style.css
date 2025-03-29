@@ -43,6 +43,7 @@ modify by xavirskip
   --table-tr-bg2: #f8f8f8;
   --table-border: #cccccc;
   --img-shadow: #999;
+  --h2-gradient-color: linear-gradient(to right, var(--body-bg), var(--post-color));
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -121,15 +122,15 @@ nav a:hover{background-color: var(--nav-hover-bg);text-decoration:none;color:var
 .post h2:after {
     content: '';
     position: relative;
-    bottom: -5px;
+    top: 10px;
     left: 0;
     width: 20%;
     height: 2px;
-    background: var(--link-color);
+    background: var(--h2-gradient-color);
     transition: width 0.3s ease-in-out;
 }
 .post h2:hover:after {
-    width: 90%;
+    width: 98%;
 }
 .post p {
   margin: 6px;
