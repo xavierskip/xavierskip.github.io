@@ -122,7 +122,7 @@ nav a:hover{background-color: var(--nav-hover-bg);text-decoration:none;color:var
 .post h1:after {
     content: '';
     position: relative;
-    top: 13px;
+    top: 15px;
     left: 0;
     width: 28%;
     height: 2px;
