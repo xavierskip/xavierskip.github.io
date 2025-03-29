@@ -125,7 +125,7 @@ nav a:hover{background-color: var(--nav-hover-bg);text-decoration:none;color:var
     position: relative;
     top: 10px;
     left: 0;
-    width: 20%;
+    width: 28%;
     height: 2px;
     background: var(--h2-gradient-color);
     transition: width 0.3s ease-in-out;
