@@ -43,7 +43,7 @@ modify by xavirskip
   --table-tr-bg2: #f8f8f8;
   --table-border: #cccccc;
   --img-shadow: #999;
-  --h2-gradient-color: linear-gradient(to right, var(--body-bg), var(--link-color));
+  --h1-gradient-color: linear-gradient(to right, var(--body-bg), var(--link-color));
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -70,7 +70,7 @@ modify by xavirskip
     --table-tr-bg2: #292336;
     --table-border: #646464;
     --img-shadow: #000;
-    --h2-gradient-color: linear-gradient(to right, var(--body-bg), var(--link-color));
+    --h1-gradient-color: linear-gradient(to right, var(--body-bg), var(--link-color));
   }
 }
 body{font-size:14px;margin-left:auto;margin-right:auto;font-family: "Times New Roman","Consolas", "LXGW WenKai","Microsoft YaHei";color:var(--text-color);background-color:var(--body-bg);}
@@ -115,24 +115,28 @@ nav{font-family: 'Oswald', sans-serif;font-size:1.1em;text-transform:uppercase;f
 nav a{display:block;padding:.7em 1em;color:var(--nav-color);}
 nav a:hover{background-color: var(--nav-hover-bg);text-decoration:none;color:var(--nav-hover-color);border: 0;transition:color .2s linear;}
 .post{margin: .5em 0 1em 0;font-size: 21px;color:var(--post-color);}
-.post h2{
-  margin: 21px 0 13px 0;
+.post h1 {
   display: flex;
   flex-direction: column;
 }
-.post h2:after {
+.post h1:after {
     content: '';
     position: relative;
     top: 10px;
     left: 0;
     width: 28%;
     height: 2px;
-    background: var(--h2-gradient-color);
+    background: var(--h1-gradient-color);
     transition: width 0.3s ease-in-out;
 }
-.post h2:hover:after {
+.post h1:hover:after {
     width: 98%;
 }
+.post h2{
+  margin: 21px 0 13px 0;
+
+}
+
 .post p {
   margin: 6px;
   line-height: 1.6em;
