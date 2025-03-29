@@ -114,6 +114,19 @@ nav a{display:block;padding:.7em 1em;color:var(--nav-color);}
 nav a:hover{background-color: var(--nav-hover-bg);text-decoration:none;color:var(--nav-hover-color);border: 0;transition:color .2s linear;}
 .post{margin: .5em 0 1em 0;font-size: 21px;color:var(--post-color);}
 .post h2{margin: 21px 0 13px 0;}
+.post h2:after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 20%;
+    height: 2px;
+    background: var(--link-color);
+    transition: width 0.3s ease-in-out;
+}
+.post h2:hover:after {
+    width: 100%;
+}
 .post p {
   margin: 6px;
   line-height: 1.6em;
