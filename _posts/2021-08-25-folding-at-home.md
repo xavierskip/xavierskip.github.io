@@ -35,30 +35,30 @@ via: [https://zh.wikipedia.org/wiki/Folding@home](https://zh.wikipedia.org/wiki/
 
 #### 可以选择手动启动软件，没必要安装屏保
 
-![1.png](https://f.xavierskip.com:42049/i/62257ece451a49bea98a9375b080fb915366c6f1f797f46163efe62658ed6879.png)
+![1.png](https://f.skip2.top/i/62257ece451a49bea98a9375b080fb915366c6f1f797f46163efe62658ed6879.png)
 
 #### 手动运行程序
 
-![2.png](https://f.xavierskip.com:42049/i/286af6a042660ffe075128ae6c34e6651782adebf73a7149decd0a96fc0915e6.png)
+![2.png](https://f.skip2.top/i/286af6a042660ffe075128ae6c34e6651782adebf73a7149decd0a96fc0915e6.png)
 
 安装完成后有几个程序，该点哪一个。点 **Folding@home**，FAHControl 和 Web control 只是控制面板。
 
 #### 两个控制面板
 
-![一个是网页控制面板，一个是高级控制面板](https://f.xavierskip.com:42049/i/2c1cfe09bf1886b87e09de10ddca300c3d66384f5bbb9c69cf13cf88d0b0443d.png)
+![一个是网页控制面板，一个是高级控制面板](https://f.skip2.top/i/2c1cfe09bf1886b87e09de10ddca300c3d66384f5bbb9c69cf13cf88d0b0443d.png)
 
 一个是网页控制面板，一个是高级控制面板
 
 ##### 默认是打开软件自动打开网页控制面板，可以在设置里修改
 
-![4.png](https://f.xavierskip.com:42049/i/c148e61405bc5d83304309a2f823eaebff5a34cf4606cfcbd408dc23593e32e1.png)
+![4.png](https://f.skip2.top/i/c148e61405bc5d83304309a2f823eaebff5a34cf4606cfcbd408dc23593e32e1.png)
 
 
 #### 高级控制面板里的名词解释
 
 有一个名词**PPD**即 Points Per Day 每日得分的意思，
 
-![image.png](https://f.xavierskip.com:42049/i/f9f7b19eb404122bfdbcb7675cd46b8d7730c45637ad407c5c484517916d822f.png)
+![image.png](https://f.skip2.top/i/f9f7b19eb404122bfdbcb7675cd46b8d7730c45637ad407c5c484517916d822f.png)
 
 注意：里面的每项任务领以后只能暂停，**结束**的意思是在这个任务完成后不再去领新的任务，并不是取消掉这个任务，要想取消只能等待任务超时过期后才能领新的任务。
 

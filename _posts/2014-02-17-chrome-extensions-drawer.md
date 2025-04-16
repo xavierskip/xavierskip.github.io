@@ -38,7 +38,7 @@ update 2014/3/11
 
 重写了一遍，没有再用bookmarks存储页面信息了，直接用 chrome.storage.local。可能没有 bookmarks看起来直观，也没有书签管理器来管理，我觉得也没有必要。存储信息，打开就可以了。
 
-![工具截图](https://f.xavierskip.com:42049/i/cd0b35588d6089877b8de8e68a6bf0153665925ad2918e4408318557c55ad1e6.jpg)
+![工具截图](https://f.skip2.top/i/cd0b35588d6089877b8de8e68a6bf0153665925ad2918e4408318557c55ad1e6.jpg)
 
 
 **[version: 0.1]** 
@@ -51,4 +51,4 @@ update 2014/3/11
 
 还是放出来，如果你使用了，希望能给提点建议。
 
-![宣传图](https://f.xavierskip.com:42049/i/7bbc8d352131108f186d360f7d3ddafc9d887fc5bbeb9cd7a19694a05d65d645.jpg)
+![宣传图](https://f.skip2.top/i/7bbc8d352131108f186d360f7d3ddafc9d887fc5bbeb9cd7a19694a05d65d645.jpg)

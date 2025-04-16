@@ -5,7 +5,7 @@ tags:
 - 游戏
 - video
 ---
-![MineCraft1.8](https://f.xavierskip.com:42049/i/a9d344ffa49154e3b12574b8e1c712eead87d91050bedcb462267667e90b989a.jpg)
+![MineCraft1.8](https://f.skip2.top/i/a9d344ffa49154e3b12574b8e1c712eead87d91050bedcb462267667e90b989a.jpg)
 
 用 iMovie剪辑了个视频，说两句吧。
 

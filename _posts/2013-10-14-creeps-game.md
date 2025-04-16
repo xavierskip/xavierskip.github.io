@@ -17,7 +17,7 @@ tags:
 
 just like that
 
-![游戏画面](https://f.xavierskip.com:42049/i/0b218b25707c7ff834d2902a1cea3f2fe21c27701e586c7f98356fb9feab39a7.jpg)
+![游戏画面](https://f.skip2.top/i/0b218b25707c7ff834d2902a1cea3f2fe21c27701e586c7f98356fb9feab39a7.jpg)
 
 代码看我放到github啥上了[https://github.com/xavierskip/creeps](https://github.com/xavierskip/creeps)
 

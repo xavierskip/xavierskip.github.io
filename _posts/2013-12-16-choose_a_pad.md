@@ -147,7 +147,7 @@ Surface RT给人的感觉就是，我和其他平板不一样，我有 Office，
 
 via:[zenpencils.com](http://zenpencils.com/comic/97-charles-bukowski-air-and-light-and-time-and-space/)
 
-![97. CHARLES BUKOWSKI: Air and light and time and space](https://f.xavierskip.com:42049/i/1c37c9fce540db23660ecd453bbd74bdce1ebf05d1070317f02fe9251d716778.jpg)
+![97. CHARLES BUKOWSKI: Air and light and time and space](https://f.skip2.top/i/1c37c9fce540db23660ecd453bbd74bdce1ebf05d1070317f02fe9251d716778.jpg)
 
 
 *推荐阅读*

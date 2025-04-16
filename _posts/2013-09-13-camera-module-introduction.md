@@ -171,8 +171,8 @@ pygame.transform.threshold(self.thresholded,self.snapshot,self.ccolor,(30,30,30)
 ![camera_thresh.jpg](https://www.pygame.org/docs/_images/camera_thresh.jpg)
 
 我自己做出来的效果：
-![book](https://f.xavierskip.com:42049/i/aac86647c9c23a334232b06e513641394cb52f25cf5a3ca31ebcde154bdcad01.jpg)
-![Rondo](https://f.xavierskip.com:42049/i/b877994acd76f98d4800c011b5be6803afd9789dbd88009a1d0053f5b99f24d2.jpg)
+![book](https://f.skip2.top/i/aac86647c9c23a334232b06e513641394cb52f25cf5a3ca31ebcde154bdcad01.jpg)
+![Rondo](https://f.skip2.top/i/b877994acd76f98d4800c011b5be6803afd9789dbd88009a1d0053f5b99f24d2.jpg)
 
 我们可以同样的来做一个绿/蓝色屏幕，首先我们得到背景颜色，然后将背景色替换为绿色，其他不是背景的为黑色。
 这是相机对准空白的墙壁。
@@ -416,4 +416,4 @@ if __name__ == '__main__':
 	cam.main()
 {% endhighlight %}
 
-![自爆](https://f.xavierskip.com:42049/i/337c45f5c2eb369317854adae60643e344fc407d154edef19ab5c46cab3f6f50.jpg)
+![自爆](https://f.skip2.top/i/337c45f5c2eb369317854adae60643e344fc407d154edef19ab5c46cab3f6f50.jpg)

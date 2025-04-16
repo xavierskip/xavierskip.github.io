@@ -58,7 +58,7 @@ time.sleep(1)
 
 `pyinstaller hello.py -F -w`打包后生成的可执行文件会弹出下图的错误。所以我们还是直接用第一种方法吧。
 
-![屏幕快照 2017-12-18 下午9.12.03](https://f.xavierskip.com:42049/i/b9f8020d9a17bcb653f01937bd6c17c1a2bce4ab6100338c0c6cece3c0ebbd4f.jpg)
+![屏幕快照 2017-12-18 下午9.12.03](https://f.skip2.top/i/b9f8020d9a17bcb653f01937bd6c17c1a2bce4ab6100338c0c6cece3c0ebbd4f.jpg)
 
 好了，解决了Gooey配合PyInstaller打包的问题，那么接下来就是PyInstaller自身的毛病了，和UPX配合也有毛病。
 
@@ -86,7 +86,7 @@ time.sleep(1)
 
 Windows10下也是差不多的情况，具体报错信息不同，不想研究了……失去耐心了。
 
-![崩溃](https://f.xavierskip.com:42049/i/25e8e64ddb4dd4d54cdf1b65f0c1fbbaec073f2bfd4188c8315a982be5cbe41e.gif)
+![崩溃](https://f.skip2.top/i/25e8e64ddb4dd4d54cdf1b65f0c1fbbaec073f2bfd4188c8315a982be5cbe41e.gif)
 
 
 

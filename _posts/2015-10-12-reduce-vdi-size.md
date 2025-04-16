@@ -28,7 +28,7 @@ linux 利用 zerofree，`sudo apt-get install zerofree`
 
 注意，在标记的过程中不能对硬盘进行写操作，windows下不清楚，linux下 zerofree 工具执行的时候需要硬盘处于只读模式。
 
-![Drop to root shell prompt](https://f.xavierskip.com:42049/i/74d3cde3c7b381d0a12478300a452fe9d553add89a3c831918d3dab7bb91a43f.jpg)
+![Drop to root shell prompt](https://f.skip2.top/i/74d3cde3c7b381d0a12478300a452fe9d553add89a3c831918d3dab7bb91a43f.jpg)
 
 进入ubuntu的 Recocery Mode,选择`Drop to root shell prompt`进入shell,执行`df`找到你挂载到根目录的分区，比如我的是`/dev/mapper/seafile—vg-root`（因为使用了[LVM](http://askubuntu.com/questions/3596/what-is-lvm-and-what-is-it-used-for/3833#3833ac)）,执行`zerofree -v /dev/mapper/seafile—vg-root`,等待需要比较长的一段时间。完成后关闭虚拟机，接下来在宿主机中进行。
 

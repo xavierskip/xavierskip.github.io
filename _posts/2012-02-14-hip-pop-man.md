@@ -16,11 +16,11 @@ tags:
 
 我不是技术宅。
 
-![gif.gif](https://f.xavierskip.com:42049/i/adc6b8520ee6ec3a4db774735ab49fe7b081b119f62ee64895ac702cd05ca3a6.gif)
+![gif.gif](https://f.skip2.top/i/adc6b8520ee6ec3a4db774735ab49fe7b081b119f62ee64895ac702cd05ca3a6.gif)
 
 也不是运动男孩
 
-![SDK22-_0054.png](https://f.xavierskip.com:42049/i/34d1bebf9f7e35c2bcd3aefd9baa47d26d4fc5d6ae0bff021066001d7762c716.png)
+![SDK22-_0054.png](https://f.skip2.top/i/34d1bebf9f7e35c2bcd3aefd9baa47d26d4fc5d6ae0bff021066001d7762c716.png)
 
 我是黑怕青年
 
