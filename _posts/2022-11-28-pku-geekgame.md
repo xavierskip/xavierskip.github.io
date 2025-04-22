@@ -2,7 +2,7 @@
 layout: post
 title: 第二届北京大学信息安全综合能力竞赛
 tags:
-- ctf
+- CTF
 - geekgame
 ---
 

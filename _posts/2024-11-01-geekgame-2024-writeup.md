@@ -2,7 +2,7 @@
 layout: post
 title: 2024 GeekGame
 tags:
- - ctf
+ - CTF
  - geekgame
 ---
 
