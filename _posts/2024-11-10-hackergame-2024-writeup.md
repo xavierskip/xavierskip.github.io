@@ -58,7 +58,7 @@ flag{0k_175_a_h1dd3n_s3c3rt_f14g___please_join_us_ustc_nebula_anD_two_maJor_requ
 
 找到了论文[“FakeBehalf: Imperceptible Email Spoofing Attacks against the Delegation Mechansim in Email Systems”](https://www.usenix.org/system/files/usenixsecurity24-ma-jinrui.pdf)
 
-	Consequently, we propose six types of email spoofing attacks and measure their impact across 16 email services and 20 clients. All 20 clients are configured as MUAs for all 16 providers via IMAP, resulting in 336 combinations (including 16 web interfaces of target providers). 
+>Consequently, we propose six types of email spoofing attacks and measure their impact across 16 email services and 20 clients. All 20 clients are configured as MUAs for all 16 providers via IMAP, resulting in 336 combinations (including 16 web interfaces of target providers). 
 
 所以是`336`种组合。
 
@@ -82,10 +82,8 @@ flag{0k_175_a_h1dd3n_s3c3rt_f14g___please_join_us_ustc_nebula_anD_two_maJor_requ
 import transformers
 
 chat_tokenizer_dir = "./"
-
-tokenizer = transformers.AutoTokenizer.from_pretrained( 
-        chat_tokenizer_dir, trust_remote_code=True
-        )
+tokenizer = transformers.AutoTokenizer.from_pretrained(
+    chat_tokenizer_dir, trust_remote_code=True)
 
 result = tokenizer.encode("Hello 你好")
 print(result)
