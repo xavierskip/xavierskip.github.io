@@ -19,7 +19,11 @@ tags:
 
 ```bash
 ctfer@ustc-nebula:$ ~ env
-PWD=/root/Nebula-Homepage ARCH=loong-arch NAME=Nebula-Dedicated-High-Performance-Workstation OS=NixOS❄️ FLAG=flag{actually_theres_another_flag_here_trY_to_f1nD_1t_y0urself___join_us_ustc_nebula} REQUIREMENTS=1. you must come from USTC; 2. you must be interested in security!
+PWD=/root/Nebula-Homepage
+ARCH=loong-arch
+NAME=Nebula-Dedicated-High-Performance-Workstation
+OS=NixOS❄️ FLAG=flag{actually_theres_another_flag_here_trY_to_f1nD_1t_y0urself___join_us_ustc_nebula}
+REQUIREMENTS=1. you must come from USTC; 2. you must be interested in security!
 
 ctfer@ustc-nebula:$ ~ cat .flag
 flag{0k_175_a_h1dd3n_s3c3rt_f14g___please_join_us_ustc_nebula_anD_two_maJor_requirements_aRe_shown_somewhere_else}
