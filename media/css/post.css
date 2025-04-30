@@ -1,6 +1,6 @@
 @media (max-width: 960px) {
   nav {    
-    top: 59px;
+    position: static;
     left: auto;
     padding: 0;
     justify-content: flex-start;
