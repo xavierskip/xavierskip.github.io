@@ -6,6 +6,9 @@ tags:
  - hackergame
 ---
 
+>不好意思，去年的内容拖到今年才完成，不过我在其过程中还给解题用过的一个项目提交了[Pull requests](https://github.com/qifi-dev/qrs/pull/24)
+
+
 [官方 Writeups](https://github.com/USTC-Hackergame/hackergame2024-writeups)
 
 
