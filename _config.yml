@@ -18,7 +18,9 @@ highlighter: rouge
 # auto: true
 nocomments: true
 
-
+plugins:
+- jekyll-gfm-admonitions
+- jekyll-optional-front-matter
 
 # defaults:
 #   -
