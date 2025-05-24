@@ -11,16 +11,12 @@ url: http://blog.xavierskip.com
 
 production_url : http://blog.xavierskip.com
 
-markdown: GFM
+markdown: kramdown
 paginate: 16
 highlighter: rouge
 # pygments: true
 # auto: true
 nocomments: true
-
-plugins:
-- jekyll-gfm-admonitions
-- jekyll-optional-front-matter
 
 # defaults:
 #   -
