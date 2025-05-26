@@ -42,7 +42,7 @@ otpauth://totp/ietfuser?secret=NBSWY3DP
 
 要获取验证码只需要右键点击记录，在 **其他数据** 中 选择 **复制基于时间戳的OTP** 即可。（快捷键`ctrl+T`）
 
-![复制基于时间戳的OTP](https://f.skip2.top/i/6fa5b11e5b29279c216ac8f170ae91c705aa465463abdb6d90ee8d19a665c0ce.jpg)
+![复制基于时间戳的OTP](https://f.skip2.top/i/6fa5b11e5b29279c216ac8f170ae91c705aa465463abdb6d90ee8d19a665c0ce.jpg "复制基于时间戳的OTP")
 
 如果在移动端你使用 Keepass2Android[^3] 这款客户端，通过此方式设置的两步验证，你也能很方便的看到 TOTP 验证码。鉴于此软件的安全策略，无法做到在手机上截图（如果你知道请告诉我），所以没有图片展示。
 
