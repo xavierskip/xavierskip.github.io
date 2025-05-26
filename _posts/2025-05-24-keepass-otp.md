@@ -22,7 +22,7 @@ tags:
 otpauth://totp/ietfuser?secret=NBSWY3DP
 ```
 
-![otpauth](https://f.skip2.top/i/e5726259ac9a01b539e3af9998c7e9dab02fbffb41d617709c0fbb85ee86260a.png)
+<img class="flip png" src="https://f.skip2.top/i/f52e3e6455434ef477217050123e3039d1431aa946a38c7172fc626a47d34ca9.png" alt="otpauth">
 
 # 为什么使用 keepass 密码管理器
 
