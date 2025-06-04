@@ -18,11 +18,11 @@ via：[http://bbs.hupu.com/4224336.html](http://bbs.hupu.com/4224336.html)
 图多杀猫！
 
 
-![1](https://f.skip2.top/i/32b820df33cdb76a368f08ef7d395f5835ea466fe9c38e6ab6057973f29affb9.gif)
-![2](https://f.skip2.top/i/fd5bbf8397758f04ad1b08bbc7d2e99cf96efeba57dee7313722b91a4ad03b7d.gif)
-![3](https://f.skip2.top/i/c2256ef1d20aac3907af8b9e34d810748886b12722ce313449adb6e06e5476ea.gif)
-![4](https://f.skip2.top/i/a9f6c5a3951358d6ae61b49d4bfb826c953a7cfed194d4ccbd7374b6e3d0d4a1.gif)
-![5](https://f.skip2.top/i/520a314dc75f959e9234c67d813b659362bdff6343f2f542556dd6bac065fbb2.gif)
+![1](https://f.xavierskip.com/i/32b820df33cdb76a368f08ef7d395f5835ea466fe9c38e6ab6057973f29affb9.gif)
+![2](https://f.xavierskip.com/i/fd5bbf8397758f04ad1b08bbc7d2e99cf96efeba57dee7313722b91a4ad03b7d.gif)
+![3](https://f.xavierskip.com/i/c2256ef1d20aac3907af8b9e34d810748886b12722ce313449adb6e06e5476ea.gif)
+![4](https://f.xavierskip.com/i/a9f6c5a3951358d6ae61b49d4bfb826c953a7cfed194d4ccbd7374b6e3d0d4a1.gif)
+![5](https://f.xavierskip.com/i/520a314dc75f959e9234c67d813b659362bdff6343f2f542556dd6bac065fbb2.gif)
 
 98年的夏天
 
@@ -160,8 +160,8 @@ Jason：“好”
 
 
 
-![6](https://f.skip2.top/i/00a12f903dafff480f8874586932cd05c96c712c1f241282cd3757b1d08c1725.gif)
-![7](https://f.skip2.top/i/eabf5aa33cf323d450638cb1a8d8021e6d0b0ed97b16e4460f38d948f3bd3a86.gif)
-![8](https://f.skip2.top/i/e3958304c20b5e416f4dc0e983f3893fbb1f2b23233eec369f21b15f9bc505c8.gif)
-![9](https://f.skip2.top/i/0a77f6de2c5e314fccdcdede5b6adb82a26ead4bfb86bfbbb1d86b9873a1439f.gif)
-![10](https://f.skip2.top/i/e93d69aa85b5d7a5aaa4d8390925d068cc55f1171ec5772cc98ca1fa28cc5ec6.gif)
+![6](https://f.xavierskip.com/i/00a12f903dafff480f8874586932cd05c96c712c1f241282cd3757b1d08c1725.gif)
+![7](https://f.xavierskip.com/i/eabf5aa33cf323d450638cb1a8d8021e6d0b0ed97b16e4460f38d948f3bd3a86.gif)
+![8](https://f.xavierskip.com/i/e3958304c20b5e416f4dc0e983f3893fbb1f2b23233eec369f21b15f9bc505c8.gif)
+![9](https://f.xavierskip.com/i/0a77f6de2c5e314fccdcdede5b6adb82a26ead4bfb86bfbbb1d86b9873a1439f.gif)
+![10](https://f.xavierskip.com/i/e93d69aa85b5d7a5aaa4d8390925d068cc55f1171ec5772cc98ca1fa28cc5ec6.gif)

@@ -272,6 +272,6 @@ tar -zxvf public.tar.gz
 
 最后接收可得 flag。
 
-![无法获得的秘密 flag](https://f.skip2.top/i/3498610bd69083baead43322976572a0412875b50e70e8c388c7615f5a688ec5.jpg)
+![无法获得的秘密 flag](https://f.xavierskip.com/i/3498610bd69083baead43322976572a0412875b50e70e8c388c7615f5a688ec5.jpg)
 
 [^1]:[Hackergame 2024 游记 - 无法获得的秘密](https://leohearts.com/archives/hackergame_2024.html/comment-page-1#%3Ch2%3E%E6%97%A0%E6%B3%95%E8%8E%B7%E5%BE%97%E7%9A%84%E7%A7%98%E5%AF%86%3C%2Fh2%3E%3Cb6)

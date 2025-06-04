@@ -36,13 +36,13 @@ otpauth://totp/ietfuser?secret=NBSWY3DP
 
 要将 Windows 平台上的 keepass 客户端[^2] 当作验证器一样使用，需要将平台给定二维码解码成文本。在 **编辑记录** > **工具** > **导入‘otpauth://’网址** 中添加即可。
 
-![编辑记录 > 工具 > 导入‘otpauth://’网址](https://f.skip2.top/i/433d4da829e3c87cb28d5557a5c7d3051650849158eca4ecca64f8e12e840974.jpg)
+![编辑记录 > 工具 > 导入‘otpauth://’网址](https://f.xavierskip.com/i/433d4da829e3c87cb28d5557a5c7d3051650849158eca4ecca64f8e12e840974.jpg)
 
 这会在此记录的 **高级** > **自定义字段** 添加一个名称为 TimeOtp-Secret-Base32 的字段。
 
 要获取验证码只需要右键点击记录，在 **其他数据** 中 选择 **复制基于时间戳的OTP** 即可。（快捷键`ctrl+T`）
 
-![复制基于时间戳的OTP](https://f.skip2.top/i/6fa5b11e5b29279c216ac8f170ae91c705aa465463abdb6d90ee8d19a665c0ce.jpg "复制基于时间戳的OTP")
+![复制基于时间戳的OTP](https://f.xavierskip.com/i/6fa5b11e5b29279c216ac8f170ae91c705aa465463abdb6d90ee8d19a665c0ce.jpg "复制基于时间戳的OTP")
 
 如果在移动端你使用 Keepass2Android[^3] 这款客户端，通过此方式设置的两步验证，你也能很方便的看到 TOTP 验证码。鉴于此软件的安全策略，无法做到在手机上截图（如果你知道请告诉我），所以没有图片展示。
 

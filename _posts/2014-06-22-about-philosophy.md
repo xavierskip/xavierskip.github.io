@@ -8,7 +8,7 @@ tags:
 
 > 我是谁？我从哪里来？要到哪里去？思考总是痛苦，面对痛苦，你是继续思考下去呢？还是？
 
-![银河系漫游指南](https://f.skip2.top/i/4d957aeb1ec7189fed2c090e57bba24e16d43ff899a9dc95c9cc2fd729a513f2.jpg)
+![银河系漫游指南](https://f.xavierskip.com/i/4d957aeb1ec7189fed2c090e57bba24e16d43ff899a9dc95c9cc2fd729a513f2.jpg)
 
 在豆瓣阅读上看完了[此书](http://book.douban.com/subject/6425061/),就像我之前看的[时间的形状 : 相对论史话](http://blog.xavierskip.com/2014-03-22-shape-of-time/)、[上帝掷骰子吗 : 量子物理史话](http://book.douban.com/subject/1467022/)都是史话，这是一本有趣的哲学简明史。
 

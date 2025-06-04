@@ -8,7 +8,7 @@ tags:
 
 又到了每年的 GeekGame 时间了。这一届由北京大学和清华大学共同举办[^1]。根据签到题的完成情况，大概有1386人参加的比赛。相比上届的1012人[^2]，略有增加。
 
-![总分 1231，总排名 147](https://f.skip2.top/i/0dda4d2921bacf8e4d1b55da0a1be14a60bc1fc49e7e02c897e801e0b31fd8f8.jpg)
+![总分 1231，总排名 147](https://f.xavierskip.com/i/0dda4d2921bacf8e4d1b55da0a1be14a60bc1fc49e7e02c897e801e0b31fd8f8.jpg)
 
 感谢[工作人员](https://geekgame.pku.edu.cn/#/info/credits)的辛苦付出，让我们也有这些校外爱好人士也有比赛可以玩。
 

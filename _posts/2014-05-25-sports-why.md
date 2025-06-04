@@ -41,4 +41,4 @@ tags:
 
 可是那些找不回来的东西，除了忘却，我还能做什么？
 
-![SD:这次绝不说谎](https://f.skip2.top/i/33d8a7b8d8830c47aaa71584ee43b15538b7b67d29b054b00cb20b7651db778b.jpg)
+![SD:这次绝不说谎](https://f.xavierskip.com/i/33d8a7b8d8830c47aaa71584ee43b15538b7b67d29b054b00cb20b7651db778b.jpg)

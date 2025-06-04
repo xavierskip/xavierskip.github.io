@@ -20,19 +20,19 @@ tags:
 
 都不符合我的情况。我的这款主板第一个M.2接口是直通CPU，第二个M.2接口是走主板芯片组的，且不会与SATA接口冲突，确认了我主板不会出现硬盘插满后有冲突的情况。那么是我BIOS那个设置出问题呢？我一个个试了相关选项，找到了一个选项，设置【NVMe RAID 模式】为开启，再进入系统就可以看见磁盘了，不过磁盘驱动器的名称为“XXXX SCSI Disk Device”，虽然可以正常读取写入，但是磁盘的使用情况比如用量、健康的、温度都没法获取，感觉怪怪的。
 
-![NVMe RAID mode](https://f.skip2.top/i/0bcb2dfb69576a8e964110fff718b23e7b9076df5e8663199ab33d554c9626fb.jpg)
+![NVMe RAID mode](https://f.xavierskip.com/i/0bcb2dfb69576a8e964110fff718b23e7b9076df5e8663199ab33d554c9626fb.jpg)
 
 在这个过程中，我不仅仅向大语言模型寻找了帮助，也尝试了在网络上发帖寻找帮助，都没得到有用的帮助，不过提供的线索帮助我排除了其他各种情况。在我给这块新硬盘上安装了一个新系统，这个系统上能够正常读取所有硬盘，问题应该锁定到了我现在使用的Windows系统上了。
 
 这个问题依旧悬在心头，可是我不知道如何去寻找。最终在大预言模型的提示下，跟着这条线索找到了问题所在
 
-![Claude](https://f.skip2.top/i/0b5e8354a5fb4938201a3246f8b6a28bc95697987fd207f20b53819386cced48.jpg)
+![Claude](https://f.xavierskip.com/i/0b5e8354a5fb4938201a3246f8b6a28bc95697987fd207f20b53819386cced48.jpg)
 
 不是在设备管理器和磁盘管理器中找不到吗？那去 HWiNFO 中去找找看，还真找到了，在总线下找到了这块海力士固态硬盘，可是这快硬盘的驱动是“AMD-RAID Bottom Device”，我去系统的 设备管理器 - 存储管理 中把相应的设备删除同时勾选上“删除驱动”。Bingo，识别成功了！
 
 这也就是为什么我在 BIOS 中需要打开[NVMe RAID mode]就能识别，而其他系统没有装 AMD RAID 驱动就能正常识别之所在。我多年前尝试过多硬盘组 RAID，安装过驱动，但是后来关闭了，就忘了这茬了。
 
-![HWiNFO](https://f.skip2.top/i/cd4638159a8fd8e3738ff1b314cce7452f87e19a85a97d9cb16c8c54ce24c156.jpg)
+![HWiNFO](https://f.xavierskip.com/i/cd4638159a8fd8e3738ff1b314cce7452f87e19a85a97d9cb16c8c54ce24c156.jpg)
 
 最后，我以“AMD-RAID Bottom Device”为关键词搜索，果然还是找到了和我相同的遭遇。
 

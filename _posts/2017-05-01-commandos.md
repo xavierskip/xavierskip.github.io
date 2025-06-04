@@ -15,10 +15,10 @@ tags:
 4. Commandos3:Destination Lines
 
 当我下载完成后，发现 盟军敢死队2和3都不能正常运行。如果进入游戏文件夹内直接点击应用程序运行会提示"0xc0000022"的错误。
-!["0xc0000022"应用程序错误](https://f.skip2.top/i/61fb9b30d340df3f45465f68927bfcf634f3cd3717e3261e143d14a0fea200a2.jpg)
+!["0xc0000022"应用程序错误](https://f.xavierskip.com/i/61fb9b30d340df3f45465f68927bfcf634f3cd3717e3261e143d14a0fea200a2.jpg)
 尝试了以兼容或者管理员模式运行都无效。在网络搜索中找了很多也没有解决。然后在 steam 相关的讨论社区中发了求助贴。谁知，在等待回复的时候，发现和我问同样问题的帖子中有了新回复，而这个回复解决了我的问题，真是幸运而及时。
 
-解决方案很简单，只是需要打开一项 Windows 功能就行。打开 DirectPlay 功能。如图：![打开 DirectPlay 功能](https://f.skip2.top/i/dd6b8cc737ab105b950071e7398e334749068c8e5566bde15abd451de6464ec0.jpg)
+解决方案很简单，只是需要打开一项 Windows 功能就行。打开 DirectPlay 功能。如图：![打开 DirectPlay 功能](https://f.xavierskip.com/i/dd6b8cc737ab105b950071e7398e334749068c8e5566bde15abd451de6464ec0.jpg)
 
 这样就是可以正常运行游戏了！！！
 

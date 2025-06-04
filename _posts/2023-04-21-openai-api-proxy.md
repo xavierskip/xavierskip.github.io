@@ -5,7 +5,7 @@ tags:
 - GFW
 - nginx
 ---
-![https://www.reddit.com/r/OpenAI/comments/zhmv9u/map_of_openai_unsupported_countries/](https://f.skip2.top/i/22b23828411d02e868dd89e50549c00f1099f9b6c5d1df485cca4cda5bb014b0.jpg)
+![https://www.reddit.com/r/OpenAI/comments/zhmv9u/map_of_openai_unsupported_countries/](https://f.xavierskip.com/i/22b23828411d02e868dd89e50549c00f1099f9b6c5d1df485cca4cda5bb014b0.jpg)
 
 目前，我处在的地区要访问 chat.openai.com 不仅被openai[限制](https://platform.openai.com/docs/supported-countries)，还被GFW给dns污染了。
 
