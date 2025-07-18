@@ -15,11 +15,8 @@ tags:
 Windows系统下可通过操作注册表调整政策来继续使用 Manifest V2 的浏览器扩展。
 
 1. 在 Windows 10/11 搜索框中输入`regedit`打开 注册表编辑器
-    
 2. 在注册表编辑器中打开：`HKEY_LOCAL_MACHINE\SOFTWARE\Policies\`路径
-    
 3. 右键单击`Policies`
-    
     - 新建项
     - 命名为`Google`
 4. 右键单击`Google`
@@ -46,7 +43,7 @@ _Major_ props to all of the people who figured this out - I hope you're as luck
 
 
 相关内容：
-- [[方法分享]Chrome 138 继续使用Manifest V2 扩展](https://meta.appinn.net/t/topic/73073/14)
+- [[方法分享]Chrome 138 继续使用Manifest V2 扩展](https://meta.appinn.net/t/topic/73073/)
 - [Chrome 138.0.7204.101 的解决方案](https://github.com/Kenshin/simpread/discussions/6633#discussioncomment-13741609)
 - [Tutorial on how to Enable Manifest V2 extensions for another year (until June 2025) such as Ublock Origin on Windows using the registry editor (regedit)](https://www.reddit.com/r/chrome/comments/1d799pa/tutorial_on_how_to_enable_manifest_v2_extensions/)
 
