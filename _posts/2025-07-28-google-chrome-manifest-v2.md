@@ -14,27 +14,27 @@ tags:
 
 Windows系统下可通过操作注册表调整政策来继续使用 Manifest V2 的浏览器扩展。
 
-1. 在 Windows 10/11 搜索框中输入 `regedit` 打开 注册表编辑器
+1. 在 Windows 10/11 搜索框中输入`regedit`打开 注册表编辑器
     
 2. 在注册表编辑器中打开：`HKEY_LOCAL_MACHINE\SOFTWARE\Policies\`路径
     
-3. 右键单击 `Policies`
+3. 右键单击`Policies`
     
     - 新建项
-    - 命名为 `Google`
-4. 右键单击 `Google`
+    - 命名为`Google`
+4. 右键单击`Google`
     - 新建项
-    - 命名为 `Chrome`
-5. 右键单击 `Chrome`
-    - 新建 `DWORD32 位值`
-    - 命名为 `ExtensionManifestV2Availability`
-6. 右键单击 `ExtensionManifestV2Availability`
-    - 将键值修改为 `2`
+    - 命名为`Chrome`
+5. 右键单击`Chrome`
+    - 新建`DWORD32 位值`
+    - 命名为`ExtensionManifestV2Availability`
+6. 右键单击`ExtensionManifestV2Availability`
+    - 将键值修改为`2`
     - 左键单击`确定`按钮
 
-![](https://f.xavierskip.com/i/442bbca7fe22f3d232ff770dd3f72d4b18f3a91ad6854078341d25ddd8024181.jpg)
+![注册表](https://f.xavierskip.com/i/442bbca7fe22f3d232ff770dd3f72d4b18f3a91ad6854078341d25ddd8024181.jpg)
 
-7. 在 Chrome 中打开 `chrome://policy/`
+7. 在 Chrome 中打开`chrome://policy/`
     - 点击 【重新加载政策】按钮
     - 看到 Chrome Policies 项目出现[ExtensionManifestV2Availability](https://chromeenterprise.google/policies/?policy=ExtensionManifestV2Availability "详细了解“ExtensionManifestV2Availability”政策")政策即可。
 
