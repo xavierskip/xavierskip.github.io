@@ -42,7 +42,7 @@ _Major_ props to all of the people who figured this out - I hope you're as luck
 
 如果实在解决不了，换浏览器吧。[Edge](https://www.microsoft.com/zh-cn/edge/download) 或者 [Firefox](https://www.firefox.com/) 都可以
 
-[1]:[(GUIDE) how to keep using ublock origin even after removal from Chrome web store](https://www.reddit.com/r/chrome/comments/1ix04u4/comment/mfu1hk4/)
+[^1]:[(GUIDE) how to keep using ublock origin even after removal from Chrome web store](https://www.reddit.com/r/chrome/comments/1ix04u4/comment/mfu1hk4/)
 
 
 相关内容：
