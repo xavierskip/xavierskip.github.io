@@ -68,6 +68,12 @@ chrome://flags/#extension-manifest-v2-deprecation-unsupported
 
 如果实在解决不了，换浏览器吧。[Edge](https://www.microsoft.com/zh-cn/edge/download) 或者 [Firefox](https://www.firefox.com/) 都可以
 
+#### 扩展失效后设置未导出怎么办？
+
+在 chrome 的启动项里加入下面的参数，启动 chrome 就可以启动失效的扩展了。[via](https://github.com/violentmonkey/violentmonkey/issues/1934#issuecomment-3263239554)
+
+`--disable-features=ExtensionManifestV2Unsupported,ExtensionManifestV2Disabled`
+
 相关内容：
 - [[方法分享]Chrome 138 继续使用Manifest V2 扩展](https://meta.appinn.net/t/topic/73073/)
 - [Chrome 138.0.7204.101 的解决方案](https://github.com/Kenshin/simpread/discussions/6633#discussioncomment-13741609)
