@@ -63,7 +63,7 @@ tags:
 
 如果想接收到数据包，那需要做源地址转换，服务器不再将数据直接返回给内网访问者，而是交给路由器，经过路由器转换后再交给内网访问者。这样的话，经过源地址转换的数据包在服务端看来都来自同一IP，也也引起上面提到的安全问题，不能通过源地址IP来辨别访问者。
 
-如果你没有这方面的需求和担心，那么确实有相应的解决方案，在 RouterOS 中名词叫做 [Hairpin NAT](https://help.mikrotik.com/docs/spaces/ROS/pages/3211299/NAT#NAT-HairpinNAT)[^6]
+如果你没有这方面的需求和担心，那么确实有相应的解决方案，在 RouterOS 中名词叫做 [Hairpin NAT](https://help.mikrotik.com/docs/spaces/ROS/pages/3211299/NAT#NAT-HairpinNAT)[^6] [^7]
 
 ```
 ;;; 目的地址转换
@@ -84,5 +84,6 @@ tags:
 [^4]:[小白对OpenWrt防火墙IPv4 NAT环回 (NAT Loopback) 的一点研究理解](https://www.right.com.cn/forum/thread-8203412-1-1.html)
 [^5]:[用RouterOS做端口映射时遇到的回流问题](https://huwencai.com/2023/04/yong-routeros-zuo-duan-kou-ying-she-shi-yu-dao-de-hui-liu/)
 [^6]:[MikroTik RouterOS 7 回流問題解決方案](https://kingtam.win/archives/hairpin.html)
+[^7]:[RouterOS 的Hairpin 配置](http://blog.kdolph.in/1659)
 
 
