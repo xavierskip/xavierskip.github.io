@@ -84,6 +84,6 @@ tags:
 [^4]:[小白对OpenWrt防火墙IPv4 NAT环回 (NAT Loopback) 的一点研究理解](https://www.right.com.cn/forum/thread-8203412-1-1.html)
 [^5]:[用RouterOS做端口映射时遇到的回流问题](https://huwencai.com/2023/04/yong-routeros-zuo-duan-kou-ying-she-shi-yu-dao-de-hui-liu/)
 [^6]:[MikroTik RouterOS 7 回流問題解決方案](https://kingtam.win/archives/hairpin.html)
-[^7]:[RouterOS 的Hairpin 配置](http://blog.kdolph.in/1659)
+[^7]:[RouterOS 的Hairpin 配置](https://archive.ph/caogy)
 
 
