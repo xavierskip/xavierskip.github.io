@@ -7,9 +7,9 @@ tagline: computer;internet;sport;music;personal
 name : xavierskip
 author: xavier skip
 description: xavier skip's blog
-url: http://blog.xavierskip.com
+url: https://blog.xavierskip.com
 
-production_url : http://blog.xavierskip.com
+production_url : https://blog.xavierskip.com
 
 markdown: kramdown
 paginate: 16
