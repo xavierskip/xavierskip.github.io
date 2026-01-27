@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 如何下载ios应用的ipa文件
+title: 如何下载 iOS 应用的 ipa 文件
 tags:
  - tool
  - note
@@ -28,17 +28,17 @@ ipatool download -i 1054598922
 
 根据 gemini 的提示，很快就找到了名为`jingle.caf`的目标音频文件。
 
-	第三步：查找音频文件
-	1. 打开 `Payload` 文件夹。
-    2. 你会看到一个文件（通常叫 `McDonalds.app` 或类似名称）。
-	    - **Windows用户:** 直接双击进入该文件夹。
-	    - **Mac用户:** 右键点击该文件，选择 **“显示包内容” (Show Package Contents)**。
-    3. **搜索音频:** 在这个文件夹内，按类型排序或搜索音频后缀。iOS 通知的音频文件通常是以下几种格式：
-	    - `** .caf **` (最常见)  
-	    - `** .aiff **`
-	    - `** .wav **`
-	    - `** .mp3 **`
-    4. 你可以试听这些文件。麦当劳那个标志性的“巴拉巴拔罢”声音通常文件很小（几KB到几百KB）。
+>第三步：查找音频文件
+>1. 打开 `Payload` 文件夹。  
+>2. 你会看到一个文件（通常叫 `McDonalds.app` 或类似名称）。 
+>    - **Windows用户:** 直接双击进入该文件夹。
+>    - **Mac用户:** 右键点击该文件，选择 **“显示包内容” (Show Package Contents)**。
+>3. **搜索音频:** 在这个文件夹内，按类型排序或搜索音频后缀。iOS 通知的音频文件通常是以下几种格式：  
+>    - `** .caf **` (最常见)
+>    - `** .aiff **`
+>    - `** .wav **`
+>    - `** .mp3 **`
+>4. 你可以试听这些文件。麦当劳那个标志性的“巴拉巴拔罢”声音通常文件很小（几KB到几百KB）。
 
 
 <audio controls="" src="https://f.xavierskip.com/i/f9ea6786fc0c10bc3747f766ebf21737d95dc76478f417b2d946951d02b9d4ef.mp3"></audio>
