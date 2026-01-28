@@ -18,7 +18,7 @@ tags:
 ```
 # 需要先登录账号
 ipatool auth login -e [your apple id email]
-# 找到你的需要应用的 id (其实这个id可以在应用商店的网页中找到)
+# 找到你的需要应用的 id (其实这个id可以在应用商店的网页URL中找到)
 ipatool search 麦当劳
 # 下载
 ipatool download -i 1054598922
