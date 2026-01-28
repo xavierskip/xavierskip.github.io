@@ -18,7 +18,7 @@ comments: yes
 
 ### 想添加本站的信息
 
-```json
+```js
 {
   "title": "Xavierskip's blog",
   "avatar": [
