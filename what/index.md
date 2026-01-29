@@ -18,7 +18,7 @@ comments: yes
 
 ### 想添加本站的信息
 
-```js
+{% highlight json %}
 {
   "title": "Xavierskip's blog",
   "avatar": [
@@ -30,7 +30,7 @@ comments: yes
   "url": "https://blog.xavierskip.com",
   "slogan": null
 }
-```
+{% endhighlight %}
 
 
 ## 联系方式
