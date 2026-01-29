@@ -21,18 +21,15 @@ comments: yes
 
 ### 想添加本站的信息
 
-{% highlight javascript %}
-{
-  "title": "Xavierskip's blog",
-  "avatar": [
-    "https://blog.xavierskip.com/media/logo/android-chrome-512x512.png",
-    "https://blog.xavierskip.com/media/logo/android-chrome-192x192.png",
-    "https://blog.xavierskip.com/media/logo/favicon-32x32.png",
-    "https://blog.xavierskip.com/media/logo/favicon-16x16.png"
-  ],
-  "url": "https://blog.xavierskip.com",
-  "slogan": null
-}
+{% highlight yaml %}
+title: "Xavierskip's blog"
+avatar:
+ - https://blog.xavierskip.com/media/logo/android-chrome-512x512.png
+ - https://blog.xavierskip.com/media/logo/android-chrome-192x192.png
+ - https://blog.xavierskip.com/media/logo/favicon-32x32.png
+ - https://blog.xavierskip.com/media/logo/favicon-16x16.png
+url: https://blog.xavierskip.com
+slogan: "🍝飞面神教万岁🍜"
 {% endhighlight %}
 
 
