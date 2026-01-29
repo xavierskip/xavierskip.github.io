@@ -18,7 +18,7 @@ comments: yes
 
 ### 想添加本站的信息
 
-{% highlight json %}
+{% highlight javascript %}
 {
   "title": "Xavierskip's blog",
   "avatar": [
