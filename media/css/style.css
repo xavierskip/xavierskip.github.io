@@ -355,7 +355,7 @@ img.png{
 /* 按钮基础样式 - Claude 风格 */
 .copy-code-button {
   position: absolute;
-  top: 0.5rem;   /* 距离顶部稍微留一点空隙 */
+  top: 0.1rem;   /* 距离顶部稍微留一点空隙 */
   right: 0.5rem; /* 距离右边稍微留一点空隙 */
   z-index: 10;
   
@@ -363,8 +363,8 @@ img.png{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 32px;
-  height: 32px;
+  width: 24px;
+  height: 24px;
   
   /* 外观：无边框，透明背景 */
   border: none;
