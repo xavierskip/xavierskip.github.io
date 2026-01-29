@@ -352,39 +352,62 @@ img.png{
   position: relative;
 }
 
-/* 复制按钮样式 */
-.copy-code-button {
+/* 按钮基础样式 - Claude 风格 */
+.copy-code-btn {
   position: absolute;
-  top: 0.5rem;
-  right: 0.5rem;
+  top: 8px; /* 距离顶部稍微留一点空隙 */
+  right: 8px; /* 距离右边稍微留一点空隙 */
   z-index: 10;
   
-  padding: 0.25rem 0.5rem;
-  font-size: 0.8rem;
-  color: #666;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+  /* 布局与尺寸 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  
+  /* 外观：无边框，透明背景 */
+  border: none;
+  background: transparent; 
+  border-radius: 6px; /* 圆角，Claude 特征 */
   cursor: pointer;
-  opacity: 0; /* 默认隐藏，鼠标悬停时显示 */
-  transition: opacity 0.3s ease, background-color 0.3s ease;
+  
+  /* 颜色：使用半透明白色，适应 #272822 背景 */
+  color: rgba(255, 255, 255, 0.5); 
+  
+  /* 动画过渡 */
+  transition: all 0.2s ease-in-out;
+  opacity: 0; /* 默认隐藏，保持界面清爽 */
 }
 
-/* 鼠标悬停在代码块上时，显示按钮 */
-.highlighter-rouge:hover .copy-code-button,
-figure.highlight:hover .copy-code-button {
+/* 鼠标悬停在代码块区域时，显示按钮 */
+.highlighter-rouge:hover .copy-code-btn,
+figure.highlight:hover .copy-code-btn {
   opacity: 1;
 }
 
-/* 按钮悬停样式 */
-.copy-code-button:hover {
-  background-color: #f0f0f0;
-  color: #333;
+/* 按钮自身的 Hover 状态 - 模拟玻璃质感 */
+.copy-code-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* 轻微的白色背景 */
+  color: #ffffff; /* 图标变亮 */
+  transform: scale(1.05); /* 极细微的放大 */
 }
 
-/* 复制成功后的样式 */
-.copy-code-button.copied {
-  background-color: #4caf50;
-  color: white;
-  border-color: #4caf50;
+/* 复制成功后的状态 */
+.copy-code-btn.copied {
+  color: #4caf50; /* 绿色 */
+  background-color: rgba(76, 175, 80, 0.1); /* 极淡的绿色背景 */
+}
+
+/* 移动端优化：移动端没有 hover，所以始终显示，但稍微淡一点 */
+@media (max-width: 768px) {
+  .copy-code-btn {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+}
+
+.select-none {
+  -webkit-user-select: none;
+  user-select: none;
 }

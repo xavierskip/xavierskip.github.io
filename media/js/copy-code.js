@@ -3,12 +3,28 @@ document.addEventListener('DOMContentLoaded', (event) => {
   // 通常 Jekyll (kramdown) 会把代码包裹在 div.highlighter-rouge 或 figure.highlight 中
   const codeBlocks = document.querySelectorAll('.highlighter-rouge, figure.highlight');
 
+  // 定义 SVG 图标 (使用 Template Literals)
+  // 1. 复制图标 (两个重叠的矩形，线条风格)
+  const copyIcon = `
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+    </svg>
+  `;
+
+  // 2. 成功图标 (对勾)
+  const checkIcon = `
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#4caf50" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="20 6 9 17 4 12"></polyline>
+    </svg>
+  `;
+  
   codeBlocks.forEach((codeBlock) => {
     // 2. 创建复制按钮
     const button = document.createElement('button');
-    button.className = 'copy-code-button';
+    button.className = 'copy-code-button select-none';
     button.type = 'button';
-    button.innerText = 'Copy';
+    button.innerText = 'Copy code';
 
     // 3. 添加点击事件
     button.addEventListener('click', () => {
@@ -18,18 +34,17 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
       // 使用 Clipboard API 写入剪贴板
       navigator.clipboard.writeText(code).then(() => {
-        // 复制成功后的视觉反馈
-        button.innerText = 'Copied!';
+        // 切换到成功状态
+        button.innerHTML = checkIcon;
         button.classList.add('copied');
 
-        // 2秒后恢复原状
+        // 2秒后恢复
         setTimeout(() => {
-          button.innerText = 'Copy';
+          button.innerHTML = copyIcon;
           button.classList.remove('copied');
         }, 2000);
       }).catch(err => {
-        console.error('无法复制: ', err);
-        button.innerText = 'Error';
+        console.error('Copy failed', err);
       });
     });
 
