@@ -6,7 +6,7 @@ comments: yes
 
 ## 友链
 
-排名不分任何先后
+排名不分先后。
 
 |blog |访问地址 |简介|
 |-------------|--------|--------|
@@ -15,6 +15,9 @@ comments: yes
 |evilpan's blog|[https://evilpan.com/](https://evilpan.com/)|Life is not a rat race.|
 |PRIN BLOG|[https://prinsss.github.io/](https://prinsss.github.io/)|半吊子全栈开发者的日常|
 |土豆不好吃|[https://dmesg.app/](https://dmesg.app/)|Benny 小土豆· 谦和之中见卓越|
+|陪她去流浪|[https://blog.twofei.com/](https://blog.twofei.com/)||
+
+🚨 此处的友链不再更新，已移至[博友圈](/blog-friend-circle/)部分。
 
 ### 想添加本站的信息
 
