@@ -348,7 +348,7 @@ img.png{
 }
 /* copy-code.js */
 /* 代码块容器需设置为相对定位，以便按钮绝对定位 */
-.highlighter-rouge, figure.highlight {
+.highlighter-rouge {
   position: relative;
 }
 
@@ -373,7 +373,7 @@ img.png{
   cursor: pointer;
   
   /* 颜色：使用半透明白色，适应 #272822 背景 */
-  color: rgba(255, 255, 255, 0.5); 
+  color: var(--code-color);
   
   /* 动画过渡 */
   transition: all 0.2s ease-in-out;

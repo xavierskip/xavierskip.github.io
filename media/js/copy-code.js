@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', (event) => {
   // 1. 找到所有 Jekyll 渲染出的代码块容器
   // 通常 Jekyll (kramdown) 会把代码包裹在 div.highlighter-rouge 或 figure.highlight 中
-  const codeBlocks = document.querySelectorAll('.highlighter-rouge, figure.highlight');
+  const codeBlocks = document.querySelectorAll('div.highlighter-rouge');
 
   // 定义 SVG 图标 (使用 Template Literals)
   // 1. 复制图标 (两个重叠的矩形，线条风格)
