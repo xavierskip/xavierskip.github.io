@@ -18,13 +18,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
       <polyline points="20 6 9 17 4 12"></polyline>
     </svg>
   `;
-  
+
   codeBlocks.forEach((codeBlock) => {
     // 2. 创建复制按钮
     const button = document.createElement('button');
     button.className = 'copy-code-button select-none';
     button.type = 'button';
-    button.innerText = 'Copy code';
+    button.innerHTML = copyIcon; // 默认显示复制图标
+    button.ariaLabel = 'Copy code';
 
     // 3. 添加点击事件
     button.addEventListener('click', () => {

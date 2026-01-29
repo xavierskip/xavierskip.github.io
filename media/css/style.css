@@ -353,10 +353,10 @@ img.png{
 }
 
 /* 按钮基础样式 - Claude 风格 */
-.copy-code-btn {
+.copy-code-button {
   position: absolute;
-  top: 8px; /* 距离顶部稍微留一点空隙 */
-  right: 8px; /* 距离右边稍微留一点空隙 */
+  top: 0.5rem;   /* 距离顶部稍微留一点空隙 */
+  right: 0.5rem; /* 距离右边稍微留一点空隙 */
   z-index: 10;
   
   /* 布局与尺寸 */
@@ -381,27 +381,27 @@ img.png{
 }
 
 /* 鼠标悬停在代码块区域时，显示按钮 */
-.highlighter-rouge:hover .copy-code-btn,
-figure.highlight:hover .copy-code-btn {
+.highlighter-rouge:hover .copy-code-button,
+figure.highlight:hover .copy-code-button {
   opacity: 1;
 }
 
 /* 按钮自身的 Hover 状态 - 模拟玻璃质感 */
-.copy-code-btn:hover {
+.copy-code-button:hover {
   background-color: rgba(255, 255, 255, 0.1); /* 轻微的白色背景 */
   color: #ffffff; /* 图标变亮 */
   transform: scale(1.05); /* 极细微的放大 */
 }
 
 /* 复制成功后的状态 */
-.copy-code-btn.copied {
+.copy-code-button.copied {
   color: #4caf50; /* 绿色 */
   background-color: rgba(76, 175, 80, 0.1); /* 极淡的绿色背景 */
 }
 
 /* 移动端优化：移动端没有 hover，所以始终显示，但稍微淡一点 */
 @media (max-width: 768px) {
-  .copy-code-btn {
+  .copy-code-button {
     opacity: 1;
     background-color: rgba(255, 255, 255, 0.05);
   }
