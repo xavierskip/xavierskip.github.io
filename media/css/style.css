@@ -141,13 +141,13 @@ nav a:hover{background-color: var(--nav-hover-bg);text-decoration:none;color:var
     width: 98%;
 }
 .post h2{
-  margin: 0.5em 0 0.2em 0;
+  margin: 1.2em 0 1em 0;
 }
 .post h3 {
-  margin: 1.2em 0 0 0;
+  margin: 0.5em 0 0.2em 0;
 }
 .post h4 {
-  margin: 1em 0 0 0;
+  margin: 0.2em 0 0.2em 0;
 }
 .post p {
   margin: 6px;
