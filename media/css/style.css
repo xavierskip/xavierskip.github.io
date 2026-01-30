@@ -430,9 +430,14 @@ figure[class="highlight"] > pre > code[class*="language-"]::before{
   color: #7a7a7a;
 }
 div[class="highlight"] > pre {
-  padding-top: 1rem;
+  background-color: #272822;
+}
+div[class="highlight"] > pre code{
+  margin: auto;
 }
 div[class="highlight"] > pre::before {
   content: attr(data-lang);
   color: #7a7a7a;
+  left: 4px;
+  position: relative;
 }
