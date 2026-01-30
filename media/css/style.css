@@ -430,7 +430,7 @@ figure[class="highlight"] > pre > code[class*="language-"]::before{
   color: #7a7a7a;
 }
 div[class="highlight"] > pre {
-  background-color: #272822;
+  background-color: #272822 !important;
 }
 div[class="highlight"] > pre code{
   margin: auto;
