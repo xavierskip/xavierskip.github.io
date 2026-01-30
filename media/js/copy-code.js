@@ -53,5 +53,15 @@ document.addEventListener('DOMContentLoaded', (event) => {
     // 确保容器有 position: relative，这样按钮可以使用 absolute 定位
     codeBlock.style.position = 'relative'; 
     codeBlock.appendChild(button);
+
+    // 增加 data-lang 属性
+    const pre = codeBlock.querySelector('pre.highlight');
+    if (pre !== null) {
+      const className = pre.parentElement?.parentElement?.className || '';
+      const lang = className.match(/language-(\w+)/)?.[1]|| 'plain text';
+      if (lang) {
+        pre.setAttribute('data-lang', lang);
+      }
+    }
   });
 });

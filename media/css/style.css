@@ -429,3 +429,10 @@ figure[class="highlight"] > pre > code[class*="language-"]::before{
   display: flex;
   color: #7a7a7a;
 }
+div[class="highlight"] > pre {
+  padding-top: 1rem;
+}
+div[class="highlight"] > pre::before {
+  content: attr(data-lang);
+  color: #7a7a7a;
+}
