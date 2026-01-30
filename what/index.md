@@ -17,7 +17,7 @@ comments: yes
 |土豆不好吃|[https://dmesg.app/](https://dmesg.app/)|Benny 小土豆· 谦和之中见卓越|
 |陪她去流浪|[https://blog.twofei.com/](https://blog.twofei.com/)||
 
-🚨 此处的友链不再更新，已移至[博友圈](/blog-friend-circle/)部分。
+🚨 此处的友链不再更新，已移至[博友圈](/blog-friend-circle/#blogs)部分。
 
 ### 想添加本站的信息
 
