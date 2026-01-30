@@ -141,10 +141,10 @@ nav a:hover{background-color: var(--nav-hover-bg);text-decoration:none;color:var
     width: 98%;
 }
 .post h2{
-  margin: 1.2em 0 1em 0;
+  margin: 1.2em 0 0.5em 0;
 }
 .post h3 {
-  margin: 0.5em 0 0.2em 0;
+  margin: 0.5em 0 0.5em 0;
 }
 .post h4 {
   margin: 0.2em 0 0.2em 0;
@@ -363,7 +363,7 @@ img.png{
 .copy-code-button {
   position: absolute;
   top: 0.1rem;   /* 距离顶部稍微留一点空隙 */
-  right: 0.5rem; /* 距离右边稍微留一点空隙 */
+  right: 0.2rem; /* 距离右边稍微留一点空隙 */
   z-index: 10;
   
   /* 布局与尺寸 */
@@ -417,4 +417,15 @@ figure.highlight:hover .copy-code-button {
 .select-none {
   -webkit-user-select: none;
   user-select: none;
+}
+
+figure[class="highlight"] > pre > code[class*="language-"] {
+  padding-top: 1rem;
+}
+figure[class="highlight"] > pre > code[class*="language-"]::before{
+  content: attr(data-lang);
+  position: relative;
+  top: -1rem;
+  display: flex;
+  color: #7a7a7a;
 }
