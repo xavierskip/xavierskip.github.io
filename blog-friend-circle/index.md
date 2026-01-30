@@ -9,14 +9,17 @@ comments: false
 <script>
 (function() {
   const hash = window.location.hash.slice(1);
-  const page = ['blogs', 'posts'].includes(hash) ? hash : null;
+  const page = ['blogs', 'posts'].includes(hash) ? hash : 'posts';
   
-  if (page) {
-    const bfcScript = document.getElementById('bfc-app');
-    if (bfcScript) {
-      bfcScript.dataset.page = page;
-    }
-  }
+  const script = document.createElement('script');
+  script.id = 'bfc-app';
+  script.dataset.categoryId = '27';
+  script.dataset.page = page;  // 在创建时就设置正确的值
+  script.dataset.style = 'width:100%;border:none;color-scheme:light;min-height:150px';
+  script.async = true;
+  script.src = 'https://bfc.xavierskip.com/app.js';
+  
+  // 插入到当前脚本后面
+  document.currentScript.parentNode.insertBefore(script, document.currentScript.nextSibling);
 })();
 </script>
-<script id="bfc-app" data-category-id="27" data-page="posts" data-style="width:100%;border:none;color-scheme:light;min-height:150px" async src="https://bfc.xavierskip.com/app.js"></script>
