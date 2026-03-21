@@ -16,8 +16,8 @@ tags:
         const player = ruffle.createPlayer();
         const container = document.getElementById("intospace2");
         container.appendChild(player);
-        // player.style.width = "720px";
-        // player.style.height = "540px";
+        player.style.width = "720px";
+        player.style.height = "720px";
         player.ruffle().load("/media/into-space2.swf");
     });
 </script>
