@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 想起了多年前玩过的falsh小游戏 into space 2
+title: 想起了多年前玩过的 flash小游戏 Into Space 2
 tags:
  - game
  - swf
@@ -8,17 +8,17 @@ tags:
 ---
 
 {::nomarkdown}
-<div id="container"></div>
+<div id="intospace2"></div>
 <script>
     window.RufflePlayer = window.RufflePlayer || {};
     window.addEventListener("load", (event) => {
         const ruffle = window.RufflePlayer.newest();
         const player = ruffle.createPlayer();
-        const container = document.getElementById("container");
+        const container = document.getElementById("intospace2");
         container.appendChild(player);
         player.style.width = "720px";
         player.style.height = "540px";
-        player.ruffle().load("/media/Manufactoria.swf");
+        player.ruffle().load("/media/into-space2.swf");
     });
 </script>
 <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
