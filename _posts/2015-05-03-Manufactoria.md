@@ -17,7 +17,7 @@ tags:
 
 {::nomarkdown}
 <!-- <embed src="http://pleasingfungus.com/Manufactoria/Manufactoria.swf" width="640" height="480" class="manufactoria"> -->
-<div id="manufactoria"></div>
+<div id="manufactoria" class="game-container"></div>
 <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 <script>
     window.RufflePlayer = window.RufflePlayer || {};

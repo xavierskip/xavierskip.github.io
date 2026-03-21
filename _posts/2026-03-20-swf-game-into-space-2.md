@@ -8,7 +8,7 @@ tags:
 ---
 
 {::nomarkdown}
-<div id="intospace2"></div>
+<div id="intospace2" class="game-container"></div>
 <script>
     window.RufflePlayer = window.RufflePlayer || {};
     window.addEventListener("load", (event) => {
