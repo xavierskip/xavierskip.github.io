@@ -1,6 +1,9 @@
 $(function(){
-    if (document.querySelector('.game-container')) return;
     $(document).keydown(function(e) {
+        if (document.querySelector('.game-container')) {
+            console.log("鉴于按键翻页有可能与页面游戏冲突，此功能关闭。")
+            return
+        };
         var url = false;
         var prev = document.getElementById("previous");
         var next = document.getElementById("next");
