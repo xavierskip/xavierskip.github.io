@@ -17,8 +17,7 @@ tags:
 
 {::nomarkdown}
 <!-- <embed src="http://pleasingfungus.com/Manufactoria/Manufactoria.swf" width="640" height="480" class="manufactoria"> -->
-<div id="manufactoria" class="game-container"></div>
-<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+<div id="manufactoria"></div>
 <script>
     window.RufflePlayer = window.RufflePlayer || {};
     window.addEventListener("load", (event) => {
@@ -31,4 +30,5 @@ tags:
         player.load("/media/Manufactoria.swf");
     });
 </script>
+<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
 {:/nomarkdown}
