@@ -459,3 +459,6 @@ a.reversefootnote{
 a.footnote {
   margin: 0 .1em;
 }
+h1 a {
+  display: contents;
+}
