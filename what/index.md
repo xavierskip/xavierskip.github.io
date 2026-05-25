@@ -1,6 +1,6 @@
 ---
 layout: about
-title: 友链及联系方式
+title: WHAT?
 comments: yes
 ---
 
