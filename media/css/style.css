@@ -80,7 +80,7 @@ modify by xavirskip
 body{font-size:14px;margin-left:auto;margin-right:auto;font-family: "Times New Roman","Consolas", "LXGW WenKai","Microsoft YaHei";color:var(--text-color);background-color:var(--body-bg);}
 *{padding:0;margin: 0;border:none;outline:none;}
 a{color:var(--link-color);text-decoration:none;}
-a:hover{color:var(--link-hover);border-bottom: 1px dashed var(--link-color);}
+a:hover{color:var(--link-hover);border-bottom: 1px solid  var(--link-color);border-bottom: .1em;}
 a:active {position: relative;top: 1px;}
 hr{margin:.7em 0;border-top:1px dashed #d0d0d0;border-bottom:1px dashed #f9f9f9;}
 p{padding:.5em 0;}
@@ -167,12 +167,7 @@ nav a:hover{background-color: var(--nav-hover-bg);text-decoration:none;color:var
   text-decoration-thickness: 0.05em;
 }
 .post a {
-  text-decoration: underline;
-  text-underline-offset: .3em;
-  text-decoration-thickness: 0.05em;
-}
-.post a:hover {
-  text-decoration-style: dashed;
+  border-bottom: 1px solid var(--link-color);
 }
 h1{font-family: 'Oswald',"Microsoft YaHei",sans-serif;font-size:1.8em;}
 h2{font-family: 'Oswald',"Microsoft YaHei",sans-serif;font-size:1.4em;}
