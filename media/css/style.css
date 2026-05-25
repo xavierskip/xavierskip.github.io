@@ -452,3 +452,7 @@ div[class="highlight"] > pre::before {
   left: 4px;
   position: relative;
 }
+
+a .reversefootnote{
+  border: none;
+}
