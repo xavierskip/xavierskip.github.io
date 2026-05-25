@@ -457,5 +457,5 @@ a.reversefootnote{
   border: none !important;
 }
 a.footnote {
-  margin: .1em;
+  margin: 0 .1em;
 }
