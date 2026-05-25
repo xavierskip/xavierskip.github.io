@@ -163,7 +163,7 @@ nav a:hover{background-color: var(--nav-hover-bg);text-decoration:none;color:var
   text-decoration-color: var(--strong-mark) !important;
   text-decoration: underline;
   text-decoration-style: wavy;
-  text-underline-offset: .25em;
+  text-underline-offset: .35em;
   text-decoration-thickness: 0.05em;
 }
 h1{font-family: 'Oswald',"Microsoft YaHei",sans-serif;font-size:1.8em;}
