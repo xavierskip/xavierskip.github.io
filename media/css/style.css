@@ -454,5 +454,5 @@ div[class="highlight"] > pre::before {
 }
 
 a.reversefootnote{
-  border: none;
+  border: none !important;
 }
