@@ -10,3 +10,10 @@
     color: #8b8b8b;
   }
 }
+
+.post a {
+  border-bottom: 1px solid var(--link-color);
+}
+.post a:hover {
+  border-bottom: 1px dashed var(--link-color);
+}
