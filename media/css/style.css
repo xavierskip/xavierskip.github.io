@@ -166,6 +166,14 @@ nav a:hover{background-color: var(--nav-hover-bg);text-decoration:none;color:var
   text-underline-offset: .25em;
   text-decoration-thickness: 0.05em;
 }
+.post a {
+  text-decoration: underline;
+  text-underline-offset: .3em;
+  text-decoration-thickness: 0.05em;
+}
+.post a:hover {
+  text-decoration-style: dashed;
+}
 h1{font-family: 'Oswald',"Microsoft YaHei",sans-serif;font-size:1.8em;}
 h2{font-family: 'Oswald',"Microsoft YaHei",sans-serif;font-size:1.4em;}
 h3{font-family: 'Oswald',"Microsoft YaHei",sans-serif;font-size:1.2em;}
