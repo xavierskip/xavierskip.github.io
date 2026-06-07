@@ -575,7 +575,8 @@ run();
 
 我试了下，用 claude code 作为本地 agent 外加 kimi 的 API，只是把静态反编译的内容交给他，让他直接找 flag，没有给更多的信息，真的就把 flag2 跑出来了。。。。。
 
-```当前目录是一个 CTF 题目，binary-ffi 是题目 binary，binary-ffi.c 是反编译的结果，反编译工具使用的是 Ghidra，binary-ffi.gzf 和 binary-ffi.txt 也是其导出文件。请你阅读分析，找到 flag（或者与 flag 相关的逻辑），你可以编写 python 等脚本来尝试,也可以先写好然后我帮你运行。
+```
+当前目录是一个 CTF 题目，binary-ffi 是题目 binary，binary-ffi.c 是反编译的结果，反编译工具使用的是 Ghidra，binary-ffi.gzf 和 binary-ffi.txt 也是其导出文件。请你阅读分析，找到 flag（或者与 flag 相关的逻辑），你可以编写 python 等脚本来尝试,也可以先写好然后我帮你运行。
 ```
 
 不过烧了不少 token 还是没把 flag1 找出来。后来看到[其他选手的轮椅打法](https://github.com/PKU-GeekGame/geekgame-5th/tree/master/players_writeup/2090)还真是厉害呀！
