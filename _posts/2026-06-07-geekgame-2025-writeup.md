@@ -84,7 +84,7 @@ ffmpeg -i 011.png -vf "format=gray,lut='if(eq(val,0),0,255)'" out011.png
 
 根据提示，在 [Netron](https://netron.app/) 网站上导入模型，然后搜索`conv2d`就可得到答案，为什么我得到还是不对，难道是模型选错了。
 
-应该是在[项目github页面](https://github.com/sunsmarterjie/yolov12)选择 v1.0 的 [YOLO12l。pt](https://github.com/sunsmarterjie/yolov12/releases/download/v1.0/yolov12l.pt) 模型。
+应该是在[项目github页面](https://github.com/sunsmarterjie/yolov12)选择 v1.0 的 [YOLO12l.pt](https://github.com/sunsmarterjie/yolov12/releases/download/v1.0/yolov12l.pt) 模型。
 
 # 别样的人机大战
 
@@ -593,3 +593,6 @@ run();
 可是我还是不知道怎么办，那就交给 agent 执行就好了🤣🤣
 
 然后我们再来执行一下`ltrace -s 100 ./binary-ffi`看，flag1 是不是出来了。
+
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
